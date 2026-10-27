@@ -18,4 +18,6 @@ Crash Team Racing Nitro-Fueled and associated names/trademarks belong to their r
 
 Thanks to **Ryu7w7 and the contributors to [OCTR Nitro-Fueled PC](https://github.com/Ryu7w7/OCTR-NitroFueled-PC)**. Their launcher provided the visual reference for this editor's blue palette, header and navigation. The WinForms interface was independently implemented; this repository does not distribute that project's launcher source or game assets.
 
+See **[CREDITS.md](CREDITS.md)** for the full acknowledgements, including the people and projects named in OCTR's credits, inherited licenses and release history.
+
 The original save-disk mascot was generated with OpenAI's built-in image generation tool for this project. Its source PNG, Windows icon and prompt are in `assets/branding/`. It contains no official game character or logo.

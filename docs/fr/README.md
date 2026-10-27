@@ -49,6 +49,8 @@ Voir [l'architecture](../architecture.md), [les contributions](../../CONTRIBUTIN
 
 **Crédits pour la GUI :** merci à **Ryu7w7 et aux contributeurs d'[OCTR Nitro-Fueled PC](https://github.com/Ryu7w7/OCTR-NitroFueled-PC)**. Leur launcher a servi de référence visuelle pour la palette bleue, le bandeau et la navigation. L'interface WinForms de cet éditeur est une implémentation indépendante.
 
+Ce travail a été possible grâce à toute cette communauté. Les **[crédits complets](../../CREDITS.md)** citent les personnes et projets remerciés par OCTR, de ses fondations techniques aux patches, mods et contributions aux tests.
+
 Le code et la documentation du projet sont sous [PolyForm Noncommercial 1.0.0](../../LICENSE.md). Lecture, modification et partage sont autorisés selon ses termes pour un usage non commercial. L'exploitation commerciale n'est pas accordée : il s'agit de code accessible sous licence non commerciale, pas d'une licence open source OSI.
 
 La police Lilita One possède sa licence SIL OFL séparée. [Crédits et notices](../../THIRD_PARTY_NOTICES.md). L'interface s'inspire visuellement du launcher [OCTR Nitro-Fueled PC](https://github.com/Ryu7w7/OCTR-NitroFueled-PC). Projet communautaire non officiel, sans affiliation aux ayants droit du jeu.

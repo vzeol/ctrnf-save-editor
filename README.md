@@ -73,6 +73,8 @@ The public test suite generates synthetic saves. No personal saves, game executa
 
 **GUI inspiration and credit:** thanks to **Ryu7w7 and the [OCTR Nitro-Fueled PC contributors](https://github.com/Ryu7w7/OCTR-NitroFueled-PC)**. Their launcher provided the visual reference for this editor's blue palette, header and navigation. This is an independently implemented WinForms interface.
 
+This editor was made possible by a much wider community. **[Full credits and thanks](CREDITS.md)** name the people and projects acknowledged by OCTR, including its port/runtime foundations, patches, launcher, mods and testing contributions.
+
 First-party code and documentation use [PolyForm Noncommercial 1.0.0](LICENSE.md): read, modify and share under its terms for noncommercial purposes. Commercial exploitation is not granted. This is a **source-available, noncommercial** project, not OSI open source.
 
 The bundled Lilita One font has its separate SIL Open Font License. See [third-party notices](THIRD_PARTY_NOTICES.md). The original app mascot was created with AI assistance; its [source and generation prompt](assets/branding/README.md) are included.

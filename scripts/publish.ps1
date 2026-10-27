@@ -30,7 +30,7 @@ try {
         New-Item -ItemType Directory -Path $noticeDir -Force | Out-Null
         $notices | Copy-Item -Destination $noticeDir
     }
-    Copy-Item LICENSE.md, THIRD_PARTY_NOTICES.md, CHANGELOG.md -Destination $stage
+    Copy-Item LICENSE.md, THIRD_PARTY_NOTICES.md, CREDITS.md, CHANGELOG.md -Destination $stage
     Copy-Item src/CtrNfSave.Gui/Assets/FONT-LICENSE.txt -Destination $stage
     Copy-Item docs/release-readme.txt -Destination (Join-Path $stage 'README.txt')
     $forbidden = Get-ChildItem $stage -Recurse -File | Where-Object { $_.Extension -in '.pdb', '.sav', '.bak', '.pak', '.elf', '.igz' }
