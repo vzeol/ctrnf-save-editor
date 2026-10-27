@@ -1,4 +1,4 @@
-namespace CtrNfSave.Gui;
+﻿namespace CtrNfSave.Gui;
 
 /// <summary>Task navigation with a persistent rail and one uncluttered workspace.</summary>
 internal sealed class SectionNavigator : UserControl
@@ -41,11 +41,21 @@ internal sealed class SectionNavigator : UserControl
         button.FlatAppearance.BorderSize = 0; button.FlatAppearance.MouseOverBackColor = Color.FromArgb(43, 65, 91);
         button.Click += (_, _) => SelectedIndex = index;
         pages.Add(page); buttons.Add(button); ContentHost.Controls.Add(page); rail.Controls.Add(button);
+        FitRail();
         if (selected < 0) SelectedIndex = 0;
         return page;
     }
     public void SetTitle(int index, string title)
-    { pages[index].Text = title; buttons[index].Text = title; if (index == selected) heading.Text = title; }
+    { pages[index].Text = title; buttons[index].Text = title; if (index == selected) heading.Text = title; FitRail(); }
+    /// <summary>Widen the rail so the longest EN/FR label fits without an ellipsis.</summary>
+    private void FitRail()
+    {
+        int width = LauncherStyle.Px(this, 198), height = LauncherStyle.Px(this, 48);
+        foreach (var button in buttons)
+            width = Math.Max(width, TextRenderer.MeasureText(button.Text, button.Font).Width + LauncherStyle.Px(this, 44));
+        foreach (var button in buttons) { button.Width = width; button.Height = height; }
+        rail.Width = width + rail.Padding.Horizontal + SystemInformation.VerticalScrollBarWidth;
+    }
     [System.ComponentModel.DefaultValue(-1)]
     public int SelectedIndex
     {
@@ -83,7 +93,7 @@ internal static class EditorLayout
         grid.DefaultCellStyle.SelectionBackColor = Color.FromArgb(15, 90, 148);
         grid.DefaultCellStyle.SelectionForeColor = Color.White;
         grid.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(5, 46, 92);
-        grid.RowTemplate.Height = 34;
+        grid.RowTemplate.Height = LauncherStyle.Px(grid, 34);
     }
     public static TextBox SearchBox() => new() { Width = 280, PlaceholderText = L.T("search"), Margin = new Padding(4, 6, 12, 6) };
     public static FlowLayoutPanel FilterBar() => new() { Dock = DockStyle.Top, AutoSize = true, Padding = new Padding(4, 6, 4, 10), WrapContents = true };

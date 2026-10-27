@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.1 — 2026-10-27
+
+Display fixes for high-DPI screens (seen at 150 % Windows scaling), plus screenshots in the README.
+
+- About dialog sizes to its content: the update and Close buttons are no longer cut off.
+- Section menu widens to fit every English and French label instead of truncating them.
+- Summary tiles show the full value (16 / 16, 56 / 56…).
+- Adventure table: the first track of each hub shows its trophy and CTR token checkboxes again.
+- Adventure settings boxes scale with the display; "Consistency and dependencies" title shows correctly.
+- Header no longer leaves a ghost title after the window is resized.
+
 ## 1.1.0 — 2026-10-27
 
 Garage, About and in-app updates.

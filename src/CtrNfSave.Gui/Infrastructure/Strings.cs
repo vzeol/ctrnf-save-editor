@@ -110,7 +110,7 @@ internal static class L
         ["advanced"] = ("Advanced", "Avancé"),
         ["gemsTitle"] = ("Gems", "Gemmes"),
         ["oxideTitle"] = ("Nitros Oxide · boss battles", "Nitros Oxide · combats de boss"),
-        ["consistencyTitle"] = ("Consistency & dependencies", "Cohérence et dépendances"),
+        ["consistencyTitle"] = ("Consistency and dependencies", "Cohérence et dépendances"),
         ["showFlags"] = ("Show technical flags in the progress table", "Afficher les flags techniques dans la progression"),
         ["welcomeTitle"] = ("Your next starting line", "Prépare ta prochaine course"),
         ["welcomeBody"] = ("Choose what you want to edit. Adventure progress and the shared global profile use separate files. Exports keep a backup of the original.", "Choisis ce que tu veux modifier. La progression Aventure et le profil global commun utilisent des fichiers distincts. Les exports conservent un backup de l’original."),

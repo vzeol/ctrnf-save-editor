@@ -15,6 +15,21 @@ A community editor for **decrypted CTR Nitro-Fueled PS4 save files**, with a Win
 
 **Help build it.** Missing an item, translation, condition or confirmed game behavior? [Open an issue](https://github.com/vzeol/ctrnf-save-editor/issues/new/choose) or [send a pull request](CONTRIBUTING.md). Controlled before/after observations are particularly valuable. The catalogue and format research need community review.
 
+## Screenshots
+
+<p align="center"><img src="docs/assets/screenshots/02-garage.png" alt="Garage: edit the active kart part by part and keep named presets" width="900"></p>
+
+| | |
+|---|---|
+| <img src="docs/assets/screenshots/07-adventure-progress.png" alt="Adventure story progress per track" width="440"> | <img src="docs/assets/screenshots/08-adventure-settings.png" alt="Adventure settings: gems, difficulty and Oxide victories" width="440"> |
+| **Adventure** — trophies, relics, bosses and CTR tokens per track | **Adventure settings** — gems, difficulty, Oxide victories |
+| <img src="docs/assets/screenshots/01-global-profile.png" alt="Global profile: unlock all, coins and Golden Eggs" width="440"> | <img src="docs/assets/screenshots/04-skins.png" alt="Skins by driver with their unlock conditions" width="440"> |
+| **Global profile** — unlock or lock everything, coins, Golden Eggs | **Skins** — every driver's skins and how they unlock |
+| <img src="docs/assets/screenshots/05-time-attack.png" alt="Time attack records and ghost challenges" width="440"> | <img src="docs/assets/screenshots/06-about.png" alt="About dialog with update check" width="440"> |
+| **Time attack** — existing records and ghost challenges | **About** — credits, links and built-in updates |
+
+Screenshots show the English interface; French is one click away in **Language / Langue**.
+
 ## Download and start
 
 1. Download the Windows x64 ZIP from [Releases](https://github.com/vzeol/ctrnf-save-editor/releases), then extract the whole archive.

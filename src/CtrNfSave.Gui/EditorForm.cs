@@ -1,4 +1,4 @@
-using CtrNfSave;
+﻿using CtrNfSave;
 
 namespace CtrNfSave.Gui;
 
@@ -112,7 +112,7 @@ internal sealed partial class EditorForm : Form
         settingsPage.Controls.Add(settingsFlow);
         void SettingsCard(string key, Control content, int height)
         {
-            var card = new GroupBox { Text = L.T(key), Width = 700, Height = height, Padding = new Padding(16, 22, 16, 12), Margin = new Padding(4, 4, 4, 16) };
+            var card = new GroupBox { Text = L.T(key), Width = 700, Height = LauncherStyle.Px(this, height), Padding = new Padding(16, 22, 16, 12), Margin = new Padding(4, 4, 4, 16) };
             content.Dock = DockStyle.Fill; card.Controls.Add(content); settingsFlow.Controls.Add(card); relabel.Add(() => card.Text = L.T(key));
         }
         SettingsCard("gemsTitle", gemPanel, 110); SettingsCard("difficulty", difficultyPanel, 100); SettingsCard("oxideTitle", oxidePanel, 110);
@@ -318,7 +318,8 @@ internal sealed partial class EditorForm : Form
                 string colour = definition.TokenColour switch { "red" => L.T("Rouge"), "green" => L.T("Vert"), "blue" => L.T("Bleu"), "yellow" => L.T("Jaune"), "purple" => L.T("Violet"), _ => "—" };
                 int index = grid.Rows.Add(definition.Hub == hub ? "" : L.Hub(definition.Hub), L.T(definition.Id), t.Trophy, t.Relic, t.Boss, t.Token, colour, $"0x{t.OtherFlags:X8}");
                 var row = grid.Rows[index]; row.Tag = definition;
-                if (definition.Hub != hub) row.DividerHeight = 3;
+                // The divider takes height from the cell: without the extra pixels the checkbox glyph is not drawn.
+                if (definition.Hub != hub) { row.DividerHeight = 3; row.Height = grid.RowTemplate.Height + 3; }
                 hub = definition.Hub;
                 row.Cells["boss"].ToolTipText = definition.BossName is null ? "" : L.T(definition.BossName);
                 if (definition.Id == "t154_oxide_station")

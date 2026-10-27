@@ -8,6 +8,21 @@ La version **1.0** reprend les fonctionnalités actuelles. Certaines corresponda
 
 **Participez au projet !** Un personnage, une traduction ou une condition manque ? [Ouvrez une issue](https://github.com/vzeol/ctrnf-save-editor/issues/new/choose) ou proposez une [pull request](../../CONTRIBUTING.md). Les observations contrôlées avant/après en jeu nous aident à confirmer les correspondances. N'envoyez pas votre sauvegarde personnelle dans une issue publique.
 
+## Captures d’écran
+
+<p align="center"><img src="../assets/screenshots/02-garage.png" alt="Garage : modifier le kart actif pièce par pièce et garder des presets nommés" width="900"></p>
+
+| | |
+|---|---|
+| <img src="../assets/screenshots/07-adventure-progress.png" alt="Progression Aventure par circuit" width="440"> | <img src="../assets/screenshots/08-adventure-settings.png" alt="Réglages Aventure : gemmes, difficulté, victoires sur Oxide" width="440"> |
+| **Aventure** — trophées, reliques, boss et jetons CTR par circuit | **Réglages Aventure** — gemmes, difficulté, victoires sur Oxide |
+| <img src="../assets/screenshots/01-global-profile.png" alt="Profil global : tout débloquer, pièces, œufs dorés" width="440"> | <img src="../assets/screenshots/04-skins.png" alt="Apparences par pilote et leurs conditions" width="440"> |
+| **Profil global** — tout débloquer ou verrouiller, pièces, œufs dorés | **Apparences** — les skins de chaque pilote et leur déblocage |
+| <img src="../assets/screenshots/05-time-attack.png" alt="Records de contre-la-montre et défis fantômes" width="440"> | <img src="../assets/screenshots/06-about.png" alt="Fenêtre À propos avec mise à jour" width="440"> |
+| **Contre-la-montre** — records existants et défis fantômes | **À propos** — crédits, liens et mises à jour intégrées |
+
+Captures de l’interface anglaise ; le français s’active en un clic dans **Language / Langue**.
+
 ## Démarrer
 
 1. Téléchargez le ZIP Windows x64 dans les [Releases](https://github.com/vzeol/ctrnf-save-editor/releases) et extrayez-le entièrement. Le runtime .NET est inclus.

@@ -1,4 +1,4 @@
-using System.Drawing.Drawing2D;
+﻿using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 using System.Runtime.InteropServices;
 using System.ComponentModel;
@@ -9,6 +9,8 @@ internal static class LauncherStyle
 {
     public static readonly Color Base = Color.FromArgb(5, 26, 61), Panel = Color.FromArgb(5, 39, 82), Frame = Color.FromArgb(10, 61, 110),
         Cyan = Color.FromArgb(97, 232, 255), Text = Color.FromArgb(236, 249, 255), Muted = Color.FromArgb(166, 211, 239);
+    /// <summary>Fonts follow Windows scaling, fixed pixel sizes do not: scale them with the control's DPI.</summary>
+    public static int Px(Control control, int value) => (int)Math.Round(value * control.DeviceDpi / 96.0);
     private static readonly PrivateFontCollection DisplayFonts = new();
     private static IntPtr fontMemory;
     [DllImport("gdi32.dll", ExactSpelling = true)]
@@ -95,6 +97,7 @@ internal sealed class LauncherHeader : Control
     public LauncherHeader()
     {
         Dock = DockStyle.Fill; DoubleBuffered = true; Height = 170;
+        SetStyle(ControlStyles.ResizeRedraw, true); // a partial repaint left a ghost of the centred title
         for (DirectoryInfo? parent = new(AppContext.BaseDirectory); parent is not null; parent = parent.Parent)
         {
             foreach (string candidate in new[] { Path.Combine(parent.FullName, "art"), Path.Combine(parent.FullName, "CTR Nitro Fueled", "art") })
@@ -143,9 +146,14 @@ internal sealed class SummaryStrip : FlowLayoutPanel
         SuspendLayout(); foreach (Control old in Controls.Cast<Control>().ToArray()) old.Dispose();
         foreach (var item in values)
         {
-            var card = new Panel { Width = 145, Height = 72, BackColor = LauncherStyle.Panel, Margin = new Padding(4) };
-            card.Controls.Add(new Label { Text = item.Caption, Dock = DockStyle.Fill, ForeColor = LauncherStyle.Muted, Padding = new Padding(12, 0, 0, 0), Font = new Font("Segoe UI", 9) });
-            card.Controls.Add(new Label { Text = item.Value, Dock = DockStyle.Top, Height = 43, ForeColor = LauncherStyle.Cyan, Padding = new Padding(10, 5, 0, 0), Font = LauncherStyle.Display(20) });
+            var valueFont = LauncherStyle.Display(20); var captionFont = new Font("Segoe UI", 9);
+            int valueHeight = TextRenderer.MeasureText(item.Value, valueFont).Height + LauncherStyle.Px(this, 8);
+            int width = Math.Max(LauncherStyle.Px(this, 145), Math.Max(TextRenderer.MeasureText(item.Value, valueFont).Width + LauncherStyle.Px(this, 22),
+                TextRenderer.MeasureText(item.Caption, captionFont).Width + LauncherStyle.Px(this, 24)));
+            var card = new Panel { Width = width, Height = valueHeight + TextRenderer.MeasureText(item.Caption, captionFont).Height + LauncherStyle.Px(this, 10),
+                BackColor = LauncherStyle.Panel, Margin = new Padding(4) };
+            card.Controls.Add(new Label { Text = item.Caption, Dock = DockStyle.Fill, ForeColor = LauncherStyle.Muted, Padding = new Padding(12, 0, 0, 0), Font = captionFont });
+            card.Controls.Add(new Label { Text = item.Value, Dock = DockStyle.Top, Height = valueHeight, ForeColor = LauncherStyle.Cyan, Padding = new Padding(10, 5, 0, 0), Font = valueFont });
             Controls.Add(card);
         }
         ResumeLayout();
