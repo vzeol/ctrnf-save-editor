@@ -149,6 +149,18 @@ internal static class Program
             Assert(save.Semantic()["slot.oxide_first"] is true && save.Semantic()["slot.oxide_second"] is true && AdventureRules.Keys(save) == 4, "Rematch prerequisites incomplete.");
             Assert(AdventureRules.Colours.All(c => AdventureRules.Gem(save, c)), "Rematch gems missing.");
         });
+        Test("gem awards write their gem cup track bits", () =>
+        {
+            static bool Cup(Save s, string colour) => s.Graph.Tracks.Where(t => AdventureTracks.GemCups[colour].Tracks.Contains(t.Definition.Id)).All(t => (t.Flags >> AdventureTracks.GemCups[colour].Bit & 1) != 0);
+            var red = AdventureRules.Edit(Adventure(), "slot.gem_red", "1").Save;
+            Assert(Cup(red, "red") && !Cup(red, "blue") && !AdventureRules.Validate(red).Any(i => i.Code == "gem-cup"), "Red cup bits not written.");
+            Assert(red.Graph.Tracks.All(t => (t.OtherFlags & 0x80000000) != 0), "Unknown track bits lost.");
+            var none = AdventureRules.Edit(red, "track.t111_crash_cove.token", "false").Save;
+            Assert(!AdventureRules.Gem(none, "red") && !Cup(none, "red"), "Removed gem kept its cup bits.");
+            var wordOnly = AdventureRules.Edit(red, "slot.gem_red", "0").Save.Set("slot.gem_red", "1");
+            Assert(AdventureRules.Validate(wordOnly).Any(i => i.Code == "gem-cup"), "Gem without cup bits not reported.");
+            Assert(Cup(AdventureRules.Normalize(wordOnly), "red"), "Normalize did not repair cup bits.");
+        });
         Test("difficulty synchronizes slot and header", () =>
         {
             var easy = Adventure().Set("slot.adventure_difficulty", "0");

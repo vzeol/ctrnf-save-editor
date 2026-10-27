@@ -135,7 +135,10 @@ public static class AdventureRules
         foreach (string c in Colours)
             if (Convert.ToInt32(save.Graph.Fields.Single(f => f.Key == "slot.gem_" + c).Value, CultureInfo.InvariantCulture) is not (0 or 1))
                 issues.Add(new("error", "gem-value", $"slot.gem_{c} must be 0 or 1.", "slot.gem_" + c));
-        issues.Add(new("warning", "unverified", "Ripper Roo is capture-confirmed; other hub bosses remain inferred. Oxide victories use separate slot booleans; track collectible flags are preserved."));
+        foreach (var (c, cup) in AdventureTracks.GemCups)
+            if (save.Graph.Tracks.Where(t => cup.Tracks.Contains(t.Definition.Id)).Any(t => ((t.Flags >> cup.Bit & 1) != 0) != state.On("slot.gem_" + c)))
+                issues.Add(new("error", "gem-cup", $"slot.gem_{c} disagrees with its gem cup track bits.", "slot.gem_" + c));
+        issues.Add(new("warning", "unverified", "Ripper Roo is capture-confirmed; other hub bosses remain inferred. Oxide victories use separate slot booleans; gem cup bits follow the gem words; other track flags are preserved."));
         if (Keys(save) < 4 && (save.Graph.Tracks.Single(t => t.Definition.Id == "t154_oxide_station").Flags & (1u << 18)) != 0)
             issues.Add(new("warning", "oxide", "Oxide-star collectible bit 18 is present with fewer than 4 keys; preserved independently of the victory booleans."));
         issues.Add(new("warning", "progression", "Captured early states and Roo unlock group are synchronized. Other bits, advanced indices and word 17 history remain unresolved; complete door/regression safety is unverified."));
@@ -155,6 +158,12 @@ public static class AdventureRules
             }
         }
         foreach (var (key, value) in state.Values) save.Graph.Set(bytes, key, value);
+        foreach (var (colour, cup) in AdventureTracks.GemCups)
+            foreach (var t in save.Graph.Tracks.Where(t => cup.Tracks.Contains(t.Definition.Id)))
+            {
+                uint flags = Binary.U32(bytes, t.Offset), bit = 1u << cup.Bit;
+                BinaryPrimitives.WriteUInt32LittleEndian(bytes.AsSpan(t.Offset, 4), state.On("slot.gem_" + colour) ? flags | bit : flags & ~bit);
+            }
         var tracks = save.Graph.Tracks.Select(t => t with { Flags = Binary.U32(bytes, t.Offset) }).ToArray();
         var totals = AdventureTotals.From(tracks);
         Put("slot.trophy_count", totals.Trophies); Put("trophy_Count", totals.Trophies);

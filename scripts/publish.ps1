@@ -1,5 +1,5 @@
 #requires -Version 7.0
-param([string]$Version = '1.0.0', [string]$Runtime = 'win-x64')
+param([string]$Version = '1.0.1', [string]$Runtime = 'win-x64')
 $ErrorActionPreference = 'Stop'
 if ($Version -notmatch '^\d+\.\d+\.\d+(?:-[A-Za-z0-9.-]+)?$') { throw 'Use a semantic version.' }
 if ($Runtime -ne 'win-x64') { throw 'Only the tested Windows x64 package is supported.' }

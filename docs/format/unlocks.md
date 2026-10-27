@@ -76,6 +76,14 @@ EZoneCollectibleType value array at VA 0x1DADE00 maps red=0x40, blue=0x80,
 purple=0x100, green=0x200 and yellow=0x400. Gem-yellow=0x10000 and
 Oxide-star=0x40000 are collectible values, distinct from slot victory booleans.
 
+Gem cups won are track bits 12..16 = red/blue/purple/green/yellow, each set on two
+tracks: red Crash Cove + Papu's Pyramid, blue Tiger Temple + N. Gin Labs, purple
+Roo's Tubes + Hot Air Skyway, green Roo's Tubes + Cortex Castle, yellow Dingo Canyon
++ Oxide Station. A red cup won in game set bit 12 with the red gem word; two exports
+with bits {13,14} then {13,15} assigned the others by emptied pedestals. The gem
+words alone trigger the Oxide rematch but leave the gems on their pedestals, so the
+editor writes both and reports a mismatch.
+
 ## Skins and driver-win counters
 
 The 392-skin catalogue covers 56 active drivers: 159 win conditions, 145 Pit Stop

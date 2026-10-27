@@ -191,6 +191,7 @@ internal static class L
         ["mystery"] = ("Mystery Caves requires 1 earlier trophy.", "Grotte mystère nécessite 1 trophée précédent."),
         ["relic-tier"] = ("{0}: noncanonical relic bits.", "{0} : bits de relique non canoniques."),
         ["gem-value"] = ("{0} must be 0 or 1.", "{0} doit valoir 0 ou 1."),
+        ["gem-cup"] = ("{0}: gem cup flags missing or extra; Normalize repairs them.", "{0} : drapeaux de coupe à gemmes absents ou en trop ; Normaliser les répare."),
         ["unlock-mask"] = ("Captured Ripper Roo unlock bits disagree with their prerequisites.", "Les déblocages capturés de Ripper Roo ne correspondent pas à leurs prérequis."),
         ["mask15"] = ("Progression mask (partially decoded)", "Masque de progression (partiellement décodé)"),
         ["mask16"] = ("Unlock mask (partially decoded)", "Masque de déblocages (partiellement décodé)"),
@@ -315,7 +316,7 @@ internal static class L
     public static string Issue(AdventureIssue issue)
     {
         if (issue.Code == "prerequisite") return F("requires", Field(issue.Arguments[0]), Field(issue.Arguments[1]));
-        if (issue.Code is "summary" or "gem-value") return F(issue.Code, Field(issue.Arguments[0]));
+        if (issue.Code is "summary" or "gem-value" or "gem-cup") return F(issue.Code, Field(issue.Arguments[0]));
         if (issue.Code == "relic-tier") return F("relic-tier", T(issue.Arguments[0]));
         return T(issue.Code);
     }

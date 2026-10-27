@@ -11,7 +11,8 @@ public sealed record TrackDefinition(string Id, string Name, string Hub, bool Ha
         _ => null
     };
     public string? TokenColour => TokenBit switch { 6 => "red", 7 => "blue", 8 => "purple", 9 => "green", 10 => "yellow", _ => null };
-    public uint AwardMask => (HasTrophy ? 2u : 0) | (BossName is not null ? 4u : 0) | (HasRelic ? AdventureTracks.RelicMask : 0) | (TokenBit is int bit ? 1u << bit : 0);
+    public uint CupMask => AdventureTracks.GemCups.Values.Where(c => c.Tracks.Contains(Id)).Aggregate(0u, (m, c) => m | 1u << c.Bit);
+    public uint AwardMask => (HasTrophy ? 2u : 0) | (BossName is not null ? 4u : 0) | (HasRelic ? AdventureTracks.RelicMask : 0) | (TokenBit is int bit ? 1u << bit : 0) | CupMask;
 }
 
 public sealed record TrackState(TrackDefinition Definition, int Offset, uint Flags)
@@ -39,6 +40,16 @@ public sealed record AdventureTotals(int Trophies, int Sapphire, int Gold, int P
 public static class AdventureTracks
 {
     public const uint RelicMask = 0x38;
+    // Gem cup won: one bit on a pair of tracks, confirmed in game for all five colours.
+    // Same order as slot gem words 2-6; native Gem-yellow = 0x10000.
+    public static IReadOnlyDictionary<string, (int Bit, string[] Tracks)> GemCups { get; } = new Dictionary<string, (int, string[])>
+    {
+        ["red"] = (12, ["t111_crash_cove", "t133_papus_pyramid"]),
+        ["blue"] = (13, ["t132_tiger_temple", "t151_ngin_labs"]),
+        ["purple"] = (14, ["t112_roos_tubes", "t153_hot_air_skyway"]),
+        ["green"] = (15, ["t112_roos_tubes", "t152_cortex_castle"]),
+        ["yellow"] = (16, ["t134_dingo_canyon", "t154_oxide_station"]),
+    };
     public static IReadOnlyList<TrackDefinition> All { get; } = Array.AsReadOnly<TrackDefinition>(
     [
         new("t111_crash_cove", "Crash Cove", "N. Sanity Beach", true, true, 6),

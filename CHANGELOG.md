@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.1 — 2026-10-27
+
+Gem cup fix. Checking a gem only set the slot gem counter: the game showed the
+Oxide rematch and 100 %, but the gem stayed on its Gem Stone Valley pedestal.
+
+- Each gem now also writes its gem cup flag, one track bit on two tracks:
+  red 12, blue 13, purple 14, green 15, yellow 16. Confirmed in game for all five colours.
+- Removing a gem clears that flag; the checker reports a gem without its flag.
+- Saves edited with 1.0.0: open the Adventure slot and use **Normalize** to repair them.
+
 ## 1.0.0 — 2026-10-27
 
 First regular release of the existing community editor feature set. This release

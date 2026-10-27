@@ -6,7 +6,7 @@ Install the .NET 10 SDK and PowerShell 7 on Windows. `global.json` accepts the i
 ./scripts/build.ps1
 ./scripts/test.ps1
 ./scripts/verify-source.ps1
-./scripts/publish.ps1 -Version 1.0.0
+./scripts/publish.ps1 -Version 1.0.1
 ```
 
 Outputs go to ignored `artifacts/`. Publishing creates a self-contained Windows x64 ZIP containing GUI and CLI plus license and notices, and a SHA-256 sidecar. It downloads the Microsoft runtime packs when needed. It never starts the GUI.
