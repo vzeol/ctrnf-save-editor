@@ -18,8 +18,7 @@ internal sealed class GarageView : UserControl
         try
         {
             active = KartLoadout.Read(save).Preset;
-            current.Text = L.F("garageCurrent", KartLoadout.DriverName(active.Driver, L.Language == "fr"), active.Skin,
-                active.Chassis, active.Wheels, active.Paint, active.Sticker);
+            current.Text = Describe(active, "garageCurrent");
         }
         catch (SaveFormatException error) { current.Text = L.F("garageUnavailable", error.Message); }
         layout.Controls.Add(current);
@@ -47,6 +46,7 @@ internal sealed class GarageView : UserControl
                 var ownership = KartLoadout.Ownership(save, selected.Preset);
                 if (ownership.Driver is false) note.Text = L.T("garageDriverLocked") + "\r\n" + note.Text;
                 else if (ownership.Driver is null) note.Text = L.T("garageDriverUnknown") + "\r\n" + note.Text;
+                note.Text = Describe(selected.Preset, "garagePresetDetails") + "\r\n" + note.Text;
             }
         }
         void Reload()
@@ -106,6 +106,14 @@ internal sealed class GarageView : UserControl
             buttons.MaximumSize = new Size(width, 0);
         };
         LauncherStyle.Apply(this);
+    }
+    private static string Describe(KartPreset preset, string key)
+    {
+        bool french = L.Language == "fr";
+        return L.F(key, KartLoadout.DriverName(preset.Driver, french), KartLoadout.SkinName(preset.Driver, preset.Skin, french),
+            KartLoadout.ChassisName(preset, french), KartLoadout.WheelsName(preset.Wheels, french),
+            KartLoadout.PaintName(preset.Paint, french), KartLoadout.StickerName(preset.Sticker, french)) +
+            "\r\n" + L.F("garageUnknownWords", preset.Word7, preset.Word9);
     }
     private static string? AskName(IWin32Window owner, string previous)
     {

@@ -22,7 +22,7 @@ public sealed record KartPreset(string Name, string Driver, int Skin, string Cha
         if (FormatVersion != 1) throw new SaveFormatException("Unsupported Garage preset format version (expected 1).");
         if (string.IsNullOrWhiteSpace(Name) || Name.Length > 100 || Name.Any(char.IsControl))
             throw new SaveFormatException("Preset name must contain 1 to 100 characters without control characters.");
-        KartLoadout.NameIndex(Driver, "Drivers"); KartLoadout.NameIndex(Chassis, "Karts");
+        KartLoadout.ValidateHandle(Driver, "Drivers"); KartLoadout.ValidateHandle(Chassis, "Karts");
         if (Skin < 0 || Wheels < 0 || Paint < 0 || Sticker < 0)
             throw new SaveFormatException("Skin, wheels, paint and sticker indices must be nonnegative integers.");
         // Word7 and Word9 have unknown meanings: preserve every signed bit, including -1.
@@ -50,14 +50,15 @@ public sealed record KartOwnership(bool? Driver, bool? Chassis);
 public static class KartLoadout
 {
     public const uint SystemDataNamespace = 0x6236AC84;
-    internal static int NameIndex(string? name, string category)
+    internal static void ValidateHandle(string? name, string category)
     {
+        // Some active authored handles (Spyro, Champion, etc.) have no available-list suffix.
+        if (name is not null && LoadoutCatalogue.KnownHandle(name, category)) return;
         string prefix = "SystemData_available" + category + "_";
         if (name is null || !name.StartsWith(prefix, StringComparison.Ordinal) ||
             !int.TryParse(name.AsSpan(prefix.Length), NumberStyles.None, CultureInfo.InvariantCulture, out int index) ||
             index < 0 || name != prefix + index.ToString(CultureInfo.InvariantCulture))
             throw new SaveFormatException("Invalid Garage " + category + " handle name.");
-        return index;
     }
     /// <summary>Verified against controlled driver and kart name/hash pairs; ASCII case folded FNV-1a.</summary>
     public static uint NameHash(string name)
@@ -98,16 +99,16 @@ public static class KartLoadout
             unchecked((int)w[7]), unchecked((int)w[8]), unchecked((int)w[9]), 1);
         preset.Validate(); return new(record, preset);
     }
-    public static string DriverName(string name, bool french = false)
-    {
-        var driver = DriverEntry(name);
-        return driver is null ? name : french ? driver.NameFr : driver.NameEn;
-    }
+    public static string DriverName(string name, bool french = false) => LoadoutCatalogue.DriverName(name, french);
+    public static string SkinName(string driver, int index, bool french = false) => LoadoutCatalogue.SkinName(driver, index, french);
+    public static string ChassisName(string name, bool french = false) => LoadoutCatalogue.ChassisName(name, french);
+    public static string ChassisName(KartPreset preset, bool french = false) => LoadoutCatalogue.ChassisName(preset, french);
+    public static string WheelsName(int index, bool french = false) => LoadoutCatalogue.WheelsName(index, french);
+    public static string PaintName(int index, bool french = false) => LoadoutCatalogue.PaintName(index, french);
+    public static string StickerName(int index, bool french = false) => LoadoutCatalogue.StickerName(index, french);
     private static DriverEntry? DriverEntry(string name)
     {
-        // Catalogue ordinals and skin-handle suffixes do not match these captured loadout indices.
-        // Only these two identities are confirmed by controlled in-game captures.
-        string? identity = NameIndex(name, "Drivers") switch { 5 => "DriverKomodoJoe", 58 => "DriverCrunch", _ => null };
+        string? identity = LoadoutCatalogue.FindDriver(name)?.DriverId;
         return GlobalUnlocks.Drivers.SingleOrDefault(d => d.Driver == identity);
     }
     public static KartOwnership Ownership(Save save, KartPreset preset)

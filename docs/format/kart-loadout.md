@@ -9,7 +9,7 @@ Adventure slots retain their own configuration; Garage changes only Global.
 
 | Word | Serialized value | Confirmed capture observations |
 |---|---|---|
-| 0–1 | Driver handle: name hash, namespace hash | `SystemData_availableDrivers_58` = Crunch; `_5` = Komodo Joe |
+| 0–1 | Driver handle: name hash, namespace hash | `_5` = Komodo Joe; authored data corrects `SystemData_availableDrivers_58` to Iron Checkpoint Crate (`DriverHereIAm`), not Crunch |
 | 2 | Driver skin index | 0 default; 5 Komodo Joe Wizard |
 | 3–4 | Chassis handle: name hash, namespace hash | `SystemData_availableKarts_0` Classic; `_7` Team Bandicoot; `_15` Retro Blue; `_32` Firehawk |
 | 5 | Wheels index | 0 Classic; 15 Cabrio |
@@ -32,6 +32,91 @@ unknown. The captured mappings are confirmed in game. An editor export that appl
 a full preset (Komodo Joe Wizard, Team Bandicoot, Cabrio, violet, Zero black) to a
 different profile, adding two missing names to the name table (3 to 5 entries),
 loaded in game with that exact loadout and the profile intact.
+
+## Embedded names and reproducible extraction
+
+`src/CtrNfSave.Core/Data/loadouts.json` contains factual names and IDs from PS4
+1.21 `systemData.igz`, `systemData_en.lng`, `systemData_fr.lng` and the corresponding
+`MarketplaceData_en.lng` / `MarketplaceData_fr.lng`. No archives, artwork or private
+saves are embedded. The generator uses the user's external `igz_file.py` (`Igz`)
+reader; that reader is not copied into this repository. Input files are read-only.
+
+```powershell
+python scripts/build-loadout-catalogue.py --input <extracted-catalogue-directory> --reader-dir <igz-reader-directory> --output src/CtrNfSave.Core/Data/loadouts.json
+```
+
+The output must be outside the input directory. Regeneration is deterministic;
+controlled name checks fail generation on disagreement instead of substituting
+hand-written labels. The application uses the selected EN/FR translation and
+falls back to the exact handle or scalar value when a translation is missing.
+`garage show <global.sav> --lang fr` selects French; the CLI defaults to English
+and retains raw preset JSON after the readable names.
+
+| List | Mapping method | Catalogue coverage |
+|---|---|---|
+| Drivers | Pair ONAM `igNameList` names with the root `igObjectList`; `availableDrivers_N` suffix identifies the saved handle, not the existing unlock catalogue ordinal. Read native identity at `CRacerDriverData +0x58`. | 67 numeric handles plus four active named handles; 71 total |
+| Skins | Follow each driver's `+0x98` skin-list reference; use the actual zero-based list position, then localize that object's handle. | 407 entries, including unused/default placeholders |
+| Chassis | Resolve named `CRacerKartData` roots, with the same distinction between numeric suffix and list position. | 48 numeric handles plus seven active named handles; 55 total |
+| Wheels | Actual position in `kartWheelsCustomizationData`, not its handle suffix. Position 15 is handle `_6` (Cabrio). | 111 entries; the earlier estimate of 57 was incomplete |
+| Paints | Actual position in `materialOverrideValuesList`; color/material groups are UI groupings, not save indices. | 165 entries |
+| Stickers | Actual position in `stickers`, including `noSticker` at position 0. Position 57 is `Sticker_0_BlackOnWhite`. | 250 entries |
+| Special presets | Position in `customizationPresets`; follow `CKartCustomizationPresetItem +0x58` to the component handles. | 10 authored compositions |
+
+`index` is the numeric handle suffix for drivers/chassis (null for independently
+named handles), or the actual list position for parts/skins/presets. `listIndex`
+also records driver/chassis list position where present, without conflating it
+with the handle suffix. Active names such as `DriverSpyro` and `kartChampion`
+are accepted only through exact catalogue membership. Unknown canonical numeric
+handles remain representable, with raw display and unknown ownership.
+
+Driver/chassis localization prefers `CRacerBaseData::_displayName`, then
+`CMarketplaceItem::_storeDisplayName`; parts, skins and special presets use the
+store display name. This matters for chassis 15: the chassis label is **Retro /
+Rétro**, while the complete controlled special tuple uses preset 0's **Blue Retro
+Kart / Kart rétro bleu**. Garage uses the latter only when the entire controlled
+tuple matches the authored composition. An incomplete tuple keeps the chassis
+label. The French localization's accents/case are retained exactly.
+
+### Ground-truth checks
+
+These tests compare the embedded catalogue with the supplied controlled captures;
+they do not claim fresh in-game validation of the full catalogue.
+
+| Saved value | EN from localization | FR from localization | Result |
+|---|---|---|---|
+| Driver 5 | Komodo Joe | Komodo Joe | Match |
+| Komodo Joe skin 0 | Komodo Joe | Komodo Joe | Default skin, match |
+| Komodo Joe skin 5 | Wizard Komodo Joe | Komodo Joe Sorcier | Match |
+| Chassis 0 | Classic | Classique | Match |
+| Chassis 7 | Team Bandicoot | Team Bandicoot | Match |
+| Chassis 15, complete special tuple | Blue Retro Kart | Kart rétro bleu | Match (localized accents/case) |
+| Chassis 32, complete special tuple | Firehawk | Faucon de feu | Match |
+| Wheels 0 / 15 | Classic / Cabrio | Classique / Cabrio | Match |
+| Paint 0 / 6 | Blue / Purple | Bleu / Violet | Match |
+| Sticker 0 / 57 | No Sticker / Zero Black | Pas d'autocollant / Zéro noir | Match |
+| Driver 48, authored identity | King Chicken | Roi Poulet | `DriverKCN`; static cross-check |
+| Driver 58, authored identity | Iron Checkpoint Crate | Caisse Point de contrôle | `DriverHereIAm`; previous Crunch claim corrected |
+
+### Words 7/9 and missing translations
+
+The data supports **word 7 as a candidate per-kart decal position** and **word 9
+as a candidate customization-preset position**, rather than two decal positions.
+The `KartLimited3` decal list has one entry (position 0); Firehawk's word 9 = 8
+cannot index that list. Authored preset 8 instead references chassis 32, paint 99
+and `decals_KartLimited3_0`, with default wheels/sticker. Preset 0 references
+chassis 15, paint 16 and wheels-list position 9, with no decal. These compositions
+reproduce both controlled tuples. There is no named `decals_KartLegacy` root in
+the inspected SystemData directory. Save-field/native-code evidence linking the
+scalar words to these lists is still missing. No independent decal API or decal
+labels are exposed; words 7/9 remain signed, raw and preserved.
+
+Unlocalized entries retain raw fallback: driver handle 41; chassis handles
+18, 19, 24–30; paint position 99; sticker positions 1 and 2. Eleven skin-0 entries
+(driver handles 37 and 60–69) also lack translations. These include virtual or
+placeholder content; their internal strings are not promoted to in-game labels.
+In particular, Firehawk's paint 99 has no localized name in these files. Its
+special chassis label is known, but a paint label is not fabricated. No provided
+ground-truth name pair failed; exhaustive in-game verification remains pending.
 
 ## Names and safe rewriting
 
@@ -73,11 +158,11 @@ missing/null values, wrong types and unsupported versions are rejected. This
 validates structure; it does not prove that an arbitrary imported combination
 exists or is usable in game.
 
-Catalogue driver ordinals and authored skin handles do **not** match the captured
-loadout indices. Only capture-confirmed 5/58 are linked to the catalogue identities
-for Komodo Joe/Crunch, localized labels and existing local ownership predicates.
-Other drivers keep their raw name and unknown ownership. There is no verified
-general chassis crosswalk, so chassis ownership is explicitly unchecked. Skin,
+The authored native driver identity provides a verified crosswalk to existing
+local driver ownership predicates, independently of catalogue ordinal. Driver 58
+therefore uses Iron Checkpoint Crate's challenge 70, and driver 48 uses King
+Chicken's challenge 69. Missing identities retain unknown ownership. Chassis
+ownership is explicitly unchecked. Skin,
 wheels, paint and sticker ownership is also unchecked. Locked driver warnings
 do not prevent applying; Garage grants no unlocks and does not alter server data.
 

@@ -1,0 +1,6818 @@
+{
+  "schemaVersion": 1,
+  "source": "PS4 1.21 SystemData and EN/FR localization",
+  "drivers": [
+    {
+      "index": 0,
+      "handle": "SystemData_availableDrivers_0",
+      "nameEn": "Crash Bandicoot",
+      "nameFr": "Crash Bandicoot",
+      "listIndex": 0,
+      "driver": "DriverCrash",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_Crash_Default",
+          "nameEn": "Crash Bandicoot",
+          "nameFr": "Crash Bandicoot"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Crash_Biker",
+          "nameEn": "Biker Crash",
+          "nameFr": "Crash Biker"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_Crash_Aviator",
+          "nameEn": "Aviator Crash",
+          "nameFr": "Crash Aviateur"
+        },
+        {
+          "index": 3,
+          "handle": "GP9_Skin_CSH_P1",
+          "nameEn": "Space Aviator Crash",
+          "nameFr": "Crash aviateur spatial"
+        },
+        {
+          "index": 4,
+          "handle": "GP9_Skin_CSH_P2",
+          "nameEn": "Arcade Aviator Crash",
+          "nameFr": "Crash aviateur arcade"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_CSH_P3",
+          "nameEn": "Beenox Aviator Crash",
+          "nameFr": "Crash aviateur Beenox"
+        },
+        {
+          "index": 6,
+          "handle": "Skin_Crash_Star",
+          "nameEn": "Star Crash",
+          "nameFr": "Crash des étoiles"
+        },
+        {
+          "index": 7,
+          "handle": "Skin_Crash_Scuba",
+          "nameEn": "Scuba Crash",
+          "nameFr": "Crash Homme-grenouille"
+        },
+        {
+          "index": 8,
+          "handle": "Skin_Crash_MadScientist",
+          "nameEn": "Mad Scientist Crash",
+          "nameFr": "Crash Savant fou"
+        },
+        {
+          "index": 9,
+          "handle": "Skin_Crash_Shiba",
+          "nameEn": "Shiba Crash",
+          "nameFr": "Crash Shiba"
+        },
+        {
+          "index": 10,
+          "handle": "Skin_Crash_Skunk",
+          "nameEn": "Skunk Crash",
+          "nameFr": "Crash Putois"
+        },
+        {
+          "index": 11,
+          "handle": "Skin_Crash_BlueHyena",
+          "nameEn": "Blue Hyena Crash",
+          "nameFr": "Crash Hyène bleue"
+        },
+        {
+          "index": 12,
+          "handle": "Skin_Crash_Low",
+          "nameEn": "Retro Crash",
+          "nameFr": "Crash rétro"
+        },
+        {
+          "index": 13,
+          "handle": "Skin_Crash_NitroFueled",
+          "nameEn": "Electron Crash",
+          "nameFr": "Crash électron"
+        },
+        {
+          "index": 14,
+          "handle": "GP6_Skin_CSH_P1",
+          "nameEn": "Reindeer Crash",
+          "nameFr": "Crash renne"
+        },
+        {
+          "index": 15,
+          "handle": "GP7_Skin_CSH_P1",
+          "nameEn": "Rustland Crash",
+          "nameFr": "Crash de la rouille"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "handle": "SystemData_availableDrivers_2",
+      "nameEn": "Dr. Neo Cortex",
+      "nameFr": "Dr Neo Cortex",
+      "listIndex": 1,
+      "driver": "DriverCortex",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_Cortex_Default",
+          "nameEn": "Dr. Neo Cortex",
+          "nameFr": "Dr Neo Cortex"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Cortex_Star",
+          "nameEn": "Star Cortex",
+          "nameFr": "Cortex des étoiles"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_Cortex_Ninja",
+          "nameEn": "Ninja Cortex",
+          "nameFr": "Cortex Ninja"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_Cortex_Green",
+          "nameEn": "Green Cortex",
+          "nameFr": "Cortex vert"
+        },
+        {
+          "index": 4,
+          "handle": "Skin_Cortex_Red",
+          "nameEn": "Red Cortex",
+          "nameFr": "Cortex rouge"
+        },
+        {
+          "index": 5,
+          "handle": "Skin_Cortex_Blue",
+          "nameEn": "Blue Cortex",
+          "nameFr": "Cortex bleu"
+        },
+        {
+          "index": 6,
+          "handle": "Skin_Cortex_Low",
+          "nameEn": "Retro Cortex",
+          "nameFr": "Cortex rétro"
+        },
+        {
+          "index": 7,
+          "handle": "Skin_Cortex_Robot",
+          "nameEn": "Robo-Cortex",
+          "nameFr": "Cortex-Robot"
+        },
+        {
+          "index": 8,
+          "handle": "GP9_Skin_DNC_P1",
+          "nameEn": "Anime Robo-Cortex",
+          "nameFr": "Cortex-Robot anime"
+        },
+        {
+          "index": 9,
+          "handle": "GP9_Skin_DNC_P2",
+          "nameEn": "Rusted Robo-Cortex",
+          "nameFr": "Cortex-Robot rouillé"
+        },
+        {
+          "index": 10,
+          "handle": "GP9_Skin_DNC_P3",
+          "nameEn": "Beenox Robo-Cortex",
+          "nameFr": "Cortex-Robot Beenox"
+        },
+        {
+          "index": 11,
+          "handle": "Skin_Cortex_NitroFueled",
+          "nameEn": "Electron Cortex",
+          "nameFr": "Cortex électron"
+        },
+        {
+          "index": 12,
+          "handle": "Skin_Cortex_Pharaoh",
+          "nameEn": "Pharaoh Cortex",
+          "nameFr": "Cortex Pharaon"
+        },
+        {
+          "index": 13,
+          "handle": "GP5_Skin_DNC_P1",
+          "nameEn": "Clown Cortex",
+          "nameFr": "Cortex clown"
+        },
+        {
+          "index": 14,
+          "handle": "GP7_Skin_DNC_P1",
+          "nameEn": "Rustland Cortex",
+          "nameFr": "Cortex de la rouille"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "handle": "SystemData_availableDrivers_3",
+      "nameEn": "Dingodile",
+      "nameFr": "Dingodile",
+      "listIndex": 5,
+      "driver": "DriverDingodile",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_Dingodile_Default",
+          "nameEn": "Dingodile",
+          "nameFr": "Dingodile"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Dingodile_FireFighter",
+          "nameEn": "Firefighter Dingodile",
+          "nameFr": "Dingodile Pompier"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_Dingodile_SprayPainter",
+          "nameEn": "Painter Dingodile",
+          "nameFr": "Dingodile Peintre"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_Dingodile_Hazmat",
+          "nameEn": "Hazmat Dingodile",
+          "nameFr": "Dingodile NBC"
+        },
+        {
+          "index": 4,
+          "handle": "GP9_Skin_DGE_P1",
+          "nameEn": "Biohazard Hazmat Dingodile",
+          "nameFr": "Dingodile NBC atomique"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_DGE_P2",
+          "nameEn": "Space Hazmat Dingodile",
+          "nameFr": "Dingodile NBC spatial"
+        },
+        {
+          "index": 6,
+          "handle": "GP9_Skin_DGE_P3",
+          "nameEn": "Bughunt Hazmat Dingodile",
+          "nameFr": "Dingodile NBC exterminateur"
+        },
+        {
+          "index": 7,
+          "handle": "Skin_Dingodile_Beach",
+          "nameEn": "Beach Dingodile",
+          "nameFr": "Dingodile des plages"
+        },
+        {
+          "index": 8,
+          "handle": "Skin_Dingodile_ThaiCat",
+          "nameEn": "Gorilla Dingodile",
+          "nameFr": "Dingodile Gorille"
+        },
+        {
+          "index": 9,
+          "handle": "Skin_Dingodile_Camo",
+          "nameEn": "Camo Dingodile",
+          "nameFr": "Dingodile camouflé"
+        },
+        {
+          "index": 10,
+          "handle": "Skin_Dingodile_Panda",
+          "nameEn": "Panda Dingodile",
+          "nameFr": "Dingodile Panda"
+        },
+        {
+          "index": 11,
+          "handle": "GP7_Skin_DGE_P1",
+          "nameEn": "Rustland Dingodile",
+          "nameFr": "Dingodile de la rouille"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "handle": "SystemData_availableDrivers_4",
+      "nameEn": "Fake Crash",
+      "nameFr": "Faux Crash",
+      "listIndex": 13,
+      "driver": "DriverFakeCrash",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_FakeCrash_Default",
+          "nameEn": "Fake Crash",
+          "nameFr": "Faux Crash"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_FakeCrash_Nerd",
+          "nameEn": "Dashing Fake Crash",
+          "nameFr": "Faux Crash Beau Gosse"
+        },
+        {
+          "index": 2,
+          "handle": "GP4_Skin_FCH_P1",
+          "nameEn": "Monster Fake Crash",
+          "nameFr": "Faux Crash Monstre"
+        },
+        {
+          "index": 3,
+          "handle": "GP9_Skin_FCH_P1",
+          "nameEn": "Oil Monster Fake Crash",
+          "nameFr": "Faux Crash Monstre de pétrole"
+        },
+        {
+          "index": 4,
+          "handle": "GP9_Skin_FCH_P2",
+          "nameEn": "Juiced Monster Fake Crash",
+          "nameFr": "Faux Crash Monstre de compote"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_FCH_P3",
+          "nameEn": "Lava Monster Fake Crash",
+          "nameFr": "Faux Crash Monstre de lave"
+        },
+        {
+          "index": 6,
+          "handle": "GP5_Skin_FCH_P1",
+          "nameEn": "Rustic Fake Crash",
+          "nameFr": "Faux Crash rustique"
+        },
+        {
+          "index": 7,
+          "handle": "Skin_FakeCrash_Cowboy",
+          "nameEn": "Cowboy Fake Crash",
+          "nameFr": "Faux Crash Cow-boy"
+        },
+        {
+          "index": 8,
+          "handle": "Skin_FakeCrash_Chipmunk",
+          "nameEn": "Chipmunk Fake Crash",
+          "nameFr": "Faux Crash Tamia"
+        },
+        {
+          "index": 9,
+          "handle": "Skin_FakeCrash_Racoon",
+          "nameEn": "Racoon Fake Crash",
+          "nameFr": "Faux Crash Raton-laveur"
+        },
+        {
+          "index": 10,
+          "handle": "Skin_FakeCrash_Fairy",
+          "nameEn": "Pink Fake Crash",
+          "nameFr": "Faux Crash rose"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "handle": "SystemData_availableDrivers_5",
+      "nameEn": "Komodo Joe",
+      "nameFr": "Komodo Joe",
+      "listIndex": 11,
+      "driver": "DriverKomodoJoe",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_KomodoJoe_Default",
+          "nameEn": "Komodo Joe",
+          "nameFr": "Komodo Joe"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_KomodoJoe_Mongol",
+          "nameEn": "Komodo Khan",
+          "nameFr": "Komodo Khan"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_KomodoJoe_Red",
+          "nameEn": "Red Komodo Joe",
+          "nameFr": "Komodo Joe rouge"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_KomodoJoe_Green",
+          "nameEn": "Green Komodo Joe",
+          "nameFr": "Komodo Joe vert"
+        },
+        {
+          "index": 4,
+          "handle": "Skin_KomodoJoe_Yellow",
+          "nameEn": "Purple Komodo Joe",
+          "nameFr": "Komodo Joe violet"
+        },
+        {
+          "index": 5,
+          "handle": "GP3_Skin_KJE_P1",
+          "nameEn": "Wizard Komodo Joe",
+          "nameFr": "Komodo Joe Sorcier"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "handle": "SystemData_availableDrivers_6",
+      "nameEn": "Dr. N.Gin",
+      "nameFr": "Dr N. Gin",
+      "listIndex": 4,
+      "driver": "DriverNGin",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_NGin_Default",
+          "nameEn": "Dr. N.Gin",
+          "nameFr": "Dr N.Gin"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_NGin_Ballerina",
+          "nameEn": "Ballerina N.Gin",
+          "nameFr": "N.Gin Ballerine"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_NGin_Cook",
+          "nameEn": "Chef N.Gin",
+          "nameFr": "N.Gin Chef"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_NGin_CrashTestDummy",
+          "nameEn": "Crash Test Dummy N.Gin",
+          "nameFr": "N.Gin Mannequin de test"
+        },
+        {
+          "index": 4,
+          "handle": "Skin_NGin_Blue",
+          "nameEn": "Blue N.Gin",
+          "nameFr": "N.Gin bleu"
+        },
+        {
+          "index": 5,
+          "handle": "Skin_NGin_Yellow",
+          "nameEn": "Yellow N.Gin",
+          "nameFr": "N.Gin jaune"
+        },
+        {
+          "index": 6,
+          "handle": "Skin_NGin_Green",
+          "nameEn": "Green N.Gin",
+          "nameFr": "N.Gin vert"
+        },
+        {
+          "index": 7,
+          "handle": "GP5_Skin_DNG_P1",
+          "nameEn": "Farmer N. Gin",
+          "nameFr": "N. Gin fermier"
+        },
+        {
+          "index": 8,
+          "handle": "GP7_Skin_DNG_P1",
+          "nameEn": "Rustland N. Gin",
+          "nameFr": "N. Gin de la rouille"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "handle": "SystemData_availableDrivers_7",
+      "nameEn": "Dr. N. Tropy",
+      "nameFr": "Dr N.Tropy",
+      "listIndex": 15,
+      "driver": "DriverNTropy",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_7_skins_0",
+          "nameEn": "Dr. N. Tropy",
+          "nameFr": "Dr N.Tropy"
+        },
+        {
+          "index": 1,
+          "handle": "SystemData_availableDrivers_7_skins_1",
+          "nameEn": "Digital Dr. N. Tropy",
+          "nameFr": "Dr N.Tropy numérique"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_7_skins_4",
+          "nameEn": "Quartz Dr. N. Tropy",
+          "nameFr": "Dr N.Tropy Quartz"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_7_skins_3",
+          "nameEn": "Carbon Fiber Dr. N. Tropy",
+          "nameFr": "Dr N.Tropy Carbone"
+        },
+        {
+          "index": 4,
+          "handle": "SystemData_availableDrivers_7_skins_2",
+          "nameEn": "Purple Dr. N. Tropy",
+          "nameFr": "Dr N.Tropy violet"
+        },
+        {
+          "index": 5,
+          "handle": "Skin_NTropy_StoneAge",
+          "nameEn": "Stone Age Dr. N.Tropy",
+          "nameFr": "Dr N.Tropy Cro-Magnon"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "handle": "SystemData_availableDrivers_8",
+      "nameEn": "Papu Papu",
+      "nameFr": "Papu Papu",
+      "listIndex": 10,
+      "driver": "DriverPapuPapu",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_PapuPapu_Default",
+          "nameEn": "Papu Papu",
+          "nameFr": "Papu Papu"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_PapuPapu_Ocean",
+          "nameEn": "Crimson Papu Papu",
+          "nameFr": "Papu Papu écarlate"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_PapuPapu_Aboriginal",
+          "nameEn": "Purple Papu Papu",
+          "nameFr": "Papu Papu violet"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_PapuPapu_Troll",
+          "nameEn": "Green Papu Papu",
+          "nameFr": "Papu Papu vert"
+        },
+        {
+          "index": 4,
+          "handle": "GP4_Skin_PPU_P1",
+          "nameEn": "Pirate Papu Papu",
+          "nameFr": "Papu Papu pirate"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "handle": "SystemData_availableDrivers_9",
+      "nameEn": "Penta Penguin",
+      "nameFr": "Penta Penguin",
+      "listIndex": 8,
+      "driver": "DriverPentaPenguin",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_9_skins_2",
+          "nameEn": "Penta Penguin",
+          "nameFr": "Penta Penguin"
+        },
+        {
+          "index": 1,
+          "handle": "SystemData_availableDrivers_9_skins_0",
+          "nameEn": "Penta Gentleman",
+          "nameFr": "Penta Gentleman"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_9_skins_1",
+          "nameEn": "Penta Ninja",
+          "nameFr": "Penta Ninja"
+        },
+        {
+          "index": 3,
+          "handle": "GP9_Skin_PPN_P1",
+          "nameEn": "Red Warbler Penta Ninja",
+          "nameFr": "Penta Ninja Fauvette rouge"
+        },
+        {
+          "index": 4,
+          "handle": "GP9_Skin_PPN_P2",
+          "nameEn": "Lovebird Penta Ninja",
+          "nameFr": "Penta Ninja Oiseau d'amour"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_PPN_P3",
+          "nameEn": "Sandpiper Penta Ninja",
+          "nameFr": "Penta Ninja Bécasseau"
+        },
+        {
+          "index": 6,
+          "handle": "SystemData_availableDrivers_9_skins_3",
+          "nameEn": "Penta Blue Jay",
+          "nameFr": "Penta Jay bleu"
+        },
+        {
+          "index": 7,
+          "handle": "SystemData_availableDrivers_9_skins_4",
+          "nameEn": "Penta Canary",
+          "nameFr": "Penta Canari"
+        },
+        {
+          "index": 8,
+          "handle": "SystemData_availableDrivers_9_skins_5",
+          "nameEn": "Penta Parrot",
+          "nameFr": "Penta Perroquet"
+        },
+        {
+          "index": 9,
+          "handle": "GP5_Skin_PPN_P1",
+          "nameEn": "Penta Jester",
+          "nameFr": "Penta jongleur"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "handle": "SystemData_availableDrivers_10",
+      "nameEn": "Pinstripe",
+      "nameFr": "Pinstripe",
+      "listIndex": 12,
+      "driver": "DriverPinstripe",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_Pinstripe_Default",
+          "nameEn": "Pinstripe",
+          "nameFr": "Pinstripe"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Pinstripe_Summer",
+          "nameEn": "Yellow Suit Pinstripe",
+          "nameFr": "Pinstripe Costume jaune"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_Pinstripe_White",
+          "nameEn": "White Suit Pinstripe",
+          "nameFr": "Pinstripe Costume blanc"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_Pinstripe_Purple",
+          "nameEn": "Purple Suit Pinstripe",
+          "nameFr": "Pinstripe Costume violet"
+        },
+        {
+          "index": 4,
+          "handle": "Skin_Pinstripe_Gangster",
+          "nameEn": "Gangster Pinstripe",
+          "nameFr": "Pinstripe Gangster"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_PSE_P1",
+          "nameEn": "Shamrock Gangster Pinstripe",
+          "nameFr": "Pinstripe Gangster trèfle"
+        },
+        {
+          "index": 6,
+          "handle": "GP9_Skin_PSE_P2",
+          "nameEn": "Outback Gangster Pinstripe",
+          "nameFr": "Pinstripe Gangster cambrousse"
+        },
+        {
+          "index": 7,
+          "handle": "GP9_Skin_PSE_P3",
+          "nameEn": "Negative Gangster Pinstripe",
+          "nameFr": "Pinstripe Gangster négatif"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "handle": "SystemData_availableDrivers_11",
+      "nameEn": "Polar",
+      "nameFr": "Polar",
+      "listIndex": 6,
+      "driver": "DriverPolar",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_Polar_Default",
+          "nameEn": "Polar",
+          "nameFr": "Polar"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Polar_BrownBear",
+          "nameEn": "Grizzly Polar",
+          "nameFr": "Polar Grizzly"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_Polar_RedPanda",
+          "nameEn": "Red Panda Polar",
+          "nameFr": "Polar Panda roux"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_Polar_Panda",
+          "nameEn": "Panda Polar",
+          "nameFr": "Polar Panda"
+        },
+        {
+          "index": 4,
+          "handle": "Skin_Polar_Fisherman",
+          "nameEn": "Fisherman Polar",
+          "nameFr": "Polar Pêcheur"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_POR_P1",
+          "nameEn": "Hunter Fisherman Polar",
+          "nameFr": "Polar Pêcheur chasseur"
+        },
+        {
+          "index": 6,
+          "handle": "GP9_Skin_POR_P2",
+          "nameEn": "Marmalade Fisherman Polar",
+          "nameFr": "Polar Pêcheur confiture"
+        },
+        {
+          "index": 7,
+          "handle": "GP9_Skin_POR_P3",
+          "nameEn": "Caring Fisherman Polar",
+          "nameFr": "Polar Pêcheur soigneur"
+        },
+        {
+          "index": 8,
+          "handle": "GP3_Skin_POR_P1",
+          "nameEn": "Viking Polar",
+          "nameFr": "Polar Viking"
+        },
+        {
+          "index": 9,
+          "handle": "GP6_Skin_POR_P1",
+          "nameEn": "Ugly Sweater Polar",
+          "nameFr": "Polar sweat affreux"
+        },
+        {
+          "index": 10,
+          "handle": "GP7_Skin_POR_P1",
+          "nameEn": "Rustland Polar",
+          "nameFr": "Polar de la rouille"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "handle": "SystemData_availableDrivers_12",
+      "nameEn": "Pura",
+      "nameFr": "Pura",
+      "listIndex": 7,
+      "driver": "DriverPura",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_Pura_Default",
+          "nameEn": "Pura",
+          "nameFr": "Pura"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Pura_WhiteTiger",
+          "nameEn": "White Tiger Pura",
+          "nameFr": "Pura Tigre blanc"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_Pura_Cheetah",
+          "nameEn": "Cheetah Pura",
+          "nameFr": "Pura Guépard"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_Pura_BlackCat",
+          "nameEn": "Black Cat Pura",
+          "nameFr": "Pura Chat noir"
+        },
+        {
+          "index": 4,
+          "handle": "Skin_Pura_Musketeer",
+          "nameEn": "Musketeer Pura",
+          "nameFr": "Pura Mousquetaire"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_PRA_P1",
+          "nameEn": "Red Musketeer Pura",
+          "nameFr": "Pura Mousquetaire rouge"
+        },
+        {
+          "index": 6,
+          "handle": "GP9_Skin_PRA_P2",
+          "nameEn": "Pink Musketeer Pura",
+          "nameFr": "Pura Mousquetaire rose"
+        },
+        {
+          "index": 7,
+          "handle": "GP9_Skin_PRA_P3",
+          "nameEn": "Golden Musketeer Pura",
+          "nameFr": "Pura Mousquetaire doré"
+        },
+        {
+          "index": 8,
+          "handle": "Skin_Pura_Sabertooth",
+          "nameEn": "Sabertooth Pura ",
+          "nameFr": "Pura Dent-de-sabre"
+        },
+        {
+          "index": 9,
+          "handle": "GP4_Skin_PRA_P1",
+          "nameEn": "Lion Pura",
+          "nameFr": "Pura lion"
+        },
+        {
+          "index": 10,
+          "handle": "GP7_Skin_PRA_P1",
+          "nameEn": "Rustland Pura",
+          "nameFr": "Pura de la rouille"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "handle": "SystemData_availableDrivers_13",
+      "nameEn": "Ripper Roo",
+      "nameFr": "Ripper Roo",
+      "listIndex": 9,
+      "driver": "DriverRipperRoo",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_RipperRoo_Default",
+          "nameEn": "Ripper Roo",
+          "nameFr": "Ripper Roo"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_RipperRoo_MadScientist",
+          "nameEn": "Mad Scientist Ripper Roo",
+          "nameFr": "Ripper Roo Savant fou"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_RipperRoo_Gentleman",
+          "nameEn": "Gentleman Ripper Roo",
+          "nameFr": "Ripper Roo Gentleman"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_RipperRoo_Green",
+          "nameEn": "Green Ripper Roo",
+          "nameFr": "Ripper Roo vert"
+        },
+        {
+          "index": 4,
+          "handle": "Skin_RipperRoo_Yellow",
+          "nameEn": "Yellow Ripper Roo",
+          "nameFr": "Ripper Roo jaune"
+        },
+        {
+          "index": 5,
+          "handle": "Skin_RipperRoo_Red",
+          "nameEn": "Pink Ripper Roo",
+          "nameFr": "Ripper Roo rose"
+        },
+        {
+          "index": 6,
+          "handle": "Skin_RipperRoo_BedTime",
+          "nameEn": "Bedtime Ripper Roo",
+          "nameFr": "Ripper Roo Noctambule"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "handle": "SystemData_availableDrivers_14",
+      "nameEn": "Tiny Tiger",
+      "nameFr": "Tiny Tiger",
+      "listIndex": 2,
+      "driver": "DriverTinyTiger",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_TinyTiger_Default",
+          "nameEn": "Tiny Tiger",
+          "nameFr": "Tiny Tiger"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_TinyTiger_Legionnaire",
+          "nameEn": "Gladiator Tiny ",
+          "nameFr": "Tiny Gladiateur"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_TinyTiger_Army",
+          "nameEn": "General Tiny",
+          "nameFr": "Tiny Général"
+        },
+        {
+          "index": 3,
+          "handle": "GP9_Skin_TTR_P1",
+          "nameEn": "Black General Tiny",
+          "nameFr": "Tiny Général noir"
+        },
+        {
+          "index": 4,
+          "handle": "GP9_Skin_TTR_P2",
+          "nameEn": "White General Tiny",
+          "nameFr": "Tiny Général blanc"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_TTR_P3",
+          "nameEn": "Red General Tiny",
+          "nameFr": "Tiny Général rouge"
+        },
+        {
+          "index": 6,
+          "handle": "Skin_TinyTiger_Football",
+          "nameEn": "Football Tiny ",
+          "nameFr": "Tiny Footballeur"
+        },
+        {
+          "index": 7,
+          "handle": "Skin_TinyTiger_Biker",
+          "nameEn": "Tiny Biker",
+          "nameFr": "Tiny Motard"
+        },
+        {
+          "index": 8,
+          "handle": "Skin_TinyTiger_Doberman",
+          "nameEn": "Tiny Doberman",
+          "nameFr": "Tiny Doberman"
+        },
+        {
+          "index": 9,
+          "handle": "Skin_TinyTiger_WhiteTiger",
+          "nameEn": "Tiny White Tiger",
+          "nameFr": "Tiny blanc"
+        },
+        {
+          "index": 10,
+          "handle": "Skin_TinyTiger_Cheetah",
+          "nameEn": "Tiny Cheetah",
+          "nameFr": "Tiny Guépard"
+        },
+        {
+          "index": 11,
+          "handle": "GP4_Skin_TTR_P1",
+          "nameEn": "Werewolf Tiny ",
+          "nameFr": "Tiny loup-garou"
+        },
+        {
+          "index": 12,
+          "handle": "GP7_Skin_TTR_P1",
+          "nameEn": "Rustland Tiny",
+          "nameFr": "Tiny de la rouille"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "handle": "SystemData_availableDrivers_15",
+      "nameEn": "Coco Bandicoot",
+      "nameFr": "Coco Bandicoot",
+      "listIndex": 3,
+      "driver": "DriverCoco",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_Coco_Default",
+          "nameEn": "Coco Bandicoot",
+          "nameFr": "Coco Bandicoot"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Coco_Star",
+          "nameEn": "Star Coco",
+          "nameFr": "Coco des étoiles"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_Coco_Princess",
+          "nameEn": "Princess Coco",
+          "nameFr": "Coco Princesse"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_Coco_Babysitter",
+          "nameEn": "Babysitter Coco",
+          "nameFr": "Coco Babysitter"
+        },
+        {
+          "index": 4,
+          "handle": "GP4_Skin_COO_P1",
+          "nameEn": "Dark Coco",
+          "nameFr": "Coco noire"
+        },
+        {
+          "index": 5,
+          "handle": "Skin_Coco_Beach",
+          "nameEn": "Beach Coco",
+          "nameFr": "Coco des plages"
+        },
+        {
+          "index": 6,
+          "handle": "Skin_Coco_Blue",
+          "nameEn": "Blue Coco",
+          "nameFr": "Coco bleue"
+        },
+        {
+          "index": 7,
+          "handle": "Skin_Coco_Lynx",
+          "nameEn": "Lynx Coco",
+          "nameFr": "Coco Lynx"
+        },
+        {
+          "index": 8,
+          "handle": "Skin_Coco_Purple",
+          "nameEn": "Purple Coco",
+          "nameFr": "Coco violette"
+        },
+        {
+          "index": 9,
+          "handle": "Skin_Coco_Low",
+          "nameEn": "Retro Coco",
+          "nameFr": "Coco rétro"
+        },
+        {
+          "index": 10,
+          "handle": "Skin_Coco_NitroFueled",
+          "nameEn": "Electron Coco",
+          "nameFr": "Coco électron"
+        },
+        {
+          "index": 11,
+          "handle": "GP3_Skin_COO_P1",
+          "nameEn": "Evil Coco",
+          "nameFr": "Coco maléfique"
+        },
+        {
+          "index": 12,
+          "handle": "GP6_Skin_COO_P1",
+          "nameEn": "Elf Coco",
+          "nameFr": "Coco lutin"
+        },
+        {
+          "index": 13,
+          "handle": "GP7_Skin_COO_P1",
+          "nameEn": "Rustland Coco",
+          "nameFr": "Coco de la rouille"
+        },
+        {
+          "index": 14,
+          "handle": "GP9_Skin_COO_P1",
+          "nameEn": "Alice Coco",
+          "nameFr": "Coco Alice"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "handle": "SystemData_availableDrivers_17",
+      "nameEn": "Zem",
+      "nameFr": "Zem",
+      "listIndex": 25,
+      "driver": "DriverZem",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_17_skins_0",
+          "nameEn": "Zem",
+          "nameFr": "Zem"
+        },
+        {
+          "index": 1,
+          "handle": "SystemData_availableDrivers_17_skins_3",
+          "nameEn": "Aqua Zem",
+          "nameFr": "Zem bleu marine"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_17_skins_1",
+          "nameEn": "Violet Zem",
+          "nameFr": "Zem lavande"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_17_skins_2",
+          "nameEn": "Solar Flare Zem",
+          "nameFr": "Zem Éruption solaire"
+        },
+        {
+          "index": 4,
+          "handle": "SystemData_availableDrivers_17_skins_4",
+          "nameEn": "Punk Zem",
+          "nameFr": "Zem punk"
+        },
+        {
+          "index": 5,
+          "handle": "Skin_Zem_Caveman",
+          "nameEn": "Caveman Zem",
+          "nameFr": "Zem des cavernes"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "handle": "SystemData_availableDrivers_18",
+      "nameEn": "Krunk",
+      "nameFr": "Krunk",
+      "listIndex": 17,
+      "driver": "DriverKrunk",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_18_skins_0",
+          "nameEn": "Krunk",
+          "nameFr": "Krunk"
+        },
+        {
+          "index": 1,
+          "handle": "SystemData_availableDrivers_18_skins_1",
+          "nameEn": "Jungle Krunk",
+          "nameFr": "Krunk de la jungle"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_18_skins_3",
+          "nameEn": "Flamingo Krunk",
+          "nameFr": "Krunk flamand rose"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_18_skins_2",
+          "nameEn": "Yeti Krunk",
+          "nameFr": "Krunk yéti"
+        },
+        {
+          "index": 4,
+          "handle": "Skin_Krunk_Jurassic",
+          "nameEn": "Jurassic Krunk",
+          "nameFr": "Krunk Jurassique"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "handle": "SystemData_availableDrivers_19",
+      "nameEn": "Crunch Bandicoot",
+      "nameFr": "Crunch Bandicoot",
+      "listIndex": 16,
+      "driver": "DriverCrunch",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_19_skins_4",
+          "nameEn": "Crunch",
+          "nameFr": "Crunch"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Crunch_Robot",
+          "nameEn": "Robot Crunch",
+          "nameFr": "Crunch Robot"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_Crunch_Dirtbike",
+          "nameEn": "Dirt Bike Crunch",
+          "nameFr": "Crunch Motocross"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_Crunch_Racer",
+          "nameEn": "Racer Crunch",
+          "nameFr": "Crunch pilote"
+        },
+        {
+          "index": 4,
+          "handle": "GP9_Skin_CCH_P1",
+          "nameEn": "Beenox Racer Crunch",
+          "nameFr": "Crunch pilote Beenox"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_CCH_P2",
+          "nameEn": "24h Racer Crunch",
+          "nameFr": "Crunch pilote 24h"
+        },
+        {
+          "index": 6,
+          "handle": "GP9_Skin_CCH_P3",
+          "nameEn": "Racer Le Crunch",
+          "nameFr": "Crunch pilote Rocket"
+        },
+        {
+          "index": 7,
+          "handle": "Skin_Crunch_Werewolf",
+          "nameEn": "Husky Crunch",
+          "nameFr": "Crunch Husky"
+        },
+        {
+          "index": 8,
+          "handle": "Skin_Crunch_Rothweller",
+          "nameEn": "Rottweiler Crunch",
+          "nameFr": "Crunch Rottweiler"
+        },
+        {
+          "index": 9,
+          "handle": "Skin_Crunch_Dalmatian",
+          "nameEn": "Dalmatian Crunch",
+          "nameFr": "Crunch Dalmatien"
+        },
+        {
+          "index": 10,
+          "handle": "GP3_Skin_CCH_P1",
+          "nameEn": "Evil Crunch",
+          "nameFr": "Crunch maléfique"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "handle": "SystemData_availableDrivers_20",
+      "nameEn": "Ami",
+      "nameFr": "Ami",
+      "listIndex": 27,
+      "driver": "DriverAmi",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_20_skins_0",
+          "nameEn": "Ami",
+          "nameFr": "Ami"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Ami_Motorsport",
+          "nameEn": "Motorsport Ami",
+          "nameFr": "Ami Compétition"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_20_skins_4",
+          "nameEn": "Honey Bee Ami",
+          "nameFr": "Ami Abeille"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_20_skins_3",
+          "nameEn": "SummerTime Ami",
+          "nameFr": "Ami Estivale"
+        },
+        {
+          "index": 4,
+          "handle": "SystemData_availableDrivers_20_skins_2",
+          "nameEn": "Raccoon Ami",
+          "nameFr": "Ami Raton-laveur"
+        },
+        {
+          "index": 5,
+          "handle": "GP5_Skin_AM_P1",
+          "nameEn": "Circus Ami",
+          "nameFr": "Ami du cirque"
+        },
+        {
+          "index": 6,
+          "handle": "GP8_Skin_AM_P1",
+          "nameEn": "Buccaneer Ami",
+          "nameFr": "Ami Écumeuse"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "handle": "SystemData_availableDrivers_21",
+      "nameEn": "Big Norm",
+      "nameFr": "Grand Norm",
+      "listIndex": 19,
+      "driver": "DriverBigNorm",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_21_skins_0",
+          "nameEn": "Big Norm",
+          "nameFr": "Grand Norm"
+        },
+        {
+          "index": 1,
+          "handle": "SystemData_availableDrivers_21_skins_3",
+          "nameEn": "Bandit Big Norm",
+          "nameFr": "Grand Norm Bandit"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_21_skins_2",
+          "nameEn": "Golfer Big Norm",
+          "nameFr": "Grand Norm Golfeur"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_21_skins_1",
+          "nameEn": "Kabuki Big Norm",
+          "nameFr": "Grand Norm Kabuki"
+        },
+        {
+          "index": 4,
+          "handle": "GP3_Skin_BNM_P1",
+          "nameEn": "Orc Big Norm",
+          "nameFr": "Grand Norm Orc"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "handle": "SystemData_availableDrivers_23",
+      "nameEn": "Isabella",
+      "nameFr": "Isabella",
+      "listIndex": 30,
+      "driver": "DriverIsabella",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_23_skins_0",
+          "nameEn": "Isabella",
+          "nameFr": "Isabella"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Isabella_Motorsport",
+          "nameEn": "Motorsport Isabella",
+          "nameFr": "Isabelle Compétition"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_23_skins_2",
+          "nameEn": "Mermaid Isabella",
+          "nameFr": "Isabella Sirène"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_23_skins_4",
+          "nameEn": "Neon Isabella",
+          "nameFr": "Isabella Néon"
+        },
+        {
+          "index": 4,
+          "handle": "SystemData_availableDrivers_23_skins_3",
+          "nameEn": "Racer Isabella",
+          "nameFr": "Isabella Pilote"
+        },
+        {
+          "index": 5,
+          "handle": "GP5_Skin_IBA_P1",
+          "nameEn": "Circus Isabella",
+          "nameFr": "Isabella du cirque"
+        },
+        {
+          "index": 6,
+          "handle": "GP8_Skin_IBA_P1",
+          "nameEn": "Marauder Isabella",
+          "nameFr": "Isabella Maraudeuse"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "handle": "SystemData_availableDrivers_24",
+      "nameEn": "Koala Kong",
+      "nameFr": "Koala Kong",
+      "listIndex": null,
+      "driver": "DriverKoalaKong",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_24_skins_0",
+          "nameEn": "Koala Kong",
+          "nameFr": "Koala Kong"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "handle": "SystemData_availableDrivers_25",
+      "nameEn": "Komodo Moe",
+      "nameFr": "Komodo Moe",
+      "listIndex": null,
+      "driver": "DriverKomodoMoe",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_25_skins_0",
+          "nameEn": "Komodo Moe",
+          "nameFr": "Komodo Moe"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "handle": "SystemData_availableDrivers_26",
+      "nameEn": "Liz",
+      "nameFr": "Liz",
+      "listIndex": 29,
+      "driver": "DriverLiz",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_26_skins_0",
+          "nameEn": "Liz",
+          "nameFr": "Liz"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Liz_Motorsport",
+          "nameEn": "Motorsport Liz",
+          "nameFr": "Liz Compétition"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_26_skins_4",
+          "nameEn": "Pop Liz",
+          "nameFr": "Liz Pop"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_26_skins_3",
+          "nameEn": "Pink Liz",
+          "nameFr": "Liz rose"
+        },
+        {
+          "index": 4,
+          "handle": "SystemData_availableDrivers_26_skins_2",
+          "nameEn": "Ocelot Liz",
+          "nameFr": "Liz Ocelot"
+        },
+        {
+          "index": 5,
+          "handle": "GP5_Skin_LZ_P1",
+          "nameEn": "Circus Liz",
+          "nameFr": "Liz du cirque"
+        },
+        {
+          "index": 6,
+          "handle": "GP8_Skin_LZ_P1",
+          "nameEn": "Corsair Liz",
+          "nameFr": "Liz Corsaire"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "handle": "SystemData_availableDrivers_27",
+      "nameEn": "Megumi",
+      "nameFr": "Megumi",
+      "listIndex": 28,
+      "driver": "DriverMegumi",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_27_skins_0",
+          "nameEn": "Megumi",
+          "nameFr": "Megumi"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Megumi_Motorsport",
+          "nameEn": "Motorsport Megumi",
+          "nameFr": "Megumi Compétition"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_27_skins_4",
+          "nameEn": "BubbleGum Megumi",
+          "nameFr": "Megumi Chewing-gum"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_27_skins_3",
+          "nameEn": "Beach Megumi",
+          "nameFr": "Megumi des plages"
+        },
+        {
+          "index": 4,
+          "handle": "SystemData_availableDrivers_27_skins_2",
+          "nameEn": "Lemonade Megumi",
+          "nameFr": "Megumi Limonade"
+        },
+        {
+          "index": 5,
+          "handle": "GP5_Skin_MGI_P1",
+          "nameEn": "Circus Megumi",
+          "nameFr": "Megumi du cirque"
+        },
+        {
+          "index": 6,
+          "handle": "GP8_Skin_MGI_P1",
+          "nameEn": "Raider Megumi",
+          "nameFr": "Megumi Pillarde"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "handle": "SystemData_availableDrivers_28",
+      "nameEn": "Nash",
+      "nameFr": "Nash",
+      "listIndex": 20,
+      "driver": "DriverNash",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_Nash_Default",
+          "nameEn": "Nash",
+          "nameFr": "Nash"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Nash_Orca",
+          "nameEn": "Orca Nash",
+          "nameFr": "Nash orque"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_Nash_MahiMahi",
+          "nameEn": "Mahi-Mahi Nash",
+          "nameFr": "Nash Mahi-Mahi"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_Nash_ClownFish",
+          "nameEn": "Clownfish Nash",
+          "nameFr": "Nash poisson clown"
+        },
+        {
+          "index": 4,
+          "handle": "GP5_Skin_NSH_P1",
+          "nameEn": "Cannonball Nash",
+          "nameFr": "Nash boulet de canon"
+        },
+        {
+          "index": 5,
+          "handle": "GP6_Skin_NSH_P1",
+          "nameEn": "Arctic Nash",
+          "nameFr": "Nash arctique"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "handle": "SystemData_availableDrivers_29",
+      "nameEn": "Dr. Nitrus Brio",
+      "nameFr": "Dr. Nitrus Brio",
+      "listIndex": null,
+      "driver": "DriverNBrio",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_29_skins_0",
+          "nameEn": "Dr. Nitrus Brio",
+          "nameFr": "Dr Nitrus Brio"
+        },
+        {
+          "index": 1,
+          "handle": "SystemData_availableDrivers_29_skins_1",
+          "nameEn": "Ballet Dancer N. Brio",
+          "nameFr": "N. Brio ballerine"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "handle": "SystemData_availableDrivers_30",
+      "nameEn": "Nitros Oxide",
+      "nameFr": "Nitros Oxide",
+      "listIndex": 14,
+      "driver": "DriverNitrosOxide",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_NitrosOxide_Default",
+          "nameEn": "Nitros Oxide",
+          "nameFr": "Nitros Oxide"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_NitrosOxide_HotRod",
+          "nameEn": "Hot Rod Nitros Oxide",
+          "nameFr": "Nitros Oxide Hot Rod"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_NitrosOxide_ShowerCap",
+          "nameEn": "Shower Cap Nitros Oxide",
+          "nameFr": "Nitros Oxide Bonnet de douche"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_NitrosOxide_Blue",
+          "nameEn": "Star Nitros Oxide",
+          "nameFr": "Nitros Oxide des étoiles"
+        },
+        {
+          "index": 4,
+          "handle": "Skin_NitrosOxide_Yellow",
+          "nameEn": "Beetle Nitros Oxide",
+          "nameFr": "Nitros Oxide Scarabée"
+        },
+        {
+          "index": 5,
+          "handle": "Skin_NitrosOxide_Watermelon",
+          "nameEn": "Watermelon Nitros Oxide",
+          "nameFr": "Nitros Oxide Pastèque"
+        },
+        {
+          "index": 6,
+          "handle": "Skin_NitrosOxide_LadyBug",
+          "nameEn": "Lady Bug Nitros Oxide",
+          "nameFr": "Nitros Oxide Coccinelle"
+        },
+        {
+          "index": 7,
+          "handle": "GP4_Skin_NOE_P1",
+          "nameEn": "Metal Head Oxide",
+          "nameFr": "Oxide tête de métal"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "handle": "SystemData_availableDrivers_31",
+      "nameEn": "N. Trance",
+      "nameFr": "N. Trance",
+      "listIndex": 21,
+      "driver": "DriverNTrance",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_NTrance_Default",
+          "nameEn": "N.Trance",
+          "nameFr": "N.Trance"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_NTrance_LifeSaver",
+          "nameEn": "Life Saver N.Trance",
+          "nameFr": "N.Trance Sauveteur"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_NTrance_Wood",
+          "nameEn": "Wooden Doll N.Trance",
+          "nameFr": "N.Trance Poupée de bois"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_NTrance_Martian",
+          "nameEn": "Green N.Trance",
+          "nameFr": "N.Trance vert"
+        },
+        {
+          "index": 4,
+          "handle": "Skin_NTRance_Warlock",
+          "nameEn": "Yellow N.Trance",
+          "nameFr": "N.Trance jaune"
+        },
+        {
+          "index": 5,
+          "handle": "Skin_NTrance_Evil",
+          "nameEn": "White N.Trance",
+          "nameFr": "N.Trance blanc"
+        },
+        {
+          "index": 6,
+          "handle": "GP4_Skin_NTE_P1",
+          "nameEn": "Humpty N. Trance",
+          "nameFr": "N. Trance neuneuf"
+        },
+        {
+          "index": 7,
+          "handle": "GP9_Skin_NTE_P1",
+          "nameEn": "Chocolate Humpty N. Trance",
+          "nameFr": "N. Trance en chocolat"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "handle": "SystemData_availableDrivers_32",
+      "nameEn": "Velo",
+      "nameFr": "Velo",
+      "listIndex": 22,
+      "driver": "DriverRealVelo",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "Skin_RealVelo_Default",
+          "nameEn": "Real Velo",
+          "nameFr": "Vrai Velo"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_RealVelo_Aqua",
+          "nameEn": "Aqua Real Velo",
+          "nameFr": "Vrai Velo turquoise"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_RealVelo_Yellow",
+          "nameEn": " Yellow Real Velo",
+          "nameFr": "Vrai Velo jaune"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_RealVelo_Red",
+          "nameEn": "Red Real Velo",
+          "nameFr": "Vrai Velo rouge"
+        },
+        {
+          "index": 4,
+          "handle": "GP3_Skin_RVO_P1",
+          "nameEn": "Gnome Real Velo",
+          "nameFr": "Vrai Velo Gnome"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "handle": "SystemData_availableDrivers_33",
+      "nameEn": "Small Norm",
+      "nameFr": "Petit Norm",
+      "listIndex": 18,
+      "driver": "DriverSmallNorm",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_33_skins_0",
+          "nameEn": "Small Norm",
+          "nameFr": "Petit Norm"
+        },
+        {
+          "index": 1,
+          "handle": "SystemData_availableDrivers_33_skins_2",
+          "nameEn": "Golfer Small Norm",
+          "nameFr": "Petit Norm Golfeur"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_33_skins_1",
+          "nameEn": "Kabuki Small Norm",
+          "nameFr": "Petit Norm Kabuki"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_33_skins_3",
+          "nameEn": "Bandit Small Norm",
+          "nameFr": "Petit Norm Bandit"
+        },
+        {
+          "index": 4,
+          "handle": "GP3_Skin_SNM_P1",
+          "nameEn": "Goblin Small Norm",
+          "nameFr": "Petit Norm Gobelin"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "handle": "SystemData_availableDrivers_34",
+      "nameEn": "Tawna",
+      "nameFr": "Tawna",
+      "listIndex": 26,
+      "driver": "DriverTawna",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_34_skins_0",
+          "nameEn": "Tawna Bandicoot",
+          "nameFr": "Tawna Bandicoot"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_Tawna_Motorsport",
+          "nameEn": "Motorsport Tawna",
+          "nameFr": "Tawna Compétition"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_34_skins_4",
+          "nameEn": "Summertime Tawna",
+          "nameFr": "Tawna Estivale"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_34_skins_3",
+          "nameEn": "White Tiger Tawna",
+          "nameFr": "Tawna Tigresse blanche"
+        },
+        {
+          "index": 4,
+          "handle": "SystemData_availableDrivers_34_skins_2",
+          "nameEn": "Safari Tawna",
+          "nameFr": "Tawna Safari"
+        },
+        {
+          "index": 5,
+          "handle": "GP4_Skin_TNA_P1",
+          "nameEn": "Witch Tawna",
+          "nameFr": "Tawna sorcière"
+        },
+        {
+          "index": 6,
+          "handle": "GP9_Skin_TNA_P1",
+          "nameEn": "Black Velvet Witch Tawna",
+          "nameFr": "Tawna Sorcière velours"
+        },
+        {
+          "index": 7,
+          "handle": "GP9_Skin_TNA_P2",
+          "nameEn": "Pastel Witch Tawna",
+          "nameFr": "Tawna Sorcière pastel"
+        },
+        {
+          "index": 8,
+          "handle": "GP9_Skin_TNA_P3",
+          "nameEn": "Green Witch Tawna",
+          "nameFr": "Tawna Sorcière verte"
+        },
+        {
+          "index": 9,
+          "handle": "GP6_Skin_TNA_P1",
+          "nameEn": "Winter Tawna",
+          "nameFr": "Tawna de l'hiver"
+        },
+        {
+          "index": 10,
+          "handle": "GP8_Skin_TNA_P1",
+          "nameEn": "Privateer Tawna",
+          "nameFr": "Tawna Flibustière"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "handle": "SystemData_availableDrivers_35",
+      "nameEn": "Zam",
+      "nameFr": "Zam",
+      "listIndex": 24,
+      "driver": "DriverZam",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_35_skins_0",
+          "nameEn": "Zam",
+          "nameFr": "Zam"
+        },
+        {
+          "index": 1,
+          "handle": "SystemData_availableDrivers_35_skins_2",
+          "nameEn": "Red Zam",
+          "nameFr": "Zam rouge"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_35_skins_1",
+          "nameEn": "Purple Zam",
+          "nameFr": "Zam violet"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_35_skins_3",
+          "nameEn": "Yellow Zam",
+          "nameFr": "Zam jaune"
+        },
+        {
+          "index": 4,
+          "handle": "SystemData_availableDrivers_35_skins_4",
+          "nameEn": "Bulldog Zam",
+          "nameFr": "Zam Bulldog"
+        },
+        {
+          "index": 5,
+          "handle": "GP3_Skin_ZMA_P1",
+          "nameEn": "Devil Dog Zam",
+          "nameFr": "Zam Cerbère"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "handle": "SystemData_availableDrivers_36",
+      "nameEn": "Geary",
+      "nameFr": "Geary",
+      "listIndex": 23,
+      "driver": "DriverGeary",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_36_skins_0",
+          "nameEn": "Geary",
+          "nameFr": "Geary"
+        },
+        {
+          "index": 1,
+          "handle": "SystemData_availableDrivers_36_skins_3",
+          "nameEn": "Blue Geary",
+          "nameFr": "Geary bleu"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_36_skins_2",
+          "nameEn": "Green Geary",
+          "nameFr": "Geary vert"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_36_skins_1",
+          "nameEn": "White Geary",
+          "nameFr": "Geary blanc"
+        },
+        {
+          "index": 4,
+          "handle": "GP9_Skin_GRY_P1",
+          "nameEn": "Beenox Robot Geary",
+          "nameFr": "Geary Beenox"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "handle": "SystemData_availableDrivers_37",
+      "nameEn": "King Chicken",
+      "nameFr": "Roi poulet",
+      "listIndex": null,
+      "driver": "DriverKingChicken",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_37_skins_0",
+          "nameEn": null,
+          "nameFr": null
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "handle": "SystemData_availableDrivers_38",
+      "nameEn": "Baby Crash",
+      "nameFr": "Bébé Crash",
+      "listIndex": 31,
+      "driver": "DriverBabyCrash",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_38_skins_0",
+          "nameEn": "Baby Crash",
+          "nameFr": "Bébé Crash"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_BabyCrash_Alt1",
+          "nameEn": "Cheetah Baby Crash",
+          "nameFr": "Bébé Crash Guépard"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_BabyCrash_Alt2",
+          "nameEn": "Panda Baby Crash",
+          "nameFr": "Bébé Crash Panda"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_BabyCrash_Alt3",
+          "nameEn": "Plush Baby Crash ",
+          "nameFr": "Bébé Crash Peluche"
+        },
+        {
+          "index": 4,
+          "handle": "GP6_Skin_BCH_P1",
+          "nameEn": "Monster PJ Baby Crash",
+          "nameFr": "Bébé Crash PJ monstre"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "handle": "SystemData_availableDrivers_39",
+      "nameEn": "Baby Coco",
+      "nameFr": "Bébé Coco",
+      "listIndex": 32,
+      "driver": "DriverBabyCoco",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_39_skins_0",
+          "nameEn": "Baby Coco",
+          "nameFr": "Bébé Coco"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_BabyCoco_Alt1",
+          "nameEn": "Kitty Baby Coco",
+          "nameFr": "Bébé Coco Chat"
+        },
+        {
+          "index": 2,
+          "handle": "Skin_BabyCoco_Alt2",
+          "nameEn": "Plush Baby Coco",
+          "nameFr": "Bébé Coco Peluche"
+        },
+        {
+          "index": 3,
+          "handle": "Skin_BabyCoco_Alt3",
+          "nameEn": "Candy Baby Coco",
+          "nameFr": "Bébé Coco Bonbon"
+        },
+        {
+          "index": 4,
+          "handle": "GP6_Skin_BCO_P1",
+          "nameEn": "Rabbit PJ Baby Coco",
+          "nameFr": "Bébé Coco PJ lapin"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "handle": "SystemData_availableDrivers_40",
+      "nameEn": "Baby T",
+      "nameFr": "Bébé T",
+      "listIndex": 33,
+      "driver": "DriverBabyT",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_40_skins_0",
+          "nameEn": "Baby T",
+          "nameFr": "Bébé T"
+        },
+        {
+          "index": 1,
+          "handle": "Skin_BabyT_Fake",
+          "nameEn": "Fake Baby T",
+          "nameFr": "Faux Bébé T"
+        },
+        {
+          "index": 2,
+          "handle": "SystemData_availableDrivers_40_skins_3",
+          "nameEn": "Blue Baby T",
+          "nameFr": "Bébé T bleu"
+        },
+        {
+          "index": 3,
+          "handle": "SystemData_availableDrivers_40_skins_5",
+          "nameEn": "Purple Baby T",
+          "nameFr": "Bébé T violet"
+        },
+        {
+          "index": 4,
+          "handle": "SystemData_availableDrivers_40_skins_4",
+          "nameEn": "Orange Baby T",
+          "nameFr": "Bébé T orange"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "handle": "SystemData_availableDrivers_41",
+      "nameEn": null,
+      "nameFr": null,
+      "listIndex": null,
+      "driver": "Aspen_B_effect_Virtual",
+      "skins": []
+    },
+    {
+      "index": 42,
+      "handle": "SystemData_availableDrivers_42",
+      "nameEn": "Komodo Moe",
+      "nameFr": "Komodo Moe",
+      "listIndex": 37,
+      "driver": "DriverKME",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_42_skins_0",
+          "nameEn": "Komodo Moe",
+          "nameFr": "Komodo Moe"
+        },
+        {
+          "index": 1,
+          "handle": "GP4_Skin_KME_Alt1",
+          "nameEn": "Lullaby Komodo Moe",
+          "nameFr": "Komodo Moe berceuse"
+        },
+        {
+          "index": 2,
+          "handle": "GP4_Skin_KME_Alt3",
+          "nameEn": "Sultan Komodo Moe",
+          "nameFr": "Komodo Moe sultan"
+        },
+        {
+          "index": 3,
+          "handle": "GP4_Skin_KME_Alt2",
+          "nameEn": "Master Moe",
+          "nameFr": "Maître Moe"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "handle": "SystemData_availableDrivers_43",
+      "nameEn": "Dr. N. Brio",
+      "nameFr": "Dr N. Brio",
+      "listIndex": 38,
+      "driver": "DriverNBO",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_43_skins_0",
+          "nameEn": "Dr. N. Brio",
+          "nameFr": "Dr N. Brio"
+        },
+        {
+          "index": 1,
+          "handle": "GP4_Skin_NBO_Alt2",
+          "nameEn": "Frank N. Brio",
+          "nameFr": "Frank N. Brio"
+        },
+        {
+          "index": 2,
+          "handle": "GP4_Skin_NBO_Alt1",
+          "nameEn": "Fire Wizard N. Brio",
+          "nameFr": "Sorcier de feu N. Brio"
+        },
+        {
+          "index": 3,
+          "handle": "GP4_Skin_NBO_Alt3",
+          "nameEn": "N. Vader Brio",
+          "nameFr": "N. Vador Brio"
+        },
+        {
+          "index": 4,
+          "handle": "GP8_Skin_NBO_P1",
+          "nameEn": "N. Brioctopus",
+          "nameFr": "N. Brioctopus"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "handle": "SystemData_availableDrivers_44",
+      "nameEn": "Nina Cortex",
+      "nameFr": "Nina Cortex",
+      "listIndex": 39,
+      "driver": "DriverNCX",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_44_skins_0",
+          "nameEn": "Nina Cortex",
+          "nameFr": "Nina Cortex"
+        },
+        {
+          "index": 1,
+          "handle": "GP4_Skin_NCX_Alt1",
+          "nameEn": "Pink Nina",
+          "nameFr": "Nina rose"
+        },
+        {
+          "index": 2,
+          "handle": "GP4_Skin_NCX_Alt2",
+          "nameEn": "Zombie Nina",
+          "nameFr": "Nina zombie"
+        },
+        {
+          "index": 3,
+          "handle": "GP4_Skin_NCX_Alt3",
+          "nameEn": "Neon Nina",
+          "nameFr": "Nina néon"
+        },
+        {
+          "index": 4,
+          "handle": "GP4_Skin_NCX_P1",
+          "nameEn": "Ragdoll Nina",
+          "nameFr": "Nina Poupée"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_NCX_P1",
+          "nameEn": "Pink Ragdoll Nina",
+          "nameFr": "Nina Poupée rose"
+        },
+        {
+          "index": 6,
+          "handle": "GP9_Skin_NCX_P2",
+          "nameEn": "Blue Ragdoll Nina",
+          "nameFr": "Nina Poupée bleue"
+        },
+        {
+          "index": 7,
+          "handle": "GP9_Skin_NCX_P3",
+          "nameEn": "Purple Ragdoll Nina",
+          "nameFr": "Nina Poupée violette"
+        },
+        {
+          "index": 8,
+          "handle": "GP7_Skin_NCX_P1",
+          "nameEn": "Rustland Nina",
+          "nameFr": "Nina de la rouille"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "handle": "SystemData_availableDrivers_45",
+      "nameEn": "Koala Kong",
+      "nameFr": "Koala Kong",
+      "listIndex": 40,
+      "driver": "DriverKKG",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_45_skins_0",
+          "nameEn": "Koala Kong",
+          "nameFr": "Koala Kong"
+        },
+        {
+          "index": 1,
+          "handle": "GP5_Skin_KKG_Alt2",
+          "nameEn": "Fierce Kong",
+          "nameFr": "Kong féroce"
+        },
+        {
+          "index": 2,
+          "handle": "GP5_Skin_KKG_Alt1",
+          "nameEn": "Grizzly Kong",
+          "nameFr": "Kong Sauvage"
+        },
+        {
+          "index": 3,
+          "handle": "GP5_Skin_KKG_Alt3",
+          "nameEn": "Mountain Kong",
+          "nameFr": "Kong des montagnes"
+        },
+        {
+          "index": 4,
+          "handle": "GP5_Skin_KKG_P1",
+          "nameEn": "Circus Kong",
+          "nameFr": "Kong du cirque"
+        },
+        {
+          "index": 5,
+          "handle": "GP8_Skin_KKG_P1",
+          "nameEn": "Astronaut Kong",
+          "nameFr": "Kong Astronaute"
+        },
+        {
+          "index": 6,
+          "handle": "GP9_Skin_KKG_P1",
+          "nameEn": "Space Marine Kong",
+          "nameFr": "Kong Astronaute marin"
+        },
+        {
+          "index": 7,
+          "handle": "GP9_Skin_KKG_P2",
+          "nameEn": "Beenox Astronaut Kong",
+          "nameFr": "Kong Astronaute Beenox"
+        },
+        {
+          "index": 8,
+          "handle": "GP9_Skin_KKG_P3",
+          "nameEn": "Love Astronaut Kong",
+          "nameFr": "Kong Astronaute de l'amour"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "handle": "SystemData_availableDrivers_46",
+      "nameEn": "Pasadena O'Possum",
+      "nameFr": "Pasadena O'Possum",
+      "listIndex": 41,
+      "driver": "DriverPOM",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_46_skins_0",
+          "nameEn": "Pasadena O'possum",
+          "nameFr": "Pasadena O'Possum"
+        },
+        {
+          "index": 1,
+          "handle": "GP5_Skin_POM_Alt1",
+          "nameEn": "Licorice Pasadena",
+          "nameFr": "Pasadena réglisse"
+        },
+        {
+          "index": 2,
+          "handle": "GP5_Skin_POM_Alt2",
+          "nameEn": "Glam Pasadena",
+          "nameFr": "Pasadena glamour"
+        },
+        {
+          "index": 3,
+          "handle": "GP5_Skin_POM_Alt3",
+          "nameEn": "Daredevil Pasadena",
+          "nameFr": "Pasadena casse-cou"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "handle": "SystemData_availableDrivers_47",
+      "nameEn": "Ebenezer Von Clutch",
+      "nameFr": "Ebenezer Von Clutch",
+      "listIndex": 42,
+      "driver": "DriverVCH",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_47_skins_0",
+          "nameEn": "Ebenezer Von Clutch",
+          "nameFr": "Ebenezer Von Clutch"
+        },
+        {
+          "index": 1,
+          "handle": "GP5_Skin_VCH_Alt1",
+          "nameEn": "Hot Head Von Clutch",
+          "nameFr": "Von Clutch le fou"
+        },
+        {
+          "index": 2,
+          "handle": "GP5_Skin_VCH_Alt2",
+          "nameEn": "Vintage Von Clutch",
+          "nameFr": "Von Clutch classique"
+        },
+        {
+          "index": 3,
+          "handle": "GP5_Skin_VCH_Alt3",
+          "nameEn": "Stuntman Von Clutch",
+          "nameFr": "Von Clutch cascadeur"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "handle": "SystemData_availableDrivers_48",
+      "nameEn": "King Chicken",
+      "nameFr": "Roi Poulet",
+      "listIndex": 43,
+      "driver": "DriverKCN",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_48_skins_0",
+          "nameEn": "King Chicken",
+          "nameFr": "Roi Poulet"
+        },
+        {
+          "index": 1,
+          "handle": "GP5_Skin_KCN_Alt2",
+          "nameEn": "King Turkey",
+          "nameFr": "Roi Dinde"
+        },
+        {
+          "index": 2,
+          "handle": "GP5_Skin_KCN_Alt3",
+          "nameEn": "King Phoenix",
+          "nameFr": "Roi Phénix"
+        },
+        {
+          "index": 3,
+          "handle": "GP5_Skin_KCN_Alt1",
+          "nameEn": "King Stunt Chicken",
+          "nameFr": "Roi Poulet Cascadeur"
+        },
+        {
+          "index": 4,
+          "handle": "GP8_Skin_KCN_P1",
+          "nameEn": "King Space Chicken",
+          "nameFr": "Roi poulet Astronaute"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "handle": "SystemData_availableDrivers_49",
+      "nameEn": "Rilla Roo",
+      "nameFr": "Rilla Roo",
+      "listIndex": 44,
+      "driver": "DriverRRA",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_49_skins_0",
+          "nameEn": "Rilla Roo",
+          "nameFr": "Rilla Roo"
+        },
+        {
+          "index": 1,
+          "handle": "GP6_Skin_RRA_Alt1",
+          "nameEn": "Gift-Wrapped Rilla Roo",
+          "nameFr": "Rilla Roo emballé"
+        },
+        {
+          "index": 2,
+          "handle": "GP6_Skin_RRA_Alt2",
+          "nameEn": "Funky Rilla Roo",
+          "nameFr": "Rilla Roo disco"
+        },
+        {
+          "index": 3,
+          "handle": "GP6_Skin_RRA_Alt3",
+          "nameEn": "Yeti Rilla Roo",
+          "nameFr": "Rilla Roo Yéti"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "handle": "SystemData_availableDrivers_50",
+      "nameEn": "Yaya Panda",
+      "nameFr": "Yaya Panda",
+      "listIndex": 45,
+      "driver": "DriverYYA",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_50_skins_0",
+          "nameEn": "Yaya Panda",
+          "nameFr": "Yaya Panda"
+        },
+        {
+          "index": 1,
+          "handle": "GP6_Skin_YYA_Alt1",
+          "nameEn": "Cupcake Yaya",
+          "nameFr": "Yaya Cupcake"
+        },
+        {
+          "index": 2,
+          "handle": "GP6_Skin_YYA_Alt2",
+          "nameEn": "Honey Badger Yaya",
+          "nameFr": "Yaya Blaireau"
+        },
+        {
+          "index": 3,
+          "handle": "GP6_Skin_YYA_Alt3",
+          "nameEn": "Rainbow Yaya",
+          "nameFr": "Yaya arc-en-ciel"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "handle": "SystemData_availableDrivers_51",
+      "nameEn": "Hasty",
+      "nameFr": "Hasty",
+      "listIndex": 46,
+      "driver": "DriverFAY",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_51_skins_0",
+          "nameEn": "Hasty",
+          "nameFr": "Hasty"
+        },
+        {
+          "index": 1,
+          "handle": "GP6_Skin_FAY_Alt1",
+          "nameEn": "Stag Hasty",
+          "nameFr": "Hasty Cerf"
+        },
+        {
+          "index": 2,
+          "handle": "GP6_Skin_FAY_Alt3",
+          "nameEn": "Sweet Tooth Hasty",
+          "nameFr": "Hasty gourmand"
+        },
+        {
+          "index": 3,
+          "handle": "GP6_Skin_FAY_Alt2",
+          "nameEn": "Albino Hasty",
+          "nameFr": "Hasty albinos"
+        },
+        {
+          "index": 4,
+          "handle": "GP6_Skin_FAY_P1",
+          "nameEn": "Blizzard Rider Hasty",
+          "nameFr": "Hasty du blizzard"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "handle": "SystemData_availableDrivers_52",
+      "nameEn": "Chick",
+      "nameFr": "Chick",
+      "listIndex": 47,
+      "driver": "DriverCCK",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_52_skins_0",
+          "nameEn": "Chick",
+          "nameFr": "Chick"
+        },
+        {
+          "index": 1,
+          "handle": "GP6_Skin_CCK_Alt2",
+          "nameEn": "Seagull Chick",
+          "nameFr": "Chick Mouette"
+        },
+        {
+          "index": 2,
+          "handle": "GP6_Skin_CCK_Alt1",
+          "nameEn": "Pigeon Chick",
+          "nameFr": "Chick Pigeon"
+        },
+        {
+          "index": 3,
+          "handle": "GP6_Skin_CCK_Alt3",
+          "nameEn": "Toucan Chick",
+          "nameFr": "Chick Toucan"
+        },
+        {
+          "index": 4,
+          "handle": "GP7_Skin_CCK_Alt4",
+          "nameEn": "Rustland Chick",
+          "nameFr": "Chick de la rouille"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "handle": "SystemData_availableDrivers_53",
+      "nameEn": "Stew",
+      "nameFr": "Stew",
+      "listIndex": 48,
+      "driver": "DriverSTW",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_53_skins_0",
+          "nameEn": "Stew",
+          "nameFr": "Stew"
+        },
+        {
+          "index": 1,
+          "handle": "GP6_Skin_STW_Alt2",
+          "nameEn": "Cockatoo Stew",
+          "nameFr": "Stew Cacatoès"
+        },
+        {
+          "index": 2,
+          "handle": "GP6_Skin_STW_Alt3",
+          "nameEn": "Green Duck Stew",
+          "nameFr": "Stew Col-vert"
+        },
+        {
+          "index": 3,
+          "handle": "GP6_Skin_STW_Alt1",
+          "nameEn": "Rooster Stew",
+          "nameFr": "Stew Rooster"
+        },
+        {
+          "index": 4,
+          "handle": "GP7_Skin_STW_Alt4",
+          "nameEn": "Rustland Stew",
+          "nameFr": "Stew de la rouille"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "handle": "SystemData_availableDrivers_54",
+      "nameEn": "Megamix",
+      "nameFr": "Megamix",
+      "listIndex": 49,
+      "driver": "DriverMMX",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_54_skins_0",
+          "nameEn": "Megamix",
+          "nameFr": "Megamix"
+        },
+        {
+          "index": 1,
+          "handle": "GP7_Skin_MMX_Alt1",
+          "nameEn": "Toxic Megamix",
+          "nameFr": "Megamix toxique"
+        },
+        {
+          "index": 2,
+          "handle": "GP7_Skin_MMX_Alt2",
+          "nameEn": "Red Templar Megamix",
+          "nameFr": "Megamix templier rouge"
+        },
+        {
+          "index": 3,
+          "handle": "GP7_Skin_MMX_Alt3",
+          "nameEn": "Nightmare Megamix",
+          "nameFr": "Megamix du cauchemar"
+        },
+        {
+          "index": 4,
+          "handle": "GP7_Skin_MMX_P1",
+          "nameEn": "Rustland Megamix",
+          "nameFr": "Megamix de la rouille"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_MMX_P1",
+          "nameEn": "Beenox Rustland Megamix",
+          "nameFr": "Megamix du désert Beenox"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "handle": "SystemData_availableDrivers_55",
+      "nameEn": "Emperor Velo XXVII",
+      "nameFr": "Empereur Velo XXVII",
+      "listIndex": 50,
+      "driver": "DriverJOE",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_55_skins_0",
+          "nameEn": "Emperor Velo XXVII",
+          "nameFr": "Empereur Velo XXVII"
+        },
+        {
+          "index": 1,
+          "handle": "GP8_Skin_JOE_Alt1",
+          "nameEn": "Orange OverLord Velo",
+          "nameFr": "Seigneur Velo orange"
+        },
+        {
+          "index": 2,
+          "handle": "GP8_Skin_JOE_Alt2",
+          "nameEn": "Blue Baron Velo",
+          "nameFr": "Baron Velo bleu"
+        },
+        {
+          "index": 3,
+          "handle": "GP8_Skin_JOE_Alt3",
+          "nameEn": "Pale Monarch Velo",
+          "nameFr": "Monarque Velo pâle"
+        },
+        {
+          "index": 4,
+          "handle": "GP8_Skin_JOE_P1",
+          "nameEn": "Captain Velo XXVII",
+          "nameFr": "Capitaine Velo XXVII"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "handle": "SystemData_availableDrivers_56",
+      "nameEn": "Baby Cortex",
+      "nameFr": "Bébé Cortex",
+      "listIndex": 52,
+      "driver": "DriverBCX",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_56_skins_0",
+          "nameEn": "Baby Cortex",
+          "nameFr": "Bébé Cortex"
+        },
+        {
+          "index": 1,
+          "handle": "GP9_Skin_BCX_Alt1",
+          "nameEn": "Purple Baby Cortex",
+          "nameFr": "Bébé Cortex violet"
+        },
+        {
+          "index": 2,
+          "handle": "GP9_Skin_BCX_Alt2",
+          "nameEn": "Blue Baby Cortex",
+          "nameFr": "Bébé Cortex bleu"
+        },
+        {
+          "index": 3,
+          "handle": "GP9_Skin_BCX_Alt3",
+          "nameEn": "Red Baby Cortex",
+          "nameFr": "Bébé Cortex rouge"
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "handle": "SystemData_availableDrivers_57",
+      "nameEn": "Baby N. Tropy",
+      "nameFr": "Bébé N. Tropy",
+      "listIndex": 53,
+      "driver": "DriverBTY",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_57_skins_0",
+          "nameEn": "Baby N. Tropy",
+          "nameFr": "Bébé N. Tropy"
+        },
+        {
+          "index": 1,
+          "handle": "GP9_Skin_BTY_Alt1",
+          "nameEn": "Yellow Baby N. Tropy",
+          "nameFr": "Bébé N. Tropy jaune"
+        },
+        {
+          "index": 2,
+          "handle": "GP9_Skin_BTY_Alt2",
+          "nameEn": "Purple Baby N. Tropy",
+          "nameFr": "Bébé N. Tropy violet"
+        },
+        {
+          "index": 3,
+          "handle": "GP9_Skin_BTY_Alt3",
+          "nameEn": "Red Baby N. Tropy",
+          "nameFr": "Bébé N. Tropy rouge"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "handle": "SystemData_availableDrivers_58",
+      "nameEn": "Iron Checkpoint Crate",
+      "nameFr": "Caisse Point de contrôle",
+      "listIndex": 55,
+      "driver": "DriverHereIAm",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_58_skins_0",
+          "nameEn": "Iron Checkpoint Crate",
+          "nameFr": "Caisse Point de contrôle"
+        },
+        {
+          "index": 1,
+          "handle": "GP9_Skin_HereIAm_Alt1",
+          "nameEn": "? Crate",
+          "nameFr": "Caisse ?"
+        },
+        {
+          "index": 2,
+          "handle": "GP9_Skin_HereIAm_Alt2",
+          "nameEn": "TNT Crate",
+          "nameFr": "Caisse TNT"
+        },
+        {
+          "index": 3,
+          "handle": "GP9_Skin_HereIAm_Alt3",
+          "nameEn": "Nitro Crate",
+          "nameFr": "Caisse Nitro"
+        },
+        {
+          "index": 4,
+          "handle": "GP9_Skin_HereIAm_Alt4",
+          "nameEn": "Purple ! Crate",
+          "nameFr": "Caisse !"
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "handle": "SystemData_availableDrivers_59",
+      "nameEn": "Fixed Rilla Roo",
+      "nameFr": "Rilla Roo original",
+      "listIndex": 54,
+      "driver": "DriverRRR",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_59_skins_0",
+          "nameEn": "Fixed Rilla Roo",
+          "nameFr": "Rilla Roo original"
+        },
+        {
+          "index": 1,
+          "handle": "GP9_Skin_RRR_Alt1",
+          "nameEn": "Green Fixed Rilla Roo",
+          "nameFr": "Rilla Roo original vert"
+        },
+        {
+          "index": 2,
+          "handle": "GP9_Skin_RRR_Alt2",
+          "nameEn": "Pink Fixed Rilla Roo",
+          "nameFr": "Rilla Roo original rose"
+        },
+        {
+          "index": 3,
+          "handle": "GP9_Skin_RRR_Alt3",
+          "nameEn": "Blue Fixed Rilla Roo",
+          "nameFr": "Rilla Roo original bleu"
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "handle": "SystemData_availableDrivers_60",
+      "nameEn": "William P.",
+      "nameFr": "William P.",
+      "listIndex": 56,
+      "driver": "DriverWP",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_60_skins_0",
+          "nameEn": null,
+          "nameFr": null
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "handle": "SystemData_availableDrivers_61",
+      "nameEn": "Vincent A.",
+      "nameFr": "Vincent A.",
+      "listIndex": 57,
+      "driver": "DriverVA",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_61_skins_0",
+          "nameEn": null,
+          "nameFr": null
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "handle": "SystemData_availableDrivers_62",
+      "nameEn": "Alex B.",
+      "nameFr": "Alex B.",
+      "listIndex": 58,
+      "driver": "DriverAB",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_62_skins_0",
+          "nameEn": null,
+          "nameFr": null
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "handle": "SystemData_availableDrivers_63",
+      "nameEn": "Sébastien M.",
+      "nameFr": "Sébastien M.",
+      "listIndex": 59,
+      "driver": "DriverSM",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_63_skins_0",
+          "nameEn": null,
+          "nameFr": null
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "handle": "SystemData_availableDrivers_64",
+      "nameEn": "Mathieu R.",
+      "nameFr": "Mathieu R.",
+      "listIndex": 60,
+      "driver": "DriverMR",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_64_skins_0",
+          "nameEn": null,
+          "nameFr": null
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "handle": "SystemData_availableDrivers_65",
+      "nameEn": "Raphaël C.",
+      "nameFr": "Raphaël C.",
+      "listIndex": 61,
+      "driver": "DriverRC",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_65_skins_0",
+          "nameEn": null,
+          "nameFr": null
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "handle": "SystemData_availableDrivers_66",
+      "nameEn": "Jean-François M.",
+      "nameFr": "Jean-François M.",
+      "listIndex": 62,
+      "driver": "DriverJM",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_66_skins_0",
+          "nameEn": null,
+          "nameFr": null
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "handle": "SystemData_availableDrivers_67",
+      "nameEn": "Francis C.",
+      "nameFr": "Francis C.",
+      "listIndex": 63,
+      "driver": "DriverFC",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_67_skins_0",
+          "nameEn": null,
+          "nameFr": null
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "handle": "SystemData_availableDrivers_68",
+      "nameEn": "Frédéric M.",
+      "nameFr": "Frédéric M.",
+      "listIndex": 64,
+      "driver": "DriverFM",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_68_skins_0",
+          "nameEn": null,
+          "nameFr": null
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "handle": "SystemData_availableDrivers_69",
+      "nameEn": "François B.",
+      "nameFr": "François B.",
+      "listIndex": 65,
+      "driver": "DriverFB",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "SystemData_availableDrivers_69_skins_0",
+          "nameEn": null,
+          "nameFr": null
+        }
+      ]
+    },
+    {
+      "index": null,
+      "handle": "DriverBAL",
+      "nameEn": "Lab Assistant",
+      "nameFr": "Assistant de laboratoire",
+      "listIndex": 51,
+      "driver": "DriverBAL",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "DriverBAL_skins_0",
+          "nameEn": "Lab Assistant",
+          "nameFr": "Assistant de laboratoire"
+        },
+        {
+          "index": 1,
+          "handle": "GP9_Skin_BAL_P1",
+          "nameEn": "Deleted",
+          "nameFr": "Supprimé"
+        },
+        {
+          "index": 2,
+          "handle": "GP9_Skin_BAL_P2",
+          "nameEn": "Knight Lab Assistant",
+          "nameFr": "Assistant de laboratoire Chevalier"
+        },
+        {
+          "index": 3,
+          "handle": "GP9_Skin_BAL_P3",
+          "nameEn": "Lumberjack Lab Assistant",
+          "nameFr": "Assistant de laboratoire Bûcheron"
+        },
+        {
+          "index": 4,
+          "handle": "GP9_Skin_BAL_P4",
+          "nameEn": "Prince Lab Assistant",
+          "nameFr": "Assistant de laboratoire Prince"
+        },
+        {
+          "index": 5,
+          "handle": "GP9_Skin_BAL_Alt1",
+          "nameEn": "Hacker Lab Assistant",
+          "nameFr": "Assistant de laboratoire Hacker"
+        },
+        {
+          "index": 6,
+          "handle": "GP9_Skin_BAL_Alt2",
+          "nameEn": "Nice Lab Assistant",
+          "nameFr": "Assistant de laboratoire Sympa"
+        },
+        {
+          "index": 7,
+          "handle": "GP9_Skin_BAL_Alt3",
+          "nameEn": "Traveler Lab Assistant",
+          "nameFr": "Assistant de laboratoire Voyageur"
+        }
+      ]
+    },
+    {
+      "index": null,
+      "handle": "DriverGGC",
+      "nameEn": "Gnasty Gnorc",
+      "nameFr": "Gnasty Gnorc",
+      "listIndex": 36,
+      "driver": "DriverGGC",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "DriverGGC_skins_0",
+          "nameEn": "Gnasty Gnorc",
+          "nameFr": "Gnasty Gnorc"
+        },
+        {
+          "index": 1,
+          "handle": "GP3_Skin_GGC_Alt1",
+          "nameEn": "Spyro Purple Gnasty Gnorc",
+          "nameFr": "Spyro Violet Gnasty Gnorc"
+        },
+        {
+          "index": 2,
+          "handle": "GP3_Skin_GGC_Alt2",
+          "nameEn": "Stone Gnasty Gnorc",
+          "nameFr": "Gnasty Gnorc de pierre"
+        },
+        {
+          "index": 3,
+          "handle": "GP3_Skin_GGC_Alt3",
+          "nameEn": "Magma Gnasty Gnorc",
+          "nameFr": "Gnasty Gnorc de magma"
+        }
+      ]
+    },
+    {
+      "index": null,
+      "handle": "DriverHunter",
+      "nameEn": "Hunter",
+      "nameFr": "Chasseur",
+      "listIndex": 35,
+      "driver": "DriverHunter",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "DriverHunter_skins_0",
+          "nameEn": "Hunter",
+          "nameFr": "Chasseur"
+        },
+        {
+          "index": 1,
+          "handle": "GP3_Skin_Hunter_Alt1",
+          "nameEn": "Blue Panther Hunter",
+          "nameFr": "Chasseur Panthère bleue"
+        },
+        {
+          "index": 2,
+          "handle": "GP3_Skin_Hunter_Alt2",
+          "nameEn": "Cotton Candy Hunter",
+          "nameFr": "Chasseur Barbapapa"
+        },
+        {
+          "index": 3,
+          "handle": "GP3_Skin_Hunter_Alt3",
+          "nameEn": "Green Tiger Hunter",
+          "nameFr": "Chasseur Tigre vert"
+        }
+      ]
+    },
+    {
+      "index": null,
+      "handle": "DriverSpyro",
+      "nameEn": "Spyro",
+      "nameFr": "Spyro",
+      "listIndex": 34,
+      "driver": "DriverSpyro",
+      "skins": [
+        {
+          "index": 0,
+          "handle": "DriverSpyro_skins_0",
+          "nameEn": "Spyro",
+          "nameFr": "Spyro"
+        },
+        {
+          "index": 1,
+          "handle": "GP3_Skin_Spyro_Alt1",
+          "nameEn": "Superflame Spyro",
+          "nameFr": "Spyro superflammes"
+        },
+        {
+          "index": 2,
+          "handle": "GP3_Skin_Spyro_Alt2",
+          "nameEn": "Ice Breath Spyro",
+          "nameFr": "Spyro Souffle de glace"
+        },
+        {
+          "index": 3,
+          "handle": "GP3_Skin_Spyro_Alt3",
+          "nameEn": "Dark Spyro",
+          "nameFr": "Spyro noir"
+        },
+        {
+          "index": 4,
+          "handle": "GP6_Skin_SRO_P1",
+          "nameEn": "Winter Guardian Spyro",
+          "nameFr": "Spyro Gardien de l'hiver"
+        },
+        {
+          "index": 5,
+          "handle": "GP8_Skin_SRO_P1",
+          "nameEn": "Space Spyro",
+          "nameFr": "Spyro Astronaute"
+        }
+      ]
+    }
+  ],
+  "karts": [
+    {
+      "index": 0,
+      "handle": "SystemData_availableKarts_0",
+      "nameEn": "Classic",
+      "nameFr": "Classique",
+      "listIndex": 0
+    },
+    {
+      "index": 1,
+      "handle": "SystemData_availableKarts_1",
+      "nameEn": "Crikey",
+      "nameFr": "Crikey",
+      "listIndex": 7
+    },
+    {
+      "index": 2,
+      "handle": "SystemData_availableKarts_2",
+      "nameEn": "Hovercraft",
+      "nameFr": "Aéroglisseur",
+      "listIndex": 5
+    },
+    {
+      "index": 3,
+      "handle": "SystemData_availableKarts_3",
+      "nameEn": "Roadster",
+      "nameFr": "Roadster",
+      "listIndex": 11
+    },
+    {
+      "index": 4,
+      "handle": "SystemData_availableKarts_4",
+      "nameEn": "Team Cortex",
+      "nameFr": "Team Cortex",
+      "listIndex": 3
+    },
+    {
+      "index": 5,
+      "handle": "SystemData_availableKarts_5",
+      "nameEn": "Team Trance",
+      "nameFr": "Team Trance",
+      "listIndex": 2
+    },
+    {
+      "index": 7,
+      "handle": "SystemData_availableKarts_7",
+      "nameEn": "Team Bandicoot",
+      "nameFr": "Team Bandicoot",
+      "listIndex": 1
+    },
+    {
+      "index": 8,
+      "handle": "SystemData_availableKarts_8",
+      "nameEn": "Cabrio",
+      "nameFr": "Cabrio",
+      "listIndex": 6
+    },
+    {
+      "index": 9,
+      "handle": "SystemData_availableKarts_9",
+      "nameEn": "Six-Pipes",
+      "nameFr": "Six-Pipes",
+      "listIndex": 12
+    },
+    {
+      "index": 10,
+      "handle": "SystemData_availableKarts_10",
+      "nameEn": "Imperium",
+      "nameFr": "Imperium",
+      "listIndex": 10
+    },
+    {
+      "index": 11,
+      "handle": "SystemData_availableKarts_11",
+      "nameEn": "Trikee",
+      "nameFr": "Trikee",
+      "listIndex": 13
+    },
+    {
+      "index": 12,
+      "handle": "SystemData_availableKarts_12",
+      "nameEn": "Deadinator",
+      "nameFr": "Deadinator",
+      "listIndex": 8
+    },
+    {
+      "index": 13,
+      "handle": "SystemData_availableKarts_13",
+      "nameEn": "Le Chaux",
+      "nameFr": "Le Chaux",
+      "listIndex": 14
+    },
+    {
+      "index": 14,
+      "handle": "SystemData_availableKarts_14",
+      "nameEn": "Doom Buggy",
+      "nameFr": "Doom Buggy",
+      "listIndex": 9
+    },
+    {
+      "index": 15,
+      "handle": "SystemData_availableKarts_15",
+      "nameEn": "Retro",
+      "nameFr": "Rétro",
+      "listIndex": 15
+    },
+    {
+      "index": 18,
+      "handle": "SystemData_availableKarts_18",
+      "nameEn": null,
+      "nameFr": null,
+      "listIndex": null
+    },
+    {
+      "index": 19,
+      "handle": "SystemData_availableKarts_19",
+      "nameEn": null,
+      "nameFr": null,
+      "listIndex": null
+    },
+    {
+      "index": 20,
+      "handle": "SystemData_availableKarts_20",
+      "nameEn": "Mammoth",
+      "nameFr": "Mammouth",
+      "listIndex": 19
+    },
+    {
+      "index": 21,
+      "handle": "SystemData_availableKarts_21",
+      "nameEn": "Nostalginator",
+      "nameFr": "Nostalginator",
+      "listIndex": 20
+    },
+    {
+      "index": 22,
+      "handle": "SystemData_availableKarts_22",
+      "nameEn": "Cove Cruiser",
+      "nameFr": "Croiseur de la crique",
+      "listIndex": 21
+    },
+    {
+      "index": 23,
+      "handle": "SystemData_availableKarts_23",
+      "nameEn": "Probulot 2000",
+      "nameFr": "Probulot 2000",
+      "listIndex": 22
+    },
+    {
+      "index": 24,
+      "handle": "SystemData_availableKarts_24",
+      "nameEn": null,
+      "nameFr": null,
+      "listIndex": null
+    },
+    {
+      "index": 25,
+      "handle": "SystemData_availableKarts_25",
+      "nameEn": null,
+      "nameFr": null,
+      "listIndex": null
+    },
+    {
+      "index": 26,
+      "handle": "SystemData_availableKarts_26",
+      "nameEn": null,
+      "nameFr": null,
+      "listIndex": null
+    },
+    {
+      "index": 27,
+      "handle": "SystemData_availableKarts_27",
+      "nameEn": null,
+      "nameFr": null,
+      "listIndex": null
+    },
+    {
+      "index": 28,
+      "handle": "SystemData_availableKarts_28",
+      "nameEn": null,
+      "nameFr": null,
+      "listIndex": null
+    },
+    {
+      "index": 29,
+      "handle": "SystemData_availableKarts_29",
+      "nameEn": null,
+      "nameFr": null,
+      "listIndex": null
+    },
+    {
+      "index": 30,
+      "handle": "SystemData_availableKarts_30",
+      "nameEn": null,
+      "nameFr": null,
+      "listIndex": null
+    },
+    {
+      "index": 31,
+      "handle": "SystemData_availableKarts_31",
+      "nameEn": "Nitro Bumper",
+      "nameFr": "Nitro-tamponneuse",
+      "listIndex": 30
+    },
+    {
+      "index": 32,
+      "handle": "SystemData_availableKarts_32",
+      "nameEn": "Firehawk",
+      "nameFr": "Faucon de feu",
+      "listIndex": 29
+    },
+    {
+      "index": 33,
+      "handle": "SystemData_availableKarts_33",
+      "nameEn": "Nautilus",
+      "nameFr": "Nautilus",
+      "listIndex": 26
+    },
+    {
+      "index": 34,
+      "handle": "SystemData_availableKarts_34",
+      "nameEn": "Skull Rider",
+      "nameFr": "Crâne motard",
+      "listIndex": 27
+    },
+    {
+      "index": 35,
+      "handle": "SystemData_availableKarts_35",
+      "nameEn": "Phantom",
+      "nameFr": "Fantôme",
+      "listIndex": 28
+    },
+    {
+      "index": 36,
+      "handle": "SystemData_availableKarts_36",
+      "nameEn": "Daredevil",
+      "nameFr": "Casse-cou",
+      "listIndex": 31
+    },
+    {
+      "index": 37,
+      "handle": "SystemData_availableKarts_37",
+      "nameEn": "Pressurizer",
+      "nameFr": "Compresseur",
+      "listIndex": 32
+    },
+    {
+      "index": 38,
+      "handle": "SystemData_availableKarts_38",
+      "nameEn": "Nitro Sleigh",
+      "nameFr": "Nitro-luge",
+      "listIndex": 33
+    },
+    {
+      "index": 39,
+      "handle": "SystemData_availableKarts_39",
+      "nameEn": "Candy Cone",
+      "nameFr": "Cône bonbon",
+      "listIndex": 34
+    },
+    {
+      "index": 40,
+      "handle": "SystemData_availableKarts_40",
+      "nameEn": "Snowplowr",
+      "nameFr": "Chasse-neige",
+      "listIndex": 35
+    },
+    {
+      "index": 41,
+      "handle": "SystemData_availableKarts_41",
+      "nameEn": "Dusty Rider",
+      "nameFr": "Maraudeur",
+      "listIndex": 36
+    },
+    {
+      "index": 42,
+      "handle": "SystemData_availableKarts_42",
+      "nameEn": "Desert Duster",
+      "nameFr": "Désertique",
+      "listIndex": 37
+    },
+    {
+      "index": 43,
+      "handle": "SystemData_availableKarts_43",
+      "nameEn": "The Nuke",
+      "nameFr": "Bombardeur",
+      "listIndex": 38
+    },
+    {
+      "index": 44,
+      "handle": "SystemData_availableKarts_44",
+      "nameEn": "KartLimited4",
+      "nameFr": "KartLimited4",
+      "listIndex": 39
+    },
+    {
+      "index": 45,
+      "handle": "SystemData_availableKarts_45",
+      "nameEn": "Void Manta",
+      "nameFr": "Manta du vide",
+      "listIndex": 40
+    },
+    {
+      "index": 46,
+      "handle": "SystemData_availableKarts_46",
+      "nameEn": "Velo Chopper",
+      "nameFr": "Chopper de Velo",
+      "listIndex": 41
+    },
+    {
+      "index": 47,
+      "handle": "SystemData_availableKarts_47",
+      "nameEn": "Galactic Cruiser",
+      "nameFr": "Croiseur galactique",
+      "listIndex": 42
+    },
+    {
+      "index": 48,
+      "handle": "SystemData_availableKarts_48",
+      "nameEn": "The Cog",
+      "nameFr": "Le Rouage",
+      "listIndex": 43
+    },
+    {
+      "index": 49,
+      "handle": "SystemData_availableKarts_49",
+      "nameEn": "Neon Hawk",
+      "nameFr": "Faucon de néon",
+      "listIndex": 44
+    },
+    {
+      "index": 50,
+      "handle": "SystemData_availableKarts_50",
+      "nameEn": "Nitro GT",
+      "nameFr": "GT Nitro",
+      "listIndex": 45
+    },
+    {
+      "index": null,
+      "handle": "KartBandiBuggy",
+      "nameEn": "Bandibuggy",
+      "nameFr": "Bandibuggy",
+      "listIndex": 16
+    },
+    {
+      "index": null,
+      "handle": "KartDGM",
+      "nameEn": "Spyromobile",
+      "nameFr": "Spyromobile",
+      "listIndex": 24
+    },
+    {
+      "index": null,
+      "handle": "KartRocket",
+      "nameEn": "Rocket",
+      "nameFr": "Fusée",
+      "listIndex": 18
+    },
+    {
+      "index": null,
+      "handle": "KartSDE",
+      "nameEn": "Dragonfly",
+      "nameFr": "Libellule",
+      "listIndex": 23
+    },
+    {
+      "index": null,
+      "handle": "KartTU3_B",
+      "nameEn": "Gnasty Ride",
+      "nameFr": "Gnasty-kart",
+      "listIndex": 25
+    },
+    {
+      "index": null,
+      "handle": "KartTeamOxide",
+      "nameEn": "Team Oxide",
+      "nameFr": "Team Oxide",
+      "listIndex": 4
+    },
+    {
+      "index": null,
+      "handle": "kartChampion",
+      "nameEn": "Champion",
+      "nameFr": "Champion",
+      "listIndex": 17
+    }
+  ],
+  "wheels": [
+    {
+      "index": 0,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_0",
+      "nameEn": "Classic",
+      "nameFr": "Classique"
+    },
+    {
+      "index": 1,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_16",
+      "nameEn": "Electron Doom Buggy",
+      "nameFr": "Doom Buggy électron"
+    },
+    {
+      "index": 2,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_19",
+      "nameEn": "Electron Team Bandicoot",
+      "nameFr": "Team Bandicoot électron"
+    },
+    {
+      "index": 3,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_15",
+      "nameEn": "Electron Deadinator",
+      "nameFr": "Deadinator électron"
+    },
+    {
+      "index": 4,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_17",
+      "nameEn": "Electron Roadster",
+      "nameFr": "Roadster électron"
+    },
+    {
+      "index": 5,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_18",
+      "nameEn": "Electron Team Cortex",
+      "nameFr": "Team Cortex électron"
+    },
+    {
+      "index": 6,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_21",
+      "nameEn": "Electron Trikee",
+      "nameFr": "Trikee électron"
+    },
+    {
+      "index": 7,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_22",
+      "nameEn": "Electron Team Trance",
+      "nameFr": "Team Trance électron"
+    },
+    {
+      "index": 8,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_20",
+      "nameEn": "Electron Team Oxide",
+      "nameFr": "Team Oxide électron"
+    },
+    {
+      "index": 9,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_23",
+      "nameEn": "Retro",
+      "nameFr": "Rétro"
+    },
+    {
+      "index": 10,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_8",
+      "nameEn": "Le Chaux",
+      "nameFr": "Le Chaux"
+    },
+    {
+      "index": 11,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_1",
+      "nameEn": "Team Bandicoot",
+      "nameFr": "Team Bandicoot"
+    },
+    {
+      "index": 12,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_7",
+      "nameEn": "Team Trance",
+      "nameFr": "Team Trance"
+    },
+    {
+      "index": 13,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_4",
+      "nameEn": "Team Cortex",
+      "nameFr": "Team Cortex"
+    },
+    {
+      "index": 14,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_5",
+      "nameEn": "Team Oxide",
+      "nameFr": "Team Oxide"
+    },
+    {
+      "index": 15,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_6",
+      "nameEn": "Cabrio",
+      "nameFr": "Cabrio"
+    },
+    {
+      "index": 16,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_3",
+      "nameEn": "Crikey",
+      "nameFr": "Crikey"
+    },
+    {
+      "index": 17,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_12",
+      "nameEn": "Deadinator",
+      "nameFr": "Deadinator"
+    },
+    {
+      "index": 18,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_14",
+      "nameEn": "Doom Buggy",
+      "nameFr": "Doom Buggy"
+    },
+    {
+      "index": 19,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_10",
+      "nameEn": "Imperium",
+      "nameFr": "Imperium"
+    },
+    {
+      "index": 20,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_11",
+      "nameEn": "Six-Pipes",
+      "nameFr": "Six-Pipes"
+    },
+    {
+      "index": 21,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_2",
+      "nameEn": "Roadster",
+      "nameFr": "Roadster"
+    },
+    {
+      "index": 22,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_13",
+      "nameEn": "Trikee",
+      "nameFr": "Trikee"
+    },
+    {
+      "index": 23,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_24",
+      "nameEn": "Champion",
+      "nameFr": "Champion"
+    },
+    {
+      "index": 24,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_25",
+      "nameEn": "Bandibuggy",
+      "nameFr": "Bandibuggy"
+    },
+    {
+      "index": 25,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_27",
+      "nameEn": "Rocket",
+      "nameFr": "Fusée"
+    },
+    {
+      "index": 26,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_28",
+      "nameEn": "Twilight Blue",
+      "nameFr": "Bleu crépuscule"
+    },
+    {
+      "index": 27,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_30",
+      "nameEn": "Twilight Aqua",
+      "nameFr": "Turquoise crépuscule"
+    },
+    {
+      "index": 28,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_31",
+      "nameEn": "Twilight Green",
+      "nameFr": "Vert crépuscule"
+    },
+    {
+      "index": 29,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_32",
+      "nameEn": "Twilight Orange",
+      "nameFr": "Orange crépuscule"
+    },
+    {
+      "index": 30,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_33",
+      "nameEn": "Twilight Pink",
+      "nameFr": "Rose crépuscule"
+    },
+    {
+      "index": 31,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_34",
+      "nameEn": "Twilight Purple",
+      "nameFr": "Violet crépuscule"
+    },
+    {
+      "index": 32,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_35",
+      "nameEn": "Twilight Red",
+      "nameFr": "Rouge crépuscule"
+    },
+    {
+      "index": 33,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_36",
+      "nameEn": "Twilight Yellow",
+      "nameFr": "Jaune crépuscule"
+    },
+    {
+      "index": 34,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_38",
+      "nameEn": "Mammoth",
+      "nameFr": "Mammouth"
+    },
+    {
+      "index": 35,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_26",
+      "nameEn": "Nostalginator",
+      "nameFr": "Nostalginator"
+    },
+    {
+      "index": 36,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_39",
+      "nameEn": "Gummy Grinders",
+      "nameFr": "Broyeuses en caoutchouc"
+    },
+    {
+      "index": 37,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_29",
+      "nameEn": "Blue Lava Rock",
+      "nameFr": "Roche volcanique bleue"
+    },
+    {
+      "index": 38,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_40",
+      "nameEn": "Aqua Lava Rock",
+      "nameFr": "Roche volcanique turquoise"
+    },
+    {
+      "index": 39,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_41",
+      "nameEn": "Green Lava Rock",
+      "nameFr": "Roche volcanique verte"
+    },
+    {
+      "index": 40,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_42",
+      "nameEn": "Orange Lava Rock",
+      "nameFr": "Roche volcanique orange"
+    },
+    {
+      "index": 41,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_43",
+      "nameEn": "Pink Lava Rock",
+      "nameFr": "Roche volcanique rose"
+    },
+    {
+      "index": 42,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_44",
+      "nameEn": "Purple Lava Rock",
+      "nameFr": "Roche volcanique violette"
+    },
+    {
+      "index": 43,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_45",
+      "nameEn": "Red Lava Rock",
+      "nameFr": "Roche volcanique rouge"
+    },
+    {
+      "index": 44,
+      "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_46",
+      "nameEn": "Yellow Lava Rock",
+      "nameFr": "Roche volcanique jaune"
+    },
+    {
+      "index": 45,
+      "handle": "GP3_Wheels_TU3_B_01",
+      "nameEn": "Gnasty Ride",
+      "nameFr": "Gnasty-kart"
+    },
+    {
+      "index": 46,
+      "handle": "GP3_Wheels_Spyro_01",
+      "nameEn": "Spyromobile",
+      "nameFr": "Spyromobile"
+    },
+    {
+      "index": 47,
+      "handle": "GP3_Wheels_SDE_01",
+      "nameEn": "Dragonfly",
+      "nameFr": "Libellule"
+    },
+    {
+      "index": 48,
+      "handle": "GP3_GEM_1",
+      "nameEn": "Fire Elemental",
+      "nameFr": "Élément de feu"
+    },
+    {
+      "index": 49,
+      "handle": "GP3_GEM_2",
+      "nameEn": "Ice Elemental",
+      "nameFr": "Élément de glace"
+    },
+    {
+      "index": 50,
+      "handle": "GP3_GEM_3",
+      "nameEn": "Magic Elemental",
+      "nameFr": "Élément de magie"
+    },
+    {
+      "index": 51,
+      "handle": "GP3_GEM_4",
+      "nameEn": "Lightning Elemental",
+      "nameFr": "Élément d'électricité"
+    },
+    {
+      "index": 52,
+      "handle": "GP3_GEM_5",
+      "nameEn": "Light Elemental",
+      "nameFr": "Élément de lumière"
+    },
+    {
+      "index": 53,
+      "handle": "GP3_GEM_6",
+      "nameEn": "Darkness Elemental",
+      "nameFr": "Élément des ténèbres"
+    },
+    {
+      "index": 54,
+      "handle": "GP3_GEM_7",
+      "nameEn": "Wind Elemental",
+      "nameFr": "Élément du vent"
+    },
+    {
+      "index": 55,
+      "handle": "GP3_GEM_8",
+      "nameEn": "Nature Elemental",
+      "nameFr": "Élément de la nature"
+    },
+    {
+      "index": 56,
+      "handle": "GP4_Ghost_1",
+      "nameEn": "Spectral Blue",
+      "nameFr": "Bleu spectral"
+    },
+    {
+      "index": 57,
+      "handle": "GP4_Ghost_2",
+      "nameEn": "Spectral Aqua",
+      "nameFr": "Turquoise spectral"
+    },
+    {
+      "index": 58,
+      "handle": "GP4_Ghost_3",
+      "nameEn": "Spectral Green",
+      "nameFr": "Vert spectral"
+    },
+    {
+      "index": 59,
+      "handle": "GP4_Ghost_4",
+      "nameEn": "Spectral Orange",
+      "nameFr": "Orange spectral"
+    },
+    {
+      "index": 60,
+      "handle": "GP4_Ghost_5",
+      "nameEn": "Spectral Pink",
+      "nameFr": "Rose spectral"
+    },
+    {
+      "index": 61,
+      "handle": "GP4_Ghost_6",
+      "nameEn": "Spectral Purple",
+      "nameFr": "Violet spectral"
+    },
+    {
+      "index": 62,
+      "handle": "GP4_Ghost_7",
+      "nameEn": "Spectral Red",
+      "nameFr": "Rouge spectral"
+    },
+    {
+      "index": 63,
+      "handle": "GP4_Ghost_8",
+      "nameEn": "Spectral Yellow",
+      "nameFr": "Jaune spectral"
+    },
+    {
+      "index": 64,
+      "handle": "GP4_Ghost_9",
+      "nameEn": "Spectral White",
+      "nameFr": "Blanc spectral"
+    },
+    {
+      "index": 65,
+      "handle": "GP4_Ghost_10",
+      "nameEn": "Spectral Black",
+      "nameFr": "Noir spectral"
+    },
+    {
+      "index": 66,
+      "handle": "GP4_BEM",
+      "nameEn": "Skull Rider",
+      "nameFr": "Crâne motard"
+    },
+    {
+      "index": 67,
+      "handle": "GP4_NCT",
+      "nameEn": "Nautilus",
+      "nameFr": "Nautilus"
+    },
+    {
+      "index": 68,
+      "handle": "GP4_OGR",
+      "nameEn": "Phantom",
+      "nameFr": "Fantôme"
+    },
+    {
+      "index": 69,
+      "handle": "GP5_Neon_1",
+      "nameEn": "Neon Blue",
+      "nameFr": "Bleu néon"
+    },
+    {
+      "index": 70,
+      "handle": "GP5_Neon_2",
+      "nameEn": "Neon Aqua",
+      "nameFr": "Turquoise néon"
+    },
+    {
+      "index": 71,
+      "handle": "GP5_Neon_3",
+      "nameEn": "Neon Green",
+      "nameFr": "Vert néon"
+    },
+    {
+      "index": 72,
+      "handle": "GP5_Neon_4",
+      "nameEn": "Neon Rainbow",
+      "nameFr": "Arc-en-ciel néon"
+    },
+    {
+      "index": 73,
+      "handle": "GP5_Neon_5",
+      "nameEn": "Neon Orange",
+      "nameFr": "Orange néon"
+    },
+    {
+      "index": 74,
+      "handle": "GP5_Neon_6",
+      "nameEn": "Neon Red",
+      "nameFr": "Rouge néon"
+    },
+    {
+      "index": 75,
+      "handle": "GP5_Neon_7",
+      "nameEn": "Neon Pink",
+      "nameFr": "Rose néon"
+    },
+    {
+      "index": 76,
+      "handle": "GP5_Neon_8",
+      "nameEn": "Neon Purple",
+      "nameFr": "Violet néon"
+    },
+    {
+      "index": 77,
+      "handle": "GP5_FYM",
+      "nameEn": "Daredevil",
+      "nameFr": "Casse-cou"
+    },
+    {
+      "index": 78,
+      "handle": "GP5_PZR",
+      "nameEn": "Pressurizer",
+      "nameFr": "Compresseur"
+    },
+    {
+      "index": 79,
+      "handle": "GP6_Candies_1",
+      "nameEn": "Sprinkled Caramel",
+      "nameFr": "Caramel"
+    },
+    {
+      "index": 80,
+      "handle": "GP6_Candies_2",
+      "nameEn": "Chocolate Glazed",
+      "nameFr": "Chocolat"
+    },
+    {
+      "index": 81,
+      "handle": "GP6_Candies_3",
+      "nameEn": "Blueberry Crunch",
+      "nameFr": "Myrtille"
+    },
+    {
+      "index": 82,
+      "handle": "GP6_Candies_4",
+      "nameEn": "Lemon Cream",
+      "nameFr": "Crème de citron"
+    },
+    {
+      "index": 83,
+      "handle": "GP6_Candies_5",
+      "nameEn": "Strawberry Fluff",
+      "nameFr": "Coulis de fraise"
+    },
+    {
+      "index": 84,
+      "handle": "GP6_Candies_6",
+      "nameEn": "Sweet Pistachio",
+      "nameFr": "Pistaches"
+    },
+    {
+      "index": 85,
+      "handle": "GP6_Candies_7",
+      "nameEn": "Vanilla Cappuccino",
+      "nameFr": "Cappuccino à la vanille"
+    },
+    {
+      "index": 86,
+      "handle": "GP6_Candies_8",
+      "nameEn": "Wildberry Dream",
+      "nameFr": "Rêve de baies"
+    },
+    {
+      "index": 87,
+      "handle": "GP6_MWP",
+      "nameEn": "Snowplower",
+      "nameFr": "Chasse-neige"
+    },
+    {
+      "index": 88,
+      "handle": "GP6_SCH",
+      "nameEn": "Candy Cone",
+      "nameFr": "Cône bonbon"
+    },
+    {
+      "index": 89,
+      "handle": "GP7_Mad_1",
+      "nameEn": "Blue Tag",
+      "nameFr": "Récup' bleu"
+    },
+    {
+      "index": 90,
+      "handle": "GP7_Mad_2",
+      "nameEn": "Aqua Tag",
+      "nameFr": "Récup' turquoise"
+    },
+    {
+      "index": 91,
+      "handle": "GP7_Mad_3",
+      "nameEn": "Green Tag",
+      "nameFr": "Récup' vert"
+    },
+    {
+      "index": 92,
+      "handle": "GP7_Mad_4",
+      "nameEn": "Yellow Tag",
+      "nameFr": "Récup' jaune"
+    },
+    {
+      "index": 93,
+      "handle": "GP7_Mad_5",
+      "nameEn": "Orange Tag",
+      "nameFr": "Récup' orange"
+    },
+    {
+      "index": 94,
+      "handle": "GP7_Mad_6",
+      "nameEn": "Red Tag",
+      "nameFr": "Récup' rouge"
+    },
+    {
+      "index": 95,
+      "handle": "GP7_Mad_7",
+      "nameEn": "Pink Tag",
+      "nameFr": "Récup' rose"
+    },
+    {
+      "index": 96,
+      "handle": "GP7_Mad_8",
+      "nameEn": "Purple Tag",
+      "nameFr": "Récup' violet"
+    },
+    {
+      "index": 97,
+      "handle": "GP7_MTT",
+      "nameEn": "Dusty Rider",
+      "nameFr": "Maraudeur"
+    },
+    {
+      "index": 98,
+      "handle": "GP7_SBY",
+      "nameEn": "The Nuke",
+      "nameFr": "Bombardeur"
+    },
+    {
+      "index": 99,
+      "handle": "GP8_BAP_1",
+      "nameEn": "Atomic Blue",
+      "nameFr": "Bleu atomique"
+    },
+    {
+      "index": 100,
+      "handle": "GP8_BAP_2",
+      "nameEn": "Atomic Aqua",
+      "nameFr": "Turquoise atomique"
+    },
+    {
+      "index": 101,
+      "handle": "GP8_BAP_3",
+      "nameEn": "Atomic Green",
+      "nameFr": "Vert atomique"
+    },
+    {
+      "index": 102,
+      "handle": "GP8_BAP_4",
+      "nameEn": "Atomic Yellow",
+      "nameFr": "Jaune atomique"
+    },
+    {
+      "index": 103,
+      "handle": "GP8_BAP_5",
+      "nameEn": "Atomic Orange",
+      "nameFr": "Orange atomique"
+    },
+    {
+      "index": 104,
+      "handle": "GP8_BAP_6",
+      "nameEn": "Atomic Red",
+      "nameFr": "Rouge atomique"
+    },
+    {
+      "index": 105,
+      "handle": "GP8_BAP_7",
+      "nameEn": "Atomic Pink",
+      "nameFr": "Rose atomique"
+    },
+    {
+      "index": 106,
+      "handle": "GP8_BAP_8",
+      "nameEn": "Atomic Purple",
+      "nameFr": "Violet atomique"
+    },
+    {
+      "index": 107,
+      "handle": "KartLimited4",
+      "nameEn": "KartLimited4",
+      "nameFr": "KartLimited4"
+    },
+    {
+      "index": 108,
+      "handle": "GP9_BXK",
+      "nameEn": "Beenox",
+      "nameFr": "Beenox"
+    },
+    {
+      "index": 109,
+      "handle": "GP9_BK2",
+      "nameEn": "Nitro GT",
+      "nameFr": "GT Nitro"
+    },
+    {
+      "index": 110,
+      "handle": "GP9_MVW",
+      "nameEn": "Master",
+      "nameFr": "Maître"
+    }
+  ],
+  "paints": [
+    {
+      "index": 0,
+      "handle": "Color_Blue",
+      "nameEn": "Blue",
+      "nameFr": "Bleu"
+    },
+    {
+      "index": 1,
+      "handle": "Color_White",
+      "nameEn": "White",
+      "nameFr": "Blanc"
+    },
+    {
+      "index": 2,
+      "handle": "Color_BlueGrey",
+      "nameEn": "Blue-Grey",
+      "nameFr": "Bleu-gris"
+    },
+    {
+      "index": 3,
+      "handle": "Color_Charcoal",
+      "nameEn": "Charcoal",
+      "nameFr": "Charbon"
+    },
+    {
+      "index": 4,
+      "handle": "Color_Aqua",
+      "nameEn": "Aqua",
+      "nameFr": "Turquoise"
+    },
+    {
+      "index": 5,
+      "handle": "Color_LightBlue",
+      "nameEn": "Light Blue",
+      "nameFr": "Bleu clair"
+    },
+    {
+      "index": 6,
+      "handle": "Color_Purple",
+      "nameEn": "Purple",
+      "nameFr": "Violet"
+    },
+    {
+      "index": 7,
+      "handle": "Color_Violet",
+      "nameEn": "Violet",
+      "nameFr": "Lavande"
+    },
+    {
+      "index": 8,
+      "handle": "Color_Pink",
+      "nameEn": "Pink",
+      "nameFr": "Rose"
+    },
+    {
+      "index": 9,
+      "handle": "Color_Red",
+      "nameEn": "Red",
+      "nameFr": "Rouge"
+    },
+    {
+      "index": 10,
+      "handle": "Color_Orange",
+      "nameEn": "Orange",
+      "nameFr": "Orange"
+    },
+    {
+      "index": 11,
+      "handle": "Color_Yellow",
+      "nameEn": "Yellow",
+      "nameFr": "Jaune"
+    },
+    {
+      "index": 12,
+      "handle": "Color_Olive",
+      "nameEn": "Olive",
+      "nameFr": "Olive"
+    },
+    {
+      "index": 13,
+      "handle": "Color_Green",
+      "nameEn": "Green",
+      "nameFr": "Vert"
+    },
+    {
+      "index": 14,
+      "handle": "Color_DoomBuggy_Grey",
+      "nameEn": "Doom Buggy Grey",
+      "nameFr": "Gris Doom Buggy"
+    },
+    {
+      "index": 15,
+      "handle": "Color_TeamBandicoot_Blue",
+      "nameEn": "Team Bandicoot Blue",
+      "nameFr": "Bleu Team Bandicoot"
+    },
+    {
+      "index": 16,
+      "handle": "Color_RetroBlue",
+      "nameEn": "Retro Blue",
+      "nameFr": "Bleu rétro"
+    },
+    {
+      "index": 17,
+      "handle": "Color_NitrosOxide_Indigo",
+      "nameEn": "Nitros Oxide Indigo",
+      "nameFr": "Indigo Nitros Oxide"
+    },
+    {
+      "index": 18,
+      "handle": "Color_Deadinator_Purple",
+      "nameEn": "Deadinator Purple",
+      "nameFr": "Violet Deadinator"
+    },
+    {
+      "index": 19,
+      "handle": "Color_Roadster_Pink",
+      "nameEn": "Roadster Pink",
+      "nameFr": "Rose Roadster"
+    },
+    {
+      "index": 20,
+      "handle": "Color_Trikee_Orange",
+      "nameEn": "Trikee Orange",
+      "nameFr": "Orange Trikee"
+    },
+    {
+      "index": 21,
+      "handle": "Color_TeamCortex_Red",
+      "nameEn": "Team Cortex Red",
+      "nameFr": "Rouge Team Cortex"
+    },
+    {
+      "index": 22,
+      "handle": "Color_SixPipes_Red",
+      "nameEn": "Six-Pipes Red",
+      "nameFr": "Rouge Six-Pipes"
+    },
+    {
+      "index": 23,
+      "handle": "Color_Imperium_Red",
+      "nameEn": "Imperium Red",
+      "nameFr": "Rouge Imperium"
+    },
+    {
+      "index": 24,
+      "handle": "Color_KomodoJoe_Mustard",
+      "nameEn": "Mustard",
+      "nameFr": "Moutarde"
+    },
+    {
+      "index": 25,
+      "handle": "Color_TeamOxide_Yellow",
+      "nameEn": "Team Oxide Yellow",
+      "nameFr": "Jaune Team Oxide"
+    },
+    {
+      "index": 26,
+      "handle": "Color_Crikey_Yellow",
+      "nameEn": "Crikey Yellow",
+      "nameFr": "Jaune Crikey"
+    },
+    {
+      "index": 27,
+      "handle": "Color_Cabrio_Yellow",
+      "nameEn": "Cabrio Yellow",
+      "nameFr": "Jaune Cabrio"
+    },
+    {
+      "index": 28,
+      "handle": "Color_LeChaux_Yellow",
+      "nameEn": "Le Chaux Yellow",
+      "nameFr": "Jaune Le Chaux"
+    },
+    {
+      "index": 29,
+      "handle": "Color_TeamTrance_Green",
+      "nameEn": "Team Trance Green",
+      "nameFr": "Vert Team Trance"
+    },
+    {
+      "index": 30,
+      "handle": "Color_NitrosOxide_HovercraftGreen",
+      "nameEn": "Hovercraft Green",
+      "nameFr": "Vert Aéroglisseur"
+    },
+    {
+      "index": 31,
+      "handle": "Color_Iridescent_Purple",
+      "nameEn": "Iridescent Purple",
+      "nameFr": "Violet iridescent"
+    },
+    {
+      "index": 32,
+      "handle": "Color_Relic_Gold",
+      "nameEn": "Relic Gold",
+      "nameFr": "Relique en or"
+    },
+    {
+      "index": 33,
+      "handle": "Color_Electron_Aqua",
+      "nameEn": "Electron Aqua",
+      "nameFr": "Turquoise électron"
+    },
+    {
+      "index": 34,
+      "handle": "Color_Electron_Blue",
+      "nameEn": "Electron Blue",
+      "nameFr": "Bleu électron"
+    },
+    {
+      "index": 35,
+      "handle": "Color_Electron_Purple",
+      "nameEn": "Electron Purple",
+      "nameFr": "Violet électron"
+    },
+    {
+      "index": 36,
+      "handle": "Color_Electron_Pink",
+      "nameEn": "Electron Pink",
+      "nameFr": "Rose électron"
+    },
+    {
+      "index": 37,
+      "handle": "Color_Electron_Red",
+      "nameEn": "Electron Red",
+      "nameFr": "Rouge électron"
+    },
+    {
+      "index": 38,
+      "handle": "Color_Electron_Orange",
+      "nameEn": "Electron Orange",
+      "nameFr": "Orange électron"
+    },
+    {
+      "index": 39,
+      "handle": "Color_Electron_Yellow",
+      "nameEn": "Electron Yellow",
+      "nameFr": "Jaune électron"
+    },
+    {
+      "index": 40,
+      "handle": "Color_Electron_Green",
+      "nameEn": "Electron Green",
+      "nameFr": "Vert électron"
+    },
+    {
+      "index": 41,
+      "handle": "Color_Classic_Pink",
+      "nameEn": "Classic Pink",
+      "nameFr": "Rose classique"
+    },
+    {
+      "index": 42,
+      "handle": "Color_Classic_Red",
+      "nameEn": "Classic Red",
+      "nameFr": "Rouge classique"
+    },
+    {
+      "index": 43,
+      "handle": "Color_Classic_Violet",
+      "nameEn": "Classic Violet",
+      "nameFr": "Mauve classique"
+    },
+    {
+      "index": 44,
+      "handle": "Color_Classic_Aqua",
+      "nameEn": "Classic Aqua",
+      "nameFr": "Turquoise classique"
+    },
+    {
+      "index": 45,
+      "handle": "Color_Classic_Yellow",
+      "nameEn": "Classic Yellow",
+      "nameFr": "Jaune classique"
+    },
+    {
+      "index": 46,
+      "handle": "Color_Classic_Orange",
+      "nameEn": "Classic Orange",
+      "nameFr": "Orange classique"
+    },
+    {
+      "index": 47,
+      "handle": "Color_Classic_Green",
+      "nameEn": "Classic Green",
+      "nameFr": "Vert classique"
+    },
+    {
+      "index": 48,
+      "handle": "Color_Classic_Purple",
+      "nameEn": "Classic Purple",
+      "nameFr": "Violet classique"
+    },
+    {
+      "index": 49,
+      "handle": "Color_Classic_Olive",
+      "nameEn": "Classic Olive",
+      "nameFr": "Olive classique"
+    },
+    {
+      "index": 50,
+      "handle": "Color_Iridiscent_Red",
+      "nameEn": "Iridescent Red",
+      "nameFr": "Rouge iridescent"
+    },
+    {
+      "index": 51,
+      "handle": "Color_Iridescent_Orange",
+      "nameEn": "Iridescent Orange",
+      "nameFr": "Orange iridescent"
+    },
+    {
+      "index": 52,
+      "handle": "Color_Iridescent_Blue",
+      "nameEn": "Iridescent Blue",
+      "nameFr": "Bleu iridescent"
+    },
+    {
+      "index": 53,
+      "handle": "Color_Relic_Platinum",
+      "nameEn": "Relic Platinum",
+      "nameFr": "Relique de platine"
+    },
+    {
+      "index": 54,
+      "handle": "Color_Relic_Sapphire",
+      "nameEn": "Relic Sapphire",
+      "nameFr": "Relique de saphir"
+    },
+    {
+      "index": 55,
+      "handle": "Color_Tawna",
+      "nameEn": "Tawna Pink",
+      "nameFr": "Rose Tawna"
+    },
+    {
+      "index": 56,
+      "handle": "Color_Megumi",
+      "nameEn": "Megumi White",
+      "nameFr": "Blanc Megumi"
+    },
+    {
+      "index": 57,
+      "handle": "Color_Liz",
+      "nameEn": "Liz Violet",
+      "nameFr": "Lavande Liz"
+    },
+    {
+      "index": 58,
+      "handle": "Color_Ami",
+      "nameEn": "Ami Green",
+      "nameFr": "Vert Ami"
+    },
+    {
+      "index": 59,
+      "handle": "Color_Isabella",
+      "nameEn": "Isabella Blue",
+      "nameFr": "Bleu Isabella"
+    },
+    {
+      "index": 60,
+      "handle": "Color_BlackYellow",
+      "nameEn": "Black, Yellow & Red",
+      "nameFr": "Noir & jaune & rouge"
+    },
+    {
+      "index": 61,
+      "handle": "Color_BlueRed",
+      "nameEn": "Blue, Red & White",
+      "nameFr": "Bleu & rouge & blanc"
+    },
+    {
+      "index": 62,
+      "handle": "Color_BlueWhite",
+      "nameEn": "Blue, White & Red",
+      "nameFr": "Bleu & blanc & rouge"
+    },
+    {
+      "index": 63,
+      "handle": "Color_BlueYellow",
+      "nameEn": "Blue & Yellow",
+      "nameFr": "Bleu & jaune"
+    },
+    {
+      "index": 64,
+      "handle": "Color_GreenWhite",
+      "nameEn": "Green, White & Red",
+      "nameFr": "Vert & blanc & rouge"
+    },
+    {
+      "index": 65,
+      "handle": "Color_GreenWhite2",
+      "nameEn": "Green, White & Orange",
+      "nameFr": "Vert & blanc & orange"
+    },
+    {
+      "index": 66,
+      "handle": "Color_GreenYellow",
+      "nameEn": "Green, Yellow & Red",
+      "nameFr": "Vert & jaune & rouge"
+    },
+    {
+      "index": 67,
+      "handle": "Color_RedBlue",
+      "nameEn": "Red, Blue & White",
+      "nameFr": "Rouge & bleu & blanc"
+    },
+    {
+      "index": 68,
+      "handle": "Color_RedWhite",
+      "nameEn": "Red, White & Blue",
+      "nameFr": "Rouge & blanc & bleu"
+    },
+    {
+      "index": 69,
+      "handle": "Color_RedWhite2",
+      "nameEn": "Red & White",
+      "nameFr": "Rouge & blanc"
+    },
+    {
+      "index": 70,
+      "handle": "Color_RedYellow",
+      "nameEn": "Red & Yellow",
+      "nameFr": "Rouge & jaune"
+    },
+    {
+      "index": 71,
+      "handle": "Color_WhiteBlue",
+      "nameEn": "White & Blue",
+      "nameFr": "Blanc & bleu"
+    },
+    {
+      "index": 72,
+      "handle": "Color_WhiteRed",
+      "nameEn": "White, Red & Blue",
+      "nameFr": "Blanc & rouge & bleu"
+    },
+    {
+      "index": 73,
+      "handle": "Color_WhiteRed2",
+      "nameEn": "White & Red",
+      "nameFr": "Blanc & rouge"
+    },
+    {
+      "index": 74,
+      "handle": "Color_WhiteRed3",
+      "nameEn": "White, Red & Green",
+      "nameFr": "Blanc & rouge & vert"
+    },
+    {
+      "index": 75,
+      "handle": "Color_YellowBlack",
+      "nameEn": "Yellow, Black & Red",
+      "nameFr": "Jaune & noir & rouge"
+    },
+    {
+      "index": 76,
+      "handle": "Color_YellowBlue",
+      "nameEn": "Yellow, Blue & Red",
+      "nameFr": "Jaune & bleu & rouge"
+    },
+    {
+      "index": 77,
+      "handle": "Color_YellowGreen",
+      "nameEn": "Yellow, Green & Blue",
+      "nameFr": "Jaune & vert & bleu"
+    },
+    {
+      "index": 78,
+      "handle": "Color_Champion",
+      "nameEn": "Champion Indigo",
+      "nameFr": "Indigo Champion"
+    },
+    {
+      "index": 79,
+      "handle": "Color_BandiBuggy",
+      "nameEn": "Bandibuggy Green",
+      "nameFr": "Vert Bandibuggy"
+    },
+    {
+      "index": 80,
+      "handle": "Color_Rocket",
+      "nameEn": "Rocket Blue",
+      "nameFr": "Bleu Fusée"
+    },
+    {
+      "index": 81,
+      "handle": "Color_Prehistoric",
+      "nameEn": "Mammoth Brown",
+      "nameFr": "Marron mammouth"
+    },
+    {
+      "index": 82,
+      "handle": "Color_Limited1",
+      "nameEn": "Mint Burst",
+      "nameFr": "Explosion de menthe"
+    },
+    {
+      "index": 83,
+      "handle": "Color_Nostalginator",
+      "nameEn": "Nostalginator Pink",
+      "nameFr": "Rose Nostalginator"
+    },
+    {
+      "index": 84,
+      "handle": "Color_Probulot",
+      "nameEn": "Probulot Teal",
+      "nameFr": "Bleu canard Probulot"
+    },
+    {
+      "index": 85,
+      "handle": "Color_Pastel",
+      "nameEn": "Pastel",
+      "nameFr": "Pastel"
+    },
+    {
+      "index": 86,
+      "handle": "Color_Obsidian",
+      "nameEn": "Obsidian",
+      "nameFr": "Obsidienne"
+    },
+    {
+      "index": 87,
+      "handle": "Color_Quartz",
+      "nameEn": "Quartz",
+      "nameFr": "Quartz"
+    },
+    {
+      "index": 88,
+      "handle": "GP3_Color_01",
+      "nameEn": "Gnasty Ride Yellow",
+      "nameFr": "Gnasty-kart jaune"
+    },
+    {
+      "index": 89,
+      "handle": "GP3_Color_02",
+      "nameEn": "Spyromobile Purple",
+      "nameFr": "Spyromobile violette"
+    },
+    {
+      "index": 90,
+      "handle": "GP3_Color_03",
+      "nameEn": "Dragonfly Dark Blue",
+      "nameFr": "Libellule bleue"
+    },
+    {
+      "index": 91,
+      "handle": "GP3_Color_04",
+      "nameEn": "Red Gem",
+      "nameFr": "Gemme rouge"
+    },
+    {
+      "index": 92,
+      "handle": "GP3_Color_05",
+      "nameEn": "Blue Gem",
+      "nameFr": "Gemme bleue"
+    },
+    {
+      "index": 93,
+      "handle": "GP3_Color_06",
+      "nameEn": "Pink Gem",
+      "nameFr": "Gemme rose"
+    },
+    {
+      "index": 94,
+      "handle": "GP3_Color_07",
+      "nameEn": "Aqua Gem",
+      "nameFr": "Gemme turquoise"
+    },
+    {
+      "index": 95,
+      "handle": "GP3_Color_08",
+      "nameEn": "Yellow Gem",
+      "nameFr": "Gemme jaune"
+    },
+    {
+      "index": 96,
+      "handle": "GP3_Color_09",
+      "nameEn": "Purple Gem",
+      "nameFr": "Gemme violette"
+    },
+    {
+      "index": 97,
+      "handle": "GP3_Color_10",
+      "nameEn": "White Gem",
+      "nameFr": "Gemme blanche"
+    },
+    {
+      "index": 98,
+      "handle": "GP3_Color_11",
+      "nameEn": "Green Gem",
+      "nameFr": "Gemme verte"
+    },
+    {
+      "index": 99,
+      "handle": "SystemData_kartCustomizationGlobalData_materialOverrideValuesList_99",
+      "nameEn": null,
+      "nameFr": null
+    },
+    {
+      "index": 100,
+      "handle": "GP4_Color_01",
+      "nameEn": "Spectral Blue",
+      "nameFr": "Bleu spectral"
+    },
+    {
+      "index": 101,
+      "handle": "GP4_Color_02",
+      "nameEn": "Spectral Aqua",
+      "nameFr": "Turquoise spectral"
+    },
+    {
+      "index": 102,
+      "handle": "GP4_Color_03",
+      "nameEn": "Spectral Green",
+      "nameFr": "Vert spectral"
+    },
+    {
+      "index": 103,
+      "handle": "GP4_Color_04",
+      "nameEn": "Spectral Orange",
+      "nameFr": "Orange spectral"
+    },
+    {
+      "index": 104,
+      "handle": "GP4_Color_05",
+      "nameEn": "Spectral Pink",
+      "nameFr": "Rose spectral"
+    },
+    {
+      "index": 105,
+      "handle": "GP4_Color_06",
+      "nameEn": "Spectral Purple",
+      "nameFr": "Violet spectral"
+    },
+    {
+      "index": 106,
+      "handle": "GP4_Color_07",
+      "nameEn": "Spectral Red",
+      "nameFr": "Rouge spectral"
+    },
+    {
+      "index": 107,
+      "handle": "GP4_Color_08",
+      "nameEn": "Spectral Yellow",
+      "nameFr": "Jaune spectral"
+    },
+    {
+      "index": 108,
+      "handle": "GP4_Color_09",
+      "nameEn": "Spectral White",
+      "nameFr": "Blanc spectral"
+    },
+    {
+      "index": 109,
+      "handle": "GP4_Color_10",
+      "nameEn": "Spectral Black",
+      "nameFr": "Noir spectral"
+    },
+    {
+      "index": 110,
+      "handle": "GP4_Color_11",
+      "nameEn": "Wood",
+      "nameFr": "Bois"
+    },
+    {
+      "index": 111,
+      "handle": "GP4_Color_12",
+      "nameEn": "Pumpkins",
+      "nameFr": "Citrouilles"
+    },
+    {
+      "index": 112,
+      "handle": "GP4_Color_NCT",
+      "nameEn": "Nautilus Purple",
+      "nameFr": "Nautilus violet"
+    },
+    {
+      "index": 113,
+      "handle": "GP4_Color_BEM",
+      "nameEn": "Skull Rider Beige",
+      "nameFr": "Crâne motard beige"
+    },
+    {
+      "index": 114,
+      "handle": "GP4_Color_OGR",
+      "nameEn": "Phantom Red",
+      "nameFr": "Fantôme rouge"
+    },
+    {
+      "index": 115,
+      "handle": "GP5_Color_01",
+      "nameEn": "Sparkling Green & Purple",
+      "nameFr": "Vert & violet brillants"
+    },
+    {
+      "index": 116,
+      "handle": "GP5_Color_02",
+      "nameEn": "Blue & White Stars",
+      "nameFr": "Étoiles bleues & blanches"
+    },
+    {
+      "index": 117,
+      "handle": "GP5_Color_03",
+      "nameEn": "Sparkling Blue",
+      "nameFr": "Bleu brillant"
+    },
+    {
+      "index": 118,
+      "handle": "GP5_Color_04",
+      "nameEn": "Neon Red & Yellow",
+      "nameFr": "Rouge & jaune néons"
+    },
+    {
+      "index": 119,
+      "handle": "GP5_Color_05",
+      "nameEn": "Neon Blue & Yellow",
+      "nameFr": "Bleu & jaune néons"
+    },
+    {
+      "index": 120,
+      "handle": "GP5_Color_06",
+      "nameEn": "Neon Purple & Pink",
+      "nameFr": "Violet & rose néons"
+    },
+    {
+      "index": 121,
+      "handle": "GP5_Color_07",
+      "nameEn": "Neon Green & Yellow",
+      "nameFr": "Vert & jaune néons"
+    },
+    {
+      "index": 122,
+      "handle": "GP5_Color_08",
+      "nameEn": "Neon Purple & Aqua",
+      "nameFr": "Violet & turquoise néons"
+    },
+    {
+      "index": 123,
+      "handle": "GP5_Color_FYM",
+      "nameEn": "Daredevil Light Blue",
+      "nameFr": "Couleur Casse-cou"
+    },
+    {
+      "index": 124,
+      "handle": "GP5_Color_JKN",
+      "nameEn": "Nitro Bumper Sparkling Red",
+      "nameFr": "Couleur Nitro-tamponneuse"
+    },
+    {
+      "index": 125,
+      "handle": "GP5_Color_PZR",
+      "nameEn": "Pressurizer Dark Green",
+      "nameFr": "Couleur Compresseur"
+    },
+    {
+      "index": 126,
+      "handle": "GP6_Color_TSH",
+      "nameEn": "Nitro Sleigh REd",
+      "nameFr": "Nitro-luge rouge"
+    },
+    {
+      "index": 127,
+      "handle": "GP6_Color_SCH",
+      "nameEn": "Candy Cone Sparkle",
+      "nameFr": "Étincelle Licône"
+    },
+    {
+      "index": 128,
+      "handle": "GP6_Color_MWP",
+      "nameEn": "Snowplower Orange",
+      "nameFr": "Orange Chasse-neige"
+    },
+    {
+      "index": 129,
+      "handle": "GP6_Color_01",
+      "nameEn": "Sprinkled Caramel",
+      "nameFr": "Caramel"
+    },
+    {
+      "index": 130,
+      "handle": "GP6_Color_02",
+      "nameEn": "Chocolate Glazed",
+      "nameFr": "Chocolat"
+    },
+    {
+      "index": 131,
+      "handle": "GP6_Color_03",
+      "nameEn": "Blueberry Crunch",
+      "nameFr": "Myrtille"
+    },
+    {
+      "index": 132,
+      "handle": "GP6_Color_04",
+      "nameEn": "Lemon Cream",
+      "nameFr": "Crème de citron"
+    },
+    {
+      "index": 133,
+      "handle": "GP6_Color_05",
+      "nameEn": "Strawberry Fluff",
+      "nameFr": "Coulis de fraise"
+    },
+    {
+      "index": 134,
+      "handle": "GP6_Color_06",
+      "nameEn": "Sweet Pistachio",
+      "nameFr": "Pistaches"
+    },
+    {
+      "index": 135,
+      "handle": "GP6_Color_07",
+      "nameEn": "Vanilla Cappuccino",
+      "nameFr": "Cappuccino à la vanille"
+    },
+    {
+      "index": 136,
+      "handle": "GP6_Color_08",
+      "nameEn": "Wildberry Dream",
+      "nameFr": "Rêve de baies"
+    },
+    {
+      "index": 137,
+      "handle": "GP7_Color_MTT",
+      "nameEn": "Dusty Rider Orange",
+      "nameFr": "Maraudeur orange"
+    },
+    {
+      "index": 138,
+      "handle": "GP7_Color_HRE",
+      "nameEn": "Desert Duster Blue",
+      "nameFr": "Désertique bleu"
+    },
+    {
+      "index": 139,
+      "handle": "GP7_Color_SBY",
+      "nameEn": "The Nuke Orange",
+      "nameFr": "Bombardeur orange"
+    },
+    {
+      "index": 140,
+      "handle": "GP7_Color_01",
+      "nameEn": "Rustland Blue",
+      "nameFr": "Rouille bleu"
+    },
+    {
+      "index": 141,
+      "handle": "GP7_Color_02",
+      "nameEn": "Rustland Aqua",
+      "nameFr": "Rouille turquoise"
+    },
+    {
+      "index": 142,
+      "handle": "GP7_Color_03",
+      "nameEn": "Rustland Green",
+      "nameFr": "Rouille vert"
+    },
+    {
+      "index": 143,
+      "handle": "GP7_Color_04",
+      "nameEn": "Rustland Yellow",
+      "nameFr": "Rouille jaune"
+    },
+    {
+      "index": 144,
+      "handle": "GP7_Color_05",
+      "nameEn": "Rustland Orange",
+      "nameFr": "Rouille orange"
+    },
+    {
+      "index": 145,
+      "handle": "GP7_Color_06",
+      "nameEn": "Rustland Red",
+      "nameFr": "Rouille rouge"
+    },
+    {
+      "index": 146,
+      "handle": "GP7_Color_07",
+      "nameEn": "Rustland Pink",
+      "nameFr": "Rouille rose"
+    },
+    {
+      "index": 147,
+      "handle": "GP7_Color_08",
+      "nameEn": "Rustland Purple",
+      "nameFr": "Rouille violet"
+    },
+    {
+      "index": 148,
+      "handle": "GP8_Color_MTA",
+      "nameEn": "Void Manta Yellow",
+      "nameFr": "Manta du vide jaune"
+    },
+    {
+      "index": 149,
+      "handle": "GP8_Color_BLO",
+      "nameEn": "Velo Chopper Purple",
+      "nameFr": "Chopper de Velo violet"
+    },
+    {
+      "index": 150,
+      "handle": "GP8_Color_GRN",
+      "nameEn": "Galactic Cruiser Green",
+      "nameFr": "Croiseur galactique vert"
+    },
+    {
+      "index": 151,
+      "handle": "GP8_Color_01",
+      "nameEn": "Atomic Blue",
+      "nameFr": "Bleu atomique"
+    },
+    {
+      "index": 152,
+      "handle": "GP8_Color_02",
+      "nameEn": "Atomic Aqua",
+      "nameFr": "Turquoise atomique"
+    },
+    {
+      "index": 153,
+      "handle": "GP8_Color_03",
+      "nameEn": "Atomic Green",
+      "nameFr": "Vert atomique"
+    },
+    {
+      "index": 154,
+      "handle": "GP8_Color_04",
+      "nameEn": "Atomic Yellow",
+      "nameFr": "Jaune atomique"
+    },
+    {
+      "index": 155,
+      "handle": "GP8_Color_05",
+      "nameEn": "Atomic Orange",
+      "nameFr": "Orange atomique"
+    },
+    {
+      "index": 156,
+      "handle": "GP8_Color_06",
+      "nameEn": "Atomic Red",
+      "nameFr": "Rouge atomique"
+    },
+    {
+      "index": 157,
+      "handle": "GP8_Color_07",
+      "nameEn": "Atomic Pink",
+      "nameFr": "Rose atomique"
+    },
+    {
+      "index": 158,
+      "handle": "GP8_Color_08",
+      "nameEn": "Atomic Purple",
+      "nameFr": "Violet atomique"
+    },
+    {
+      "index": 159,
+      "handle": "GP9_Color_BXK",
+      "nameEn": "The Cog Blue",
+      "nameFr": "Le Rouage bleu"
+    },
+    {
+      "index": 160,
+      "handle": "GP9_Color_NFH",
+      "nameEn": "Neon Hawk Pastel",
+      "nameFr": "Faucon de néon pastel"
+    },
+    {
+      "index": 161,
+      "handle": "GP9_Color_BK2",
+      "nameEn": "Nitro GT Grey",
+      "nameFr": "GT Nitro gris"
+    },
+    {
+      "index": 162,
+      "handle": "GP9_Color_TPB",
+      "nameEn": "Trophy Bronze",
+      "nameFr": "Trophée de bronze"
+    },
+    {
+      "index": 163,
+      "handle": "GP9_Color_TPS",
+      "nameEn": "Trophy Silver",
+      "nameFr": "Trophée d'argent"
+    },
+    {
+      "index": 164,
+      "handle": "GP9_Color_TPG",
+      "nameEn": "Trophy Gold",
+      "nameFr": "Trophée d'or"
+    }
+  ],
+  "stickers": [
+    {
+      "index": 0,
+      "handle": "SystemData_kartCustomizationGlobalData_stickers_noSticker",
+      "nameEn": "No Sticker",
+      "nameFr": "Pas d'autocollant"
+    },
+    {
+      "index": 1,
+      "handle": "SystemData_kartCustomizationGlobalData_stickers_0",
+      "nameEn": null,
+      "nameFr": null
+    },
+    {
+      "index": 2,
+      "handle": "SystemData_kartCustomizationGlobalData_stickers_1",
+      "nameEn": null,
+      "nameFr": null
+    },
+    {
+      "index": 3,
+      "handle": "SystemData_kartCustomizationGlobalData_stickers_2",
+      "nameEn": "Flame",
+      "nameFr": "Flammes"
+    },
+    {
+      "index": 4,
+      "handle": "SystemData_kartCustomizationGlobalData_stickers_3",
+      "nameEn": "Panda",
+      "nameFr": "Panda"
+    },
+    {
+      "index": 5,
+      "handle": "SystemData_kartCustomizationGlobalData_stickers_4",
+      "nameEn": "Grinning Skull",
+      "nameFr": "Crâne grimaçant"
+    },
+    {
+      "index": 6,
+      "handle": "SystemData_kartCustomizationGlobalData_stickers_5",
+      "nameEn": "Dingo Body Shop",
+      "nameFr": "Carrosserie Dingo"
+    },
+    {
+      "index": 7,
+      "handle": "SystemData_kartCustomizationGlobalData_stickers_6",
+      "nameEn": "Single Wheel",
+      "nameFr": "Roue solo"
+    },
+    {
+      "index": 8,
+      "handle": "SystemData_kartCustomizationGlobalData_stickers_7",
+      "nameEn": "Exclamation Mark",
+      "nameFr": "Point d'exclamation"
+    },
+    {
+      "index": 9,
+      "handle": "SystemData_kartCustomizationGlobalData_stickers_8",
+      "nameEn": "\"N\" for Neo",
+      "nameFr": "\"N\" pour Neo"
+    },
+    {
+      "index": 10,
+      "handle": "SystemData_kartCustomizationGlobalData_stickers_9",
+      "nameEn": "Uka Uka & Friends",
+      "nameFr": "Uka Uka & compagnie"
+    },
+    {
+      "index": 11,
+      "handle": "Sticker_Coco",
+      "nameEn": "Coco ",
+      "nameFr": "Coco"
+    },
+    {
+      "index": 12,
+      "handle": "Sticker_Crash",
+      "nameEn": "Crash ",
+      "nameFr": "Crash "
+    },
+    {
+      "index": 13,
+      "handle": "Sticker_Dingodile",
+      "nameEn": "Dingodile ",
+      "nameFr": "Dingodile "
+    },
+    {
+      "index": 14,
+      "handle": "Sticker_Cortex",
+      "nameEn": "Neo Cortex ",
+      "nameFr": "Neo Cortex "
+    },
+    {
+      "index": 15,
+      "handle": "Sticker_NGin",
+      "nameEn": "N.Gin ",
+      "nameFr": "N.Gin "
+    },
+    {
+      "index": 16,
+      "handle": "Sticker_PapuPapu",
+      "nameEn": "Papu Papu ",
+      "nameFr": "Papu Papu "
+    },
+    {
+      "index": 17,
+      "handle": "Sticker_TinyTiger",
+      "nameEn": "Tiny Tiger ",
+      "nameFr": "Tiny Tiger"
+    },
+    {
+      "index": 18,
+      "handle": "Sticker_Pinstripe",
+      "nameEn": "Pinstripe ",
+      "nameFr": "Pinstripe "
+    },
+    {
+      "index": 19,
+      "handle": "Sticker_RipperRoo",
+      "nameEn": "Ripper Roo ",
+      "nameFr": "Ripper Roo "
+    },
+    {
+      "index": 20,
+      "handle": "Sticker_Polar",
+      "nameEn": "Polar ",
+      "nameFr": "Polar"
+    },
+    {
+      "index": 21,
+      "handle": "Sticker_Pura",
+      "nameEn": "Pura ",
+      "nameFr": "Pura"
+    },
+    {
+      "index": 22,
+      "handle": "Sticker_Planet",
+      "nameEn": "Moon Base",
+      "nameFr": "Base lunaire"
+    },
+    {
+      "index": 23,
+      "handle": "Sticker_Planet_Gas",
+      "nameEn": "Gasmoxia",
+      "nameFr": "Gasmoxia"
+    },
+    {
+      "index": 24,
+      "handle": "Sticker_Blaster",
+      "nameEn": "Laser Blaster",
+      "nameFr": "Pisto-laser"
+    },
+    {
+      "index": 25,
+      "handle": "Sticker_Spaceship",
+      "nameEn": "Spaceship",
+      "nameFr": "Vaisseau spatial"
+    },
+    {
+      "index": 26,
+      "handle": "Sticker_SpaceInsignia",
+      "nameEn": "Space Insignia",
+      "nameFr": "Insigne spatial"
+    },
+    {
+      "index": 27,
+      "handle": "Sticker_KomodoJoe",
+      "nameEn": "Komodo Joe ",
+      "nameFr": "Komodo Joe "
+    },
+    {
+      "index": 28,
+      "handle": "Sticker_Krunk",
+      "nameEn": "Krunk ",
+      "nameFr": "Krunk "
+    },
+    {
+      "index": 29,
+      "handle": "Sticker_Geary",
+      "nameEn": "Geary ",
+      "nameFr": "Geary "
+    },
+    {
+      "index": 30,
+      "handle": "Sticker_Crunch",
+      "nameEn": "Crunch ",
+      "nameFr": "Crunch "
+    },
+    {
+      "index": 31,
+      "handle": "Sticker_NTrance",
+      "nameEn": "N.Trance ",
+      "nameFr": "N.Trance "
+    },
+    {
+      "index": 32,
+      "handle": "Sticker_NTropy",
+      "nameEn": "Dr. N. Tropy",
+      "nameFr": "Dr N. Tropy"
+    },
+    {
+      "index": 33,
+      "handle": "Sticker_FakeCrash",
+      "nameEn": "Fake Crash ",
+      "nameFr": "Faux Crash"
+    },
+    {
+      "index": 34,
+      "handle": "Sticker_NitrosOxide",
+      "nameEn": "Nitros Oxide ",
+      "nameFr": "Nitros Oxide "
+    },
+    {
+      "index": 35,
+      "handle": "Sticker_PentaPenguin",
+      "nameEn": "Penta Penguin ",
+      "nameFr": "Penta Penguin "
+    },
+    {
+      "index": 36,
+      "handle": "Sticker_Nash",
+      "nameEn": "Nash",
+      "nameFr": "Nash"
+    },
+    {
+      "index": 37,
+      "handle": "Sticker_Beach_PalmTree",
+      "nameEn": "Palm Tree",
+      "nameFr": "Palmier"
+    },
+    {
+      "index": 38,
+      "handle": "Sticker_Beach_Mask",
+      "nameEn": "Mask",
+      "nameFr": "Masque"
+    },
+    {
+      "index": 39,
+      "handle": "Sticker_Beach_Shark",
+      "nameEn": "Shark",
+      "nameFr": "Requin"
+    },
+    {
+      "index": 40,
+      "handle": "Sticker_Gemstone_Gem",
+      "nameEn": "Gem",
+      "nameFr": "Gemme"
+    },
+    {
+      "index": 41,
+      "handle": "Sticker_Gemstone_Crystals",
+      "nameEn": "Crystals",
+      "nameFr": "Cristaux"
+    },
+    {
+      "index": 42,
+      "handle": "Sticker_Gemstone_OxideSpaceship",
+      "nameEn": "Oxide Spaceship",
+      "nameFr": "Vaisseau d'Oxide"
+    },
+    {
+      "index": 43,
+      "handle": "Sticker_LostRuins_Pyramids",
+      "nameEn": "Pyramids",
+      "nameFr": "Pyramides"
+    },
+    {
+      "index": 44,
+      "handle": "Sticker_LostRuins_Mask",
+      "nameEn": "Papu Helmet",
+      "nameFr": "Casque Papu"
+    },
+    {
+      "index": 45,
+      "handle": "Sticker_LostRuins_Token",
+      "nameEn": "Token",
+      "nameFr": "Jeton"
+    },
+    {
+      "index": 46,
+      "handle": "Sticker_Glacier_SnowFlake",
+      "nameEn": "Snowflake",
+      "nameFr": "Flocon de neige"
+    },
+    {
+      "index": 47,
+      "handle": "Sticker_Glacier_AxeRack",
+      "nameEn": "Shield & Axe",
+      "nameFr": "Bouclier & hache"
+    },
+    {
+      "index": 48,
+      "handle": "Sticker_Glacier_VikingHead",
+      "nameEn": "Viking Head",
+      "nameFr": "Tête viking"
+    },
+    {
+      "index": 49,
+      "handle": "Sticker_Citadel_Tower",
+      "nameEn": "Tower",
+      "nameFr": "Tour"
+    },
+    {
+      "index": 50,
+      "handle": "Sticker_Citadel_Gargoyle",
+      "nameEn": "Gargoyle",
+      "nameFr": "Gargouille"
+    },
+    {
+      "index": 51,
+      "handle": "Sticker_Citadel_Crown",
+      "nameEn": "Crown",
+      "nameFr": "Couronne"
+    },
+    {
+      "index": 52,
+      "handle": "Sticker_BigNorm",
+      "nameEn": "Big Norm ",
+      "nameFr": "Grand Norm"
+    },
+    {
+      "index": 53,
+      "handle": "Sticker_RealVelo",
+      "nameEn": "Real Velo ",
+      "nameFr": "Vrai Velo"
+    },
+    {
+      "index": 54,
+      "handle": "Sticker_SmallNorm",
+      "nameEn": "Small Norm ",
+      "nameFr": "Petit Norm"
+    },
+    {
+      "index": 55,
+      "handle": "Sticker_Zam",
+      "nameEn": "Zam ",
+      "nameFr": "Zam"
+    },
+    {
+      "index": 56,
+      "handle": "Sticker_Zem",
+      "nameEn": "Zem ",
+      "nameFr": "Zem"
+    },
+    {
+      "index": 57,
+      "handle": "Sticker_0_BlackOnWhite",
+      "nameEn": "Zero Black",
+      "nameFr": "Zéro noir"
+    },
+    {
+      "index": 58,
+      "handle": "Sticker_1_BlackOnWhite",
+      "nameEn": "One Black",
+      "nameFr": "Un noir"
+    },
+    {
+      "index": 59,
+      "handle": "Sticker_2_BlackOnWhite",
+      "nameEn": "Two Black",
+      "nameFr": "Deux noir"
+    },
+    {
+      "index": 60,
+      "handle": "Sticker_3_BlackOnWhite",
+      "nameEn": "Three Black",
+      "nameFr": "Trois noir"
+    },
+    {
+      "index": 61,
+      "handle": "Sticker_4_BlackOnWhite",
+      "nameEn": "Four Black",
+      "nameFr": "Quatre noir"
+    },
+    {
+      "index": 62,
+      "handle": "Sticker_5_BlackOnWhite",
+      "nameEn": "Five Black",
+      "nameFr": "Cinq noir"
+    },
+    {
+      "index": 63,
+      "handle": "Sticker_6_BlackOnWhite",
+      "nameEn": "Six Black",
+      "nameFr": "Six noir"
+    },
+    {
+      "index": 64,
+      "handle": "Sticker_7_BlackOnWhite",
+      "nameEn": "Seven Black",
+      "nameFr": "Sept noir"
+    },
+    {
+      "index": 65,
+      "handle": "Sticker_8_BlackOnWhite",
+      "nameEn": "Eight Black",
+      "nameFr": "Huit noir"
+    },
+    {
+      "index": 66,
+      "handle": "Sticker_9_BlackOnWhite",
+      "nameEn": "Nine Black",
+      "nameFr": "Neuf noir"
+    },
+    {
+      "index": 67,
+      "handle": "Sticker_0_WhiteOnBlack",
+      "nameEn": "Zero White",
+      "nameFr": "Zéro blanc"
+    },
+    {
+      "index": 68,
+      "handle": "Sticker_1_WhiteOnBlack",
+      "nameEn": "One White",
+      "nameFr": "Un blanc"
+    },
+    {
+      "index": 69,
+      "handle": "Sticker_2_WhiteOnBlack",
+      "nameEn": "Two White",
+      "nameFr": "Deux blanc"
+    },
+    {
+      "index": 70,
+      "handle": "Sticker_3_WhiteOnBlack",
+      "nameEn": "Three White",
+      "nameFr": "Trois blanc"
+    },
+    {
+      "index": 71,
+      "handle": "Sticker_4_WhiteOnBlack",
+      "nameEn": "Four White",
+      "nameFr": "Quatre blanc"
+    },
+    {
+      "index": 72,
+      "handle": "Sticker_5_WhiteOnBlack",
+      "nameEn": "Five White",
+      "nameFr": "Cinq blanc"
+    },
+    {
+      "index": 73,
+      "handle": "Sticker_6_WhiteOnBlack",
+      "nameEn": "Six White",
+      "nameFr": "Six blanc"
+    },
+    {
+      "index": 74,
+      "handle": "Sticker_7_WhiteOnBlack",
+      "nameEn": "Seven White",
+      "nameFr": "Sept blanc"
+    },
+    {
+      "index": 75,
+      "handle": "Sticker_8_WhiteOnBlack",
+      "nameEn": "Eight White",
+      "nameFr": "Huit blanc"
+    },
+    {
+      "index": 76,
+      "handle": "Sticker_9_WhiteOnBlack",
+      "nameEn": "Nine White",
+      "nameFr": "Neuf blanc"
+    },
+    {
+      "index": 77,
+      "handle": "Sticker_PS_Logo_Black",
+      "nameEn": "PlayStation Family Mark Black",
+      "nameFr": "PlayStation Family Mark noire"
+    },
+    {
+      "index": 78,
+      "handle": "Sticker_PS_Logo_Blue",
+      "nameEn": "PlayStation Family Mark Blue",
+      "nameFr": "PlayStation Family Mark bleue"
+    },
+    {
+      "index": 79,
+      "handle": "Sticker_PS_Logo_White",
+      "nameEn": "PlayStation Family Mark White",
+      "nameFr": "PlayStation Family Mark blanche"
+    },
+    {
+      "index": 80,
+      "handle": "Sticker_PS_Buttons_Circle",
+      "nameEn": "PlayStation Shapes 2",
+      "nameFr": "PlayStation Shapes 2"
+    },
+    {
+      "index": 81,
+      "handle": "Sticker_PS_Buttons_Square",
+      "nameEn": "PlayStation Shapes 1",
+      "nameFr": "PlayStation Shapes 1"
+    },
+    {
+      "index": 82,
+      "handle": "Sticker_Hazard01_Exclamation",
+      "nameEn": "Exclamation",
+      "nameFr": "Exclamation"
+    },
+    {
+      "index": 83,
+      "handle": "Sticker_Hazard03_Lightning",
+      "nameEn": "Shock",
+      "nameFr": "Choc"
+    },
+    {
+      "index": 84,
+      "handle": "Sticker_Hazard08_NitroCrate",
+      "nameEn": "Nitro Crate",
+      "nameFr": "Caisse nitro"
+    },
+    {
+      "index": 85,
+      "handle": "Sticker_Hazard04_Poison",
+      "nameEn": "Poison",
+      "nameFr": "Poison"
+    },
+    {
+      "index": 86,
+      "handle": "Sticker_Hazard02_Question",
+      "nameEn": "Question",
+      "nameFr": "Interrogation"
+    },
+    {
+      "index": 87,
+      "handle": "Sticker_Hazard06_Radioactive",
+      "nameEn": "Radioactive",
+      "nameFr": "Radioactif"
+    },
+    {
+      "index": 88,
+      "handle": "Sticker_Hazard07_TnTCrate",
+      "nameEn": "TNT Crate",
+      "nameFr": "Caisse de TNT"
+    },
+    {
+      "index": 89,
+      "handle": "Sticker_Hazard05_Flammable",
+      "nameEn": "Flammable",
+      "nameFr": "Inflammable"
+    },
+    {
+      "index": 90,
+      "handle": "Sticker_Number_10",
+      "nameEn": "Ten",
+      "nameFr": "Dix"
+    },
+    {
+      "index": 91,
+      "handle": "Sticker_Number_12",
+      "nameEn": "Twelve",
+      "nameFr": "Douze"
+    },
+    {
+      "index": 92,
+      "handle": "Sticker_Number_13",
+      "nameEn": "Thirteen",
+      "nameFr": "Treize"
+    },
+    {
+      "index": 93,
+      "handle": "Sticker_Number_14",
+      "nameEn": "Fourteen",
+      "nameFr": "Quatorze"
+    },
+    {
+      "index": 94,
+      "handle": "Sticker_Number_75",
+      "nameEn": "Seventy Five",
+      "nameFr": "Soixante-quinze"
+    },
+    {
+      "index": 95,
+      "handle": "Sticker_Number_76",
+      "nameEn": "Seventy Six",
+      "nameFr": "Soixante-seize"
+    },
+    {
+      "index": 96,
+      "handle": "Sticker_Number_78",
+      "nameEn": "Seventy Eight",
+      "nameFr": "Soixante-dix-huit"
+    },
+    {
+      "index": 97,
+      "handle": "Sticker_Number_79",
+      "nameEn": "Seventy Nine",
+      "nameFr": "Soixante-dix-neuf"
+    },
+    {
+      "index": 98,
+      "handle": "Sticker_Number_95",
+      "nameEn": "Ninety Five",
+      "nameFr": "Quatre-vingt-quinze"
+    },
+    {
+      "index": 99,
+      "handle": "Sticker_Number_96",
+      "nameEn": "Ninety Six",
+      "nameFr": "Quatre-vingt-seize"
+    },
+    {
+      "index": 100,
+      "handle": "Sticker_Number_97",
+      "nameEn": "Ninety Seven",
+      "nameFr": "Quatre-vingt-dix-sept"
+    },
+    {
+      "index": 101,
+      "handle": "Sticker_Number_98",
+      "nameEn": "Ninety Eight",
+      "nameFr": "Quatre-vingt-dix-huit"
+    },
+    {
+      "index": 102,
+      "handle": "Sticker_Number_00",
+      "nameEn": "Double Zero",
+      "nameFr": "Double zéro"
+    },
+    {
+      "index": 103,
+      "handle": "Sticker_Number_11",
+      "nameEn": "Eleven",
+      "nameFr": "Onze"
+    },
+    {
+      "index": 104,
+      "handle": "Sticker_Number_22",
+      "nameEn": "Twenty Two",
+      "nameFr": "Vingt-deux"
+    },
+    {
+      "index": 105,
+      "handle": "Sticker_Number_33",
+      "nameEn": "Thirty Three",
+      "nameFr": "Trente-trois"
+    },
+    {
+      "index": 106,
+      "handle": "Sticker_Number_44",
+      "nameEn": "Forty Four",
+      "nameFr": "Quarante-quatre"
+    },
+    {
+      "index": 107,
+      "handle": "Sticker_Number_55",
+      "nameEn": "Fifty-Five",
+      "nameFr": "Cinquante-cinq"
+    },
+    {
+      "index": 108,
+      "handle": "Sticker_Number_66",
+      "nameEn": "Sixty Six",
+      "nameFr": "Soixante-six"
+    },
+    {
+      "index": 109,
+      "handle": "Sticker_Number_77",
+      "nameEn": "Seventy Seven",
+      "nameFr": "Soixante-dix-sept"
+    },
+    {
+      "index": 110,
+      "handle": "Sticker_Number_88",
+      "nameEn": "Eighty-Eight",
+      "nameFr": "Quatre-vingt-huit"
+    },
+    {
+      "index": 111,
+      "handle": "Sticker_Number_99",
+      "nameEn": "ninety-nine",
+      "nameFr": "Quatre-vingt-dix-neuf"
+    },
+    {
+      "index": 112,
+      "handle": "Sticker_Monster_Dragon",
+      "nameEn": "Dragon",
+      "nameFr": "Dragon"
+    },
+    {
+      "index": 113,
+      "handle": "Sticker_Monster_Gargoyle",
+      "nameEn": "Gargoyle",
+      "nameFr": "Gargouille"
+    },
+    {
+      "index": 114,
+      "handle": "Sticker_Monster_Spider",
+      "nameEn": "Spider",
+      "nameFr": "Araignée"
+    },
+    {
+      "index": 115,
+      "handle": "Sticker_Critter_Bat",
+      "nameEn": "Bat",
+      "nameFr": "Chauve-souris"
+    },
+    {
+      "index": 116,
+      "handle": "Sticker_Critter_Butterfly",
+      "nameEn": "Butterfly",
+      "nameFr": "Papillon"
+    },
+    {
+      "index": 117,
+      "handle": "Sticker_Critter_Chicken",
+      "nameEn": "Chicken",
+      "nameFr": "Poulet"
+    },
+    {
+      "index": 118,
+      "handle": "Sticker_FeelGood_Flower",
+      "nameEn": "Flower",
+      "nameFr": "Fleur"
+    },
+    {
+      "index": 119,
+      "handle": "Sticker_FeelGood_Heart",
+      "nameEn": "Heart",
+      "nameFr": "Cœur"
+    },
+    {
+      "index": 120,
+      "handle": "Sticker_FeelGood_Star",
+      "nameEn": "Star",
+      "nameFr": "Étoile"
+    },
+    {
+      "index": 121,
+      "handle": "Sticker_Flag_Argentina",
+      "nameEn": "Argentina",
+      "nameFr": "Argentine"
+    },
+    {
+      "index": 122,
+      "handle": "Sticker_Flag_Australia",
+      "nameEn": "Australia",
+      "nameFr": "Australie"
+    },
+    {
+      "index": 123,
+      "handle": "Sticker_Flag_Austria",
+      "nameEn": "Austria",
+      "nameFr": "Autriche"
+    },
+    {
+      "index": 124,
+      "handle": "Sticker_Flag_Belgium",
+      "nameEn": "Belgium",
+      "nameFr": "Belgique"
+    },
+    {
+      "index": 125,
+      "handle": "Sticker_Flag_Brazil",
+      "nameEn": "Brazil",
+      "nameFr": "Brésil"
+    },
+    {
+      "index": 126,
+      "handle": "Sticker_Flag_Canada",
+      "nameEn": "Canada",
+      "nameFr": "Canada"
+    },
+    {
+      "index": 127,
+      "handle": "Sticker_Flag_Chile",
+      "nameEn": "Chile",
+      "nameFr": "Chili"
+    },
+    {
+      "index": 128,
+      "handle": "Sticker_Flag_CzechRepublic",
+      "nameEn": "Czech Republic",
+      "nameFr": "République Tchèque"
+    },
+    {
+      "index": 129,
+      "handle": "Sticker_Flag_Denmark",
+      "nameEn": "Denmark",
+      "nameFr": "Danemark"
+    },
+    {
+      "index": 130,
+      "handle": "Sticker_Flag_Finland",
+      "nameEn": "Finland",
+      "nameFr": "Finlande"
+    },
+    {
+      "index": 131,
+      "handle": "Sticker_Flag_France",
+      "nameEn": "France",
+      "nameFr": "France"
+    },
+    {
+      "index": 132,
+      "handle": "Sticker_Flag_Germany",
+      "nameEn": "Germany",
+      "nameFr": "Allemagne"
+    },
+    {
+      "index": 133,
+      "handle": "Sticker_Flag_Greece",
+      "nameEn": "Greece",
+      "nameFr": "Grèce"
+    },
+    {
+      "index": 134,
+      "handle": "Sticker_Flag_Ireland",
+      "nameEn": "Ireland",
+      "nameFr": "Irlande"
+    },
+    {
+      "index": 135,
+      "handle": "Sticker_Flag_Italy",
+      "nameEn": "Italy",
+      "nameFr": "Italie"
+    },
+    {
+      "index": 136,
+      "handle": "Sticker_Flag_Japan",
+      "nameEn": "Japan",
+      "nameFr": "Japon"
+    },
+    {
+      "index": 137,
+      "handle": "Sticker_Flag_Mexico",
+      "nameEn": "Mexico",
+      "nameFr": "Mexique"
+    },
+    {
+      "index": 138,
+      "handle": "Sticker_Flag_Netherlands",
+      "nameEn": "Netherlands",
+      "nameFr": "Pays-Bas"
+    },
+    {
+      "index": 139,
+      "handle": "Sticker_Flag_NewZealand",
+      "nameEn": "New Zealand",
+      "nameFr": "Nouvelle Zélande"
+    },
+    {
+      "index": 140,
+      "handle": "Sticker_Flag_Norway",
+      "nameEn": "Norway",
+      "nameFr": "Norvège"
+    },
+    {
+      "index": 141,
+      "handle": "Sticker_Flag_Poland",
+      "nameEn": "Poland",
+      "nameFr": "Pologne"
+    },
+    {
+      "index": 142,
+      "handle": "Sticker_Flag_Russia",
+      "nameEn": "Russia",
+      "nameFr": "Russie"
+    },
+    {
+      "index": 143,
+      "handle": "Sticker_Flag_SouthAfrica",
+      "nameEn": "South Africa",
+      "nameFr": "Afrique du Sud"
+    },
+    {
+      "index": 144,
+      "handle": "Sticker_Flag_Spain",
+      "nameEn": "Spain",
+      "nameFr": "Espagne"
+    },
+    {
+      "index": 145,
+      "handle": "Sticker_Flag_Sweden",
+      "nameEn": "Sweden",
+      "nameFr": "Suède"
+    },
+    {
+      "index": 146,
+      "handle": "Sticker_Flag_UAE",
+      "nameEn": "United Arab Emirates",
+      "nameFr": "Émirats Arabes Unis"
+    },
+    {
+      "index": 147,
+      "handle": "Sticker_Flag_UK",
+      "nameEn": "United Kingdom",
+      "nameFr": "Royaume-Uni"
+    },
+    {
+      "index": 148,
+      "handle": "Sticker_Flag_USA",
+      "nameEn": "United States of America",
+      "nameFr": "États-Unis"
+    },
+    {
+      "index": 149,
+      "handle": "Sticker_GP01_Gauge_Hieroglyphs1",
+      "nameEn": "Ankh",
+      "nameFr": "Croix égyptienne"
+    },
+    {
+      "index": 150,
+      "handle": "Sticker_GP01_Gauge_Hieroglyphs2",
+      "nameEn": "Scarab",
+      "nameFr": "Scarabée"
+    },
+    {
+      "index": 151,
+      "handle": "Sticker_GP01_Gauge_GateWings",
+      "nameEn": "Wings",
+      "nameFr": "Œil ailé"
+    },
+    {
+      "index": 152,
+      "handle": "Sticker_GP01_Gauge_CortexPharaoh",
+      "nameEn": "Cortex Pharaoh",
+      "nameFr": "Cortex Pharaon"
+    },
+    {
+      "index": 153,
+      "handle": "Sticker_Tawna",
+      "nameEn": "Tawna",
+      "nameFr": "Tawna"
+    },
+    {
+      "index": 154,
+      "handle": "Sticker_Ami",
+      "nameEn": "Ami",
+      "nameFr": "Ami"
+    },
+    {
+      "index": 155,
+      "handle": "Sticker_Megumi",
+      "nameEn": "Megumi",
+      "nameFr": "Megumi"
+    },
+    {
+      "index": 156,
+      "handle": "Sticker_Liz",
+      "nameEn": "Liz",
+      "nameFr": "Liz"
+    },
+    {
+      "index": 157,
+      "handle": "Sticker_Isabella",
+      "nameEn": "Isabella",
+      "nameFr": "Isabella"
+    },
+    {
+      "index": 158,
+      "handle": "GP2_Sticker_NitroGauge_01",
+      "nameEn": "Cave Painting of Tiny",
+      "nameFr": "Peinture de Tiny"
+    },
+    {
+      "index": 159,
+      "handle": "GP2_Sticker_NitroGauge_02",
+      "nameEn": "Cave Painting of Bones",
+      "nameFr": "Peinture d'os"
+    },
+    {
+      "index": 160,
+      "handle": "GP2_Sticker_NitroGauge_03",
+      "nameEn": "Fake Brontosaurus Head",
+      "nameFr": "Tête de faux brontosaure"
+    },
+    {
+      "index": 161,
+      "handle": "GP2_Sticker_NitroGauge_04",
+      "nameEn": "Caveman Fake Crash",
+      "nameFr": "Faux Crash des cavernes"
+    },
+    {
+      "index": 162,
+      "handle": "GP2_Sticker_NitroGauge_05",
+      "nameEn": "Baby T",
+      "nameFr": "Bébé T"
+    },
+    {
+      "index": 163,
+      "handle": "GP2_Sticker_RockArt_01",
+      "nameEn": "Cave Painting of T-Rex Chicken",
+      "nameFr": "Peinture de poulet T-Rex"
+    },
+    {
+      "index": 164,
+      "handle": "GP2_Sticker_RockArt_02",
+      "nameEn": "Cave painting of Fake Caveman",
+      "nameFr": "Peinture de faux Homo sapiens"
+    },
+    {
+      "index": 165,
+      "handle": "GP2_Sticker_RockArt_03",
+      "nameEn": "T-Rex Chicken Head",
+      "nameFr": "Tête de poulet T-Rex"
+    },
+    {
+      "index": 166,
+      "handle": "GP2_Sticker_Fake_01",
+      "nameEn": "Fake Ptero Head",
+      "nameFr": "Tête de faux ptérodactyle"
+    },
+    {
+      "index": 167,
+      "handle": "GP2_Sticker_Fake_02",
+      "nameEn": "Fake Triceratop Head",
+      "nameFr": "Tête de faux tricératops"
+    },
+    {
+      "index": 168,
+      "handle": "GP2_Sticker_BCH_01",
+      "nameEn": "Baby Crash",
+      "nameFr": "Bébé Crash"
+    },
+    {
+      "index": 169,
+      "handle": "GP2_Sticker_BCH_02",
+      "nameEn": "Baby Coco",
+      "nameFr": "Bébé Coco"
+    },
+    {
+      "index": 170,
+      "handle": "GP3_Sticker_01",
+      "nameEn": "Crystal Dragon",
+      "nameFr": "Dragon de cristal"
+    },
+    {
+      "index": 171,
+      "handle": "GP3_Sticker_02",
+      "nameEn": "Green Gem",
+      "nameFr": "Gemme verte"
+    },
+    {
+      "index": 172,
+      "handle": "GP3_Sticker_03",
+      "nameEn": "Red Gem",
+      "nameFr": "Gemme rouge"
+    },
+    {
+      "index": 173,
+      "handle": "GP3_Sticker_04",
+      "nameEn": "Blue Gem",
+      "nameFr": "Gemme bleue"
+    },
+    {
+      "index": 174,
+      "handle": "GP3_Sticker_05",
+      "nameEn": "Sheep",
+      "nameFr": "Mouton"
+    },
+    {
+      "index": 175,
+      "handle": "GP3_Sticker_06",
+      "nameEn": "Lightning Bow",
+      "nameFr": "Arc électrique"
+    },
+    {
+      "index": 176,
+      "handle": "GP3_Sticker_07",
+      "nameEn": "Viking Helmet",
+      "nameFr": "Casque viking"
+    },
+    {
+      "index": 177,
+      "handle": "GP3_Sticker_08",
+      "nameEn": "Magic Potion",
+      "nameFr": "Potion magique"
+    },
+    {
+      "index": 178,
+      "handle": "GP3_Sticker_09",
+      "nameEn": "Sparx",
+      "nameFr": "Sparx"
+    },
+    {
+      "index": 179,
+      "handle": "GP3_Sticker_10",
+      "nameEn": "Spyro ",
+      "nameFr": "Spyro "
+    },
+    {
+      "index": 180,
+      "handle": "GP3_Sticker_11",
+      "nameEn": "Gnasty Gnorc",
+      "nameFr": "Gnasty Gnorc"
+    },
+    {
+      "index": 181,
+      "handle": "GP3_Sticker_12",
+      "nameEn": "Hunter",
+      "nameFr": "Chasseur"
+    },
+    {
+      "index": 182,
+      "handle": "Sticker_MLZ_Blue",
+      "nameEn": "Kid Blue",
+      "nameFr": "Enfant bleu"
+    },
+    {
+      "index": 183,
+      "handle": "Sticker_MLZ_Green",
+      "nameEn": "Kid Green",
+      "nameFr": "Enfant vert"
+    },
+    {
+      "index": 184,
+      "handle": "Sticker_MLZ_Orange",
+      "nameEn": "Kid Orange",
+      "nameFr": "Enfant orange"
+    },
+    {
+      "index": 185,
+      "handle": "GP4_Sticker_01",
+      "nameEn": "Moon",
+      "nameFr": "Lune"
+    },
+    {
+      "index": 186,
+      "handle": "GP4_Sticker_02",
+      "nameEn": "Ghost",
+      "nameFr": "Fantôme"
+    },
+    {
+      "index": 187,
+      "handle": "GP4_Sticker_03",
+      "nameEn": "Evil Crash Shadow",
+      "nameFr": "Ombre de Crash maléfique"
+    },
+    {
+      "index": 188,
+      "handle": "GP4_Sticker_04",
+      "nameEn": "Lightning Bolts",
+      "nameFr": "Foudre"
+    },
+    {
+      "index": 189,
+      "handle": "GP4_Sticker_05",
+      "nameEn": "Scarecrow",
+      "nameFr": "Épouvantail"
+    },
+    {
+      "index": 190,
+      "handle": "GP4_Sticker_06",
+      "nameEn": "Rat",
+      "nameFr": "Rat"
+    },
+    {
+      "index": 191,
+      "handle": "GP4_Sticker_07",
+      "nameEn": "Crow",
+      "nameFr": "Corbeau"
+    },
+    {
+      "index": 192,
+      "handle": "GP4_Sticker_08",
+      "nameEn": "Werewolf Howling",
+      "nameFr": "Loup-garou"
+    },
+    {
+      "index": 193,
+      "handle": "GP4_Sticker_09",
+      "nameEn": "Pumpkin Lord Head",
+      "nameFr": "Seigneur citrouille"
+    },
+    {
+      "index": 194,
+      "handle": "GP4_Sticker_10",
+      "nameEn": "Nina Cortex",
+      "nameFr": "Nina Cortex"
+    },
+    {
+      "index": 195,
+      "handle": "GP4_Sticker_11",
+      "nameEn": "Komodo Moe",
+      "nameFr": "Komodo Moe"
+    },
+    {
+      "index": 196,
+      "handle": "GP4_Sticker_12",
+      "nameEn": "N. Brio",
+      "nameFr": "N. Brio"
+    },
+    {
+      "index": 197,
+      "handle": "GP4_Sticker_13",
+      "nameEn": "Barnstorming",
+      "nameFr": "Barnstorming"
+    },
+    {
+      "index": 198,
+      "handle": "GP4_Sticker_14",
+      "nameEn": "Pitfall!",
+      "nameFr": "Pitfall!"
+    },
+    {
+      "index": 199,
+      "handle": "GP4_Sticker_15",
+      "nameEn": "Freeway",
+      "nameFr": "Freeway"
+    },
+    {
+      "index": 200,
+      "handle": "GP5_Sticker_01",
+      "nameEn": "Balloon",
+      "nameFr": "Ballon"
+    },
+    {
+      "index": 201,
+      "handle": "GP5_Sticker_02",
+      "nameEn": "Fireworks",
+      "nameFr": "Feux d'artifice"
+    },
+    {
+      "index": 202,
+      "handle": "GP5_Sticker_03",
+      "nameEn": "Cannon",
+      "nameFr": "Canon"
+    },
+    {
+      "index": 203,
+      "handle": "GP5_Sticker_04",
+      "nameEn": "Stars",
+      "nameFr": "Étoiles"
+    },
+    {
+      "index": 204,
+      "handle": "GP5_Sticker_05",
+      "nameEn": "Neon Blimp",
+      "nameFr": "Dirigeable néon"
+    },
+    {
+      "index": 205,
+      "handle": "GP5_Sticker_06",
+      "nameEn": "Neon Plane",
+      "nameFr": "Avion néon"
+    },
+    {
+      "index": 206,
+      "handle": "GP5_Sticker_07",
+      "nameEn": "Neon Guitar",
+      "nameFr": "Guitare néon"
+    },
+    {
+      "index": 207,
+      "handle": "GP5_Sticker_08",
+      "nameEn": "Neon Dragoncoaster",
+      "nameFr": "Dragoncoaster néon"
+    },
+    {
+      "index": 208,
+      "handle": "GP5_Sticker_09",
+      "nameEn": "King Chicken",
+      "nameFr": "Roi Poulet"
+    },
+    {
+      "index": 209,
+      "handle": "GP5_Sticker_10",
+      "nameEn": "Koala Kong",
+      "nameFr": "Koala Kong"
+    },
+    {
+      "index": 210,
+      "handle": "GP5_Sticker_11",
+      "nameEn": "Pasadena O'Possum",
+      "nameFr": "Pasadena O'Possum"
+    },
+    {
+      "index": 211,
+      "handle": "GP5_Sticker_12",
+      "nameEn": "Ebenezer Von Clutch",
+      "nameFr": "Ebenezer Von Clutch"
+    },
+    {
+      "index": 212,
+      "handle": "GP6_Sticker_01",
+      "nameEn": "Swirly Candy",
+      "nameFr": "Bonbon tourbillon"
+    },
+    {
+      "index": 213,
+      "handle": "GP6_Sticker_02",
+      "nameEn": "Cupcake",
+      "nameFr": "Cupcake"
+    },
+    {
+      "index": 214,
+      "handle": "GP6_Sticker_03",
+      "nameEn": "Chocolate Pretzel",
+      "nameFr": "Bretzel en chocolat"
+    },
+    {
+      "index": 215,
+      "handle": "GP6_Sticker_04",
+      "nameEn": "Candy Cane",
+      "nameFr": "Sucre d'orge"
+    },
+    {
+      "index": 216,
+      "handle": "GP6_Sticker_05",
+      "nameEn": "Sumo Jelly",
+      "nameFr": "Sumo gelée"
+    },
+    {
+      "index": 217,
+      "handle": "GP6_Sticker_06",
+      "nameEn": "King Jelly",
+      "nameFr": "Roi gelée"
+    },
+    {
+      "index": 218,
+      "handle": "GP6_Sticker_07",
+      "nameEn": "Jelly People",
+      "nameFr": "Homme gelée"
+    },
+    {
+      "index": 219,
+      "handle": "GP6_Sticker_08",
+      "nameEn": "Jelly Crown",
+      "nameFr": "Couronne gelée"
+    },
+    {
+      "index": 220,
+      "handle": "GP6_Sticker_09",
+      "nameEn": "Hasty",
+      "nameFr": "Hasty"
+    },
+    {
+      "index": 221,
+      "handle": "GP6_Sticker_10",
+      "nameEn": "Rilla Roo",
+      "nameFr": "Rilla Roo"
+    },
+    {
+      "index": 222,
+      "handle": "GP6_Sticker_11",
+      "nameEn": "Yaya Panda",
+      "nameFr": "Yaya Panda"
+    },
+    {
+      "index": 223,
+      "handle": "GP6_Sticker_12",
+      "nameEn": "Chick N. Stew",
+      "nameFr": "Chick N. Stew"
+    },
+    {
+      "index": 224,
+      "handle": "GP7_Sticker_01",
+      "nameEn": "Rustland Coco",
+      "nameFr": "Coco de la rouille"
+    },
+    {
+      "index": 225,
+      "handle": "GP7_Sticker_02",
+      "nameEn": "Rustland Cortex",
+      "nameFr": "Cortex de la rouille"
+    },
+    {
+      "index": 226,
+      "handle": "GP7_Sticker_03",
+      "nameEn": "Rustland Dingodile",
+      "nameFr": "Dingodile de la rouille"
+    },
+    {
+      "index": 227,
+      "handle": "GP7_Sticker_04",
+      "nameEn": "Rustland N. Gin",
+      "nameFr": "N. Gin de la rouille"
+    },
+    {
+      "index": 228,
+      "handle": "GP7_Sticker_05",
+      "nameEn": "Rustland Polar",
+      "nameFr": "Polar de la rouille"
+    },
+    {
+      "index": 229,
+      "handle": "GP7_Sticker_06",
+      "nameEn": "Rustland Pura",
+      "nameFr": "Pura de la rouille"
+    },
+    {
+      "index": 230,
+      "handle": "GP7_Sticker_07",
+      "nameEn": "Rustland Tiny Tiger",
+      "nameFr": "Tiny Tiger de la rouille"
+    },
+    {
+      "index": 231,
+      "handle": "GP7_Sticker_08",
+      "nameEn": "Rustland Nina",
+      "nameFr": "Nina de la rouille"
+    },
+    {
+      "index": 232,
+      "handle": "GP7_Sticker_09",
+      "nameEn": "Rustland Crash",
+      "nameFr": "Crash de la rouille"
+    },
+    {
+      "index": 233,
+      "handle": "GP7_Sticker_10",
+      "nameEn": "Anchor",
+      "nameFr": "Ancre"
+    },
+    {
+      "index": 234,
+      "handle": "GP7_Sticker_11",
+      "nameEn": "Apo-Apo Mask",
+      "nameFr": "Masque Apo Apo"
+    },
+    {
+      "index": 235,
+      "handle": "GP7_Sticker_12",
+      "nameEn": "Megamix ",
+      "nameFr": "Megamix "
+    },
+    {
+      "index": 236,
+      "handle": "GP7_Sticker_13",
+      "nameEn": "Megatag",
+      "nameFr": "Megatag"
+    },
+    {
+      "index": 237,
+      "handle": "GP8_Sticker_01",
+      "nameEn": "Burger",
+      "nameFr": "Burger"
+    },
+    {
+      "index": 238,
+      "handle": "GP8_Sticker_02",
+      "nameEn": "Pizza",
+      "nameFr": "Pizza"
+    },
+    {
+      "index": 239,
+      "handle": "GP8_Sticker_03",
+      "nameEn": "Toxic Burger",
+      "nameFr": "Burger toxique"
+    },
+    {
+      "index": 240,
+      "handle": "GP8_Sticker_04",
+      "nameEn": "Nuclear Pizza",
+      "nameFr": "Pizza nucléaire"
+    },
+    {
+      "index": 241,
+      "handle": "GP8_Sticker_05",
+      "nameEn": "Mascot Burger",
+      "nameFr": "Mascotte Burger"
+    },
+    {
+      "index": 242,
+      "handle": "GP8_Sticker_06",
+      "nameEn": "Mascot Pizza",
+      "nameFr": "Mascotte Pizza"
+    },
+    {
+      "index": 243,
+      "handle": "GP8_Sticker_07",
+      "nameEn": "Space Koala",
+      "nameFr": "Koala de l'espace"
+    },
+    {
+      "index": 244,
+      "handle": "GP8_Sticker_08",
+      "nameEn": "Velo Crew Pirate Patch",
+      "nameFr": "Bandeau pirate équipe de Velo"
+    },
+    {
+      "index": 245,
+      "handle": "GP8_Sticker_09",
+      "nameEn": "Nitro Pirates Patch",
+      "nameFr": "Bandeau pirate Nitro"
+    },
+    {
+      "index": 246,
+      "handle": "GP8_Sticker_10",
+      "nameEn": "Space Chicken",
+      "nameFr": "Poulet de l'espace"
+    },
+    {
+      "index": 247,
+      "handle": "GP8_Sticker_11",
+      "nameEn": "Activision Shuttle",
+      "nameFr": "Navette Activision"
+    },
+    {
+      "index": 248,
+      "handle": "GP8_Sticker_12",
+      "nameEn": "Emperor Velo XXVII",
+      "nameFr": "Empereur Velo XXVII"
+    },
+    {
+      "index": 249,
+      "handle": "GP9_Sticker_01",
+      "nameEn": "Beenox",
+      "nameFr": "Beenox"
+    }
+  ],
+  "presets": [
+    {
+      "index": 0,
+      "handle": "SystemData_kartCustomizationGlobalData_customizationPresets_0",
+      "nameEn": "Blue Retro Kart",
+      "nameFr": "Kart rétro bleu",
+      "chassis": "SystemData_availableKarts_15",
+      "paints": 16,
+      "wheels": 9,
+      "stickers": 0,
+      "decalHandle": null
+    },
+    {
+      "index": 1,
+      "handle": "SystemData_kartCustomizationGlobalData_customizationPresets_1",
+      "nameEn": "Pink Retro Kart",
+      "nameFr": "Kart rétro rose",
+      "chassis": "SystemData_availableKarts_15",
+      "paints": 41,
+      "wheels": 9,
+      "stickers": 0,
+      "decalHandle": null
+    },
+    {
+      "index": 2,
+      "handle": "SystemData_kartCustomizationGlobalData_customizationPresets_2",
+      "nameEn": "Red Retro Kart",
+      "nameFr": "Kart rétro rouge",
+      "chassis": "SystemData_availableKarts_15",
+      "paints": 42,
+      "wheels": 9,
+      "stickers": 0,
+      "decalHandle": null
+    },
+    {
+      "index": 3,
+      "handle": "SystemData_kartCustomizationGlobalData_customizationPresets_3",
+      "nameEn": "Indigo Retro Kart",
+      "nameFr": "Kart rétro indigo",
+      "chassis": "SystemData_availableKarts_15",
+      "paints": 48,
+      "wheels": 9,
+      "stickers": 0,
+      "decalHandle": null
+    },
+    {
+      "index": 4,
+      "handle": "SystemData_kartCustomizationGlobalData_customizationPresets_4",
+      "nameEn": "Aqua Retro Kart",
+      "nameFr": "Kart rétro turquoise",
+      "chassis": "SystemData_availableKarts_15",
+      "paints": 44,
+      "wheels": 9,
+      "stickers": 0,
+      "decalHandle": null
+    },
+    {
+      "index": 5,
+      "handle": "SystemData_kartCustomizationGlobalData_customizationPresets_5",
+      "nameEn": "Purple Retro Kart",
+      "nameFr": "Kart rétro violet",
+      "chassis": "SystemData_availableKarts_15",
+      "paints": 43,
+      "wheels": 9,
+      "stickers": 0,
+      "decalHandle": null
+    },
+    {
+      "index": 6,
+      "handle": "SystemData_kartCustomizationGlobalData_customizationPresets_6",
+      "nameEn": "Green Retro Kart",
+      "nameFr": "Kart rétro vert",
+      "chassis": "SystemData_availableKarts_15",
+      "paints": 47,
+      "wheels": 9,
+      "stickers": 0,
+      "decalHandle": null
+    },
+    {
+      "index": 7,
+      "handle": "SystemData_kartCustomizationGlobalData_customizationPresets_7",
+      "nameEn": "Olive Retro Kart",
+      "nameFr": "Kart rétro olive",
+      "chassis": "SystemData_availableKarts_15",
+      "paints": 49,
+      "wheels": 9,
+      "stickers": 0,
+      "decalHandle": null
+    },
+    {
+      "index": 8,
+      "handle": "GP3_KartPreset_Limited3",
+      "nameEn": "Firehawk",
+      "nameFr": "Faucon de feu",
+      "chassis": "SystemData_availableKarts_32",
+      "paints": 99,
+      "wheels": 0,
+      "stickers": 0,
+      "decalHandle": "SystemData_kartCustomizationGlobalData_decals_KartLimited3_0"
+    },
+    {
+      "index": 9,
+      "handle": "GP7_KartPreset_Limited4",
+      "nameEn": "Xfinity Flash Kart",
+      "nameFr": "Kart Xfinity Flash",
+      "chassis": "SystemData_availableKarts_44",
+      "paints": 0,
+      "wheels": 107,
+      "stickers": 0,
+      "decalHandle": null
+    }
+  ]
+}

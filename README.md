@@ -37,7 +37,9 @@ preset, apply one, rename/delete presets, or import/export JSON. Presets are sto
 in `%LOCALAPPDATA%\ctrnf-save-editor\garage\`. Apply marks the profile as edited;
 click **Save** to write it with the usual backup. Special kart settings travel
 together. Known locked drivers show a warning; chassis and other parts ownership
-is not checked. See [usage](docs/usage.md#garage) and the
+is not checked. Driver, skin, chassis, wheels, paint and sticker names follow the
+game's English/French localization; unknown values stay visible. The CLI supports
+`garage show <global.sav> --lang fr`. See [usage](docs/usage.md#garage) and the
 [format and evidence limits](docs/format/kart-loadout.md).
 
 ## Which file do I open?

@@ -15,7 +15,7 @@ ctrnf-save 1.0.0 — decrypted CTR Nitro-Fueled PS4 save inspector/editor
   ctrnf-save diff <a> <b> [--json]
   ctrnf-save check <file>
   ctrnf-save normalize <file> -o <out>
-  ctrnf-save garage show <global.sav>
+  ctrnf-save garage show <global.sav> [--lang en|fr]
   ctrnf-save garage export <global.sav> <preset.json> [--name N]
   ctrnf-save garage apply <global.sav> <preset.json> -o <out.sav>
 
@@ -96,13 +96,20 @@ Progress summaries alone do not complete events or unlock items.
     { if (!condition) throw new SaveFormatException("Usage: ctrnf-save " + usage); }
     private static int GarageCommand(string[] args)
     {
-        const string usage = "garage (show <global.sav> | export <global.sav> <preset.json> [--name N] | apply <global.sav> <preset.json> -o <out.sav>)";
+        const string usage = "garage (show <global.sav> [--lang en|fr] | export <global.sav> <preset.json> [--name N] | apply <global.sav> <preset.json> -o <out.sav>)";
         Require(args.Length >= 3, usage);
         if (args[1] == "show")
         {
-            Require(args.Length == 3, usage);
+            Require(args.Length == 3 || args.Length == 5 && args[3] == "--lang" && args[4] is "en" or "fr", usage);
             var current = KartLoadout.Read(Save.Load(args[2])).Preset;
-            Console.WriteLine(KartLoadout.DriverName(current.Driver)); Console.WriteLine(current.ToJson()); return 0;
+            bool french = args.Length == 5 && args[4] == "fr";
+            Console.WriteLine($"{(french ? "Pilote" : "Driver")}: {KartLoadout.DriverName(current.Driver, french)}");
+            Console.WriteLine($"{(french ? "Apparence" : "Skin")}: {KartLoadout.SkinName(current.Driver, current.Skin, french)}");
+            Console.WriteLine($"{(french ? "Châssis" : "Chassis")}: {KartLoadout.ChassisName(current, french)}");
+            Console.WriteLine($"{(french ? "Roues" : "Wheels")}: {KartLoadout.WheelsName(current.Wheels, french)}");
+            Console.WriteLine($"{(french ? "Peinture" : "Paint")}: {KartLoadout.PaintName(current.Paint, french)}");
+            Console.WriteLine($"{(french ? "Autocollant" : "Sticker")}: {KartLoadout.StickerName(current.Sticker, french)}");
+            Console.WriteLine(current.ToJson()); return 0;
         }
         if (args[1] == "export")
         {

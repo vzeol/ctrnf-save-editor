@@ -28,6 +28,10 @@ Le dossier utilisateur et l'identifiant du jeu peuvent varier. L'éditeur ne dé
 Dans un profil global, ouvre **Garage** pour mémoriser la configuration actuelle
 sous un nom, l’appliquer, la renommer, la supprimer ou importer/exporter un JSON.
 Les fichiers sont conservés dans `%LOCALAPPDATA%\ctrnf-save-editor\garage\`.
+Le Garage affiche les noms du jeu en français ou en anglais pour le pilote,
+l’apparence, le châssis, les roues, la peinture et l’autocollant ; les valeurs
+inconnues restent visibles. La commande `garage show <global.sav> --lang fr`
+affiche également les noms français et conserve les valeurs brutes dans le JSON.
 Appliquer modifie le profil en mémoire ; **Enregistrer** écrit ensuite le fichier
 avec le backup habituel. Les réglages des karts spéciaux sont conservés ensemble.
 Un pilote verrouillé connu affiche un avertissement ; la possession du châssis et

@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Garage and CLI now show game-localized EN/FR driver, skin, chassis, wheels, paint and sticker names from a reproducible embedded factual catalogue, with raw fallback for unknown values. Corrected driver handle 58 to Iron Checkpoint Crate; special Retro Blue/Firehawk names require the complete captured tuple.
 - Global-profile Garage: named JSON kart presets, save/apply/rename/delete/import/export, local ownership warnings, and CLI show/export/apply commands.
 - Safe graph name-table additions with fixed physical file size, full special-kart tuples, synthetic preservation tests and an optional private Garage regression; a preset applied by the editor, including two added names, was confirmed in game.
 

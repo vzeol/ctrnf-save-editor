@@ -10,6 +10,8 @@ internal static class L
     {
         ["garage"] = ("Garage", "Garage"),
         ["garageCurrent"] = ("Current loadout\r\nDriver: {0} · Skin: {1}\r\nChassis: {2}\r\nWheels: {3} · Paint: {4} · Sticker: {5}", "Configuration actuelle\r\nPilote : {0} · Apparence : {1}\r\nChâssis : {2}\r\nRoues : {3} · Peinture : {4} · Autocollant : {5}"),
+        ["garagePresetDetails"] = ("Driver: {0} · Skin: {1}\r\nChassis: {2}\r\nWheels: {3} · Paint: {4} · Sticker: {5}", "Pilote : {0} · Apparence : {1}\r\nChâssis : {2}\r\nRoues : {3} · Peinture : {4} · Autocollant : {5}"),
+        ["garageUnknownWords"] = ("Unknown words 7 / 9: {0} / {1}", "Mots inconnus 7 / 9 : {0} / {1}"),
         ["garageUnavailable"] = ("Garage unavailable: {0}", "Garage indisponible : {0}"),
         ["garageHint"] = ("Keep named kart presets here. Apply changes the open profile in memory; click Save to write it with the usual backup. Special kart settings are copied together.", "Conserve ici tes configurations nommées. Appliquer modifie le profil en mémoire ; clique sur Enregistrer pour écrire avec la sauvegarde habituelle. Les réglages des karts spéciaux sont copiés ensemble."),
         ["garageOwnershipUnknown"] = ("Chassis ownership is not checked. Skin and other parts ownership is not checked; server inventory is separate.", "La possession du châssis n’est pas vérifiée. Apparence et autres pièces non vérifiées ; inventaire serveur distinct."),
