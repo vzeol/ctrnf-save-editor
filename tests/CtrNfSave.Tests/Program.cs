@@ -3,7 +3,7 @@ using CtrNfSave;
 
 namespace CtrNfSave.Tests;
 
-internal static class Program
+internal static partial class Program
 {
     private static int failures;
     private static int passed;
@@ -22,7 +22,7 @@ internal static class Program
     private static void Reject(Action action)
     {
         try { action(); }
-        catch (Exception ex) when (ex is SaveFormatException or IOException or ArgumentException) { return; }
+        catch (Exception ex) when (ex is SaveFormatException or IOException or InvalidDataException or ArgumentException) { return; }
         throw new InvalidOperationException("An invalid operation was accepted.");
     }
     private static void Test(string name, Action action)
@@ -37,6 +37,7 @@ internal static class Program
     private static int Main()
     {
         CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
+        UpdateTests();
         Test("synthetic global round-trip", () =>
         {
             byte[] raw = SyntheticSaveFactory.Global(); var save = Decode(raw); GlobalProfile.Require(save);

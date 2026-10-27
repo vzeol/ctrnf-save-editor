@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Bilingual About dialog with version, license, credits and project links.
+- Optional startup and manual update checks, cancellable verified downloads, installation/restart and a previous-installation rollback copy.
+
 ## 1.0.1 — 2026-10-27
 
 Gem cup fix. Checking a gem only set the slot gem counter: the game showed the
@@ -21,8 +26,7 @@ promotes the public preview without adding new save-editing behavior.
 - Future fixes and improvements will follow through issues, pull requests and versioned releases.
 
 The format remains partially decoded and some mappings still need in-game
-validation; see the feature table and roadmap. An About dialog, in-app GitHub
-links and automatic update checking are not included in 1.0.0.
+validation; see the feature table and roadmap.
 
 ## 0.1.0-preview.1 — 2026-10-27
 

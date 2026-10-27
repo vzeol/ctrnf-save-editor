@@ -24,6 +24,12 @@ A community editor for **decrypted CTR Nitro-Fueled PS4 save files**, with a Win
 
 Version 1.0 includes experimental mappings. A successful file edit is not a guarantee that every item has been verified in-game. See the evidence boundaries below and the [usage guide](docs/usage.md). Future fixes and improvements will follow through issues, pull requests and versioned releases.
 
+## About and updates
+
+Open **About** from the toolbar or welcome screen for the version, credits and project links. The optional startup check contacts **api.github.com only**, sending a release GET request with the editor version as User-Agent. Disable it in About; manual checks remain available. Only update preferences (`checkUpdatesAtStartup` and `skippedVersion`) are stored in `%LOCALAPPDATA%\ctrnf-save-editor\settings.json`; no save data is sent.
+
+Extracted, writable release packages can download and verify the ZIP and SHA-256 sidecar from GitHub, then install and restart after you save or discard edits. Downloads can be cancelled. Development builds offer the release page. The previous installation is copied to `%LOCALAPPDATA%\ctrnf-save-editor\previous\<old-version>\`. To roll back, close the editor and copy that folder's contents over the installation folder. Save files are never updated. If copying fails, the previous version is restored and restarted automatically. Installation failures are logged under `%LOCALAPPDATA%\ctrnf-save-editor\updates\<version>\<run>\update.log`; keep the rollback copy if recovery is needed.
+
 ## Which file do I open?
 
 Paths below are **relative to your own game installation**, using the layout supported by the OCTR PC project:

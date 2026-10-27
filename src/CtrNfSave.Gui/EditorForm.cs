@@ -2,7 +2,7 @@ using CtrNfSave;
 
 namespace CtrNfSave.Gui;
 
-internal sealed class EditorForm : Form
+internal sealed partial class EditorForm : Form
 {
     private readonly DataGridView grid = new()
     {
@@ -70,6 +70,8 @@ internal sealed class EditorForm : Form
             relabel.Add(() => item.Checked = L.Language == c);
         }
         toolbar.Items.Add(language);
+        var about = new ToolStripButton(L.T("about"));
+        about.Click += (_, _) => ShowAbout(); toolbar.Items.Add(about);
         var gemPanel = new FlowLayoutPanel { Dock = DockStyle.Fill, AutoSize = true, Padding = new Padding(8) };
         foreach (string colour in AdventureRules.Colours)
         {
@@ -160,6 +162,9 @@ internal sealed class EditorForm : Form
             button.SizeChanged += (_, _) => FitCard();
         }
         SaveChoice(false); SaveChoice(true); welcome.Controls.Add(welcomeFlow);
+        var welcomeAbout = new Button { AutoSize = true };
+        welcomeAbout.Click += (_, _) => ShowAbout(); welcomeFlow.Controls.Add(welcomeAbout);
+        relabel.Add(() => welcomeAbout.Text = L.T("about"));
         relabel.Add(() => { welcomeTitle.Text = L.T("welcomeTitle"); welcomeBody.Text = L.T("welcomeBody"); banner.Subtitle = L.T("editorSubtitle"); banner.Invalidate(); });
         globalView.Edit += (key, value) => ApplyEdit(key, value);
         globalView.BulkEdit += ApplyBulkUnlocks;
@@ -199,7 +204,7 @@ internal sealed class EditorForm : Form
         openGlobal.Click += (_, _) => ChooseSave(true);
         saveButton.Click += (_, _) => Write(false);
         saveAsButton.Click += (_, _) => Write(true);
-        FormClosing += (_, e) => { if (bulkWorking || !CanLeave()) e.Cancel = true; };
+        FormClosing += (_, e) => { if (!restartingForUpdate && (bulkWorking || !CanLeave())) e.Cancel = true; };
         totals.Text = L.T("Ouvrez un slot Aventure .sav décrypté (153600 octets).");
         foreach (ToolStripItem item in toolbar.Items)
         {
@@ -219,6 +224,8 @@ internal sealed class EditorForm : Form
         RefreshLanguage();
         LauncherStyle.Apply(this); EditorLayout.StyleGrid(technical);
         if (initialPath is not null) Shown += (_, _) => Open(initialPath);
+        Shown += async (_, _) => { await Task.Yield(); await CheckUpdates(this, true); };
+        FormClosed += (_, _) => { updateLifetime.Cancel(); updateLifetime.Dispose(); };
     }
 
     private void RefreshLanguage()
