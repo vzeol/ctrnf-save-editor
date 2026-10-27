@@ -144,6 +144,14 @@ internal static class SelfTest
     }
     private static void TestGarage(string outputDir)
     {
+        string skinPath = "target/garage/g07_skin.sav", specialPath = "target/garage/g09_firehawk.sav";
+        byte[] skinBytes = File.ReadAllBytes(skinPath), specialBytes = File.ReadAllBytes(specialPath);
+        var skinSave = Save.Parse(skinBytes); var specialSave = Save.Parse(specialBytes);
+        var toSpecial = KartLoadout.Edit(skinSave, special: "Firehawk");
+        Check(KartLoadout.Read(toSpecial).Record.Words.SequenceEqual(KartLoadout.Read(specialSave).Record.Words), "Part edit to Firehawk differs from captured ten words");
+        var toNormal = KartLoadout.Edit(specialSave, chassis: "SystemData_availableKarts_7", wheels: 15, paint: 6, sticker: 57);
+        Check(KartLoadout.Read(toNormal).Record.Words.SequenceEqual(KartLoadout.Read(skinSave).Record.Words), "Part edit to Team Bandicoot/Cabrio/Purple/Zero Black differs from captured ten words");
+        Check(File.ReadAllBytes(skinPath).AsSpan().SequenceEqual(skinBytes) && File.ReadAllBytes(specialPath).AsSpan().SequenceEqual(specialBytes), "Part edits changed capture inputs");
         string source = "target/garage/g09_firehawk.sav", donor = "target/garage/g04_wheels.sav";
         byte[] original = File.ReadAllBytes(source), donorBytes = File.ReadAllBytes(donor);
         var before = Save.Parse(original); var preset = KartLoadout.Read(Save.Parse(donorBytes), "Regression loadout").Preset;

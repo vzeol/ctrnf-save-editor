@@ -20,6 +20,20 @@ Times accept seconds, `m:ss.cc` or `m:ss:cc`. A modified displayed time leaves t
 
 ## Garage
 
+In **Current loadout**, choose each part from the catalogue, then **Apply changes**
+to stage the edit in the open profile. **Reset** restores the current saved-in-memory
+loadout and discards pending picker changes. Choosing another driver resets the
+skin to 0 and shows that driver's skin list. Names follow the selected EN/FR
+language; missing translations and existing unknown values use raw fallback.
+Virtual, developer and inactive driver entries are excluded from new choices.
+
+The chassis picker also offers **Blue Retro Kart** and **Firehawk**. Each copies
+its complete captured tuple; wheels, paint and sticker pickers are disabled while
+it is selected. Choose a normal chassis to enable them again: words 7 and 9 return
+to -1, and the special kart's wheels, paint and sticker reset to the defaults. Other special presets lack full save-word
+evidence and are unavailable for part editing. No independent word-7/9 controls
+are exposed.
+
 In the global profile, select **Garage**, then **Save current as preset** and enter
 a name. Select a preset to **Apply**, **Rename**, **Delete**, or **Export JSON**.
 **Import JSON** validates a preset before adding it to the local list. Duplicate
@@ -32,10 +46,10 @@ with the normal backup and external-change protections. Saving/renaming/importin
 a preset changes only the Garage library, not the open save. Special chassis copy
 their entire captured settings together, including the two unknown words.
 
-Known locked drivers show a warning without blocking Apply. Driver labels and
-ownership checks currently cover only the capture-confirmed indices for Komodo
-Joe and Crunch. Other drivers use raw names with ownership unchecked. Chassis,
-skin and other parts ownership is not checked; Garage does not unlock anything.
+Known locked drivers show a warning without blocking Apply. Driver ownership uses
+the authored identity and existing local ownership predicates where known;
+otherwise it is marked unchecked. Chassis, skin and other parts ownership is not
+checked; Garage does not unlock anything. Server inventory remains separate.
 Unknown/ambiguous save layouts and unsafe name-table growth are refused. Imported
 JSON is structurally validated, not a guarantee of a usable in-game combination.
 
@@ -43,9 +57,21 @@ JSON is structurally validated, not a guarantee of a usable in-game combination.
 ./ctrnf-save.exe garage show ./global-copy.sav
 ./ctrnf-save.exe garage export ./global-copy.sav ./wizard.json --name "Wizard kart"
 ./ctrnf-save.exe garage apply ./global-copy.sav ./wizard.json -o ./garage-edited.sav
+./ctrnf-save.exe garage set ./global-copy.sav -o ./parts.sav --driver 5 --skin 5 --chassis 7 --wheels 15 --paint 6 --sticker 57
+./ctrnf-save.exe garage set ./global-copy.sav -o ./firehawk.sav --special "Firehawk"
 ```
 
-CLI exports refuse existing outputs. Apply creates a timestamped original-source
+`garage set <global.sav> -o <out.sav>` requires at least one of `--driver N`,
+`--skin N`, `--chassis N`, `--wheels N`, `--paint N`, `--sticker N` or
+`--special NAME`. Numeric values are catalogue save IDs, not localized labels or
+list ordinals. Skin is validated against the selected driver's list; an explicit
+`--skin` can select a skin after a driver change. Special names accept the exact
+EN/FR name or catalogue handle, case-insensitively, and cannot be combined with
+chassis/wheels/paint/sticker options. To edit a special kart's parts, provide a
+normal `--chassis` in the same command. Unknown values, inactive drivers and
+incomplete specials are rejected before writing an output.
+
+CLI exports refuse existing outputs. Apply and set create a timestamped original-source
 backup beside the output. Details: [kart loadout format](format/kart-loadout.md).
 
 ## Command line

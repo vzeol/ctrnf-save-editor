@@ -148,6 +148,38 @@ are obtained from a fresh parse. Nonzero trailers or insufficient capacity refus
 growth. A final parse and loadout equality check must succeed before returning a
 new in-memory `Save`; Core performs no disk writes.
 
+## Part editing
+
+`KartLoadout.Edit` validates supplied choices against the embedded catalogue,
+composes a full `KartPreset` with `PrepareEdit`, then reuses `Apply`, including
+safe graph-name additions. Omitted fields remain unchanged. A changed driver
+resets skin to 0 unless an explicit valid skin for that driver is supplied.
+Pickable drivers require active `availableDrivers` list membership before the
+developer entries (list positions 56 onward); virtual and inactive placeholder
+roots are excluded. Normal chassis require active list membership and must not
+be referenced by an authored special composition. Named active handles are
+supported by Core and GUI; the CLI's numeric driver/chassis options use handle
+suffixes. Wheels, paints, stickers and skins use their actual catalogue indices.
+
+Only special catalogue entries with explicit `word7`, `word9` and `evidence` are
+pickable. Currently these are controlled Blue Retro Kart and Firehawk; the
+generator checks their authored components before attaching captured word values.
+Other preset list positions and decal handles never imply unknown save words.
+Special selection copies all six chassis-related fields exactly and refuses
+simultaneous part overrides. While a special chassis is active, part-only edits
+are refused. Choosing a normal chassis sets words 7/9 to -1. Leaving a special
+kart also resets wheels, paint and sticker to 0 (its own parts, such as Firehawk paint 99,
+must not stay on a normal chassis) unless explicitly replaced; between normal chassis
+they are retained. Driver/skin edits preserve the
+complete special tuple. Existing unknown values are displayed and preserved when
+omitted, rather than promoted to new catalogue choices.
+
+Synthetic tests exercise each part, driver-dependent skin validation, both
+special tuples, return to normal, rejection and unrelated-byte preservation.
+The private regression also compares all ten words after g07_skin to Firehawk
+and g09_firehawk to Team Bandicoot/Cabrio/Purple/Zero Black edits. This is capture
+regression evidence, not fresh in-game confirmation of arbitrary combinations.
+
 ## Presets and ownership limits
 
 Format version 1 JSON stores `name`, `driver`, `skin`, `chassis`, `wheels`, `paint`,

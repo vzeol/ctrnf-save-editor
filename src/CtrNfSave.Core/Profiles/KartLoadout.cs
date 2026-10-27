@@ -120,6 +120,50 @@ public static class KartLoadout
         // Authored chassis catalogue handles are names, not SystemData array indices. No verified crosswalk yet.
         return new(owned, null);
     }
+    public static Save Edit(Save save, string? driver = null, int? skin = null, string? chassis = null,
+        int? wheels = null, int? paint = null, int? sticker = null, string? special = null) =>
+        Apply(save, PrepareEdit(Read(save).Preset, driver, skin, chassis, wheels, paint, sticker, special));
+
+    /// <summary>Validate selected catalogue values and compose a complete preset without writing a save.</summary>
+    public static KartPreset PrepareEdit(KartPreset current, string? driver = null, int? skin = null, string? chassis = null,
+        int? wheels = null, int? paint = null, int? sticker = null, string? special = null)
+    {
+        static void Member(IReadOnlyList<LoadoutCatalogue.Choice> choices, string value, string part)
+        {
+            if (!choices.Any(c => c.Value == value)) throw new SaveFormatException("Invalid Garage " + part + ": " + value);
+        }
+        static string Number(int value) => value.ToString(CultureInfo.InvariantCulture);
+        if (driver is not null) Member(LoadoutCatalogue.Drivers(), driver, "driver");
+        string selectedDriver = driver ?? current.Driver;
+        if (skin is not null) Member(LoadoutCatalogue.Skins(selectedDriver), Number(skin.Value), "skin");
+        var result = current with { Driver = selectedDriver,
+            Skin = skin ?? (selectedDriver != current.Driver ? 0 : current.Skin) };
+        if (special is not null)
+        {
+            if (chassis is not null || wheels is not null || paint is not null || sticker is not null)
+                throw new SaveFormatException("A special kart cannot be combined with chassis or part options.");
+            var tuple = LoadoutCatalogue.CompleteSpecials.SingleOrDefault(p =>
+                p.Handle.Equals(special, StringComparison.OrdinalIgnoreCase) ||
+                string.Equals(p.NameEn, special, StringComparison.OrdinalIgnoreCase) ||
+                string.Equals(p.NameFr, special, StringComparison.OrdinalIgnoreCase))
+                ?? throw new SaveFormatException("Unknown or incomplete special kart: " + special);
+            return result with { Chassis = tuple.Chassis, Wheels = tuple.Wheels, Paint = tuple.Paints,
+                Word7 = tuple.Word7!.Value, Sticker = tuple.Stickers, Word9 = tuple.Word9!.Value };
+        }
+        if (chassis is not null)
+        {
+            Member(LoadoutCatalogue.Chassis(), chassis, "chassis");
+            result = result with { Chassis = chassis, Word7 = -1, Word9 = -1 };
+            // A special kart's own wheels, paint and sticker must not stay on a normal chassis.
+            if (LoadoutCatalogue.SpecialChassis(current.Chassis)) result = result with { Wheels = 0, Paint = 0, Sticker = 0 };
+        }
+        if (LoadoutCatalogue.SpecialChassis(result.Chassis) && (wheels is not null || paint is not null || sticker is not null))
+            throw new SaveFormatException("Choose a normal chassis before editing special kart parts.");
+        if (wheels is not null) Member(LoadoutCatalogue.Wheels(), Number(wheels.Value), "wheels");
+        if (paint is not null) Member(LoadoutCatalogue.Paints(), Number(paint.Value), "paint");
+        if (sticker is not null) Member(LoadoutCatalogue.Stickers(), Number(sticker.Value), "sticker");
+        return result with { Wheels = wheels ?? result.Wheels, Paint = paint ?? result.Paint, Sticker = sticker ?? result.Sticker };
+    }
     public static Save Apply(Save save, KartPreset preset)
     {
         preset.Validate(); Read(save);

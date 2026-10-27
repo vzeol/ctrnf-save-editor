@@ -9,6 +9,16 @@ internal static class L
     private static readonly Dictionary<string, (string En, string Fr)> Strings = new()
     {
         ["garage"] = ("Garage", "Garage"),
+        ["garageEditor"] = ("Current loadout", "Configuration actuelle"),
+        ["garageDriver"] = ("Driver", "Pilote"),
+        ["garageSkin"] = ("Skin", "Apparence"),
+        ["garageChassis"] = ("Chassis / special kart", "Châssis / kart spécial"),
+        ["garageWheels"] = ("Wheels", "Roues"),
+        ["garagePaint"] = ("Paint", "Peinture"),
+        ["garageSticker"] = ("Sticker", "Autocollant"),
+        ["garageApplyChanges"] = ("Apply changes", "Appliquer les modifications"),
+        ["garageReset"] = ("Reset", "Réinitialiser"),
+        ["garageDriverOwned"] = ("Driver owned locally.", "Pilote possédé localement."),
         ["garageCurrent"] = ("Current loadout\r\nDriver: {0} · Skin: {1}\r\nChassis: {2}\r\nWheels: {3} · Paint: {4} · Sticker: {5}", "Configuration actuelle\r\nPilote : {0} · Apparence : {1}\r\nChâssis : {2}\r\nRoues : {3} · Peinture : {4} · Autocollant : {5}"),
         ["garagePresetDetails"] = ("Driver: {0} · Skin: {1}\r\nChassis: {2}\r\nWheels: {3} · Paint: {4} · Sticker: {5}", "Pilote : {0} · Apparence : {1}\r\nChâssis : {2}\r\nRoues : {3} · Peinture : {4} · Autocollant : {5}"),
         ["garageUnknownWords"] = ("Unknown words 7 / 9: {0} / {1}", "Mots inconnus 7 / 9 : {0} / {1}"),

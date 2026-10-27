@@ -32,14 +32,19 @@ Extracted, writable release packages can download and verify the ZIP and SHA-256
 
 ## Garage
 
-Open a global profile and select **Garage** to save the current kart as a named
+Open a global profile and select **Garage**. In **Current loadout**, choose a driver,
+skin, chassis, wheels, paint and sticker, then **Apply changes**. Changing driver
+resets the skin to 0; **Reset** discards pending choices. Blue Retro Kart and
+Firehawk copy their complete captured settings and disable wheels/paint/sticker
+choices until you select a normal chassis. Other special tuples remain unavailable
+without evidence for every word. You can also save the current kart as a named
 preset, apply one, rename/delete presets, or import/export JSON. Presets are stored
 in `%LOCALAPPDATA%\ctrnf-save-editor\garage\`. Apply marks the profile as edited;
 click **Save** to write it with the usual backup. Special kart settings travel
 together. Known locked drivers show a warning; chassis and other parts ownership
 is not checked. Driver, skin, chassis, wheels, paint and sticker names follow the
 game's English/French localization; unknown values stay visible. The CLI supports
-`garage show <global.sav> --lang fr`. See [usage](docs/usage.md#garage) and the
+`garage show <global.sav> --lang fr` and `garage set` for individual parts. See [usage](docs/usage.md#garage) and the
 [format and evidence limits](docs/format/kart-loadout.md).
 
 ## Which file do I open?

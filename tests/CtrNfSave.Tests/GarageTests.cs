@@ -7,6 +7,75 @@ internal static partial class Program
 {
     private static void GarageTests()
     {
+        Test("Garage edits each selected part and preserves unrelated bytes", () =>
+        {
+            var save = Global(); var before = KartLoadout.Read(save).Preset;
+            foreach (var (edited, expected) in new (Save, KartPreset)[]
+            {
+                (KartLoadout.Edit(save, skin: 0), before with { Skin = 0 }),
+                (KartLoadout.Edit(save, wheels: 0), before with { Wheels = 0 }),
+                (KartLoadout.Edit(save, paint: 0), before with { Paint = 0 }),
+                (KartLoadout.Edit(save, sticker: 0), before with { Sticker = 0 }),
+                (KartLoadout.Edit(save, chassis: "SystemData_availableKarts_0"), before with { Chassis = "SystemData_availableKarts_0" }),
+                (KartLoadout.Edit(save, driver: "SystemData_availableDrivers_0"), before with { Driver = "SystemData_availableDrivers_0", Skin = 0 })
+            })
+            {
+                Assert(KartLoadout.Read(edited).Preset == expected, "Part edit changed other parts.");
+                GaragePreserved(save, edited);
+            }
+            Assert(KartLoadout.Edit(save).Serialize().AsSpan().SequenceEqual(save.Serialize()), "No-op edit changed bytes.");
+            Assert(KartLoadout.Read(KartLoadout.Edit(save, driver: before.Driver)).Preset.Skin == 5, "Unchanged driver reset skin.");
+        });
+        Test("Garage captured specials are atomic and normal chassis clears special words", () =>
+        {
+            var save = Global(); var before = KartLoadout.Read(save).Preset;
+            foreach (var (name, chassis, wheels, paint, word7, word9) in new[]
+            {
+                ("Blue Retro Kart", 15, 9, 16, -1, 0), ("Firehawk", 32, 0, 99, 0, 8)
+            })
+            {
+                var special = KartLoadout.Edit(save, special: name);
+                var expected = before with { Chassis = "SystemData_availableKarts_" + chassis, Wheels = wheels,
+                    Paint = paint, Word7 = word7, Sticker = 0, Word9 = word9 };
+                Assert(KartLoadout.Read(special).Preset == expected, "Special tuple differs."); GaragePreserved(save, special);
+                var normal = KartLoadout.Edit(special, chassis: before.Chassis, wheels: 15, paint: 6, sticker: 57);
+                Assert(KartLoadout.Read(normal).Preset == before, "Normal chassis did not restore captured normal tuple.");
+                var kept = KartLoadout.Read(KartLoadout.Edit(special, chassis: before.Chassis)).Preset;
+                Assert(kept == expected with { Chassis = before.Chassis, Wheels = 0, Paint = 0, Word7 = -1, Sticker = 0, Word9 = -1 }, "Normal chassis kept special kart parts.");
+                GaragePreserved(special, normal);
+                Reject(() => KartLoadout.Edit(special, wheels: 15));
+                Reject(() => KartLoadout.Edit(special, paint: 6));
+                Reject(() => KartLoadout.Edit(special, sticker: 57));
+                Assert(KartLoadout.Read(KartLoadout.Edit(special, skin: 0)).Preset == expected with { Skin = 0 }, "Skin edit disturbed special tuple.");
+            }
+            Assert(LoadoutCatalogue.Specials().Count == 2, "Incomplete authored specials were offered.");
+        });
+        Test("Garage rejects values outside pickable catalogue before mutation", () =>
+        {
+            var save = Global(); byte[] original = save.Serialize();
+            foreach (int value in new[] { -1, 9999 })
+            {
+                Reject(() => KartLoadout.Edit(save, skin: value));
+                Reject(() => KartLoadout.Edit(save, wheels: value));
+                Reject(() => KartLoadout.Edit(save, paint: value));
+                Reject(() => KartLoadout.Edit(save, sticker: value));
+            }
+            foreach (int index in new[] { 24, 37, 41, 60, 69, 9999 })
+                Reject(() => KartLoadout.Edit(save, driver: "SystemData_availableDrivers_" + index));
+            foreach (int index in new[] { 15, 18, 32, 44, 9999 })
+                Reject(() => KartLoadout.Edit(save, chassis: "SystemData_availableKarts_" + index));
+            foreach (string name in new[] { "Pink Retro Kart", "Xfinity Flash Kart", "unknown" })
+                Reject(() => KartLoadout.Edit(save, special: name));
+            Reject(() => KartLoadout.Edit(save, special: "Firehawk", chassis: "SystemData_availableKarts_7"));
+            Reject(() => KartLoadout.Edit(save, special: "Firehawk", wheels: 0));
+            Reject(() => KartLoadout.Edit(save, special: "Firehawk", paint: 99));
+            Reject(() => KartLoadout.Edit(save, special: "Firehawk", sticker: 0));
+            Reject(() => KartLoadout.Edit(save, driver: "SystemData_availableDrivers_58", skin: 5));
+            Assert(save.Serialize().AsSpan().SequenceEqual(original), "Rejected edits mutated source.");
+            var named = KartLoadout.Edit(save, driver: "DriverSpyro", chassis: "kartChampion");
+            Assert(KartLoadout.Read(named).Preset is { Driver: "DriverSpyro", Skin: 0, Chassis: "kartChampion" }, "Playable named handles were lost.");
+            GaragePreserved(save, named);
+        });
         Test("Garage captured name hash pairs", () =>
         {
             foreach (var (name, hash) in new (string, uint)[]

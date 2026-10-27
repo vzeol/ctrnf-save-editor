@@ -8,20 +8,28 @@ internal sealed class GarageView : UserControl
     public GarageView(Save save)
     {
         Dock = DockStyle.Fill;
-        var layout = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 1, RowCount = 5 };
+        var layout = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 1, RowCount = 6 };
         layout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
         layout.RowStyles.Add(new RowStyle(SizeType.AutoSize)); layout.RowStyles.Add(new RowStyle(SizeType.AutoSize));
         layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100)); layout.RowStyles.Add(new RowStyle(SizeType.AutoSize)); layout.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+        layout.RowStyles.Insert(1, new RowStyle(SizeType.AutoSize));
         Controls.Add(layout);
         var current = new Label { AutoSize = true, Margin = new Padding(4, 4, 4, 16) };
         KartPreset? active = null;
         try
         {
             active = KartLoadout.Read(save).Preset;
-            current.Text = Describe(active, "garageCurrent");
+            current.Text = L.T("garageEditor");
         }
         catch (SaveFormatException error) { current.Text = L.F("garageUnavailable", error.Message); }
         layout.Controls.Add(current);
+        if (active is not null)
+        {
+            var editor = new CurrentLoadoutEditor(save, active);
+            editor.ApplyChanges += preset => ApplyPreset?.Invoke(preset);
+            layout.Controls.Add(editor);
+        }
+        else layout.Controls.Add(new Panel { Height = 0 });
         layout.Controls.Add(new Label { Text = L.T("garageHint"), AutoSize = true, Margin = new Padding(4, 4, 4, 12) });
         var list = new ListBox { Dock = DockStyle.Fill, IntegralHeight = false, HorizontalScrollbar = true };
         layout.Controls.Add(list);

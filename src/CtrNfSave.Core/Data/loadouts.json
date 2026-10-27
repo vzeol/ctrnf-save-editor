@@ -6713,7 +6713,10 @@
       "paints": 16,
       "wheels": 9,
       "stickers": 0,
-      "decalHandle": null
+      "decalHandle": null,
+      "word7": -1,
+      "word9": 0,
+      "evidence": "Controlled in-game Blue Retro Kart capture; docs/format/kart-loadout.md"
     },
     {
       "index": 1,
@@ -6801,7 +6804,10 @@
       "paints": 99,
       "wheels": 0,
       "stickers": 0,
-      "decalHandle": "SystemData_kartCustomizationGlobalData_decals_KartLimited3_0"
+      "decalHandle": "SystemData_kartCustomizationGlobalData_decals_KartLimited3_0",
+      "word7": 0,
+      "word9": 8,
+      "evidence": "Controlled in-game Firehawk capture; docs/format/kart-loadout.md"
     },
     {
       "index": 9,

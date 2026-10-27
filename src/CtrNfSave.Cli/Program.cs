@@ -18,6 +18,8 @@ ctrnf-save 1.0.0 — decrypted CTR Nitro-Fueled PS4 save inspector/editor
   ctrnf-save garage show <global.sav> [--lang en|fr]
   ctrnf-save garage export <global.sav> <preset.json> [--name N]
   ctrnf-save garage apply <global.sav> <preset.json> -o <out.sav>
+  ctrnf-save garage set <global.sav> -o <out.sav> [--driver N] [--skin N] [--chassis N]
+      [--wheels N] [--paint N] [--sticker N] [--special NAME]
 
 Use header keys from dump, optionally prefixed with 'header.'.
 Track trophy/token booleans, relic tiers (none/sapphire/gold/platinum),
@@ -98,6 +100,34 @@ Progress summaries alone do not complete events or unlock items.
     {
         const string usage = "garage (show <global.sav> [--lang en|fr] | export <global.sav> <preset.json> [--name N] | apply <global.sav> <preset.json> -o <out.sav>)";
         Require(args.Length >= 3, usage);
+        if (args[1] == "set")
+        {
+            const string setUsage = "garage set <global.sav> -o <out.sav> [--driver N] [--skin N] [--chassis N] [--wheels N] [--paint N] [--sticker N] [--special NAME]";
+            var options = new Dictionary<string, string>(StringComparer.Ordinal);
+            for (int i = 3; i < args.Length; i += 2)
+            {
+                Require(i + 1 < args.Length && args[i] is "-o" or "--driver" or "--skin" or "--chassis" or "--wheels" or "--paint" or "--sticker" or "--special", setUsage);
+                Require(options.TryAdd(args[i], args[i + 1]), setUsage);
+            }
+            Require(options.ContainsKey("-o") && options.Count > 1, setUsage);
+            int? Index(string key)
+            {
+                if (!options.TryGetValue(key, out string? value)) return null;
+                if (!int.TryParse(value, NumberStyles.None, CultureInfo.InvariantCulture, out int number) || number < 0)
+                    throw new SaveFormatException("Invalid nonnegative catalogue index for " + key);
+                return number;
+            }
+            string? Handle(string key, string category) => Index(key) is int index ? "SystemData_available" + category + "_" + index : null;
+            var source = Save.Load(args[2]);
+            var result = KartLoadout.Edit(source, Handle("--driver", "Drivers"), Index("--skin"), Handle("--chassis", "Karts"),
+                Index("--wheels"), Index("--paint"), Index("--sticker"), options.GetValueOrDefault("--special"));
+            var owned = KartLoadout.Ownership(source, KartLoadout.Read(result).Preset);
+            if (owned.Driver is false) Console.Error.WriteLine("Warning: the selected driver is locked in this profile.");
+            else if (owned.Driver is null) Console.Error.WriteLine("Driver ownership is not checked.");
+            Console.Error.WriteLine("Chassis, skin and other parts ownership is not checked. Server inventory is separate.");
+            FileWriter.NewWithBackup(options["-o"], source.Serialize(), result.Serialize());
+            Console.WriteLine("Wrote " + Path.GetFullPath(options["-o"]) + "; timestamped source backup created beside output."); return 0;
+        }
         if (args[1] == "show")
         {
             Require(args.Length == 3 || args.Length == 5 && args[3] == "--lang" && args[4] is "en" or "fr", usage);

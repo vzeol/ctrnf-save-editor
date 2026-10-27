@@ -114,6 +114,16 @@ def main():
             item[category] = next(r['index'] for r in result[category] if r['handle'] == name) if name else default
         item['decalHandle'] = target(0x20)
 
+    # Only controlled captures establish the unknown save words; never infer them from list positions.
+    for index, chassis, wheels, paint, word7, word9, label in [
+            (0, 15, 9, 16, -1, 0, 'Blue Retro Kart'), (8, 32, 0, 99, 0, 8, 'Firehawk')]:
+        item = next(p for p in result['presets'] if p['index'] == index)
+        assert (item['chassis'], item['wheels'], item['paints'], item['stickers']) == (
+            f'SystemData_availableKarts_{chassis}', wheels, paint, 0)
+        item['word7'] = word7
+        item['word9'] = word9
+        item['evidence'] = f'Controlled in-game {label} capture; docs/format/kart-loadout.md'
+
     # Fail generation on independently supplied controlled observations; never override data to fit.
     def check(category, index, en, fr):
         item = next(r for r in result[category] if r['index'] == index)
