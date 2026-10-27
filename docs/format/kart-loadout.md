@@ -212,5 +212,7 @@ Captures of four special karts give word 9 = the preset position in
 no decal: Blue Retro (0: paint 16, word 9 = 0), Pink Retro (1: paint 41, 1),
 Red Retro (2: paint 42, 2; predicted before the capture), Firehawk (8: decal
 `KartLimited3_0`, word 7 = 0, word 9 = 8). The Garage therefore offers all ten
-presets; the six other Retro colours and the Xfinity Flash Kart use the rule. A future
-preset with a decal still needs its own capture for word 7.
+presets; the six other Retro colours and the Xfinity Flash Kart use the rule. The rule was then
+checked by an editor write: the Green Retro Kart (preset 6, never captured) applied
+by `garage set --special` loaded in game as the Green Retro Kart. A future preset with
+a decal still needs its own capture for word 7.
