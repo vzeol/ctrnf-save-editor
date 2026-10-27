@@ -28,8 +28,10 @@ Special chassis impose a complete tuple. Retro Blue uses wheels 9, paint 16,
 word 7 = -1, sticker 0, word 9 = 0. Firehawk uses wheels 0, paint 99,
 word 7 = 0, sticker 0, word 9 = 8. Garage copies the full tuple without attempting
 to interpret words 7/9 or recombine special parts. Their exact meanings remain
-unknown. The captured mappings are confirmed in game; new editor exports still
-require in-game validation.
+unknown. The captured mappings are confirmed in game. An editor export that applied
+a full preset (Komodo Joe Wizard, Team Bandicoot, Cabrio, violet, Zero black) to a
+different profile, adding two missing names to the name table (3 to 5 entries),
+loaded in game with that exact loadout and the profile intact.
 
 ## Names and safe rewriting
 

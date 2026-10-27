@@ -3,7 +3,7 @@
 ## Unreleased
 
 - Global-profile Garage: named JSON kart presets, save/apply/rename/delete/import/export, local ownership warnings, and CLI show/export/apply commands.
-- Safe graph name-table additions with fixed physical file size, full special-kart tuples, synthetic preservation tests and an optional private Garage regression.
+- Safe graph name-table additions with fixed physical file size, full special-kart tuples, synthetic preservation tests and an optional private Garage regression; a preset applied by the editor, including two added names, was confirmed in game.
 
 - Bilingual About dialog with version, license, credits and project links.
 - Optional startup and manual update checks, cancellable verified downloads, installation/restart and a previous-installation rollback copy.
