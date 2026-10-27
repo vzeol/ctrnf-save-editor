@@ -1,0 +1,31 @@
+name: Bug report / Signaler un bug
+description: Reproduce an editor or save-format problem.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "English or French welcome. Do not upload personal saves, credentials or game files."
+  - type: input
+    id: version
+    attributes:
+      label: Editor version and Windows version
+    validations:
+      required: true
+  - type: input
+    id: save
+    attributes:
+      label: Save type and game build
+      description: Adventure or global; title ID/build; local or server progression.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps, expected behavior and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence
+      description: Screenshots, error text or a synthetic reproducer. Remove identifying information.

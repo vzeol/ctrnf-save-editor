@@ -1,0 +1,27 @@
+name: Unlock or format finding / Découverte
+description: Help identify or validate a missing condition.
+labels: [research]
+body:
+  - type: markdown
+    attributes:
+      value: "Share observations or sanitized diffs, not personal saves, game archives or executables."
+  - type: input
+    id: item
+    attributes:
+      label: Item or field, game build and save type
+    validations:
+      required: true
+  - type: textarea
+    id: action
+    attributes:
+      label: Controlled action and observed result
+      description: Explain the single change between before/after and local versus server mode.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and uncertainty
+      description: Distinguish in-game confirmation, native/static mapping and inference.
+    validations:
+      required: true

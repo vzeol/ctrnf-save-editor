@@ -1,0 +1,584 @@
+[
+  {
+    "index": 0,
+    "nameEn": "Crash Bandicoot",
+    "nameFr": "Crash Bandicoot",
+    "driver": "DriverCrash",
+    "condition": null,
+    "challengeBit": null,
+    "marketplaceIds": []
+  },
+  {
+    "index": 1,
+    "nameEn": "Dr. Neo Cortex",
+    "nameFr": "Dr Neo Cortex",
+    "driver": "DriverCortex",
+    "condition": null,
+    "challengeBit": null,
+    "marketplaceIds": []
+  },
+  {
+    "index": 2,
+    "nameEn": "Tiny Tiger",
+    "nameFr": "Tiny Tiger",
+    "driver": "DriverTinyTiger",
+    "condition": null,
+    "challengeBit": null,
+    "marketplaceIds": []
+  },
+  {
+    "index": 3,
+    "nameEn": "Coco Bandicoot",
+    "nameFr": "Coco Bandicoot",
+    "driver": "DriverCoco",
+    "condition": null,
+    "challengeBit": null,
+    "marketplaceIds": []
+  },
+  {
+    "index": 4,
+    "nameEn": "Dr. N.Gin",
+    "nameFr": "Dr N.Gin",
+    "driver": "DriverNGin",
+    "condition": null,
+    "challengeBit": null,
+    "marketplaceIds": []
+  },
+  {
+    "index": 5,
+    "nameEn": "Dingodile",
+    "nameFr": "Dingodile",
+    "driver": "DriverDingodile",
+    "condition": null,
+    "challengeBit": null,
+    "marketplaceIds": []
+  },
+  {
+    "index": 6,
+    "nameEn": "Polar",
+    "nameFr": "Polar",
+    "driver": "DriverPolar",
+    "condition": null,
+    "challengeBit": null,
+    "marketplaceIds": []
+  },
+  {
+    "index": 7,
+    "nameEn": "Pura",
+    "nameFr": "Pura",
+    "driver": "DriverPura",
+    "condition": null,
+    "challengeBit": null,
+    "marketplaceIds": []
+  },
+  {
+    "index": 8,
+    "nameEn": "Penta Penguin",
+    "nameFr": "Penta Penguin",
+    "driver": "DriverPentaPenguin",
+    "condition": "COctaneCheatUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": []
+  },
+  {
+    "index": 9,
+    "nameEn": "Ripper Roo",
+    "nameFr": "Ripper Roo",
+    "driver": "DriverRipperRoo",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 4,
+    "marketplaceIds": []
+  },
+  {
+    "index": 10,
+    "nameEn": "Papu Papu",
+    "nameFr": "Papu Papu",
+    "driver": "DriverPapuPapu",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 10,
+    "marketplaceIds": []
+  },
+  {
+    "index": 11,
+    "nameEn": "Komodo Joe",
+    "nameFr": "Komodo Joe",
+    "driver": "DriverKomodoJoe",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 15,
+    "marketplaceIds": []
+  },
+  {
+    "index": 12,
+    "nameEn": "Pinstripe",
+    "nameFr": "Pinstripe",
+    "driver": "DriverPinstripe",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 20,
+    "marketplaceIds": []
+  },
+  {
+    "index": 13,
+    "nameEn": "Fake Crash",
+    "nameFr": "Faux Crash",
+    "driver": "DriverFakeCrash",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 65,
+    "marketplaceIds": []
+  },
+  {
+    "index": 14,
+    "nameEn": "Nitros Oxide",
+    "nameFr": "Nitros Oxide",
+    "driver": "DriverNitrosOxide",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 66,
+    "marketplaceIds": [
+      280
+    ]
+  },
+  {
+    "index": 15,
+    "nameEn": "Dr. N. Tropy",
+    "nameFr": "Dr N. Tropy",
+    "driver": "DriverNTropy",
+    "condition": "COctaneBeatNefariousTimesUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": []
+  },
+  {
+    "index": 16,
+    "nameEn": "Crunch Bandicoot",
+    "nameFr": "Crunch Bandicoot",
+    "driver": "DriverCrunch",
+    "condition": null,
+    "challengeBit": null,
+    "marketplaceIds": [
+      134
+    ]
+  },
+  {
+    "index": 17,
+    "nameEn": "Krunk",
+    "nameFr": "Krunk",
+    "driver": "DriverKrunk",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      136
+    ]
+  },
+  {
+    "index": 18,
+    "nameEn": "Small Norm",
+    "nameFr": "Petit Norm",
+    "driver": "DriverSmallNorm",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      140
+    ]
+  },
+  {
+    "index": 19,
+    "nameEn": "Big Norm",
+    "nameFr": "Big Norm",
+    "driver": "DriverBigNorm",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      133
+    ]
+  },
+  {
+    "index": 20,
+    "nameEn": "Nash",
+    "nameFr": "Nash",
+    "driver": "DriverNash",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      137
+    ]
+  },
+  {
+    "index": 21,
+    "nameEn": "N. Trance",
+    "nameFr": "N. Trance",
+    "driver": "DriverNTrance",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      138
+    ]
+  },
+  {
+    "index": 22,
+    "nameEn": "Real Velo",
+    "nameFr": "Vrai Velo",
+    "driver": "DriverRealVelo",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      139
+    ]
+  },
+  {
+    "index": 23,
+    "nameEn": "Geary",
+    "nameFr": "Geary",
+    "driver": "DriverGeary",
+    "condition": null,
+    "challengeBit": null,
+    "marketplaceIds": [
+      135
+    ]
+  },
+  {
+    "index": 24,
+    "nameEn": "Zam",
+    "nameFr": "Zam",
+    "driver": "DriverZam",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      141
+    ]
+  },
+  {
+    "index": 25,
+    "nameEn": "Zem",
+    "nameFr": "Zem",
+    "driver": "DriverZem",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      142
+    ]
+  },
+  {
+    "index": 26,
+    "nameEn": "Tawna",
+    "nameFr": "Tawna",
+    "driver": "DriverTawna",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      311
+    ]
+  },
+  {
+    "index": 27,
+    "nameEn": "Ami",
+    "nameFr": "Ami",
+    "driver": "DriverAmi",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      312
+    ]
+  },
+  {
+    "index": 28,
+    "nameEn": "Megumi",
+    "nameFr": "Megumi",
+    "driver": "DriverMegumi",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      313
+    ]
+  },
+  {
+    "index": 29,
+    "nameEn": "Liz",
+    "nameFr": "Liz",
+    "driver": "DriverLiz",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      314
+    ]
+  },
+  {
+    "index": 30,
+    "nameEn": "Isabella",
+    "nameFr": "Isabella",
+    "driver": "DriverIsabella",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      315
+    ]
+  },
+  {
+    "index": 31,
+    "nameEn": "Baby Crash",
+    "nameFr": "Bébé Crash",
+    "driver": "DriverBabyCrash",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      416
+    ]
+  },
+  {
+    "index": 32,
+    "nameEn": "Baby Coco",
+    "nameFr": "Bébé Coco",
+    "driver": "DriverBabyCoco",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      415
+    ]
+  },
+  {
+    "index": 33,
+    "nameEn": "Baby T",
+    "nameFr": "Bébé T",
+    "driver": "DriverBabyT",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      417
+    ]
+  },
+  {
+    "index": 34,
+    "nameEn": "Spyro",
+    "nameFr": "Spyro",
+    "driver": "DriverSpyro",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      481
+    ]
+  },
+  {
+    "index": 35,
+    "nameEn": "Hunter",
+    "nameFr": "Chasseur",
+    "driver": "DriverHunter",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      480
+    ]
+  },
+  {
+    "index": 36,
+    "nameEn": "Gnasty Gnorc",
+    "nameFr": "Gnasty Gnorc",
+    "driver": "DriverGGC",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      479
+    ]
+  },
+  {
+    "index": 37,
+    "nameEn": "Komodo Moe",
+    "nameFr": "Komodo Moe",
+    "driver": "DriverKME",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      547
+    ]
+  },
+  {
+    "index": 38,
+    "nameEn": "Dr. N. Brio",
+    "nameFr": "Dr N. Brio",
+    "driver": "DriverNBO",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      548
+    ]
+  },
+  {
+    "index": 39,
+    "nameEn": "Nina Cortex",
+    "nameFr": "Nina Cortex",
+    "driver": "DriverNCX",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      549
+    ]
+  },
+  {
+    "index": 40,
+    "nameEn": "Koala Kong",
+    "nameFr": "Koala Kong",
+    "driver": "DriverKKG",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      618
+    ]
+  },
+  {
+    "index": 41,
+    "nameEn": "Pasadena O'Possum",
+    "nameFr": "Pasadena O'Possum",
+    "driver": "DriverPOM",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      619
+    ]
+  },
+  {
+    "index": 42,
+    "nameEn": "Ebenezer Von Clutch",
+    "nameFr": "Ebenezer Von Clutch",
+    "driver": "DriverVCH",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      620
+    ]
+  },
+  {
+    "index": 43,
+    "nameEn": "King Chicken",
+    "nameFr": "Roi Poulet",
+    "driver": "DriverKCN",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 69,
+    "marketplaceIds": []
+  },
+  {
+    "index": 44,
+    "nameEn": "Rilla Roo",
+    "nameFr": "Rilla Roo",
+    "driver": "DriverRRA",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      684
+    ]
+  },
+  {
+    "index": 45,
+    "nameEn": "Yaya Panda",
+    "nameFr": "Yaya Panda",
+    "driver": "DriverYYA",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      685
+    ]
+  },
+  {
+    "index": 46,
+    "nameEn": "Hasty",
+    "nameFr": "Hasty",
+    "driver": "DriverFAY",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      686
+    ]
+  },
+  {
+    "index": 47,
+    "nameEn": "Chick",
+    "nameFr": "Chick",
+    "driver": "DriverCCK",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      687
+    ]
+  },
+  {
+    "index": 48,
+    "nameEn": "Stew",
+    "nameFr": "Stew",
+    "driver": "DriverSTW",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      688
+    ]
+  },
+  {
+    "index": 49,
+    "nameEn": "Megamix",
+    "nameFr": "Megamix",
+    "driver": "DriverMMX",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      751
+    ]
+  },
+  {
+    "index": 50,
+    "nameEn": "Emperor Velo XXVII",
+    "nameFr": "Empereur Velo XXVII",
+    "driver": "DriverJOE",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      815
+    ]
+  },
+  {
+    "index": 51,
+    "nameEn": "Lab Assistant",
+    "nameFr": "Assistant de laboratoire",
+    "driver": "DriverBAL",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      924
+    ]
+  },
+  {
+    "index": 52,
+    "nameEn": "Baby Cortex",
+    "nameFr": "Bébé Cortex",
+    "driver": "DriverBCX",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      925
+    ]
+  },
+  {
+    "index": 53,
+    "nameEn": "Baby N. Tropy",
+    "nameFr": "Bébé N. Tropy",
+    "driver": "DriverBTY",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      926
+    ]
+  },
+  {
+    "index": 54,
+    "nameEn": "Fixed Rilla Roo",
+    "nameFr": "Rilla Roo original",
+    "driver": "DriverRRR",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "marketplaceIds": [
+      931
+    ]
+  },
+  {
+    "index": 55,
+    "nameEn": "Iron Checkpoint Crate",
+    "nameFr": "Caisse Point de contrôle",
+    "driver": "DriverHereIAm",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 70,
+    "marketplaceIds": []
+  }
+]

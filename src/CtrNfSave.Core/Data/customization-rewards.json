@@ -1,0 +1,7622 @@
+[
+  {
+    "handle": "Color_Ami",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Ami Green",
+    "nameFr": "Vert Ami",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      328
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_BandiBuggy",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Bandibuggy Green",
+    "nameFr": "Vert Bandibuggy",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      350
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_BlackYellow",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Black, Yellow & Red",
+    "nameFr": "Noir & jaune & rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      330
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_BlueGrey",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Blue-Grey",
+    "nameFr": "Bleu-gris",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 65
+  },
+  {
+    "handle": "Color_BlueRed",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Blue, Red & White",
+    "nameFr": "Bleu & rouge & blanc",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      331
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_BlueWhite",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Blue, White & Red",
+    "nameFr": "Bleu & blanc & rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      332
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_BlueYellow",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Blue & Yellow",
+    "nameFr": "Bleu & jaune",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      333
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Cabrio_Yellow",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Cabrio Yellow",
+    "nameFr": "Jaune Cabrio",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      132
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Champion",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Champion Indigo",
+    "nameFr": "Indigo Champion",
+    "condition": "COctaneChampionKartUnlockable",
+    "marketplaceIds": [
+      413
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Charcoal",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Charcoal",
+    "nameFr": "Charbon",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 20
+  },
+  {
+    "handle": "Color_Crikey_Yellow",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Crikey Yellow",
+    "nameFr": "Jaune Crikey",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      120
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Deadinator_Purple",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Deadinator Purple",
+    "nameFr": "Violet Deadinator",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      124
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_DoomBuggy_Grey",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Doom Buggy Grey",
+    "nameFr": "Gris Doom Buggy",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      104
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Electron_Aqua",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Electron Aqua",
+    "nameFr": "Turquoise électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      166
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Electron_Blue",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Electron Blue",
+    "nameFr": "Bleu électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      167
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Electron_Green",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Electron Green",
+    "nameFr": "Vert électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      173
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Electron_Orange",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Electron Orange",
+    "nameFr": "Orange électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      168
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Electron_Pink",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Electron Pink",
+    "nameFr": "Rose électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      169
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Electron_Purple",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Electron Purple",
+    "nameFr": "Violet électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      170
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Electron_Red",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Electron Red",
+    "nameFr": "Rouge électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      171
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Electron_Yellow",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Electron Yellow",
+    "nameFr": "Jaune électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      172
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_GreenWhite",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Green, White & Red",
+    "nameFr": "Vert & blanc & rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      334
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_GreenWhite2",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Green, White & Orange",
+    "nameFr": "Vert & blanc & orange",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      335
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_GreenYellow",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Green, Yellow & Red",
+    "nameFr": "Vert & jaune & rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      336
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Imperium_Red",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Imperium Red",
+    "nameFr": "Rouge Imperium",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      108
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Iridescent_Blue",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Iridescent Blue",
+    "nameFr": "Bleu iridescent",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      174
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Iridescent_Orange",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Iridescent Orange",
+    "nameFr": "Orange iridescent",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      177
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Iridescent_Purple",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Iridescent Purple",
+    "nameFr": "Violet iridescent",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      175
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Iridiscent_Red",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Iridescent Red",
+    "nameFr": "Rouge iridescent",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      176
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Isabella",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Isabella Blue",
+    "nameFr": "Bleu Isabella",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      329
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_KomodoJoe_Mustard",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Mustard",
+    "nameFr": "Moutarde",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 15
+  },
+  {
+    "handle": "Color_LeChaux_Yellow",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Le Chaux Yellow",
+    "nameFr": "Jaune Le Chaux",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      305
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_LightBlue",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Light Blue",
+    "nameFr": "Bleu clair",
+    "condition": "COctaneBeatNefariousTimesUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Limited1",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Mint Burst",
+    "nameFr": "Explosion de menthe",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      420
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Liz",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Liz Violet",
+    "nameFr": "Lavande Liz",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      327
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Megumi",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Megumi White",
+    "nameFr": "Blanc Megumi",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      326
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_NitrosOxide_HovercraftGreen",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Hovercraft Green",
+    "nameFr": "Vert Aéroglisseur",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 67
+  },
+  {
+    "handle": "Color_NitrosOxide_Indigo",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Nitros Oxide Indigo",
+    "nameFr": "Indigo Nitros Oxide",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      293
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Nostalginator",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Nostalginator Pink",
+    "nameFr": "Rose Nostalginator",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      449
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Obsidian",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Obsidian",
+    "nameFr": "Obsidienne",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      464
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Orange",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Orange",
+    "nameFr": "Orange",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 4
+  },
+  {
+    "handle": "Color_Pastel",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Pastel",
+    "nameFr": "Pastel",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      463
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Prehistoric",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Mammoth Brown",
+    "nameFr": "Marron mammouth",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      434
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Probulot",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Probulot Teal",
+    "nameFr": "Bleu canard Probulot",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      441
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Quartz",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Quartz",
+    "nameFr": "Quartz",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      465
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_RedBlue",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Red, Blue & White",
+    "nameFr": "Rouge & bleu & blanc",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      337
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_RedWhite",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Red, White & Blue",
+    "nameFr": "Rouge & blanc & bleu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      338
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_RedWhite2",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Red & White",
+    "nameFr": "Rouge & blanc",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      339
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_RedYellow",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Red & Yellow",
+    "nameFr": "Rouge & jaune",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      340
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Relic_Gold",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Relic Gold",
+    "nameFr": "Relique en or",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 59
+  },
+  {
+    "handle": "Color_Relic_Platinum",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Relic Platinum",
+    "nameFr": "Relique de platine",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 60
+  },
+  {
+    "handle": "Color_Relic_Sapphire",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Relic Sapphire",
+    "nameFr": "Relique de saphir",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 58
+  },
+  {
+    "handle": "Color_Roadster_Pink",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Roadster Pink",
+    "nameFr": "Rose Roadster",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      112
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Rocket",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Rocket Blue",
+    "nameFr": "Bleu Fusée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      358
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_SixPipes_Red",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Six-Pipes Red",
+    "nameFr": "Rouge Six-Pipes",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      116
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Tawna",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Tawna Pink",
+    "nameFr": "Rose Tawna",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      325
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_TeamBandicoot_Blue",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Team Bandicoot Blue",
+    "nameFr": "Bleu Team Bandicoot",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 2
+  },
+  {
+    "handle": "Color_TeamCortex_Red",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Team Cortex Red",
+    "nameFr": "Rouge Team Cortex",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 13
+  },
+  {
+    "handle": "Color_TeamOxide_Yellow",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Team Oxide Yellow",
+    "nameFr": "Jaune Team Oxide",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 18
+  },
+  {
+    "handle": "Color_TeamTrance_Green",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Team Trance Green",
+    "nameFr": "Vert Team Trance",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 8
+  },
+  {
+    "handle": "Color_Trikee_Orange",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Trikee Orange",
+    "nameFr": "Orange Trikee",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      128
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_White",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "White",
+    "nameFr": "Blanc",
+    "condition": "COctaneCheatUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_WhiteBlue",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "White & Blue",
+    "nameFr": "Blanc & bleu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      341
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_WhiteRed",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "White, Red & Blue",
+    "nameFr": "Blanc & rouge & bleu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      342
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_WhiteRed2",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "White & Red",
+    "nameFr": "Blanc & rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      343
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_WhiteRed3",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "White, Red & Green",
+    "nameFr": "Blanc & rouge & vert",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      344
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_Yellow",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Yellow",
+    "nameFr": "Jaune",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 10
+  },
+  {
+    "handle": "Color_YellowBlack",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Yellow, Black & Red",
+    "nameFr": "Jaune & noir & rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      345
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_YellowBlue",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Yellow, Blue & Red",
+    "nameFr": "Jaune & bleu & rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      346
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Color_YellowGreen",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Yellow, Green & Blue",
+    "nameFr": "Jaune & vert & bleu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      347
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Crickey_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Expedition",
+    "nameFr": "Expédition",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Crickey_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Tiger Stripes",
+    "nameFr": "Rayures de tigre",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Crickey_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Mark of Hunters",
+    "nameFr": "Marque des chasseurs",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Crickey_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Giraffe Spots",
+    "nameFr": "Taches de girafe",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Crickey_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Camouflage",
+    "nameFr": "Camouflage",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_DoomBuggy_CurvedStripes",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Curved Stripes",
+    "nameFr": "Rayures courbées",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      103
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_DoomBuggy_GalacticVoyager",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Galactic Voyager",
+    "nameFr": "Voyageur galactique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      193
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_DoomBuggy_SeaReef",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sea Reef",
+    "nameFr": "Récif",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      192
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_DoomBuggy_Submerged",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Submerged",
+    "nameFr": "Submergé",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      194
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_DoomBuggy_TheKraken",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "The Kraken",
+    "nameFr": "Le Kraken",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      195
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Imperium_ComicsArt",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Comics Art",
+    "nameFr": "Art BD ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      202
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Imperium_FieryFlash",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Fiery Flash",
+    "nameFr": "Flash furieux ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      200
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Imperium_FullOfMud",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Full of Mud",
+    "nameFr": "Vive la boue ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      201
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Imperium_Racer",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Racer ",
+    "nameFr": "Pilote",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      107
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Imperium_StarsStripes",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Stars & Stripes",
+    "nameFr": "Bannière étoilée ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      203
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartCrash_BlisteringFlames",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Blistering Flames",
+    "nameFr": "Flammes ardentes",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 45
+  },
+  {
+    "handle": "Decal_KartCrash_LightningDash",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Lightning Dash",
+    "nameFr": "Foudre",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 49
+  },
+  {
+    "handle": "Decal_KartCrash_MarkOfChampions",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Mark of Champions",
+    "nameFr": "Marque des champions",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 53
+  },
+  {
+    "handle": "Decal_KartCrash_RainingHearts",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Raining Hearts",
+    "nameFr": "Pluie de cœurs ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      178
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartCrash_WingedArrows",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Winged Arrows",
+    "nameFr": "Flèches ailées",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 41
+  },
+  {
+    "handle": "Decal_KartNitrosOxide_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Semicircles",
+    "nameFr": "Demi-cercles",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [
+      287
+    ],
+    "challengeBit": 67
+  },
+  {
+    "handle": "Decal_KartNitrosOxide_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Intergalactic Flames",
+    "nameFr": "Flammes intergalactiques",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      196
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartNitrosOxide_3",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sunrays",
+    "nameFr": "Rayons de soleil",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      197
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartNitrosOxide_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Glimmering Sparks",
+    "nameFr": "Étincelles lumineuses",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      294
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartNitrosOxide_5",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Gasmoxian Style",
+    "nameFr": "Façon Gasmoxia",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      198
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartNitrosOxide_6",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sea of Fury",
+    "nameFr": "Mer en furie",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      199
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartTeamCortex_DeepScratches",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Deep Scratches",
+    "nameFr": "Égratignures profondes ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      215
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartTeamCortex_Patch",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Patch",
+    "nameFr": "Patch",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 32
+  },
+  {
+    "handle": "Decal_KartTeamCortex_RingsOfSpeed",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Rings of Speed",
+    "nameFr": "Anneaux de vitesse",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 31
+  },
+  {
+    "handle": "Decal_KartTeamCortex_SpiderWeb",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Spider Web",
+    "nameFr": "Toile d'araignée",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 51
+  },
+  {
+    "handle": "Decal_KartTeamCrash_Airbrush",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Airbrush",
+    "nameFr": "Aérographe",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 43
+  },
+  {
+    "handle": "Decal_KartTeamCrash_AncientPattern",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Ancient Pattern",
+    "nameFr": "Modèle ancien ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      214
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartTeamCrash_DigitalFire",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Digital Fire",
+    "nameFr": "Feu numérique ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      213
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartTeamCrash_DualStripes",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Dual Stripes",
+    "nameFr": "Deux bandes",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 21
+  },
+  {
+    "handle": "Decal_KartTeamCrash_ThreeLines",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Three Lines",
+    "nameFr": "Trois lignes",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 22
+  },
+  {
+    "handle": "Decal_KartTeamTrance_BouquetOfFlowers",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Bouquet of Flowers",
+    "nameFr": "Bouquet de fleurs",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 27
+  },
+  {
+    "handle": "Decal_KartTeamTrance_EveningShade",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Evening Shade",
+    "nameFr": "Ombre du soir",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      219
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartTeamTrance_HighTechOne",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "High Tech One",
+    "nameFr": "Haute technologie 1",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 47
+  },
+  {
+    "handle": "Decal_KartTeamTrance_HighTechTwo",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "High Tech Two",
+    "nameFr": "Haute technologie 2",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      220
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_KartTeamTrance_PolkaDots",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Polka Dots",
+    "nameFr": "À pois",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 26
+  },
+  {
+    "handle": "Decal_Roadster_DotsSpots",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Dots N' Spots",
+    "nameFr": "Points et taches",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      206
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Roadster_LoneStar",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Lone Star",
+    "nameFr": "Étoile unique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      111
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Roadster_PureNature",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Pure Nature",
+    "nameFr": "Nature positive",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      205
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Roadster_TheFish",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "The Fish",
+    "nameFr": "Le poisson",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      207
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Roadster_TropicalSunset",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Tropical Sunset",
+    "nameFr": "Coucher de soleil tropical",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      208
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_Roadster_TwoTones",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Two Tones",
+    "nameFr": "Deux tons",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      204
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_TeamOxide_CosmicSky",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Cosmic Sky",
+    "nameFr": "Ciel cosmique ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      217
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_TeamOxide_FastLanes",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Fast Lanes",
+    "nameFr": "Voies rapides",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 55
+  },
+  {
+    "handle": "Decal_TeamOxide_Motherboard",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Motherboard",
+    "nameFr": "Carte mère",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      218
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Decal_TeamOxide_StraightLines",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Straight Lines",
+    "nameFr": "Lignes droites",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 36
+  },
+  {
+    "handle": "Decal_TeamOxide_Tricolor",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Tricolor",
+    "nameFr": "Tricolore",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 37
+  },
+  {
+    "handle": "Decal_TeamOxide_WebOfOxide",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Web of Oxide",
+    "nameFr": "Filet d'Oxide",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      216
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP1_Decal_CPN",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Nitro Tour",
+    "nameFr": "Tour Nitro",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      414
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_CPN_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "T-Rex Chicken",
+    "nameFr": "Poulet T-Rex",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      546
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_NGR_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Two Tones",
+    "nameFr": "Double ton",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      450
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_NGR_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Floating Flowers",
+    "nameFr": "Fleurs flottantes",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      451
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_NGR_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Bed Time",
+    "nameFr": "Au dodo",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      452
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_NGR_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Funny Bubbles",
+    "nameFr": "Drôles de bulles",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      453
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_NGR_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Bath Time",
+    "nameFr": "Au bain",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      454
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_PBK_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Side Stripes",
+    "nameFr": "Bandes latérales",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      442
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_PBK_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Future Highway",
+    "nameFr": "Route du futur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      443
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_PBK_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Cool Zebra",
+    "nameFr": "Zèbre cool",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      444
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_PBK_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "80's Fashion",
+    "nameFr": "Années 80",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      445
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_PBK_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Pitfall!",
+    "nameFr": "Pitfall!",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      446
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_PHC_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Primal Splash",
+    "nameFr": "Éclaboussure primitive",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      435
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_PHC_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Jungle Stripes",
+    "nameFr": "Bandes jungle",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      436
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_PHC_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Crude Kraken",
+    "nameFr": "Kraken rudimentaire",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      437
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_PHC_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "War Paint",
+    "nameFr": "Peinture de guerre",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      438
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Decal_PHC_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Prehistoric Patterns",
+    "nameFr": "Motifs préhistoriques",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      439
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_BCH_01",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Baby Crash",
+    "nameFr": "Bébé Crash",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      476
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_BCH_02",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Baby Coco",
+    "nameFr": "Bébé Coco",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      477
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_Fake_01",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Fake Ptero Head",
+    "nameFr": "Tête de faux ptérodactyle",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      474
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_Fake_02",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Fake Triceratop Head",
+    "nameFr": "Tête de faux tricératops",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      475
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_NitroGauge_01",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Cave Painting of Tiny",
+    "nameFr": "Peinture de Tiny",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      466
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_NitroGauge_02",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Cave Painting of Bones",
+    "nameFr": "Peinture d'os",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      467
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_NitroGauge_03",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Fake Brontosaurus Head",
+    "nameFr": "Tête de faux brontosaure",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      468
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_NitroGauge_04",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Caveman Fake Crash",
+    "nameFr": "Faux Crash des cavernes",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      469
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_NitroGauge_05",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Baby T",
+    "nameFr": "Bébé T",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      470
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_RockArt_01",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Cave Painting of T-Rex Chicken",
+    "nameFr": "Peinture de poulet T-Rex",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      471
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_RockArt_02",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Cave painting of Fake Caveman",
+    "nameFr": "Peinture de faux Homo sapiens",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      472
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP2_Sticker_RockArt_03",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "T-Rex Chicken Head",
+    "nameFr": "Tête de poulet T-Rex",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      473
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Color_01",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Gnasty Ride Yellow",
+    "nameFr": "Gnasty-kart jaune",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      497
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Color_02",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Spyromobile Purple",
+    "nameFr": "Spyromobile violette",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      505
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Color_03",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Dragonfly Dark Blue",
+    "nameFr": "Libellule bleue",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      513
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Color_04",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Red Gem",
+    "nameFr": "Gemme rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      522
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Color_05",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Blue Gem",
+    "nameFr": "Gemme bleue",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      523
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Color_06",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Pink Gem",
+    "nameFr": "Gemme rose",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      524
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Color_07",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Aqua Gem",
+    "nameFr": "Gemme turquoise",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      537
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Color_08",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Yellow Gem",
+    "nameFr": "Gemme jaune",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      538
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Color_09",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Purple Gem",
+    "nameFr": "Gemme violette",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      539
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Color_10",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "White Gem",
+    "nameFr": "Gemme blanche",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      540
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Color_11",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Green Gem",
+    "nameFr": "Gemme verte",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      541
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_CPN_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Spyro N. Friends",
+    "nameFr": "Spyro et compagnie",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      617
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_SDE_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Two Tones",
+    "nameFr": "Deux tons",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      507
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_SDE_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Paint Splash",
+    "nameFr": "Tache de peinture",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      508
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_SDE_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Salamander",
+    "nameFr": "Salamandre",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      509
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_SDE_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Waves N. Twirls",
+    "nameFr": "Vagues et tourbillons",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      510
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_SDE_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Glittering Sparks",
+    "nameFr": "Étincelles brillantes",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      511
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_Spyro_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Dragon Stripes",
+    "nameFr": "Rayures de dragon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      499
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_Spyro_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Flying Nuggets",
+    "nameFr": "Pépites volantes",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      500
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_Spyro_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Dragon Scales",
+    "nameFr": "Écailles de dragon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      501
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_Spyro_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Dragon Horns",
+    "nameFr": "Cornes de dragon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      502
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_Spyro_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Fire Breath",
+    "nameFr": "Souffle de feu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      503
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_TU3_B_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Gnasty Stripes",
+    "nameFr": "Rayures Gnasty",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      491
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_TU3_B_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Gnasty Spots",
+    "nameFr": "Points Gnasty",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      492
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_TU3_B_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Gnasty Spikes",
+    "nameFr": "Piques Gnasty",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      493
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_TU3_B_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Gnasty Swirls",
+    "nameFr": "Tourbillons Gnasty",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      494
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Decal_TU3_B_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Gnasty Lightning",
+    "nameFr": "Éclair Gnasty",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      495
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_GEM_1",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Fire Elemental",
+    "nameFr": "Élément de feu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      514
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_GEM_2",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Ice Elemental",
+    "nameFr": "Élément de glace",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      515
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_GEM_3",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Magic Elemental",
+    "nameFr": "Élément de magie",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      516
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_GEM_4",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Lightning Elemental",
+    "nameFr": "Élément d'électricité",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      517
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_GEM_5",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Light Elemental",
+    "nameFr": "Élément de lumière",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      518
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_GEM_6",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Darkness Elemental",
+    "nameFr": "Élément des ténèbres",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      519
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_GEM_7",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Wind Elemental",
+    "nameFr": "Élément du vent",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      520
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_GEM_8",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Nature Elemental",
+    "nameFr": "Élément de la nature",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      521
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_KartPreset_Limited3",
+    "type": "CKartCustomizationPresetItem",
+    "nameEn": "Firehawk",
+    "nameFr": "Faucon de feu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      542
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_01",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Crystal Dragon",
+    "nameFr": "Dragon de cristal",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      525
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_02",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Green Gem",
+    "nameFr": "Gemme verte",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      526
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_03",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Red Gem",
+    "nameFr": "Gemme rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      527
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_04",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Blue Gem",
+    "nameFr": "Gemme bleue",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      528
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_05",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Sheep",
+    "nameFr": "Mouton",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      529
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_06",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Lightning Bow",
+    "nameFr": "Arc électrique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      530
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_07",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Viking Helmet",
+    "nameFr": "Casque viking",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      531
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_08",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Magic Potion",
+    "nameFr": "Potion magique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      532
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_09",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Sparx",
+    "nameFr": "Sparx",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      533
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_10",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Spyro ",
+    "nameFr": "Spyro ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      534
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_11",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Gnasty Gnorc",
+    "nameFr": "Gnasty Gnorc",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      535
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Sticker_12",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Hunter",
+    "nameFr": "Chasseur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      536
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Wheels_SDE_01",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Dragonfly",
+    "nameFr": "Libellule",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      512
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Wheels_Spyro_01",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Spyromobile",
+    "nameFr": "Spyromobile",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      504
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP3_Wheels_TU3_B_01",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Gnasty Ride",
+    "nameFr": "Gnasty-kart",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      496
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_BEM",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Skull Rider",
+    "nameFr": "Crâne motard",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      575
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_01",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Spectral Blue",
+    "nameFr": "Bleu spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      584
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_02",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Spectral Aqua",
+    "nameFr": "Turquoise spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      585
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_03",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Spectral Green",
+    "nameFr": "Vert spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      586
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_04",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Spectral Orange",
+    "nameFr": "Orange spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      587
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_05",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Spectral Pink",
+    "nameFr": "Rose spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      588
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_06",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Spectral Purple",
+    "nameFr": "Violet spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      589
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_07",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Spectral Red",
+    "nameFr": "Rouge spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      590
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_08",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Spectral Yellow",
+    "nameFr": "Jaune spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      591
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_09",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Spectral White",
+    "nameFr": "Blanc spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      615
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_10",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Spectral Black",
+    "nameFr": "Noir spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      616
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_11",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Wood",
+    "nameFr": "Bois",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      682
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_12",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Pumpkins",
+    "nameFr": "Citrouilles",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_BEM",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Skull Rider Beige",
+    "nameFr": "Crâne motard beige",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      574
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_NCT",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Nautilus Purple",
+    "nameFr": "Nautilus violet",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      566
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Color_OGR",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Phantom Red",
+    "nameFr": "Fantôme rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      582
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_BEM_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Skull Splitter",
+    "nameFr": "Crâne fendeur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      569
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_BEM_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sharp Jaw",
+    "nameFr": "Mâchoire tranchante",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      570
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_BEM_3",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Dark Symbiote",
+    "nameFr": "Symbiote obscur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      571
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_BEM_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Heavy Metal",
+    "nameFr": "Heavy Metal",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      572
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_BEM_5",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "CRoc Scales",
+    "nameFr": "Écailles de crocodile",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      573
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_CPN_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Spooky",
+    "nameFr": "Effrayant",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      612
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_NCT_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sea Serpent Stripes",
+    "nameFr": "Rayures de serpent de mer",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      561
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_NCT_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Undertow",
+    "nameFr": "Contre-courant",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      562
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_NCT_3",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Plaid Fisherman",
+    "nameFr": "Pêcheur écossais",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      563
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_NCT_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Abyssal Shimmer",
+    "nameFr": "Scintillement abyssal",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      564
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_NCT_5",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Deepsea Tentacles",
+    "nameFr": "Tentacules des profondeurs",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      565
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_OGR_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Horror Symphony",
+    "nameFr": "Symphonie horrifique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      577
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_OGR_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Tuned Webs",
+    "nameFr": "Toiles",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      578
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_OGR_3",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Acoustical Forest",
+    "nameFr": "Forêt acoustique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      579
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_OGR_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Dancing Bats",
+    "nameFr": "Chauve-souris dansantes",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      580
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Decal_OGR_5",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Spooky Choral",
+    "nameFr": "Chœur effrayant",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      581
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Ghost_1",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Spectral Blue",
+    "nameFr": "Bleu spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      592
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Ghost_10",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Spectral Black",
+    "nameFr": "Noir spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      614
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Ghost_2",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Spectral Aqua",
+    "nameFr": "Turquoise spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      593
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Ghost_3",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Spectral Green",
+    "nameFr": "Vert spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      594
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Ghost_4",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Spectral Orange",
+    "nameFr": "Orange spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      595
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Ghost_5",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Spectral Pink",
+    "nameFr": "Rose spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      596
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Ghost_6",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Spectral Purple",
+    "nameFr": "Violet spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      597
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Ghost_7",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Spectral Red",
+    "nameFr": "Rouge spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      598
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Ghost_8",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Spectral Yellow",
+    "nameFr": "Jaune spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      599
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Ghost_9",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Spectral White",
+    "nameFr": "Blanc spectral",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      613
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_NCT",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Nautilus",
+    "nameFr": "Nautilus",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      567
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_OGR",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Phantom",
+    "nameFr": "Fantôme",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      583
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_01",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Moon",
+    "nameFr": "Lune",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      600
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_02",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Ghost",
+    "nameFr": "Fantôme",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      601
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_03",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Evil Crash Shadow",
+    "nameFr": "Ombre de Crash maléfique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      602
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_04",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Lightning Bolts",
+    "nameFr": "Foudre",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      603
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_05",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Scarecrow",
+    "nameFr": "Épouvantail",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      604
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_06",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Rat",
+    "nameFr": "Rat",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      605
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_07",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Crow",
+    "nameFr": "Corbeau",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      606
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_08",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Werewolf Howling",
+    "nameFr": "Loup-garou",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      607
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_09",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Pumpkin Lord Head",
+    "nameFr": "Seigneur citrouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      608
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_10",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Nina Cortex",
+    "nameFr": "Nina Cortex",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      609
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_11",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Komodo Moe",
+    "nameFr": "Komodo Moe",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      610
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP4_Sticker_12",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "N. Brio",
+    "nameFr": "N. Brio",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      611
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Color_01",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Sparkling Green & Purple",
+    "nameFr": "Vert & violet brillants",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      662
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Color_02",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Blue & White Stars",
+    "nameFr": "Étoiles bleues & blanches",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      663
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Color_03",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Sparkling Blue",
+    "nameFr": "Bleu brillant",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      664
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Color_04",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Neon Red & Yellow",
+    "nameFr": "Rouge & jaune néons",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      665
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Color_05",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Neon Blue & Yellow",
+    "nameFr": "Bleu & jaune néons",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      666
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Color_06",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Neon Purple & Pink",
+    "nameFr": "Violet & rose néons",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      667
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Color_07",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Neon Green & Yellow",
+    "nameFr": "Vert & jaune néons",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      668
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Color_08",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Neon Purple & Aqua",
+    "nameFr": "Violet & turquoise néons",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      669
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Color_FYM",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Daredevil Light Blue",
+    "nameFr": "Couleur Casse-cou",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      660
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Color_JKN",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Nitro Bumper Sparkling Red",
+    "nameFr": "Couleur Nitro-tamponneuse",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      659
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Color_PZR",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Pressurizer Dark Green",
+    "nameFr": "Couleur Compresseur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      661
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_CPN",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Neon Circus",
+    "nameFr": "Cirque néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      683
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_FYM_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Speed Waves",
+    "nameFr": "Ondes de vitesse",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      639
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_FYM_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Circus Stripes",
+    "nameFr": "Rayures de cirque",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      640
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_FYM_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Tech Racer",
+    "nameFr": "Pilote tech",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      641
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_FYM_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Daredevil",
+    "nameFr": "Casse-cou",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      642
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_FYM_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Eagle Flight",
+    "nameFr": "Vol de l'aigle",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      643
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_JKN_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Stripes",
+    "nameFr": "Rayures",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      634
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_JKN_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Clown Buggy",
+    "nameFr": "Buggy de clown",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      635
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_JKN_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Mall Ride",
+    "nameFr": "Centre commercial",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      636
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_JKN_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Speed Threads",
+    "nameFr": "Traces de vitesse",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      637
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_JKN_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Neon Dragon",
+    "nameFr": "Dragon néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      638
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_PZR_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Swirly",
+    "nameFr": "Spirale",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      644
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_PZR_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Splat",
+    "nameFr": "Tache",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      645
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_PZR_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Electric Generator",
+    "nameFr": "Générateur électrique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      646
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_PZR_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Liquid Nitro",
+    "nameFr": "Nitro liquide",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      647
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Decal_PZR_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Neon Clown",
+    "nameFr": "Clown Néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      648
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_FYM",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Daredevil",
+    "nameFr": "Casse-cou",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      649
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Neon_1",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Neon Blue",
+    "nameFr": "Bleu néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      651
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Neon_2",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Neon Aqua",
+    "nameFr": "Turquoise néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      652
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Neon_3",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Neon Green",
+    "nameFr": "Vert néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      653
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Neon_4",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Neon Rainbow",
+    "nameFr": "Arc-en-ciel néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      654
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Neon_5",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Neon Orange",
+    "nameFr": "Orange néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      655
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Neon_6",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Neon Red",
+    "nameFr": "Rouge néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      656
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Neon_7",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Neon Pink",
+    "nameFr": "Rose néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      657
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Neon_8",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Neon Purple",
+    "nameFr": "Violet néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      658
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_PZR",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Pressurizer",
+    "nameFr": "Compresseur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      650
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_01",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Balloon",
+    "nameFr": "Ballon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      670
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_02",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Fireworks",
+    "nameFr": "Feux d'artifice",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      671
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_03",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Cannon",
+    "nameFr": "Canon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      672
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_04",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Stars",
+    "nameFr": "Étoiles",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      673
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_05",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Neon Blimp",
+    "nameFr": "Dirigeable néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      674
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_06",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Neon Plane",
+    "nameFr": "Avion néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      675
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_07",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Neon Guitar",
+    "nameFr": "Guitare néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      676
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_08",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Neon Dragoncoaster",
+    "nameFr": "Dragoncoaster néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      677
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_09",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "King Chicken",
+    "nameFr": "Roi Poulet",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      678
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_10",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Koala Kong",
+    "nameFr": "Koala Kong",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      679
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_11",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Pasadena O'Possum",
+    "nameFr": "Pasadena O'Possum",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      680
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP5_Sticker_12",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Ebenezer Von Clutch",
+    "nameFr": "Ebenezer Von Clutch",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      681
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Candies_1",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Sprinkled Caramel",
+    "nameFr": "Caramel",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      720
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Candies_2",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Chocolate Glazed",
+    "nameFr": "Chocolat",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      721
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Candies_3",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Blueberry Crunch",
+    "nameFr": "Myrtille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      722
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Candies_4",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Lemon Cream",
+    "nameFr": "Crème de citron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      723
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Candies_5",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Strawberry Fluff",
+    "nameFr": "Coulis de fraise",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      724
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Candies_6",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Sweet Pistachio",
+    "nameFr": "Pistaches",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      725
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Candies_7",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Vanilla Cappuccino",
+    "nameFr": "Cappuccino à la vanille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      726
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Candies_8",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Wildberry Dream",
+    "nameFr": "Rêve de baies",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      727
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Color_01",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Sprinkled Caramel",
+    "nameFr": "Caramel",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      731
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Color_02",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Chocolate Glazed",
+    "nameFr": "Chocolat",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      732
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Color_03",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Blueberry Crunch",
+    "nameFr": "Myrtille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      733
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Color_04",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Lemon Cream",
+    "nameFr": "Crème de citron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      734
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Color_05",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Strawberry Fluff",
+    "nameFr": "Coulis de fraise",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      735
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Color_06",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Sweet Pistachio",
+    "nameFr": "Pistaches",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      736
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Color_07",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Vanilla Cappuccino",
+    "nameFr": "Cappuccino à la vanille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      737
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Color_08",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Wildberry Dream",
+    "nameFr": "Rêve de baies",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      738
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Color_MWP",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Snowplower Orange",
+    "nameFr": "Orange Chasse-neige",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      730
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Color_SCH",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Candy Cone Sparkle",
+    "nameFr": "Étincelle Licône",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      729
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Color_TSH",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Nitro Sleigh REd",
+    "nameFr": "Nitro-luge rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      728
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_CPN",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Winter Festival",
+    "nameFr": "Festival de l'hiver",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      716
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_MWP_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Hard Edges",
+    "nameFr": "Bords coupants",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      711
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_MWP_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Winter Stripes",
+    "nameFr": "Bandes hivernales",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      712
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_MWP_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Ice Breaker",
+    "nameFr": "Brise-glace",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      713
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_MWP_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Snow Storm",
+    "nameFr": "Tempête de neige",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      714
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_MWP_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Avalanche",
+    "nameFr": "Avalanche",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      715
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_SCH_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Candy Cane",
+    "nameFr": "Sucre d'orge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      706
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_SCH_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Cake Icing",
+    "nameFr": "Glaçage de gâteau",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      707
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_SCH_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sweet Zebra",
+    "nameFr": "Zèbre en sucre",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      708
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_SCH_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Cookie Dough",
+    "nameFr": "Pâte d'amande",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      709
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_SCH_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sugar Bomb",
+    "nameFr": "Bombe glacée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      710
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_TSH_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sky Lines",
+    "nameFr": "Lignes de ciel",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      701
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_TSH_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Polar Airway",
+    "nameFr": "Air polaire",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      702
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_TSH_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Flying Ribbons",
+    "nameFr": "Rubans volants",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      703
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_TSH_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Thunder Storm",
+    "nameFr": "Tonnerre tempêtueux",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      704
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Decal_TSH_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sundae Blast",
+    "nameFr": "Explosion de chocolat",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      705
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_MWP",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Snowplower",
+    "nameFr": "Chasse-neige",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      719
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_SCH",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Candy Cone",
+    "nameFr": "Cône bonbon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      718
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_01",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Swirly Candy",
+    "nameFr": "Bonbon tourbillon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      739
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_02",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Cupcake",
+    "nameFr": "Cupcake",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      740
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_03",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Chocolate Pretzel",
+    "nameFr": "Bretzel en chocolat",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      741
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_04",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Candy Cane",
+    "nameFr": "Sucre d'orge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      742
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_05",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Sumo Jelly",
+    "nameFr": "Sumo gelée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      743
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_06",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "King Jelly",
+    "nameFr": "Roi gelée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      744
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_07",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Jelly People",
+    "nameFr": "Homme gelée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      745
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_08",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Jelly Crown",
+    "nameFr": "Couronne gelée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      746
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_09",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Hasty",
+    "nameFr": "Hasty",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      747
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_10",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Rilla Roo",
+    "nameFr": "Rilla Roo",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      748
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_11",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Yaya Panda",
+    "nameFr": "Yaya Panda",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      749
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_Sticker_12",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Chick N. Stew",
+    "nameFr": "Chick N. Stew",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      750
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP6_TSH",
+    "type": "CKartCustomizationItem",
+    "nameEn": "GP6_TSH",
+    "nameFr": "GP6_TSH",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Color_01",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Rustland Blue",
+    "nameFr": "Rouille bleu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      794
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Color_02",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Rustland Aqua",
+    "nameFr": "Rouille turquoise",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      795
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Color_03",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Rustland Green",
+    "nameFr": "Rouille vert",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      796
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Color_04",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Rustland Yellow",
+    "nameFr": "Rouille jaune",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      797
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Color_05",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Rustland Orange",
+    "nameFr": "Rouille orange",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      798
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Color_06",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Rustland Red",
+    "nameFr": "Rouille rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      799
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Color_07",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Rustland Pink",
+    "nameFr": "Rouille rose",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      800
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Color_08",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Rustland Purple",
+    "nameFr": "Rouille violet",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      801
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Color_HRE",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Desert Duster Blue",
+    "nameFr": "Désertique bleu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      792
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Color_MTT",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Dusty Rider Orange",
+    "nameFr": "Maraudeur orange",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      791
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Color_SBY",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "The Nuke Orange",
+    "nameFr": "Bombardeur orange",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      793
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_CPN",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Rustland",
+    "nameFr": "Rouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      780
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_HRE_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sand Racer",
+    "nameFr": "Coureur des sables",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      770
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_HRE_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Barren Runner",
+    "nameFr": "Coureur du désert",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      771
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_HRE_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Monster Tag",
+    "nameFr": "Tag monstre",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      772
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_HRE_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sprayed Arrows",
+    "nameFr": "Flèches en spray",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      773
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_HRE_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Speed Graffs",
+    "nameFr": "Graffs de vitesse",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      774
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_MTT_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Charred Pigments",
+    "nameFr": "Pigments brûlés",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      765
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_MTT_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Splattered Hues",
+    "nameFr": "Tons tachetés",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      766
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_MTT_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sprayed Pigments",
+    "nameFr": "Pigments en spray",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      767
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_MTT_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Directional Values",
+    "nameFr": "Valeurs directionnelles",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      768
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_MTT_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Graffed Tones",
+    "nameFr": "Tons graffés",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      769
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_SBY_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Griff-Graff",
+    "nameFr": "Graff-griff",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      775
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_SBY_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Happy Spray",
+    "nameFr": "Spray joyeux",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      776
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_SBY_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Mine Splat",
+    "nameFr": "Tache mine",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      777
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_SBY_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Cortex Tag",
+    "nameFr": "Tag Cortex",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      778
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Decal_SBY_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Metal Chicken",
+    "nameFr": "Poulet de métal",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      779
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_KartPreset_Limited4",
+    "type": "CKartCustomizationPresetItem",
+    "nameEn": "Xfinity Flash Kart",
+    "nameFr": "Kart Xfinity Flash",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      877
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Mad_1",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Blue Tag",
+    "nameFr": "Récup' bleu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      783
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Mad_2",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Aqua Tag",
+    "nameFr": "Récup' turquoise",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      784
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Mad_3",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Green Tag",
+    "nameFr": "Récup' vert",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      785
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Mad_4",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Yellow Tag",
+    "nameFr": "Récup' jaune",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      786
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Mad_5",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Orange Tag",
+    "nameFr": "Récup' orange",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      787
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Mad_6",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Red Tag",
+    "nameFr": "Récup' rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      788
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Mad_7",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Pink Tag",
+    "nameFr": "Récup' rose",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      789
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Mad_8",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Purple Tag",
+    "nameFr": "Récup' violet",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      790
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_MTT",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Dusty Rider",
+    "nameFr": "Maraudeur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      781
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_SBY",
+    "type": "CKartCustomizationItem",
+    "nameEn": "The Nuke",
+    "nameFr": "Bombardeur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      782
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_01",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Rustland Coco",
+    "nameFr": "Coco de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      802
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_02",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Rustland Cortex",
+    "nameFr": "Cortex de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      803
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_03",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Rustland Dingodile",
+    "nameFr": "Dingodile de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      804
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_04",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Rustland N. Gin",
+    "nameFr": "N. Gin de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      805
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_05",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Rustland Polar",
+    "nameFr": "Polar de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      806
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_06",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Rustland Pura",
+    "nameFr": "Pura de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      807
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_07",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Rustland Tiny Tiger",
+    "nameFr": "Tiny Tiger de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      808
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_08",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Rustland Nina",
+    "nameFr": "Nina de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      809
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_09",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Rustland Crash",
+    "nameFr": "Crash de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      810
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_10",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Anchor",
+    "nameFr": "Ancre",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      811
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_11",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Apo-Apo Mask",
+    "nameFr": "Masque Apo Apo",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      812
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_12",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Megamix ",
+    "nameFr": "Megamix ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      813
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP7_Sticker_13",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Megatag",
+    "nameFr": "Megatag",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      814
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_BAP_1",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Atomic Blue",
+    "nameFr": "Bleu atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      845
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_BAP_2",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Atomic Aqua",
+    "nameFr": "Turquoise atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      846
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_BAP_3",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Atomic Green",
+    "nameFr": "Vert atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      847
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_BAP_4",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Atomic Yellow",
+    "nameFr": "Jaune atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      848
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_BAP_5",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Atomic Orange",
+    "nameFr": "Orange atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      849
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_BAP_6",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Atomic Red",
+    "nameFr": "Rouge atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      850
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_BAP_7",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Atomic Pink",
+    "nameFr": "Rose atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      851
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_BAP_8",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Atomic Purple",
+    "nameFr": "Violet atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      852
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Color_01",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Atomic Blue",
+    "nameFr": "Bleu atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      856
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Color_02",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Atomic Aqua",
+    "nameFr": "Turquoise atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      857
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Color_03",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Atomic Green",
+    "nameFr": "Vert atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      858
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Color_04",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Atomic Yellow",
+    "nameFr": "Jaune atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      859
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Color_05",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Atomic Orange",
+    "nameFr": "Orange atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      860
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Color_06",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Atomic Red",
+    "nameFr": "Rouge atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      861
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Color_07",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Atomic Pink",
+    "nameFr": "Rose atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      862
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Color_08",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Atomic Purple",
+    "nameFr": "Violet atomique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      863
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Color_BLO",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Velo Chopper Purple",
+    "nameFr": "Chopper de Velo violet",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      854
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Color_GRN",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Galactic Cruiser Green",
+    "nameFr": "Croiseur galactique vert",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      855
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Color_MTA",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Void Manta Yellow",
+    "nameFr": "Manta du vide jaune",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      853
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_BLO_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Space Racer",
+    "nameFr": "Coureur de l'espace",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      834
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_BLO_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Shooting Star",
+    "nameFr": "Étoile filante",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      835
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_BLO_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Speed Way",
+    "nameFr": "Circuit de vitesse",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      836
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_BLO_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Laser Beam",
+    "nameFr": "Rayon laser",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      837
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_BLO_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Warp Engine",
+    "nameFr": "Moteur de saut",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      838
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_CPN",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Gasmoxia",
+    "nameFr": "Gasmoxia",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      844
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_CPN_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Oxide's Decal",
+    "nameFr": "Décalcomanie d'Oxide",
+    "condition": "COctaneBeatAllOxideTimesUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_CPN_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Velo's Decal",
+    "nameFr": "Décalcomanie de Velo",
+    "condition": "COctaneBeatVeloTimesUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_GRN_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Line Bender",
+    "nameFr": "Torsion de ligne",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      839
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_GRN_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Interstellar Lane",
+    "nameFr": "Voie interstellaire",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      840
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_GRN_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Space Pirate",
+    "nameFr": "Pirate de l'espace",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      841
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_GRN_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Antigrav Cab",
+    "nameFr": "Taxi antigrav",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      842
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_GRN_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Toxy Mobile",
+    "nameFr": "Toxy Mobile",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      843
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_MTA_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Hyper Drive",
+    "nameFr": "Moteur supraluminique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      829
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_MTA_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Void Runner",
+    "nameFr": "Coureur du vide",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      830
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_MTA_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Jolly Roger",
+    "nameFr": "Jolly Roger",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      831
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_MTA_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sun Flare",
+    "nameFr": "Rayon solaire",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      832
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Decal_MTA_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Nuclear Pizza Delivery",
+    "nameFr": "Livraison de pizza nucléaire",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      833
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_01",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Burger",
+    "nameFr": "Burger",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      864
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_02",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Pizza",
+    "nameFr": "Pizza",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      865
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_03",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Toxic Burger",
+    "nameFr": "Burger toxique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      866
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_04",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Nuclear Pizza",
+    "nameFr": "Pizza nucléaire",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      867
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_05",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Mascot Burger",
+    "nameFr": "Mascotte Burger",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      868
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_06",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Mascot Pizza",
+    "nameFr": "Mascotte Pizza",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      869
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_07",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Space Koala",
+    "nameFr": "Koala de l'espace",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      870
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_08",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Velo Crew Pirate Patch",
+    "nameFr": "Bandeau pirate équipe de Velo",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      871
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_09",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Nitro Pirates Patch",
+    "nameFr": "Bandeau pirate Nitro",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      872
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_10",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Space Chicken",
+    "nameFr": "Poulet de l'espace",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      873
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_11",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Activision Shuttle",
+    "nameFr": "Navette Activision",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      874
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP8_Sticker_12",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Emperor Velo XXVII",
+    "nameFr": "Empereur Velo XXVII",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      875
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_BK2",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Nitro GT",
+    "nameFr": "GT Nitro",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      954
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Color_BK2",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Nitro GT Grey",
+    "nameFr": "GT Nitro gris",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      937
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Color_NFH",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Neon Hawk Pastel",
+    "nameFr": "Faucon de néon pastel",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      936
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Color_TPB",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Trophy Bronze",
+    "nameFr": "Trophée de bronze",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 71
+  },
+  {
+    "handle": "GP9_Color_TPG",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Trophy Gold",
+    "nameFr": "Trophée d'or",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 73
+  },
+  {
+    "handle": "GP9_Color_TPS",
+    "type": "CKartCustomizationColorScheme",
+    "nameEn": "Trophy Silver",
+    "nameFr": "Trophée d'argent",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 72
+  },
+  {
+    "handle": "GP9_Decal_BK2_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Formula N.",
+    "nameFr": "Formule N.",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      948
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_BK2_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Nitro Edge",
+    "nameFr": "Avantage Nitro",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      949
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_BK2_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Nitro Speed",
+    "nameFr": "Vitesse Nitro",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      950
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_BK2_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Nitro Burst",
+    "nameFr": "Turbo Nitro",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      951
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_BK2_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sticker Blast",
+    "nameFr": "Explosion autocollante",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      952
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_BXK_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Space Tube",
+    "nameFr": "Tube spatial",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      938
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_BXK_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Straight Line",
+    "nameFr": "Ligne droite",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      939
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_BXK_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Sound Waves",
+    "nameFr": "Ondes sonores",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      940
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_BXK_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Optimal Primer",
+    "nameFr": "Primeur optimale",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      941
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_BXK_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Flying Donut",
+    "nameFr": "Donut volant",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      942
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_NFH_01",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Two Tones",
+    "nameFr": "Deux tons",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      943
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_NFH_02",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Air Style",
+    "nameFr": "Style aérien",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      944
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_NFH_03",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Moving Target",
+    "nameFr": "Cible mouvante",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      945
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_NFH_04",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Flying Stars",
+    "nameFr": "Étoiles volantes",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      946
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_Decal_NFH_05",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Cloud Burst",
+    "nameFr": "Explosion de nuage",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      947
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "GP9_MVW",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Master",
+    "nameFr": "Maître",
+    "condition": "COctaneBeatDevTimesUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "KartBandiBuggy",
+    "type": "CRacerKartData",
+    "nameEn": "Bandibuggy",
+    "nameFr": "Bandibuggy",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      348
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "kartChampion",
+    "type": "CRacerKartData",
+    "nameEn": "Champion",
+    "nameFr": "Champion",
+    "condition": "COctaneChampionKartUnlockable",
+    "marketplaceIds": [
+      411
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "KartDGM",
+    "type": "CRacerKartData",
+    "nameEn": "Spyromobile",
+    "nameFr": "Spyromobile",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      498
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "KartRocket",
+    "type": "CRacerKartData",
+    "nameEn": "Rocket",
+    "nameFr": "Fusée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      356
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "KartSDE",
+    "type": "CRacerKartData",
+    "nameEn": "Dragonfly",
+    "nameFr": "Libellule",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      506
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "KartTeamOxide",
+    "type": "CRacerKartData",
+    "nameEn": "Team Oxide",
+    "nameFr": "Team Oxide",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 19
+  },
+  {
+    "handle": "KartTU3_B",
+    "type": "CRacerKartData",
+    "nameEn": "Gnasty Ride",
+    "nameFr": "Gnasty-kart",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      490
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Ami",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Ami",
+    "nameFr": "Ami",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      405
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Beach_Mask",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Mask",
+    "nameFr": "Masque",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 44
+  },
+  {
+    "handle": "Sticker_Beach_PalmTree",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Palm Tree",
+    "nameFr": "Palmier",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 44
+  },
+  {
+    "handle": "Sticker_Beach_Shark",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Shark",
+    "nameFr": "Requin",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 44
+  },
+  {
+    "handle": "Sticker_BigNorm",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Big Norm ",
+    "nameFr": "Grand Norm",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      225
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Blaster",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Laser Blaster",
+    "nameFr": "Pisto-laser",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      297
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Citadel_Crown",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Crown",
+    "nameFr": "Couronne",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 56
+  },
+  {
+    "handle": "Sticker_Citadel_Gargoyle",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Gargoyle",
+    "nameFr": "Gargouille",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 56
+  },
+  {
+    "handle": "Sticker_Citadel_Tower",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Tower",
+    "nameFr": "Tour",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 56
+  },
+  {
+    "handle": "Sticker_Coco",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Coco ",
+    "nameFr": "Coco",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 6
+  },
+  {
+    "handle": "Sticker_Cortex",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Neo Cortex ",
+    "nameFr": "Neo Cortex ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 16
+  },
+  {
+    "handle": "Sticker_Crash",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Crash ",
+    "nameFr": "Crash ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 0
+  },
+  {
+    "handle": "Sticker_Critter_Bat",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Bat",
+    "nameFr": "Chauve-souris",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      247
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Critter_Butterfly",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Butterfly",
+    "nameFr": "Papillon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      242
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Critter_Chicken",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Chicken",
+    "nameFr": "Poulet",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      243
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Crunch",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Crunch ",
+    "nameFr": "Crunch ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 42
+  },
+  {
+    "handle": "Sticker_Dingodile",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Dingodile ",
+    "nameFr": "Dingodile ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 23
+  },
+  {
+    "handle": "Sticker_FakeCrash",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Fake Crash ",
+    "nameFr": "Faux Crash",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 65
+  },
+  {
+    "handle": "Sticker_FeelGood_Flower",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Flower",
+    "nameFr": "Fleur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      244
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_FeelGood_Heart",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Heart",
+    "nameFr": "Cœur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      245
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_FeelGood_Star",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Star",
+    "nameFr": "Étoile",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      246
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Geary",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Geary ",
+    "nameFr": "Geary ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 38
+  },
+  {
+    "handle": "Sticker_Gemstone_Crystals",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Crystals",
+    "nameFr": "Cristaux",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      300
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Gemstone_Gem",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Gem",
+    "nameFr": "Gemme",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      301
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Gemstone_OxideSpaceship",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Oxide Spaceship",
+    "nameFr": "Vaisseau d'Oxide",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      302
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Glacier_AxeRack",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Shield & Axe",
+    "nameFr": "Bouclier & hache",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 52
+  },
+  {
+    "handle": "Sticker_Glacier_SnowFlake",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Snowflake",
+    "nameFr": "Flocon de neige",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 52
+  },
+  {
+    "handle": "Sticker_Glacier_VikingHead",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Viking Head",
+    "nameFr": "Tête viking",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 52
+  },
+  {
+    "handle": "Sticker_GP01_Gauge_CortexPharaoh",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Cortex Pharaoh",
+    "nameFr": "Cortex Pharaon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      400
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_GP01_Gauge_GateWings",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Wings",
+    "nameFr": "Œil ailé",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      401
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_GP01_Gauge_Hieroglyphs1",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Ankh",
+    "nameFr": "Croix égyptienne",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      402
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_GP01_Gauge_Hieroglyphs2",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Scarab",
+    "nameFr": "Scarabée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      403
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Hazard01_Exclamation",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Exclamation",
+    "nameFr": "Exclamation",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      231
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Hazard02_Question",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Question",
+    "nameFr": "Interrogation",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      232
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Hazard03_Lightning",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Shock",
+    "nameFr": "Choc",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      235
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Hazard04_Poison",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Poison",
+    "nameFr": "Poison",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      236
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Hazard05_Flammable",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Flammable",
+    "nameFr": "Inflammable",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      237
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Hazard06_Radioactive",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Radioactive",
+    "nameFr": "Radioactif",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      238
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Hazard07_TnTCrate",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "TNT Crate",
+    "nameFr": "Caisse de TNT",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      234
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Hazard08_NitroCrate",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Nitro Crate",
+    "nameFr": "Caisse nitro",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      233
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Isabella",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Isabella",
+    "nameFr": "Isabella",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      408
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_KomodoJoe",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Komodo Joe ",
+    "nameFr": "Komodo Joe ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 15
+  },
+  {
+    "handle": "Sticker_Krunk",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Krunk ",
+    "nameFr": "Krunk ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 33
+  },
+  {
+    "handle": "Sticker_Liz",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Liz",
+    "nameFr": "Liz",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      406
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_LostRuins_Mask",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Papu Helmet",
+    "nameFr": "Casque Papu",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 48
+  },
+  {
+    "handle": "Sticker_LostRuins_Pyramids",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Pyramids",
+    "nameFr": "Pyramides",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 48
+  },
+  {
+    "handle": "Sticker_LostRuins_Token",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Token",
+    "nameFr": "Jeton",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 48
+  },
+  {
+    "handle": "Sticker_Megumi",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Megumi",
+    "nameFr": "Megumi",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      407
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_MLZ_Blue",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Kid Blue",
+    "nameFr": "Enfant bleu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      543
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_MLZ_Green",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Kid Green",
+    "nameFr": "Enfant vert",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      544
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_MLZ_Orange",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Kid Orange",
+    "nameFr": "Enfant orange",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      545
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Monster_Dragon",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Dragon",
+    "nameFr": "Dragon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      239
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Monster_Gargoyle",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Gargoyle",
+    "nameFr": "Gargouille",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      240
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Monster_Spider",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Spider",
+    "nameFr": "Araignée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      241
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Nash",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Nash",
+    "nameFr": "Nash",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 50
+  },
+  {
+    "handle": "Sticker_NGin",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "N.Gin ",
+    "nameFr": "N.Gin ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 54
+  },
+  {
+    "handle": "Sticker_NitrosOxide",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Nitros Oxide ",
+    "nameFr": "Nitros Oxide ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 66
+  },
+  {
+    "handle": "Sticker_NTrance",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "N.Trance ",
+    "nameFr": "N.Trance ",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      226
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_NTropy",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Dr. N. Tropy",
+    "nameFr": "Dr N. Tropy",
+    "condition": "COctaneBeatNefariousTimesUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_00",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Double Zero",
+    "nameFr": "Double zéro",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      260
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_10",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Ten",
+    "nameFr": "Dix",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      248
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_11",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Eleven",
+    "nameFr": "Onze",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      261
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_12",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Twelve",
+    "nameFr": "Douze",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      249
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_13",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Thirteen",
+    "nameFr": "Treize",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      250
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_14",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Fourteen",
+    "nameFr": "Quatorze",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      251
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_22",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Twenty Two",
+    "nameFr": "Vingt-deux",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      262
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_33",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Thirty Three",
+    "nameFr": "Trente-trois",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      263
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_44",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Forty Four",
+    "nameFr": "Quarante-quatre",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      264
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_55",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Fifty-Five",
+    "nameFr": "Cinquante-cinq",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      265
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_66",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Sixty Six",
+    "nameFr": "Soixante-six",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      266
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_75",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Seventy Five",
+    "nameFr": "Soixante-quinze",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      252
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_76",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Seventy Six",
+    "nameFr": "Soixante-seize",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      253
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_77",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Seventy Seven",
+    "nameFr": "Soixante-dix-sept",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      267
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_78",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Seventy Eight",
+    "nameFr": "Soixante-dix-huit",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      254
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_79",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Seventy Nine",
+    "nameFr": "Soixante-dix-neuf",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      255
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_88",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Eighty-Eight",
+    "nameFr": "Quatre-vingt-huit",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      268
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_95",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Ninety Five",
+    "nameFr": "Quatre-vingt-quinze",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      256
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_96",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Ninety Six",
+    "nameFr": "Quatre-vingt-seize",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      257
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_97",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Ninety Seven",
+    "nameFr": "Quatre-vingt-dix-sept",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      258
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_98",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Ninety Eight",
+    "nameFr": "Quatre-vingt-dix-huit",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      259
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Number_99",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "ninety-nine",
+    "nameFr": "Quatre-vingt-dix-neuf",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      269
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_PapuPapu",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Papu Papu ",
+    "nameFr": "Papu Papu ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 10
+  },
+  {
+    "handle": "Sticker_PentaPenguin",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Penta Penguin ",
+    "nameFr": "Penta Penguin ",
+    "condition": "COctaneCheatUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Pinstripe",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Pinstripe ",
+    "nameFr": "Pinstripe ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 20
+  },
+  {
+    "handle": "Sticker_Planet",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Moon Base",
+    "nameFr": "Base lunaire",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      295
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Planet_Gas",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Gasmoxia",
+    "nameFr": "Gasmoxia",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      296
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Polar",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Polar ",
+    "nameFr": "Polar",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 11
+  },
+  {
+    "handle": "Sticker_PS_Buttons_Circle",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "PlayStation Shapes 2",
+    "nameFr": "PlayStation Shapes 2",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      291
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_PS_Buttons_Square",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "PlayStation Shapes 1",
+    "nameFr": "PlayStation Shapes 1",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      292
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_PS_Logo_Black",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "PlayStation Family Mark Black",
+    "nameFr": "PlayStation Family Mark noire",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      289
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_PS_Logo_Blue",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "PlayStation Family Mark Blue",
+    "nameFr": "PlayStation Family Mark bleue",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      290
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_PS_Logo_White",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "PlayStation Family Mark White",
+    "nameFr": "PlayStation Family Mark blanche",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      288
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Pura",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Pura ",
+    "nameFr": "Pura",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 28
+  },
+  {
+    "handle": "Sticker_RealVelo",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Real Velo ",
+    "nameFr": "Vrai Velo",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      227
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_RipperRoo",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Ripper Roo ",
+    "nameFr": "Ripper Roo ",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 4
+  },
+  {
+    "handle": "Sticker_SmallNorm",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Small Norm ",
+    "nameFr": "Petit Norm",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      228
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_SpaceInsignia",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Space Insignia",
+    "nameFr": "Insigne spatial",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      299
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Spaceship",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Spaceship",
+    "nameFr": "Vaisseau spatial",
+    "condition": "COctaneUnlockable",
+    "marketplaceIds": [
+      298
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Tawna",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Tawna",
+    "nameFr": "Tawna",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      404
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_TinyTiger",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Tiny Tiger ",
+    "nameFr": "Tiny Tiger",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 46
+  },
+  {
+    "handle": "Sticker_Zam",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Zam ",
+    "nameFr": "Zam",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      229
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "Sticker_Zem",
+    "type": "CKartCustomizationSticker",
+    "nameEn": "Zem ",
+    "nameFr": "Zem",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      230
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartBandibuggy_0",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Spots",
+    "nameFr": "Marques",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      351
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartBandibuggy_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Splinters",
+    "nameFr": "Éclats",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      352
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartBandibuggy_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Twin Bands",
+    "nameFr": "Double bandes",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      353
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartBandibuggy_3",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Avalanche",
+    "nameFr": "Avalanche",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      354
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartBandibuggy_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Rattlesnake",
+    "nameFr": "Serpent à sonnette",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      355
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartLeChaux_0",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Contour",
+    "nameFr": "Contour",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      306
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartLeChaux_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Pinnacle",
+    "nameFr": "Summum",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      307
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartLeChaux_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Split Wave",
+    "nameFr": "Vague coupée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      308
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartLeChaux_3",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Flowing Arrows",
+    "nameFr": "Nuée de flèches",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      309
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartLeChaux_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Fiery Eagle",
+    "nameFr": "Aigle de feu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      310
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartCrickey_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Expedition",
+    "nameFr": "Expédition",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      119
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartCrickey_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Tiger Stripes",
+    "nameFr": "Rayures de tigre",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      184
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartCrickey_3",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Mark of Hunters",
+    "nameFr": "Marque des chasseurs",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      185
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartCrickey_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Giraffe Spots",
+    "nameFr": "Taches de girafe",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      186
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartCrickey_5",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Camouflage",
+    "nameFr": "Camouflage",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      187
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartPsp_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Bottom Line",
+    "nameFr": "Ligne inférieure",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      115
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartPsp_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Hot Rod",
+    "nameFr": "Hot Rod",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      209
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartPsp_3",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Bling Bling",
+    "nameFr": "Bling Bling",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      210
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartPsp_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Skulls and Bones",
+    "nameFr": "Crânes et os",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      211
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartPsp_5",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Rippin' Raptor",
+    "nameFr": "Griffe de Raptor",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      212
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartRocket_0",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Checkerboard",
+    "nameFr": "Quadrillé",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      359
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartRocket_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Classic Stripes",
+    "nameFr": "Rayures classiques",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      360
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartRocket_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Fire Storm",
+    "nameFr": "Tempête de feu",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      361
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartRocket_3",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Squared",
+    "nameFr": "Carré",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      362
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartRocket_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Winged Crown",
+    "nameFr": "Couronne ailée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      363
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartYellowTestCar_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Single Stripe",
+    "nameFr": "Rayure unique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      131
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartYellowTestCar_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Roadtrip",
+    "nameFr": "Roadtrip",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      179
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartYellowTestCar_3",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Flying Ribbons",
+    "nameFr": "Rubans volants",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      180
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartYellowTestCar_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Paint Splashes",
+    "nameFr": "Taches de peinture",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      181
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartYellowTestCar_5",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "The Dragon",
+    "nameFr": "Le dragon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      182
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartYellowTestCar_6",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Wildstyle",
+    "nameFr": "Graffiti",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      183
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartTrikee_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "The Equalizer",
+    "nameFr": "L'égaliseur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      223
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartTrikee_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Boom !",
+    "nameFr": "Boum !",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      221
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartTrikee_3",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Lightspeed",
+    "nameFr": "Vitesse lumière",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      222
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartTrikee_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Checkered Line",
+    "nameFr": "Ligne quadrillée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      127
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartTrikee_5",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Fish Scales",
+    "nameFr": "Écailles de poisson",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      224
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartLimited1_0",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Tropic Swirl",
+    "nameFr": "Tourbillon des tropiques",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      421
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartDeadinator_1",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Low Rider",
+    "nameFr": "Flammes",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      188
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartDeadinator_2",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Taxi",
+    "nameFr": "Taxi",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      123
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartDeadinator_6",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "The Lucky One",
+    "nameFr": "Le chanceux",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      191
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartDeadinator_4",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Royal Flush",
+    "nameFr": "Quinte royale",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      189
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_decals_KartDeadinator_5",
+    "type": "CKartCustomizationDecal",
+    "nameEn": "Shark Attack",
+    "nameFr": "Attaque de requin",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      190
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_16",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Electron Doom Buggy",
+    "nameFr": "Doom Buggy électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      270
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_19",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Electron Team Bandicoot",
+    "nameFr": "Team Bandicoot électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      271
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_15",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Electron Deadinator",
+    "nameFr": "Deadinator électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      272
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_17",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Electron Roadster",
+    "nameFr": "Roadster électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      273
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_18",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Electron Team Cortex",
+    "nameFr": "Team Cortex électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      274
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_21",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Electron Trikee",
+    "nameFr": "Trikee électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      275
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_22",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Electron Team Trance",
+    "nameFr": "Team Trance électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      276
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_20",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Electron Team Oxide",
+    "nameFr": "Team Oxide électron",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      277
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_8",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Le Chaux",
+    "nameFr": "Le Chaux",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      304
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_1",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Team Bandicoot",
+    "nameFr": "Team Bandicoot",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 1
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_7",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Team Trance",
+    "nameFr": "Team Trance",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 7
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_4",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Team Cortex",
+    "nameFr": "Team Cortex",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 12
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_5",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Team Oxide",
+    "nameFr": "Team Oxide",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 17
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_6",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Cabrio",
+    "nameFr": "Cabrio",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      130
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_3",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Crikey",
+    "nameFr": "Crikey",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      118
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_12",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Deadinator",
+    "nameFr": "Deadinator",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      122
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_14",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Doom Buggy",
+    "nameFr": "Doom Buggy",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      102
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_10",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Imperium",
+    "nameFr": "Imperium",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      106
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_11",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Six-Pipes",
+    "nameFr": "Six-Pipes",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      114
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_2",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Roadster",
+    "nameFr": "Roadster",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      110
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_13",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Trikee",
+    "nameFr": "Trikee",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      126
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_24",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Champion",
+    "nameFr": "Champion",
+    "condition": "COctaneChampionKartUnlockable",
+    "marketplaceIds": [
+      412
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_25",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Bandibuggy",
+    "nameFr": "Bandibuggy",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      349
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_27",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Rocket",
+    "nameFr": "Fusée",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      357
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_28",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Twilight Blue",
+    "nameFr": "Bleu crépuscule",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      364
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_30",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Twilight Aqua",
+    "nameFr": "Turquoise crépuscule",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      365
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_31",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Twilight Green",
+    "nameFr": "Vert crépuscule",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      366
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_32",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Twilight Orange",
+    "nameFr": "Orange crépuscule",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      367
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_33",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Twilight Pink",
+    "nameFr": "Rose crépuscule",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      368
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_34",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Twilight Purple",
+    "nameFr": "Violet crépuscule",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      369
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_35",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Twilight Red",
+    "nameFr": "Rouge crépuscule",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      370
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_36",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Twilight Yellow",
+    "nameFr": "Jaune crépuscule",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      371
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_38",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Mammoth",
+    "nameFr": "Mammouth",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      433
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_26",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Nostalginator",
+    "nameFr": "Nostalginator",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      448
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_39",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Gummy Grinders",
+    "nameFr": "Broyeuses en caoutchouc",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      419
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_29",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Blue Lava Rock",
+    "nameFr": "Roche volcanique bleue",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      455
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_40",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Aqua Lava Rock",
+    "nameFr": "Roche volcanique turquoise",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      456
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_41",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Green Lava Rock",
+    "nameFr": "Roche volcanique verte",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      457
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_42",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Orange Lava Rock",
+    "nameFr": "Roche volcanique orange",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      458
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_43",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Pink Lava Rock",
+    "nameFr": "Roche volcanique rose",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      459
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_44",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Purple Lava Rock",
+    "nameFr": "Roche volcanique violette",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      460
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_45",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Red Lava Rock",
+    "nameFr": "Roche volcanique rouge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      461
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_kartCustomizationGlobalData_kartWheelsCustomizationData_46",
+    "type": "CKartCustomizationItem",
+    "nameEn": "Yellow Lava Rock",
+    "nameFr": "Roche volcanique jaune",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      462
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_7",
+    "type": "CRacerKartData",
+    "nameEn": "Team Bandicoot",
+    "nameFr": "Team Bandicoot",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 3
+  },
+  {
+    "handle": "SystemData_availableKarts_5",
+    "type": "CRacerKartData",
+    "nameEn": "Team Trance",
+    "nameFr": "Team Trance",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 9
+  },
+  {
+    "handle": "SystemData_availableKarts_4",
+    "type": "CRacerKartData",
+    "nameEn": "Team Cortex",
+    "nameFr": "Team Cortex",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [],
+    "challengeBit": 14
+  },
+  {
+    "handle": "SystemData_availableKarts_2",
+    "type": "CRacerKartData",
+    "nameEn": "Hovercraft",
+    "nameFr": "Aéroglisseur",
+    "condition": "COctaneChallengeUnlockable",
+    "marketplaceIds": [
+      286
+    ],
+    "challengeBit": 67
+  },
+  {
+    "handle": "SystemData_availableKarts_8",
+    "type": "CRacerKartData",
+    "nameEn": "Cabrio",
+    "nameFr": "Cabrio",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      129
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_1",
+    "type": "CRacerKartData",
+    "nameEn": "Crikey",
+    "nameFr": "Crikey",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      117
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_12",
+    "type": "CRacerKartData",
+    "nameEn": "Deadinator",
+    "nameFr": "Deadinator",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      121
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_14",
+    "type": "CRacerKartData",
+    "nameEn": "Doom Buggy",
+    "nameFr": "Doom Buggy",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      101
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_10",
+    "type": "CRacerKartData",
+    "nameEn": "Imperium",
+    "nameFr": "Imperium",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      105
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_3",
+    "type": "CRacerKartData",
+    "nameEn": "Roadster",
+    "nameFr": "Roadster",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      109
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_9",
+    "type": "CRacerKartData",
+    "nameEn": "Six-Pipes",
+    "nameFr": "Six-Pipes",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      113
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_11",
+    "type": "CRacerKartData",
+    "nameEn": "Trikee",
+    "nameFr": "Trikee",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      125
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_13",
+    "type": "CRacerKartData",
+    "nameEn": "Le Chaux",
+    "nameFr": "Le Chaux",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      303
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_20",
+    "type": "CRacerKartData",
+    "nameEn": "Mammoth",
+    "nameFr": "Mammouth",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      432
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_21",
+    "type": "CRacerKartData",
+    "nameEn": "Nostalginator",
+    "nameFr": "Nostalginator",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      447
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_22",
+    "type": "CRacerKartData",
+    "nameEn": "Cove Cruiser",
+    "nameFr": "Croiseur de la crique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      418
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_23",
+    "type": "CRacerKartData",
+    "nameEn": "Probulot 2000",
+    "nameFr": "Probulot 2000",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      440
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_33",
+    "type": "CRacerKartData",
+    "nameEn": "Nautilus",
+    "nameFr": "Nautilus",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      560
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_34",
+    "type": "CRacerKartData",
+    "nameEn": "Skull Rider",
+    "nameFr": "Crâne motard",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      568
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_35",
+    "type": "CRacerKartData",
+    "nameEn": "Phantom",
+    "nameFr": "Fantôme",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      576
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_31",
+    "type": "CRacerKartData",
+    "nameEn": "Nitro Bumper",
+    "nameFr": "Nitro-tamponneuse",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      631
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_36",
+    "type": "CRacerKartData",
+    "nameEn": "Daredevil",
+    "nameFr": "Casse-cou",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      632
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_37",
+    "type": "CRacerKartData",
+    "nameEn": "Pressurizer",
+    "nameFr": "Compresseur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      633
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_38",
+    "type": "CRacerKartData",
+    "nameEn": "Nitro Sleigh",
+    "nameFr": "Nitro-luge",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      698
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_39",
+    "type": "CRacerKartData",
+    "nameEn": "Candy Cone",
+    "nameFr": "Cône bonbon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      699
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_40",
+    "type": "CRacerKartData",
+    "nameEn": "Snowplower",
+    "nameFr": "Chasse-neige",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      700
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_41",
+    "type": "CRacerKartData",
+    "nameEn": "Dusty Rider",
+    "nameFr": "Maraudeur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      762
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_42",
+    "type": "CRacerKartData",
+    "nameEn": "Desert Duster",
+    "nameFr": "Désertique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      763
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_43",
+    "type": "CRacerKartData",
+    "nameEn": "The Nuke",
+    "nameFr": "Bombardeur",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      764
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_44",
+    "type": "CRacerKartData",
+    "nameEn": "KartLimited4",
+    "nameFr": "KartLimited4",
+    "condition": "COctaneDependencyUnlockable",
+    "marketplaceIds": [
+      876
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_45",
+    "type": "CRacerKartData",
+    "nameEn": "Void Manta",
+    "nameFr": "Manta du vide",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      826
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_46",
+    "type": "CRacerKartData",
+    "nameEn": "Velo Chopper",
+    "nameFr": "Chopper de Velo",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      827
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_47",
+    "type": "CRacerKartData",
+    "nameEn": "Galactic Cruiser",
+    "nameFr": "Croiseur galactique",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      828
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_49",
+    "type": "CRacerKartData",
+    "nameEn": "Neon Hawk",
+    "nameFr": "Faucon de néon",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      933
+    ],
+    "challengeBit": null
+  },
+  {
+    "handle": "SystemData_availableKarts_50",
+    "type": "CRacerKartData",
+    "nameEn": "Nitro GT",
+    "nameFr": "GT Nitro",
+    "condition": "COctanePitStopUnlockable",
+    "marketplaceIds": [
+      934
+    ],
+    "challengeBit": null
+  }
+]

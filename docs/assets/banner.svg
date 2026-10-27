@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">CTR Nitro-Fueled Save Editor</title><desc id="desc">A community workshop for Adventure, unlocks and time attack.</desc>
+  <defs><linearGradient id="bg"><stop stop-color="#071d40"/><stop offset="1" stop-color="#0b5086"/></linearGradient><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#61e8ff" stroke-opacity=".06"/></pattern></defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/><rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <path d="M890 0h120L860 320H740zM1050 0h40L940 320h-40z" fill="#61e8ff" opacity=".09"/>
+  <path d="M0 300h1200" stroke="#f5bb45" stroke-width="5"/>
+  <g font-family="Segoe UI,Arial,sans-serif"><text x="68" y="72" fill="#61e8ff" font-size="18" letter-spacing="4">COMMUNITY WORKSHOP</text><text x="64" y="148" fill="#ecf9ff" font-size="56" font-weight="800">CTR NITRO-FUELED</text><text x="66" y="207" fill="#ecf9ff" font-size="44" font-weight="600">SAVE EDITOR</text><text x="68" y="258" fill="#b3d9ee" font-size="21">Adventure  /  Unlocks  /  Time attack</text><text x="1040" y="265" fill="#61e8ff" font-size="16">EN + FR</text></g>
+  <g transform="translate(980 92)" fill="none" stroke="#61e8ff" stroke-width="5"><path d="M0 0h92l24 24v100H0z"/><path d="M24 0v40h62V0M24 124V75h68v49"/><path d="M38 88h40" stroke="#f5bb45"/></g>
+</svg>

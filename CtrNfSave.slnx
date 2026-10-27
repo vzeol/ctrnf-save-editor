@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CtrNfSave.Core/CtrNfSave.Core.csproj" />
+    <Project Path="src/CtrNfSave.Cli/CtrNfSave.Cli.csproj" />
+    <Project Path="src/CtrNfSave.Gui/CtrNfSave.Gui.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CtrNfSave.Tests/CtrNfSave.Tests.csproj" />
+    <Project Path="tests/CtrNfSave.Regression/CtrNfSave.Regression.csproj" />
+  </Folder>
+</Solution>

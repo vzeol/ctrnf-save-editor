@@ -1,0 +1,5414 @@
+[
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 0,
+    "handle": "Skin_Crash_Default",
+    "nameEn": "Crash Bandicoot",
+    "nameFr": "Crash Bandicoot",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 1,
+    "handle": "Skin_Crash_Biker",
+    "nameEn": "Biker Crash",
+    "nameFr": "Crash Biker",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      409
+    ]
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 2,
+    "handle": "Skin_Crash_Aviator",
+    "nameEn": "Aviator Crash",
+    "nameFr": "Crash Aviateur",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 40,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 3,
+    "handle": "GP9_Skin_CSH_P1",
+    "nameEn": "Space Aviator Crash",
+    "nameFr": "Crash aviateur spatial",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      883
+    ]
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 4,
+    "handle": "GP9_Skin_CSH_P2",
+    "nameEn": "Arcade Aviator Crash",
+    "nameFr": "Crash aviateur arcade",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      884
+    ]
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 5,
+    "handle": "GP9_Skin_CSH_P3",
+    "nameEn": "Beenox Aviator Crash",
+    "nameFr": "Crash aviateur Beenox",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      885
+    ]
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 6,
+    "handle": "Skin_Crash_Star",
+    "nameEn": "Star Crash",
+    "nameFr": "Crash des étoiles",
+    "condition": "COctaneUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      278
+    ]
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 7,
+    "handle": "Skin_Crash_Scuba",
+    "nameEn": "Scuba Crash",
+    "nameFr": "Crash Homme-grenouille",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      147
+    ]
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 8,
+    "handle": "Skin_Crash_MadScientist",
+    "nameEn": "Mad Scientist Crash",
+    "nameFr": "Crash Savant fou",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      426
+    ]
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 9,
+    "handle": "Skin_Crash_Shiba",
+    "nameEn": "Shiba Crash",
+    "nameFr": "Crash Shiba",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 10,
+    "handle": "Skin_Crash_Skunk",
+    "nameEn": "Skunk Crash",
+    "nameFr": "Crash Putois",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 11,
+    "handle": "Skin_Crash_BlueHyena",
+    "nameEn": "Blue Hyena Crash",
+    "nameFr": "Crash Hyène bleue",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 24,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 12,
+    "handle": "Skin_Crash_Low",
+    "nameEn": "Retro Crash",
+    "nameFr": "Crash rétro",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 13,
+    "handle": "Skin_Crash_NitroFueled",
+    "nameEn": "Electron Crash",
+    "nameFr": "Crash électron",
+    "condition": "COctaneUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      282
+    ]
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 14,
+    "handle": "GP6_Skin_CSH_P1",
+    "nameEn": "Reindeer Crash",
+    "nameFr": "Crash renne",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      689
+    ]
+  },
+  {
+    "driver": "DriverCrash",
+    "driverEn": "Crash Bandicoot",
+    "driverFr": "Crash Bandicoot",
+    "index": 15,
+    "handle": "GP7_Skin_CSH_P1",
+    "nameEn": "Rustland Crash",
+    "nameFr": "Crash de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      752
+    ]
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 0,
+    "handle": "Skin_Cortex_Default",
+    "nameEn": "Dr. Neo Cortex",
+    "nameFr": "Dr Neo Cortex",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 1,
+    "handle": "Skin_Cortex_Star",
+    "nameEn": "Star Cortex",
+    "nameFr": "Cortex des étoiles",
+    "condition": "COctaneUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      279
+    ]
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 2,
+    "handle": "Skin_Cortex_Ninja",
+    "nameEn": "Ninja Cortex",
+    "nameFr": "Cortex Ninja",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      145
+    ]
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 3,
+    "handle": "Skin_Cortex_Green",
+    "nameEn": "Green Cortex",
+    "nameFr": "Cortex vert",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 4,
+    "handle": "Skin_Cortex_Red",
+    "nameEn": "Red Cortex",
+    "nameFr": "Cortex rouge",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 5,
+    "handle": "Skin_Cortex_Blue",
+    "nameEn": "Blue Cortex",
+    "nameFr": "Cortex bleu",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 39,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 6,
+    "handle": "Skin_Cortex_Low",
+    "nameEn": "Retro Cortex",
+    "nameFr": "Cortex rétro",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 7,
+    "handle": "Skin_Cortex_Robot",
+    "nameEn": "Robo-Cortex",
+    "nameFr": "Cortex-Robot",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      146
+    ]
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 8,
+    "handle": "GP9_Skin_DNC_P1",
+    "nameEn": "Anime Robo-Cortex",
+    "nameFr": "Cortex-Robot anime",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      886
+    ]
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 9,
+    "handle": "GP9_Skin_DNC_P2",
+    "nameEn": "Rusted Robo-Cortex",
+    "nameFr": "Cortex-Robot rouillé",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      887
+    ]
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 10,
+    "handle": "GP9_Skin_DNC_P3",
+    "nameEn": "Beenox Robo-Cortex",
+    "nameFr": "Cortex-Robot Beenox",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      888
+    ]
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 11,
+    "handle": "Skin_Cortex_NitroFueled",
+    "nameEn": "Electron Cortex",
+    "nameFr": "Cortex électron",
+    "condition": "COctaneUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      283
+    ]
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 12,
+    "handle": "Skin_Cortex_Pharaoh",
+    "nameEn": "Pharaoh Cortex",
+    "nameFr": "Cortex Pharaon",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      324
+    ]
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 13,
+    "handle": "GP5_Skin_DNC_P1",
+    "nameEn": "Clown Cortex",
+    "nameFr": "Cortex clown",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      627
+    ]
+  },
+  {
+    "driver": "DriverCortex",
+    "driverEn": "Dr. Neo Cortex",
+    "driverFr": "Dr Neo Cortex",
+    "index": 14,
+    "handle": "GP7_Skin_DNC_P1",
+    "nameEn": "Rustland Cortex",
+    "nameFr": "Cortex de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      757
+    ]
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 0,
+    "handle": "Skin_TinyTiger_Default",
+    "nameEn": "Tiny Tiger",
+    "nameFr": "Tiny Tiger",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 1,
+    "handle": "Skin_TinyTiger_Legionnaire",
+    "nameEn": "Gladiator Tiny ",
+    "nameFr": "Tiny Gladiateur",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      429
+    ]
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 2,
+    "handle": "Skin_TinyTiger_Army",
+    "nameEn": "General Tiny",
+    "nameFr": "Tiny Général",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      162
+    ]
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 3,
+    "handle": "GP9_Skin_TTR_P1",
+    "nameEn": "Black General Tiny",
+    "nameFr": "Tiny Général noir",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      889
+    ]
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 4,
+    "handle": "GP9_Skin_TTR_P2",
+    "nameEn": "White General Tiny",
+    "nameFr": "Tiny Général blanc",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      890
+    ]
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 5,
+    "handle": "GP9_Skin_TTR_P3",
+    "nameEn": "Red General Tiny",
+    "nameFr": "Tiny Général rouge",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      891
+    ]
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 6,
+    "handle": "Skin_TinyTiger_Football",
+    "nameEn": "Football Tiny ",
+    "nameFr": "Tiny Footballeur",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      163
+    ]
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 7,
+    "handle": "Skin_TinyTiger_Biker",
+    "nameEn": "Tiny Biker",
+    "nameFr": "Tiny Motard",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      322
+    ]
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 8,
+    "handle": "Skin_TinyTiger_Doberman",
+    "nameEn": "Tiny Doberman",
+    "nameFr": "Tiny Doberman",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 9,
+    "handle": "Skin_TinyTiger_WhiteTiger",
+    "nameEn": "Tiny White Tiger",
+    "nameFr": "Tiny blanc",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 10,
+    "handle": "Skin_TinyTiger_Cheetah",
+    "nameEn": "Tiny Cheetah",
+    "nameFr": "Tiny Guépard",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 35,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 11,
+    "handle": "GP4_Skin_TTR_P1",
+    "nameEn": "Werewolf Tiny ",
+    "nameFr": "Tiny loup-garou",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      557
+    ]
+  },
+  {
+    "driver": "DriverTinyTiger",
+    "driverEn": "Tiny Tiger",
+    "driverFr": "Tiny Tiger",
+    "index": 12,
+    "handle": "GP7_Skin_TTR_P1",
+    "nameEn": "Rustland Tiny",
+    "nameFr": "Tiny de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      759
+    ]
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 0,
+    "handle": "Skin_Coco_Default",
+    "nameEn": "Coco Bandicoot",
+    "nameFr": "Coco Bandicoot",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 1,
+    "handle": "Skin_Coco_Star",
+    "nameEn": "Star Coco",
+    "nameFr": "Coco des étoiles",
+    "condition": "COctaneUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      100
+    ]
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 2,
+    "handle": "Skin_Coco_Princess",
+    "nameEn": "Princess Coco",
+    "nameFr": "Coco Princesse",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      144
+    ]
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 3,
+    "handle": "Skin_Coco_Babysitter",
+    "nameEn": "Babysitter Coco",
+    "nameFr": "Coco Babysitter",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 4,
+    "handle": "GP4_Skin_COO_P1",
+    "nameEn": "Dark Coco",
+    "nameFr": "Coco noire",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      550
+    ]
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 5,
+    "handle": "Skin_Coco_Beach",
+    "nameEn": "Beach Coco",
+    "nameFr": "Coco des plages",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      143
+    ]
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 6,
+    "handle": "Skin_Coco_Blue",
+    "nameEn": "Blue Coco",
+    "nameFr": "Coco bleue",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 7,
+    "handle": "Skin_Coco_Lynx",
+    "nameEn": "Lynx Coco",
+    "nameFr": "Coco Lynx",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 8,
+    "handle": "Skin_Coco_Purple",
+    "nameEn": "Purple Coco",
+    "nameFr": "Coco violette",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 29,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 9,
+    "handle": "Skin_Coco_Low",
+    "nameEn": "Retro Coco",
+    "nameFr": "Coco rétro",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 10,
+    "handle": "Skin_Coco_NitroFueled",
+    "nameEn": "Electron Coco",
+    "nameFr": "Coco électron",
+    "condition": "COctaneUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      281
+    ]
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 11,
+    "handle": "GP3_Skin_COO_P1",
+    "nameEn": "Evil Coco",
+    "nameFr": "Coco maléfique",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      488
+    ]
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 12,
+    "handle": "GP6_Skin_COO_P1",
+    "nameEn": "Elf Coco",
+    "nameFr": "Coco lutin",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      695
+    ]
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 13,
+    "handle": "GP7_Skin_COO_P1",
+    "nameEn": "Rustland Coco",
+    "nameFr": "Coco de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      753
+    ]
+  },
+  {
+    "driver": "DriverCoco",
+    "driverEn": "Coco Bandicoot",
+    "driverFr": "Coco Bandicoot",
+    "index": 14,
+    "handle": "GP9_Skin_COO_P1",
+    "nameEn": "Alice Coco",
+    "nameFr": "Coco Alice",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      879
+    ]
+  },
+  {
+    "driver": "DriverNGin",
+    "driverEn": "Dr. N.Gin",
+    "driverFr": "Dr N.Gin",
+    "index": 0,
+    "handle": "Skin_NGin_Default",
+    "nameEn": "Dr. N.Gin",
+    "nameFr": "Dr N.Gin",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNGin",
+    "driverEn": "Dr. N.Gin",
+    "driverFr": "Dr N.Gin",
+    "index": 1,
+    "handle": "Skin_NGin_Ballerina",
+    "nameEn": "Ballerina N.Gin",
+    "nameFr": "N.Gin Ballerine",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      153
+    ]
+  },
+  {
+    "driver": "DriverNGin",
+    "driverEn": "Dr. N.Gin",
+    "driverFr": "Dr N.Gin",
+    "index": 2,
+    "handle": "Skin_NGin_Cook",
+    "nameEn": "Chef N.Gin",
+    "nameFr": "N.Gin Chef",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      154
+    ]
+  },
+  {
+    "driver": "DriverNGin",
+    "driverEn": "Dr. N.Gin",
+    "driverFr": "Dr N.Gin",
+    "index": 3,
+    "handle": "Skin_NGin_CrashTestDummy",
+    "nameEn": "Crash Test Dummy N.Gin",
+    "nameFr": "N.Gin Mannequin de test",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      323
+    ]
+  },
+  {
+    "driver": "DriverNGin",
+    "driverEn": "Dr. N.Gin",
+    "driverFr": "Dr N.Gin",
+    "index": 4,
+    "handle": "Skin_NGin_Blue",
+    "nameEn": "Blue N.Gin",
+    "nameFr": "N.Gin bleu",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNGin",
+    "driverEn": "Dr. N.Gin",
+    "driverFr": "Dr N.Gin",
+    "index": 5,
+    "handle": "Skin_NGin_Yellow",
+    "nameEn": "Yellow N.Gin",
+    "nameFr": "N.Gin jaune",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNGin",
+    "driverEn": "Dr. N.Gin",
+    "driverFr": "Dr N.Gin",
+    "index": 6,
+    "handle": "Skin_NGin_Green",
+    "nameEn": "Green N.Gin",
+    "nameFr": "N.Gin vert",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 25,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNGin",
+    "driverEn": "Dr. N.Gin",
+    "driverFr": "Dr N.Gin",
+    "index": 7,
+    "handle": "GP5_Skin_DNG_P1",
+    "nameEn": "Farmer N. Gin",
+    "nameFr": "N. Gin fermier",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      630
+    ]
+  },
+  {
+    "driver": "DriverNGin",
+    "driverEn": "Dr. N.Gin",
+    "driverFr": "Dr N.Gin",
+    "index": 8,
+    "handle": "GP7_Skin_DNG_P1",
+    "nameEn": "Rustland N. Gin",
+    "nameFr": "N. Gin de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      756
+    ]
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 0,
+    "handle": "Skin_Dingodile_Default",
+    "nameEn": "Dingodile",
+    "nameFr": "Dingodile",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 1,
+    "handle": "Skin_Dingodile_FireFighter",
+    "nameEn": "Firefighter Dingodile",
+    "nameFr": "Dingodile Pompier",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      559
+    ]
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 2,
+    "handle": "Skin_Dingodile_SprayPainter",
+    "nameEn": "Painter Dingodile",
+    "nameFr": "Dingodile Peintre",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      321
+    ]
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 3,
+    "handle": "Skin_Dingodile_Hazmat",
+    "nameEn": "Hazmat Dingodile",
+    "nameFr": "Dingodile NBC",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      149
+    ]
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 4,
+    "handle": "GP9_Skin_DGE_P1",
+    "nameEn": "Biohazard Hazmat Dingodile",
+    "nameFr": "Dingodile NBC atomique",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      892
+    ]
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 5,
+    "handle": "GP9_Skin_DGE_P2",
+    "nameEn": "Space Hazmat Dingodile",
+    "nameFr": "Dingodile NBC spatial",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      893
+    ]
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 6,
+    "handle": "GP9_Skin_DGE_P3",
+    "nameEn": "Bughunt Hazmat Dingodile",
+    "nameFr": "Dingodile NBC exterminateur",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      894
+    ]
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 7,
+    "handle": "Skin_Dingodile_Beach",
+    "nameEn": "Beach Dingodile",
+    "nameFr": "Dingodile des plages",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      150
+    ]
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 8,
+    "handle": "Skin_Dingodile_ThaiCat",
+    "nameEn": "Gorilla Dingodile",
+    "nameFr": "Dingodile Gorille",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 9,
+    "handle": "Skin_Dingodile_Camo",
+    "nameEn": "Camo Dingodile",
+    "nameFr": "Dingodile camouflé",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 10,
+    "handle": "Skin_Dingodile_Panda",
+    "nameEn": "Panda Dingodile",
+    "nameFr": "Dingodile Panda",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 30,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverDingodile",
+    "driverEn": "Dingodile",
+    "driverFr": "Dingodile",
+    "index": 11,
+    "handle": "GP7_Skin_DGE_P1",
+    "nameEn": "Rustland Dingodile",
+    "nameFr": "Dingodile de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      758
+    ]
+  },
+  {
+    "driver": "DriverPolar",
+    "driverEn": "Polar",
+    "driverFr": "Polar",
+    "index": 0,
+    "handle": "Skin_Polar_Default",
+    "nameEn": "Polar",
+    "nameFr": "Polar",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPolar",
+    "driverEn": "Polar",
+    "driverFr": "Polar",
+    "index": 1,
+    "handle": "Skin_Polar_BrownBear",
+    "nameEn": "Grizzly Polar",
+    "nameFr": "Polar Grizzly",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPolar",
+    "driverEn": "Polar",
+    "driverFr": "Polar",
+    "index": 2,
+    "handle": "Skin_Polar_RedPanda",
+    "nameEn": "Red Panda Polar",
+    "nameFr": "Polar Panda roux",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPolar",
+    "driverEn": "Polar",
+    "driverFr": "Polar",
+    "index": 3,
+    "handle": "Skin_Polar_Panda",
+    "nameEn": "Panda Polar",
+    "nameFr": "Polar Panda",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 34,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPolar",
+    "driverEn": "Polar",
+    "driverFr": "Polar",
+    "index": 4,
+    "handle": "Skin_Polar_Fisherman",
+    "nameEn": "Fisherman Polar",
+    "nameFr": "Polar Pêcheur",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      159
+    ]
+  },
+  {
+    "driver": "DriverPolar",
+    "driverEn": "Polar",
+    "driverFr": "Polar",
+    "index": 5,
+    "handle": "GP9_Skin_POR_P1",
+    "nameEn": "Hunter Fisherman Polar",
+    "nameFr": "Polar Pêcheur chasseur",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      895
+    ]
+  },
+  {
+    "driver": "DriverPolar",
+    "driverEn": "Polar",
+    "driverFr": "Polar",
+    "index": 6,
+    "handle": "GP9_Skin_POR_P2",
+    "nameEn": "Marmalade Fisherman Polar",
+    "nameFr": "Polar Pêcheur confiture",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      896
+    ]
+  },
+  {
+    "driver": "DriverPolar",
+    "driverEn": "Polar",
+    "driverFr": "Polar",
+    "index": 7,
+    "handle": "GP9_Skin_POR_P3",
+    "nameEn": "Caring Fisherman Polar",
+    "nameFr": "Polar Pêcheur soigneur",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      897
+    ]
+  },
+  {
+    "driver": "DriverPolar",
+    "driverEn": "Polar",
+    "driverFr": "Polar",
+    "index": 8,
+    "handle": "GP3_Skin_POR_P1",
+    "nameEn": "Viking Polar",
+    "nameFr": "Polar Viking",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      483
+    ]
+  },
+  {
+    "driver": "DriverPolar",
+    "driverEn": "Polar",
+    "driverFr": "Polar",
+    "index": 9,
+    "handle": "GP6_Skin_POR_P1",
+    "nameEn": "Ugly Sweater Polar",
+    "nameFr": "Polar sweat affreux",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      691
+    ]
+  },
+  {
+    "driver": "DriverPolar",
+    "driverEn": "Polar",
+    "driverFr": "Polar",
+    "index": 10,
+    "handle": "GP7_Skin_POR_P1",
+    "nameEn": "Rustland Polar",
+    "nameFr": "Polar de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      754
+    ]
+  },
+  {
+    "driver": "DriverPura",
+    "driverEn": "Pura",
+    "driverFr": "Pura",
+    "index": 0,
+    "handle": "Skin_Pura_Default",
+    "nameEn": "Pura",
+    "nameFr": "Pura",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPura",
+    "driverEn": "Pura",
+    "driverFr": "Pura",
+    "index": 1,
+    "handle": "Skin_Pura_WhiteTiger",
+    "nameEn": "White Tiger Pura",
+    "nameFr": "Pura Tigre blanc",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPura",
+    "driverEn": "Pura",
+    "driverFr": "Pura",
+    "index": 2,
+    "handle": "Skin_Pura_Cheetah",
+    "nameEn": "Cheetah Pura",
+    "nameFr": "Pura Guépard",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPura",
+    "driverEn": "Pura",
+    "driverFr": "Pura",
+    "index": 3,
+    "handle": "Skin_Pura_BlackCat",
+    "nameEn": "Black Cat Pura",
+    "nameFr": "Pura Chat noir",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 57,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPura",
+    "driverEn": "Pura",
+    "driverFr": "Pura",
+    "index": 4,
+    "handle": "Skin_Pura_Musketeer",
+    "nameEn": "Musketeer Pura",
+    "nameFr": "Pura Mousquetaire",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      160
+    ]
+  },
+  {
+    "driver": "DriverPura",
+    "driverEn": "Pura",
+    "driverFr": "Pura",
+    "index": 5,
+    "handle": "GP9_Skin_PRA_P1",
+    "nameEn": "Red Musketeer Pura",
+    "nameFr": "Pura Mousquetaire rouge",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      898
+    ]
+  },
+  {
+    "driver": "DriverPura",
+    "driverEn": "Pura",
+    "driverFr": "Pura",
+    "index": 6,
+    "handle": "GP9_Skin_PRA_P2",
+    "nameEn": "Pink Musketeer Pura",
+    "nameFr": "Pura Mousquetaire rose",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      899
+    ]
+  },
+  {
+    "driver": "DriverPura",
+    "driverEn": "Pura",
+    "driverFr": "Pura",
+    "index": 7,
+    "handle": "GP9_Skin_PRA_P3",
+    "nameEn": "Golden Musketeer Pura",
+    "nameFr": "Pura Mousquetaire doré",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      900
+    ]
+  },
+  {
+    "driver": "DriverPura",
+    "driverEn": "Pura",
+    "driverFr": "Pura",
+    "index": 8,
+    "handle": "Skin_Pura_Sabertooth",
+    "nameEn": "Sabertooth Pura ",
+    "nameFr": "Pura Dent-de-sabre",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      422
+    ]
+  },
+  {
+    "driver": "DriverPura",
+    "driverEn": "Pura",
+    "driverFr": "Pura",
+    "index": 9,
+    "handle": "GP4_Skin_PRA_P1",
+    "nameEn": "Lion Pura",
+    "nameFr": "Pura lion",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      555
+    ]
+  },
+  {
+    "driver": "DriverPura",
+    "driverEn": "Pura",
+    "driverFr": "Pura",
+    "index": 10,
+    "handle": "GP7_Skin_PRA_P1",
+    "nameEn": "Rustland Pura",
+    "nameFr": "Pura de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      755
+    ]
+  },
+  {
+    "driver": "DriverPentaPenguin",
+    "driverEn": "Penta Penguin",
+    "driverFr": "Penta Penguin",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_9_skins_2",
+    "nameEn": "Penta Penguin",
+    "nameFr": "Penta Penguin",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPentaPenguin",
+    "driverEn": "Penta Penguin",
+    "driverFr": "Penta Penguin",
+    "index": 1,
+    "handle": "SystemData_availableDrivers_9_skins_0",
+    "nameEn": "Penta Gentleman",
+    "nameFr": "Penta Gentleman",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      882
+    ]
+  },
+  {
+    "driver": "DriverPentaPenguin",
+    "driverEn": "Penta Penguin",
+    "driverFr": "Penta Penguin",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_9_skins_1",
+    "nameEn": "Penta Ninja",
+    "nameFr": "Penta Ninja",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      157
+    ]
+  },
+  {
+    "driver": "DriverPentaPenguin",
+    "driverEn": "Penta Penguin",
+    "driverFr": "Penta Penguin",
+    "index": 3,
+    "handle": "GP9_Skin_PPN_P1",
+    "nameEn": "Red Warbler Penta Ninja",
+    "nameFr": "Penta Ninja Fauvette rouge",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      914
+    ]
+  },
+  {
+    "driver": "DriverPentaPenguin",
+    "driverEn": "Penta Penguin",
+    "driverFr": "Penta Penguin",
+    "index": 4,
+    "handle": "GP9_Skin_PPN_P2",
+    "nameEn": "Lovebird Penta Ninja",
+    "nameFr": "Penta Ninja Oiseau d'amour",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      915
+    ]
+  },
+  {
+    "driver": "DriverPentaPenguin",
+    "driverEn": "Penta Penguin",
+    "driverFr": "Penta Penguin",
+    "index": 5,
+    "handle": "GP9_Skin_PPN_P3",
+    "nameEn": "Sandpiper Penta Ninja",
+    "nameFr": "Penta Ninja Bécasseau",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      916
+    ]
+  },
+  {
+    "driver": "DriverPentaPenguin",
+    "driverEn": "Penta Penguin",
+    "driverFr": "Penta Penguin",
+    "index": 6,
+    "handle": "SystemData_availableDrivers_9_skins_3",
+    "nameEn": "Penta Blue Jay",
+    "nameFr": "Penta Jay bleu",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPentaPenguin",
+    "driverEn": "Penta Penguin",
+    "driverFr": "Penta Penguin",
+    "index": 7,
+    "handle": "SystemData_availableDrivers_9_skins_4",
+    "nameEn": "Penta Canary",
+    "nameFr": "Penta Canari",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPentaPenguin",
+    "driverEn": "Penta Penguin",
+    "driverFr": "Penta Penguin",
+    "index": 8,
+    "handle": "SystemData_availableDrivers_9_skins_5",
+    "nameEn": "Penta Parrot",
+    "nameFr": "Penta Perroquet",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPentaPenguin",
+    "driverEn": "Penta Penguin",
+    "driverFr": "Penta Penguin",
+    "index": 9,
+    "handle": "GP5_Skin_PPN_P1",
+    "nameEn": "Penta Jester",
+    "nameFr": "Penta jongleur",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      628
+    ]
+  },
+  {
+    "driver": "DriverRipperRoo",
+    "driverEn": "Ripper Roo",
+    "driverFr": "Ripper Roo",
+    "index": 0,
+    "handle": "Skin_RipperRoo_Default",
+    "nameEn": "Ripper Roo",
+    "nameFr": "Ripper Roo",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRipperRoo",
+    "driverEn": "Ripper Roo",
+    "driverFr": "Ripper Roo",
+    "index": 1,
+    "handle": "Skin_RipperRoo_MadScientist",
+    "nameEn": "Mad Scientist Ripper Roo",
+    "nameFr": "Ripper Roo Savant fou",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      427
+    ]
+  },
+  {
+    "driver": "DriverRipperRoo",
+    "driverEn": "Ripper Roo",
+    "driverFr": "Ripper Roo",
+    "index": 2,
+    "handle": "Skin_RipperRoo_Gentleman",
+    "nameEn": "Gentleman Ripper Roo",
+    "nameFr": "Ripper Roo Gentleman",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      161
+    ]
+  },
+  {
+    "driver": "DriverRipperRoo",
+    "driverEn": "Ripper Roo",
+    "driverFr": "Ripper Roo",
+    "index": 3,
+    "handle": "Skin_RipperRoo_Green",
+    "nameEn": "Green Ripper Roo",
+    "nameFr": "Ripper Roo vert",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRipperRoo",
+    "driverEn": "Ripper Roo",
+    "driverFr": "Ripper Roo",
+    "index": 4,
+    "handle": "Skin_RipperRoo_Yellow",
+    "nameEn": "Yellow Ripper Roo",
+    "nameFr": "Ripper Roo jaune",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRipperRoo",
+    "driverEn": "Ripper Roo",
+    "driverFr": "Ripper Roo",
+    "index": 5,
+    "handle": "Skin_RipperRoo_Red",
+    "nameEn": "Pink Ripper Roo",
+    "nameFr": "Ripper Roo rose",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 61,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRipperRoo",
+    "driverEn": "Ripper Roo",
+    "driverFr": "Ripper Roo",
+    "index": 6,
+    "handle": "Skin_RipperRoo_BedTime",
+    "nameEn": "Bedtime Ripper Roo",
+    "nameFr": "Ripper Roo Noctambule",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      881
+    ]
+  },
+  {
+    "driver": "DriverPapuPapu",
+    "driverEn": "Papu Papu",
+    "driverFr": "Papu Papu",
+    "index": 0,
+    "handle": "Skin_PapuPapu_Default",
+    "nameEn": "Papu Papu",
+    "nameFr": "Papu Papu",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPapuPapu",
+    "driverEn": "Papu Papu",
+    "driverFr": "Papu Papu",
+    "index": 1,
+    "handle": "Skin_PapuPapu_Ocean",
+    "nameEn": "Crimson Papu Papu",
+    "nameFr": "Papu Papu écarlate",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPapuPapu",
+    "driverEn": "Papu Papu",
+    "driverFr": "Papu Papu",
+    "index": 2,
+    "handle": "Skin_PapuPapu_Aboriginal",
+    "nameEn": "Purple Papu Papu",
+    "nameFr": "Papu Papu violet",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPapuPapu",
+    "driverEn": "Papu Papu",
+    "driverFr": "Papu Papu",
+    "index": 3,
+    "handle": "Skin_PapuPapu_Troll",
+    "nameEn": "Green Papu Papu",
+    "nameFr": "Papu Papu vert",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 62,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPapuPapu",
+    "driverEn": "Papu Papu",
+    "driverFr": "Papu Papu",
+    "index": 4,
+    "handle": "GP4_Skin_PPU_P1",
+    "nameEn": "Pirate Papu Papu",
+    "nameFr": "Papu Papu pirate",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      554
+    ]
+  },
+  {
+    "driver": "DriverKomodoJoe",
+    "driverEn": "Komodo Joe",
+    "driverFr": "Komodo Joe",
+    "index": 0,
+    "handle": "Skin_KomodoJoe_Default",
+    "nameEn": "Komodo Joe",
+    "nameFr": "Komodo Joe",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKomodoJoe",
+    "driverEn": "Komodo Joe",
+    "driverFr": "Komodo Joe",
+    "index": 1,
+    "handle": "Skin_KomodoJoe_Mongol",
+    "nameEn": "Komodo Khan",
+    "nameFr": "Komodo Khan",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      152
+    ]
+  },
+  {
+    "driver": "DriverKomodoJoe",
+    "driverEn": "Komodo Joe",
+    "driverFr": "Komodo Joe",
+    "index": 2,
+    "handle": "Skin_KomodoJoe_Red",
+    "nameEn": "Red Komodo Joe",
+    "nameFr": "Komodo Joe rouge",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKomodoJoe",
+    "driverEn": "Komodo Joe",
+    "driverFr": "Komodo Joe",
+    "index": 3,
+    "handle": "Skin_KomodoJoe_Green",
+    "nameEn": "Green Komodo Joe",
+    "nameFr": "Komodo Joe vert",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKomodoJoe",
+    "driverEn": "Komodo Joe",
+    "driverFr": "Komodo Joe",
+    "index": 4,
+    "handle": "Skin_KomodoJoe_Yellow",
+    "nameEn": "Purple Komodo Joe",
+    "nameFr": "Komodo Joe violet",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 63,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKomodoJoe",
+    "driverEn": "Komodo Joe",
+    "driverFr": "Komodo Joe",
+    "index": 5,
+    "handle": "GP3_Skin_KJE_P1",
+    "nameEn": "Wizard Komodo Joe",
+    "nameFr": "Komodo Joe Sorcier",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      484
+    ]
+  },
+  {
+    "driver": "DriverPinstripe",
+    "driverEn": "Pinstripe",
+    "driverFr": "Pinstripe",
+    "index": 0,
+    "handle": "Skin_Pinstripe_Default",
+    "nameEn": "Pinstripe",
+    "nameFr": "Pinstripe",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPinstripe",
+    "driverEn": "Pinstripe",
+    "driverFr": "Pinstripe",
+    "index": 1,
+    "handle": "Skin_Pinstripe_Summer",
+    "nameEn": "Yellow Suit Pinstripe",
+    "nameFr": "Pinstripe Costume jaune",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPinstripe",
+    "driverEn": "Pinstripe",
+    "driverFr": "Pinstripe",
+    "index": 2,
+    "handle": "Skin_Pinstripe_White",
+    "nameEn": "White Suit Pinstripe",
+    "nameFr": "Pinstripe Costume blanc",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPinstripe",
+    "driverEn": "Pinstripe",
+    "driverFr": "Pinstripe",
+    "index": 3,
+    "handle": "Skin_Pinstripe_Purple",
+    "nameEn": "Purple Suit Pinstripe",
+    "nameFr": "Pinstripe Costume violet",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 64,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPinstripe",
+    "driverEn": "Pinstripe",
+    "driverFr": "Pinstripe",
+    "index": 4,
+    "handle": "Skin_Pinstripe_Gangster",
+    "nameEn": "Gangster Pinstripe",
+    "nameFr": "Pinstripe Gangster",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      158
+    ]
+  },
+  {
+    "driver": "DriverPinstripe",
+    "driverEn": "Pinstripe",
+    "driverFr": "Pinstripe",
+    "index": 5,
+    "handle": "GP9_Skin_PSE_P1",
+    "nameEn": "Shamrock Gangster Pinstripe",
+    "nameFr": "Pinstripe Gangster trèfle",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      920
+    ]
+  },
+  {
+    "driver": "DriverPinstripe",
+    "driverEn": "Pinstripe",
+    "driverFr": "Pinstripe",
+    "index": 6,
+    "handle": "GP9_Skin_PSE_P2",
+    "nameEn": "Outback Gangster Pinstripe",
+    "nameFr": "Pinstripe Gangster cambrousse",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      921
+    ]
+  },
+  {
+    "driver": "DriverPinstripe",
+    "driverEn": "Pinstripe",
+    "driverFr": "Pinstripe",
+    "index": 7,
+    "handle": "GP9_Skin_PSE_P3",
+    "nameEn": "Negative Gangster Pinstripe",
+    "nameFr": "Pinstripe Gangster négatif",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      922
+    ]
+  },
+  {
+    "driver": "DriverFakeCrash",
+    "driverEn": "Fake Crash",
+    "driverFr": "Faux Crash",
+    "index": 0,
+    "handle": "Skin_FakeCrash_Default",
+    "nameEn": "Fake Crash",
+    "nameFr": "Faux Crash",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverFakeCrash",
+    "driverEn": "Fake Crash",
+    "driverFr": "Faux Crash",
+    "index": 1,
+    "handle": "Skin_FakeCrash_Nerd",
+    "nameEn": "Dashing Fake Crash",
+    "nameFr": "Faux Crash Beau Gosse",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      430
+    ]
+  },
+  {
+    "driver": "DriverFakeCrash",
+    "driverEn": "Fake Crash",
+    "driverFr": "Faux Crash",
+    "index": 2,
+    "handle": "GP4_Skin_FCH_P1",
+    "nameEn": "Monster Fake Crash",
+    "nameFr": "Faux Crash Monstre",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      551
+    ]
+  },
+  {
+    "driver": "DriverFakeCrash",
+    "driverEn": "Fake Crash",
+    "driverFr": "Faux Crash",
+    "index": 3,
+    "handle": "GP9_Skin_FCH_P1",
+    "nameEn": "Oil Monster Fake Crash",
+    "nameFr": "Faux Crash Monstre de pétrole",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      901
+    ]
+  },
+  {
+    "driver": "DriverFakeCrash",
+    "driverEn": "Fake Crash",
+    "driverFr": "Faux Crash",
+    "index": 4,
+    "handle": "GP9_Skin_FCH_P2",
+    "nameEn": "Juiced Monster Fake Crash",
+    "nameFr": "Faux Crash Monstre de compote",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      902
+    ]
+  },
+  {
+    "driver": "DriverFakeCrash",
+    "driverEn": "Fake Crash",
+    "driverFr": "Faux Crash",
+    "index": 5,
+    "handle": "GP9_Skin_FCH_P3",
+    "nameEn": "Lava Monster Fake Crash",
+    "nameFr": "Faux Crash Monstre de lave",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      903
+    ]
+  },
+  {
+    "driver": "DriverFakeCrash",
+    "driverEn": "Fake Crash",
+    "driverFr": "Faux Crash",
+    "index": 6,
+    "handle": "GP5_Skin_FCH_P1",
+    "nameEn": "Rustic Fake Crash",
+    "nameFr": "Faux Crash rustique",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      629
+    ]
+  },
+  {
+    "driver": "DriverFakeCrash",
+    "driverEn": "Fake Crash",
+    "driverFr": "Faux Crash",
+    "index": 7,
+    "handle": "Skin_FakeCrash_Cowboy",
+    "nameEn": "Cowboy Fake Crash",
+    "nameFr": "Faux Crash Cow-boy",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      151
+    ]
+  },
+  {
+    "driver": "DriverFakeCrash",
+    "driverEn": "Fake Crash",
+    "driverFr": "Faux Crash",
+    "index": 8,
+    "handle": "Skin_FakeCrash_Chipmunk",
+    "nameEn": "Chipmunk Fake Crash",
+    "nameFr": "Faux Crash Tamia",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverFakeCrash",
+    "driverEn": "Fake Crash",
+    "driverFr": "Faux Crash",
+    "index": 9,
+    "handle": "Skin_FakeCrash_Racoon",
+    "nameEn": "Racoon Fake Crash",
+    "nameFr": "Faux Crash Raton-laveur",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverFakeCrash",
+    "driverEn": "Fake Crash",
+    "driverFr": "Faux Crash",
+    "index": 10,
+    "handle": "Skin_FakeCrash_Fairy",
+    "nameEn": "Pink Fake Crash",
+    "nameFr": "Faux Crash rose",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNitrosOxide",
+    "driverEn": "Nitros Oxide",
+    "driverFr": "Nitros Oxide",
+    "index": 0,
+    "handle": "Skin_NitrosOxide_Default",
+    "nameEn": "Nitros Oxide",
+    "nameFr": "Nitros Oxide",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNitrosOxide",
+    "driverEn": "Nitros Oxide",
+    "driverFr": "Nitros Oxide",
+    "index": 1,
+    "handle": "Skin_NitrosOxide_HotRod",
+    "nameEn": "Hot Rod Nitros Oxide",
+    "nameFr": "Nitros Oxide Hot Rod",
+    "condition": "COctaneChallengeUnlockable",
+    "challengeBit": 68,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNitrosOxide",
+    "driverEn": "Nitros Oxide",
+    "driverFr": "Nitros Oxide",
+    "index": 2,
+    "handle": "Skin_NitrosOxide_ShowerCap",
+    "nameEn": "Shower Cap Nitros Oxide",
+    "nameFr": "Nitros Oxide Bonnet de douche",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      156
+    ]
+  },
+  {
+    "driver": "DriverNitrosOxide",
+    "driverEn": "Nitros Oxide",
+    "driverFr": "Nitros Oxide",
+    "index": 3,
+    "handle": "Skin_NitrosOxide_Blue",
+    "nameEn": "Star Nitros Oxide",
+    "nameFr": "Nitros Oxide des étoiles",
+    "condition": "COctaneUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      284
+    ]
+  },
+  {
+    "driver": "DriverNitrosOxide",
+    "driverEn": "Nitros Oxide",
+    "driverFr": "Nitros Oxide",
+    "index": 4,
+    "handle": "Skin_NitrosOxide_Yellow",
+    "nameEn": "Beetle Nitros Oxide",
+    "nameFr": "Nitros Oxide Scarabée",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNitrosOxide",
+    "driverEn": "Nitros Oxide",
+    "driverFr": "Nitros Oxide",
+    "index": 5,
+    "handle": "Skin_NitrosOxide_Watermelon",
+    "nameEn": "Watermelon Nitros Oxide",
+    "nameFr": "Nitros Oxide Pastèque",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNitrosOxide",
+    "driverEn": "Nitros Oxide",
+    "driverFr": "Nitros Oxide",
+    "index": 6,
+    "handle": "Skin_NitrosOxide_LadyBug",
+    "nameEn": "Lady Bug Nitros Oxide",
+    "nameFr": "Nitros Oxide Coccinelle",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNitrosOxide",
+    "driverEn": "Nitros Oxide",
+    "driverFr": "Nitros Oxide",
+    "index": 7,
+    "handle": "GP4_Skin_NOE_P1",
+    "nameEn": "Metal Head Oxide",
+    "nameFr": "Oxide tête de métal",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      552
+    ]
+  },
+  {
+    "driver": "DriverNTropy",
+    "driverEn": "Dr. N. Tropy",
+    "driverFr": "Dr N. Tropy",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_7_skins_0",
+    "nameEn": "Dr. N. Tropy",
+    "nameFr": "Dr N.Tropy",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNTropy",
+    "driverEn": "Dr. N. Tropy",
+    "driverFr": "Dr N. Tropy",
+    "index": 1,
+    "handle": "SystemData_availableDrivers_7_skins_1",
+    "nameEn": "Digital Dr. N. Tropy",
+    "nameFr": "Dr N.Tropy numérique",
+    "condition": "COctaneBeatOxideTimesUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNTropy",
+    "driverEn": "Dr. N. Tropy",
+    "driverFr": "Dr N. Tropy",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_7_skins_4",
+    "nameEn": "Quartz Dr. N. Tropy",
+    "nameFr": "Dr N.Tropy Quartz",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNTropy",
+    "driverEn": "Dr. N. Tropy",
+    "driverFr": "Dr N. Tropy",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_7_skins_3",
+    "nameEn": "Carbon Fiber Dr. N. Tropy",
+    "nameFr": "Dr N.Tropy Carbone",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNTropy",
+    "driverEn": "Dr. N. Tropy",
+    "driverFr": "Dr N. Tropy",
+    "index": 4,
+    "handle": "SystemData_availableDrivers_7_skins_2",
+    "nameEn": "Purple Dr. N. Tropy",
+    "nameFr": "Dr N.Tropy violet",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNTropy",
+    "driverEn": "Dr. N. Tropy",
+    "driverFr": "Dr N. Tropy",
+    "index": 5,
+    "handle": "Skin_NTropy_StoneAge",
+    "nameEn": "Stone Age Dr. N.Tropy",
+    "nameFr": "Dr N.Tropy Cro-Magnon",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      423
+    ]
+  },
+  {
+    "driver": "DriverCrunch",
+    "driverEn": "Crunch Bandicoot",
+    "driverFr": "Crunch Bandicoot",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_19_skins_4",
+    "nameEn": "Crunch",
+    "nameFr": "Crunch",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCrunch",
+    "driverEn": "Crunch Bandicoot",
+    "driverFr": "Crunch Bandicoot",
+    "index": 1,
+    "handle": "Skin_Crunch_Robot",
+    "nameEn": "Robot Crunch",
+    "nameFr": "Crunch Robot",
+    "condition": "COctaneUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      285
+    ]
+  },
+  {
+    "driver": "DriverCrunch",
+    "driverEn": "Crunch Bandicoot",
+    "driverFr": "Crunch Bandicoot",
+    "index": 2,
+    "handle": "Skin_Crunch_Dirtbike",
+    "nameEn": "Dirt Bike Crunch",
+    "nameFr": "Crunch Motocross",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      148
+    ]
+  },
+  {
+    "driver": "DriverCrunch",
+    "driverEn": "Crunch Bandicoot",
+    "driverFr": "Crunch Bandicoot",
+    "index": 3,
+    "handle": "Skin_Crunch_Racer",
+    "nameEn": "Racer Crunch",
+    "nameFr": "Crunch pilote",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      410
+    ]
+  },
+  {
+    "driver": "DriverCrunch",
+    "driverEn": "Crunch Bandicoot",
+    "driverFr": "Crunch Bandicoot",
+    "index": 4,
+    "handle": "GP9_Skin_CCH_P1",
+    "nameEn": "Beenox Racer Crunch",
+    "nameFr": "Crunch pilote Beenox",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      904
+    ]
+  },
+  {
+    "driver": "DriverCrunch",
+    "driverEn": "Crunch Bandicoot",
+    "driverFr": "Crunch Bandicoot",
+    "index": 5,
+    "handle": "GP9_Skin_CCH_P2",
+    "nameEn": "24h Racer Crunch",
+    "nameFr": "Crunch pilote 24h",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      905
+    ]
+  },
+  {
+    "driver": "DriverCrunch",
+    "driverEn": "Crunch Bandicoot",
+    "driverFr": "Crunch Bandicoot",
+    "index": 6,
+    "handle": "GP9_Skin_CCH_P3",
+    "nameEn": "Racer Le Crunch",
+    "nameFr": "Crunch pilote Rocket",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      906
+    ]
+  },
+  {
+    "driver": "DriverCrunch",
+    "driverEn": "Crunch Bandicoot",
+    "driverFr": "Crunch Bandicoot",
+    "index": 7,
+    "handle": "Skin_Crunch_Werewolf",
+    "nameEn": "Husky Crunch",
+    "nameFr": "Crunch Husky",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCrunch",
+    "driverEn": "Crunch Bandicoot",
+    "driverFr": "Crunch Bandicoot",
+    "index": 8,
+    "handle": "Skin_Crunch_Rothweller",
+    "nameEn": "Rottweiler Crunch",
+    "nameFr": "Crunch Rottweiler",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCrunch",
+    "driverEn": "Crunch Bandicoot",
+    "driverFr": "Crunch Bandicoot",
+    "index": 9,
+    "handle": "Skin_Crunch_Dalmatian",
+    "nameEn": "Dalmatian Crunch",
+    "nameFr": "Crunch Dalmatien",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCrunch",
+    "driverEn": "Crunch Bandicoot",
+    "driverFr": "Crunch Bandicoot",
+    "index": 10,
+    "handle": "GP3_Skin_CCH_P1",
+    "nameEn": "Evil Crunch",
+    "nameFr": "Crunch maléfique",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      489
+    ]
+  },
+  {
+    "driver": "DriverKrunk",
+    "driverEn": "Krunk",
+    "driverFr": "Krunk",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_18_skins_0",
+    "nameEn": "Krunk",
+    "nameFr": "Krunk",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKrunk",
+    "driverEn": "Krunk",
+    "driverFr": "Krunk",
+    "index": 1,
+    "handle": "SystemData_availableDrivers_18_skins_1",
+    "nameEn": "Jungle Krunk",
+    "nameFr": "Krunk de la jungle",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKrunk",
+    "driverEn": "Krunk",
+    "driverFr": "Krunk",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_18_skins_3",
+    "nameEn": "Flamingo Krunk",
+    "nameFr": "Krunk flamand rose",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKrunk",
+    "driverEn": "Krunk",
+    "driverFr": "Krunk",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_18_skins_2",
+    "nameEn": "Yeti Krunk",
+    "nameFr": "Krunk yéti",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKrunk",
+    "driverEn": "Krunk",
+    "driverFr": "Krunk",
+    "index": 4,
+    "handle": "Skin_Krunk_Jurassic",
+    "nameEn": "Jurassic Krunk",
+    "nameFr": "Krunk Jurassique",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      425
+    ]
+  },
+  {
+    "driver": "DriverSmallNorm",
+    "driverEn": "Small Norm",
+    "driverFr": "Petit Norm",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_33_skins_0",
+    "nameEn": "Small Norm",
+    "nameFr": "Petit Norm",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSmallNorm",
+    "driverEn": "Small Norm",
+    "driverFr": "Petit Norm",
+    "index": 1,
+    "handle": "SystemData_availableDrivers_33_skins_2",
+    "nameEn": "Golfer Small Norm",
+    "nameFr": "Petit Norm Golfeur",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSmallNorm",
+    "driverEn": "Small Norm",
+    "driverFr": "Petit Norm",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_33_skins_1",
+    "nameEn": "Kabuki Small Norm",
+    "nameFr": "Petit Norm Kabuki",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSmallNorm",
+    "driverEn": "Small Norm",
+    "driverFr": "Petit Norm",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_33_skins_3",
+    "nameEn": "Bandit Small Norm",
+    "nameFr": "Petit Norm Bandit",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSmallNorm",
+    "driverEn": "Small Norm",
+    "driverFr": "Petit Norm",
+    "index": 4,
+    "handle": "GP3_Skin_SNM_P1",
+    "nameEn": "Goblin Small Norm",
+    "nameFr": "Petit Norm Gobelin",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      486
+    ]
+  },
+  {
+    "driver": "DriverBigNorm",
+    "driverEn": "Big Norm",
+    "driverFr": "Big Norm",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_21_skins_0",
+    "nameEn": "Big Norm",
+    "nameFr": "Grand Norm",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBigNorm",
+    "driverEn": "Big Norm",
+    "driverFr": "Big Norm",
+    "index": 1,
+    "handle": "SystemData_availableDrivers_21_skins_3",
+    "nameEn": "Bandit Big Norm",
+    "nameFr": "Grand Norm Bandit",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBigNorm",
+    "driverEn": "Big Norm",
+    "driverFr": "Big Norm",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_21_skins_2",
+    "nameEn": "Golfer Big Norm",
+    "nameFr": "Grand Norm Golfeur",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBigNorm",
+    "driverEn": "Big Norm",
+    "driverFr": "Big Norm",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_21_skins_1",
+    "nameEn": "Kabuki Big Norm",
+    "nameFr": "Grand Norm Kabuki",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBigNorm",
+    "driverEn": "Big Norm",
+    "driverFr": "Big Norm",
+    "index": 4,
+    "handle": "GP3_Skin_BNM_P1",
+    "nameEn": "Orc Big Norm",
+    "nameFr": "Grand Norm Orc",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      487
+    ]
+  },
+  {
+    "driver": "DriverNash",
+    "driverEn": "Nash",
+    "driverFr": "Nash",
+    "index": 0,
+    "handle": "Skin_Nash_Default",
+    "nameEn": "Nash",
+    "nameFr": "Nash",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNash",
+    "driverEn": "Nash",
+    "driverFr": "Nash",
+    "index": 1,
+    "handle": "Skin_Nash_Orca",
+    "nameEn": "Orca Nash",
+    "nameFr": "Nash orque",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNash",
+    "driverEn": "Nash",
+    "driverFr": "Nash",
+    "index": 2,
+    "handle": "Skin_Nash_MahiMahi",
+    "nameEn": "Mahi-Mahi Nash",
+    "nameFr": "Nash Mahi-Mahi",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNash",
+    "driverEn": "Nash",
+    "driverFr": "Nash",
+    "index": 3,
+    "handle": "Skin_Nash_ClownFish",
+    "nameEn": "Clownfish Nash",
+    "nameFr": "Nash poisson clown",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNash",
+    "driverEn": "Nash",
+    "driverFr": "Nash",
+    "index": 4,
+    "handle": "GP5_Skin_NSH_P1",
+    "nameEn": "Cannonball Nash",
+    "nameFr": "Nash boulet de canon",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      626
+    ]
+  },
+  {
+    "driver": "DriverNash",
+    "driverEn": "Nash",
+    "driverFr": "Nash",
+    "index": 5,
+    "handle": "GP6_Skin_NSH_P1",
+    "nameEn": "Arctic Nash",
+    "nameFr": "Nash arctique",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      692
+    ]
+  },
+  {
+    "driver": "DriverNTrance",
+    "driverEn": "N. Trance",
+    "driverFr": "N. Trance",
+    "index": 0,
+    "handle": "Skin_NTrance_Default",
+    "nameEn": "N.Trance",
+    "nameFr": "N.Trance",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNTrance",
+    "driverEn": "N. Trance",
+    "driverFr": "N. Trance",
+    "index": 1,
+    "handle": "Skin_NTrance_LifeSaver",
+    "nameEn": "Life Saver N.Trance",
+    "nameFr": "N.Trance Sauveteur",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      155
+    ]
+  },
+  {
+    "driver": "DriverNTrance",
+    "driverEn": "N. Trance",
+    "driverFr": "N. Trance",
+    "index": 2,
+    "handle": "Skin_NTrance_Wood",
+    "nameEn": "Wooden Doll N.Trance",
+    "nameFr": "N.Trance Poupée de bois",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      428
+    ]
+  },
+  {
+    "driver": "DriverNTrance",
+    "driverEn": "N. Trance",
+    "driverFr": "N. Trance",
+    "index": 3,
+    "handle": "Skin_NTrance_Martian",
+    "nameEn": "Green N.Trance",
+    "nameFr": "N.Trance vert",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNTrance",
+    "driverEn": "N. Trance",
+    "driverFr": "N. Trance",
+    "index": 4,
+    "handle": "Skin_NTRance_Warlock",
+    "nameEn": "Yellow N.Trance",
+    "nameFr": "N.Trance jaune",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNTrance",
+    "driverEn": "N. Trance",
+    "driverFr": "N. Trance",
+    "index": 5,
+    "handle": "Skin_NTrance_Evil",
+    "nameEn": "White N.Trance",
+    "nameFr": "N.Trance blanc",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNTrance",
+    "driverEn": "N. Trance",
+    "driverFr": "N. Trance",
+    "index": 6,
+    "handle": "GP4_Skin_NTE_P1",
+    "nameEn": "Humpty N. Trance",
+    "nameFr": "N. Trance neuneuf",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      553
+    ]
+  },
+  {
+    "driver": "DriverNTrance",
+    "driverEn": "N. Trance",
+    "driverFr": "N. Trance",
+    "index": 7,
+    "handle": "GP9_Skin_NTE_P1",
+    "nameEn": "Chocolate Humpty N. Trance",
+    "nameFr": "N. Trance en chocolat",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      923
+    ]
+  },
+  {
+    "driver": "DriverRealVelo",
+    "driverEn": "Real Velo",
+    "driverFr": "Vrai Velo",
+    "index": 0,
+    "handle": "Skin_RealVelo_Default",
+    "nameEn": "Real Velo",
+    "nameFr": "Vrai Velo",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRealVelo",
+    "driverEn": "Real Velo",
+    "driverFr": "Vrai Velo",
+    "index": 1,
+    "handle": "Skin_RealVelo_Aqua",
+    "nameEn": "Aqua Real Velo",
+    "nameFr": "Vrai Velo turquoise",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRealVelo",
+    "driverEn": "Real Velo",
+    "driverFr": "Vrai Velo",
+    "index": 2,
+    "handle": "Skin_RealVelo_Yellow",
+    "nameEn": " Yellow Real Velo",
+    "nameFr": "Vrai Velo jaune",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRealVelo",
+    "driverEn": "Real Velo",
+    "driverFr": "Vrai Velo",
+    "index": 3,
+    "handle": "Skin_RealVelo_Red",
+    "nameEn": "Red Real Velo",
+    "nameFr": "Vrai Velo rouge",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRealVelo",
+    "driverEn": "Real Velo",
+    "driverFr": "Vrai Velo",
+    "index": 4,
+    "handle": "GP3_Skin_RVO_P1",
+    "nameEn": "Gnome Real Velo",
+    "nameFr": "Vrai Velo Gnome",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      482
+    ]
+  },
+  {
+    "driver": "DriverGeary",
+    "driverEn": "Geary",
+    "driverFr": "Geary",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_36_skins_0",
+    "nameEn": "Geary",
+    "nameFr": "Geary",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverGeary",
+    "driverEn": "Geary",
+    "driverFr": "Geary",
+    "index": 1,
+    "handle": "SystemData_availableDrivers_36_skins_3",
+    "nameEn": "Blue Geary",
+    "nameFr": "Geary bleu",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverGeary",
+    "driverEn": "Geary",
+    "driverFr": "Geary",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_36_skins_2",
+    "nameEn": "Green Geary",
+    "nameFr": "Geary vert",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverGeary",
+    "driverEn": "Geary",
+    "driverFr": "Geary",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_36_skins_1",
+    "nameEn": "White Geary",
+    "nameFr": "Geary blanc",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverGeary",
+    "driverEn": "Geary",
+    "driverFr": "Geary",
+    "index": 4,
+    "handle": "GP9_Skin_GRY_P1",
+    "nameEn": "Beenox Robot Geary",
+    "nameFr": "Geary Beenox",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      878
+    ]
+  },
+  {
+    "driver": "DriverZam",
+    "driverEn": "Zam",
+    "driverFr": "Zam",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_35_skins_0",
+    "nameEn": "Zam",
+    "nameFr": "Zam",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverZam",
+    "driverEn": "Zam",
+    "driverFr": "Zam",
+    "index": 1,
+    "handle": "SystemData_availableDrivers_35_skins_2",
+    "nameEn": "Red Zam",
+    "nameFr": "Zam rouge",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverZam",
+    "driverEn": "Zam",
+    "driverFr": "Zam",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_35_skins_1",
+    "nameEn": "Purple Zam",
+    "nameFr": "Zam violet",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverZam",
+    "driverEn": "Zam",
+    "driverFr": "Zam",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_35_skins_3",
+    "nameEn": "Yellow Zam",
+    "nameFr": "Zam jaune",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverZam",
+    "driverEn": "Zam",
+    "driverFr": "Zam",
+    "index": 4,
+    "handle": "SystemData_availableDrivers_35_skins_4",
+    "nameEn": "Bulldog Zam",
+    "nameFr": "Zam Bulldog",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      164
+    ]
+  },
+  {
+    "driver": "DriverZam",
+    "driverEn": "Zam",
+    "driverFr": "Zam",
+    "index": 5,
+    "handle": "GP3_Skin_ZMA_P1",
+    "nameEn": "Devil Dog Zam",
+    "nameFr": "Zam Cerbère",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      485
+    ]
+  },
+  {
+    "driver": "DriverZem",
+    "driverEn": "Zem",
+    "driverFr": "Zem",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_17_skins_0",
+    "nameEn": "Zem",
+    "nameFr": "Zem",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverZem",
+    "driverEn": "Zem",
+    "driverFr": "Zem",
+    "index": 1,
+    "handle": "SystemData_availableDrivers_17_skins_3",
+    "nameEn": "Aqua Zem",
+    "nameFr": "Zem bleu marine",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverZem",
+    "driverEn": "Zem",
+    "driverFr": "Zem",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_17_skins_1",
+    "nameEn": "Violet Zem",
+    "nameFr": "Zem lavande",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverZem",
+    "driverEn": "Zem",
+    "driverFr": "Zem",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_17_skins_2",
+    "nameEn": "Solar Flare Zem",
+    "nameFr": "Zem Éruption solaire",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverZem",
+    "driverEn": "Zem",
+    "driverFr": "Zem",
+    "index": 4,
+    "handle": "SystemData_availableDrivers_17_skins_4",
+    "nameEn": "Punk Zem",
+    "nameFr": "Zem punk",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      165
+    ]
+  },
+  {
+    "driver": "DriverZem",
+    "driverEn": "Zem",
+    "driverFr": "Zem",
+    "index": 5,
+    "handle": "Skin_Zem_Caveman",
+    "nameEn": "Caveman Zem",
+    "nameFr": "Zem des cavernes",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      424
+    ]
+  },
+  {
+    "driver": "DriverTawna",
+    "driverEn": "Tawna",
+    "driverFr": "Tawna",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_34_skins_0",
+    "nameEn": "Tawna Bandicoot",
+    "nameFr": "Tawna Bandicoot",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverTawna",
+    "driverEn": "Tawna",
+    "driverFr": "Tawna",
+    "index": 1,
+    "handle": "Skin_Tawna_Motorsport",
+    "nameEn": "Motorsport Tawna",
+    "nameFr": "Tawna Compétition",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      316
+    ]
+  },
+  {
+    "driver": "DriverTawna",
+    "driverEn": "Tawna",
+    "driverFr": "Tawna",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_34_skins_4",
+    "nameEn": "Summertime Tawna",
+    "nameFr": "Tawna Estivale",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverTawna",
+    "driverEn": "Tawna",
+    "driverFr": "Tawna",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_34_skins_3",
+    "nameEn": "White Tiger Tawna",
+    "nameFr": "Tawna Tigresse blanche",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverTawna",
+    "driverEn": "Tawna",
+    "driverFr": "Tawna",
+    "index": 4,
+    "handle": "SystemData_availableDrivers_34_skins_2",
+    "nameEn": "Safari Tawna",
+    "nameFr": "Tawna Safari",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverTawna",
+    "driverEn": "Tawna",
+    "driverFr": "Tawna",
+    "index": 5,
+    "handle": "GP4_Skin_TNA_P1",
+    "nameEn": "Witch Tawna",
+    "nameFr": "Tawna sorcière",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      556
+    ]
+  },
+  {
+    "driver": "DriverTawna",
+    "driverEn": "Tawna",
+    "driverFr": "Tawna",
+    "index": 6,
+    "handle": "GP9_Skin_TNA_P1",
+    "nameEn": "Black Velvet Witch Tawna",
+    "nameFr": "Tawna Sorcière velours",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      907
+    ]
+  },
+  {
+    "driver": "DriverTawna",
+    "driverEn": "Tawna",
+    "driverFr": "Tawna",
+    "index": 7,
+    "handle": "GP9_Skin_TNA_P2",
+    "nameEn": "Pastel Witch Tawna",
+    "nameFr": "Tawna Sorcière pastel",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      908
+    ]
+  },
+  {
+    "driver": "DriverTawna",
+    "driverEn": "Tawna",
+    "driverFr": "Tawna",
+    "index": 8,
+    "handle": "GP9_Skin_TNA_P3",
+    "nameEn": "Green Witch Tawna",
+    "nameFr": "Tawna Sorcière verte",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      909
+    ]
+  },
+  {
+    "driver": "DriverTawna",
+    "driverEn": "Tawna",
+    "driverFr": "Tawna",
+    "index": 9,
+    "handle": "GP6_Skin_TNA_P1",
+    "nameEn": "Winter Tawna",
+    "nameFr": "Tawna de l'hiver",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      690
+    ]
+  },
+  {
+    "driver": "DriverTawna",
+    "driverEn": "Tawna",
+    "driverFr": "Tawna",
+    "index": 10,
+    "handle": "GP8_Skin_TNA_P1",
+    "nameEn": "Privateer Tawna",
+    "nameFr": "Tawna Flibustière",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      822
+    ]
+  },
+  {
+    "driver": "DriverAmi",
+    "driverEn": "Ami",
+    "driverFr": "Ami",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_20_skins_0",
+    "nameEn": "Ami",
+    "nameFr": "Ami",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverAmi",
+    "driverEn": "Ami",
+    "driverFr": "Ami",
+    "index": 1,
+    "handle": "Skin_Ami_Motorsport",
+    "nameEn": "Motorsport Ami",
+    "nameFr": "Ami Compétition",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      317
+    ]
+  },
+  {
+    "driver": "DriverAmi",
+    "driverEn": "Ami",
+    "driverFr": "Ami",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_20_skins_4",
+    "nameEn": "Honey Bee Ami",
+    "nameFr": "Ami Abeille",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverAmi",
+    "driverEn": "Ami",
+    "driverFr": "Ami",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_20_skins_3",
+    "nameEn": "SummerTime Ami",
+    "nameFr": "Ami Estivale",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverAmi",
+    "driverEn": "Ami",
+    "driverFr": "Ami",
+    "index": 4,
+    "handle": "SystemData_availableDrivers_20_skins_2",
+    "nameEn": "Raccoon Ami",
+    "nameFr": "Ami Raton-laveur",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverAmi",
+    "driverEn": "Ami",
+    "driverFr": "Ami",
+    "index": 5,
+    "handle": "GP5_Skin_AM_P1",
+    "nameEn": "Circus Ami",
+    "nameFr": "Ami du cirque",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      622
+    ]
+  },
+  {
+    "driver": "DriverAmi",
+    "driverEn": "Ami",
+    "driverFr": "Ami",
+    "index": 6,
+    "handle": "GP8_Skin_AM_P1",
+    "nameEn": "Buccaneer Ami",
+    "nameFr": "Ami Écumeuse",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      818
+    ]
+  },
+  {
+    "driver": "DriverMegumi",
+    "driverEn": "Megumi",
+    "driverFr": "Megumi",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_27_skins_0",
+    "nameEn": "Megumi",
+    "nameFr": "Megumi",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverMegumi",
+    "driverEn": "Megumi",
+    "driverFr": "Megumi",
+    "index": 1,
+    "handle": "Skin_Megumi_Motorsport",
+    "nameEn": "Motorsport Megumi",
+    "nameFr": "Megumi Compétition",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      318
+    ]
+  },
+  {
+    "driver": "DriverMegumi",
+    "driverEn": "Megumi",
+    "driverFr": "Megumi",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_27_skins_4",
+    "nameEn": "BubbleGum Megumi",
+    "nameFr": "Megumi Chewing-gum",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverMegumi",
+    "driverEn": "Megumi",
+    "driverFr": "Megumi",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_27_skins_3",
+    "nameEn": "Beach Megumi",
+    "nameFr": "Megumi des plages",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverMegumi",
+    "driverEn": "Megumi",
+    "driverFr": "Megumi",
+    "index": 4,
+    "handle": "SystemData_availableDrivers_27_skins_2",
+    "nameEn": "Lemonade Megumi",
+    "nameFr": "Megumi Limonade",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverMegumi",
+    "driverEn": "Megumi",
+    "driverFr": "Megumi",
+    "index": 5,
+    "handle": "GP5_Skin_MGI_P1",
+    "nameEn": "Circus Megumi",
+    "nameFr": "Megumi du cirque",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      624
+    ]
+  },
+  {
+    "driver": "DriverMegumi",
+    "driverEn": "Megumi",
+    "driverFr": "Megumi",
+    "index": 6,
+    "handle": "GP8_Skin_MGI_P1",
+    "nameEn": "Raider Megumi",
+    "nameFr": "Megumi Pillarde",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      820
+    ]
+  },
+  {
+    "driver": "DriverLiz",
+    "driverEn": "Liz",
+    "driverFr": "Liz",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_26_skins_0",
+    "nameEn": "Liz",
+    "nameFr": "Liz",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverLiz",
+    "driverEn": "Liz",
+    "driverFr": "Liz",
+    "index": 1,
+    "handle": "Skin_Liz_Motorsport",
+    "nameEn": "Motorsport Liz",
+    "nameFr": "Liz Compétition",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      319
+    ]
+  },
+  {
+    "driver": "DriverLiz",
+    "driverEn": "Liz",
+    "driverFr": "Liz",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_26_skins_4",
+    "nameEn": "Pop Liz",
+    "nameFr": "Liz Pop",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverLiz",
+    "driverEn": "Liz",
+    "driverFr": "Liz",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_26_skins_3",
+    "nameEn": "Pink Liz",
+    "nameFr": "Liz rose",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverLiz",
+    "driverEn": "Liz",
+    "driverFr": "Liz",
+    "index": 4,
+    "handle": "SystemData_availableDrivers_26_skins_2",
+    "nameEn": "Ocelot Liz",
+    "nameFr": "Liz Ocelot",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverLiz",
+    "driverEn": "Liz",
+    "driverFr": "Liz",
+    "index": 5,
+    "handle": "GP5_Skin_LZ_P1",
+    "nameEn": "Circus Liz",
+    "nameFr": "Liz du cirque",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      625
+    ]
+  },
+  {
+    "driver": "DriverLiz",
+    "driverEn": "Liz",
+    "driverFr": "Liz",
+    "index": 6,
+    "handle": "GP8_Skin_LZ_P1",
+    "nameEn": "Corsair Liz",
+    "nameFr": "Liz Corsaire",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      819
+    ]
+  },
+  {
+    "driver": "DriverIsabella",
+    "driverEn": "Isabella",
+    "driverFr": "Isabella",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_23_skins_0",
+    "nameEn": "Isabella",
+    "nameFr": "Isabella",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverIsabella",
+    "driverEn": "Isabella",
+    "driverFr": "Isabella",
+    "index": 1,
+    "handle": "Skin_Isabella_Motorsport",
+    "nameEn": "Motorsport Isabella",
+    "nameFr": "Isabelle Compétition",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      320
+    ]
+  },
+  {
+    "driver": "DriverIsabella",
+    "driverEn": "Isabella",
+    "driverFr": "Isabella",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_23_skins_2",
+    "nameEn": "Mermaid Isabella",
+    "nameFr": "Isabella Sirène",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverIsabella",
+    "driverEn": "Isabella",
+    "driverFr": "Isabella",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_23_skins_4",
+    "nameEn": "Neon Isabella",
+    "nameFr": "Isabella Néon",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverIsabella",
+    "driverEn": "Isabella",
+    "driverFr": "Isabella",
+    "index": 4,
+    "handle": "SystemData_availableDrivers_23_skins_3",
+    "nameEn": "Racer Isabella",
+    "nameFr": "Isabella Pilote",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverIsabella",
+    "driverEn": "Isabella",
+    "driverFr": "Isabella",
+    "index": 5,
+    "handle": "GP5_Skin_IBA_P1",
+    "nameEn": "Circus Isabella",
+    "nameFr": "Isabella du cirque",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      623
+    ]
+  },
+  {
+    "driver": "DriverIsabella",
+    "driverEn": "Isabella",
+    "driverFr": "Isabella",
+    "index": 6,
+    "handle": "GP8_Skin_IBA_P1",
+    "nameEn": "Marauder Isabella",
+    "nameFr": "Isabella Maraudeuse",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      821
+    ]
+  },
+  {
+    "driver": "DriverBabyCrash",
+    "driverEn": "Baby Crash",
+    "driverFr": "Bébé Crash",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_38_skins_0",
+    "nameEn": "Baby Crash",
+    "nameFr": "Bébé Crash",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBabyCrash",
+    "driverEn": "Baby Crash",
+    "driverFr": "Bébé Crash",
+    "index": 1,
+    "handle": "Skin_BabyCrash_Alt1",
+    "nameEn": "Cheetah Baby Crash",
+    "nameFr": "Bébé Crash Guépard",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBabyCrash",
+    "driverEn": "Baby Crash",
+    "driverFr": "Bébé Crash",
+    "index": 2,
+    "handle": "Skin_BabyCrash_Alt2",
+    "nameEn": "Panda Baby Crash",
+    "nameFr": "Bébé Crash Panda",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBabyCrash",
+    "driverEn": "Baby Crash",
+    "driverFr": "Bébé Crash",
+    "index": 3,
+    "handle": "Skin_BabyCrash_Alt3",
+    "nameEn": "Plush Baby Crash ",
+    "nameFr": "Bébé Crash Peluche",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBabyCrash",
+    "driverEn": "Baby Crash",
+    "driverFr": "Bébé Crash",
+    "index": 4,
+    "handle": "GP6_Skin_BCH_P1",
+    "nameEn": "Monster PJ Baby Crash",
+    "nameFr": "Bébé Crash PJ monstre",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      694
+    ]
+  },
+  {
+    "driver": "DriverBabyCoco",
+    "driverEn": "Baby Coco",
+    "driverFr": "Bébé Coco",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_39_skins_0",
+    "nameEn": "Baby Coco",
+    "nameFr": "Bébé Coco",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBabyCoco",
+    "driverEn": "Baby Coco",
+    "driverFr": "Bébé Coco",
+    "index": 1,
+    "handle": "Skin_BabyCoco_Alt1",
+    "nameEn": "Kitty Baby Coco",
+    "nameFr": "Bébé Coco Chat",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBabyCoco",
+    "driverEn": "Baby Coco",
+    "driverFr": "Bébé Coco",
+    "index": 2,
+    "handle": "Skin_BabyCoco_Alt2",
+    "nameEn": "Plush Baby Coco",
+    "nameFr": "Bébé Coco Peluche",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBabyCoco",
+    "driverEn": "Baby Coco",
+    "driverFr": "Bébé Coco",
+    "index": 3,
+    "handle": "Skin_BabyCoco_Alt3",
+    "nameEn": "Candy Baby Coco",
+    "nameFr": "Bébé Coco Bonbon",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBabyCoco",
+    "driverEn": "Baby Coco",
+    "driverFr": "Bébé Coco",
+    "index": 4,
+    "handle": "GP6_Skin_BCO_P1",
+    "nameEn": "Rabbit PJ Baby Coco",
+    "nameFr": "Bébé Coco PJ lapin",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      693
+    ]
+  },
+  {
+    "driver": "DriverBabyT",
+    "driverEn": "Baby T",
+    "driverFr": "Bébé T",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_40_skins_0",
+    "nameEn": "Baby T",
+    "nameFr": "Bébé T",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBabyT",
+    "driverEn": "Baby T",
+    "driverFr": "Bébé T",
+    "index": 1,
+    "handle": "Skin_BabyT_Fake",
+    "nameEn": "Fake Baby T",
+    "nameFr": "Faux Bébé T",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      431
+    ]
+  },
+  {
+    "driver": "DriverBabyT",
+    "driverEn": "Baby T",
+    "driverFr": "Bébé T",
+    "index": 2,
+    "handle": "SystemData_availableDrivers_40_skins_3",
+    "nameEn": "Blue Baby T",
+    "nameFr": "Bébé T bleu",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBabyT",
+    "driverEn": "Baby T",
+    "driverFr": "Bébé T",
+    "index": 3,
+    "handle": "SystemData_availableDrivers_40_skins_5",
+    "nameEn": "Purple Baby T",
+    "nameFr": "Bébé T violet",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBabyT",
+    "driverEn": "Baby T",
+    "driverFr": "Bébé T",
+    "index": 4,
+    "handle": "SystemData_availableDrivers_40_skins_4",
+    "nameEn": "Orange Baby T",
+    "nameFr": "Bébé T orange",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSpyro",
+    "driverEn": "Spyro",
+    "driverFr": "Spyro",
+    "index": 0,
+    "handle": "DriverSpyro_skins_0",
+    "nameEn": "Spyro",
+    "nameFr": "Spyro",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSpyro",
+    "driverEn": "Spyro",
+    "driverFr": "Spyro",
+    "index": 1,
+    "handle": "GP3_Skin_Spyro_Alt1",
+    "nameEn": "Superflame Spyro",
+    "nameFr": "Spyro superflammes",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSpyro",
+    "driverEn": "Spyro",
+    "driverFr": "Spyro",
+    "index": 2,
+    "handle": "GP3_Skin_Spyro_Alt2",
+    "nameEn": "Ice Breath Spyro",
+    "nameFr": "Spyro Souffle de glace",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSpyro",
+    "driverEn": "Spyro",
+    "driverFr": "Spyro",
+    "index": 3,
+    "handle": "GP3_Skin_Spyro_Alt3",
+    "nameEn": "Dark Spyro",
+    "nameFr": "Spyro noir",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSpyro",
+    "driverEn": "Spyro",
+    "driverFr": "Spyro",
+    "index": 4,
+    "handle": "GP6_Skin_SRO_P1",
+    "nameEn": "Winter Guardian Spyro",
+    "nameFr": "Spyro Gardien de l'hiver",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      697
+    ]
+  },
+  {
+    "driver": "DriverSpyro",
+    "driverEn": "Spyro",
+    "driverFr": "Spyro",
+    "index": 5,
+    "handle": "GP8_Skin_SRO_P1",
+    "nameEn": "Space Spyro",
+    "nameFr": "Spyro Astronaute",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      823
+    ]
+  },
+  {
+    "driver": "DriverHunter",
+    "driverEn": "Hunter",
+    "driverFr": "Chasseur",
+    "index": 0,
+    "handle": "DriverHunter_skins_0",
+    "nameEn": "Hunter",
+    "nameFr": "Chasseur",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverHunter",
+    "driverEn": "Hunter",
+    "driverFr": "Chasseur",
+    "index": 1,
+    "handle": "GP3_Skin_Hunter_Alt1",
+    "nameEn": "Blue Panther Hunter",
+    "nameFr": "Chasseur Panthère bleue",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverHunter",
+    "driverEn": "Hunter",
+    "driverFr": "Chasseur",
+    "index": 2,
+    "handle": "GP3_Skin_Hunter_Alt2",
+    "nameEn": "Cotton Candy Hunter",
+    "nameFr": "Chasseur Barbapapa",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverHunter",
+    "driverEn": "Hunter",
+    "driverFr": "Chasseur",
+    "index": 3,
+    "handle": "GP3_Skin_Hunter_Alt3",
+    "nameEn": "Green Tiger Hunter",
+    "nameFr": "Chasseur Tigre vert",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverGGC",
+    "driverEn": "Gnasty Gnorc",
+    "driverFr": "Gnasty Gnorc",
+    "index": 0,
+    "handle": "DriverGGC_skins_0",
+    "nameEn": "Gnasty Gnorc",
+    "nameFr": "Gnasty Gnorc",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverGGC",
+    "driverEn": "Gnasty Gnorc",
+    "driverFr": "Gnasty Gnorc",
+    "index": 1,
+    "handle": "GP3_Skin_GGC_Alt1",
+    "nameEn": "Spyro Purple Gnasty Gnorc",
+    "nameFr": "Spyro Violet Gnasty Gnorc",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverGGC",
+    "driverEn": "Gnasty Gnorc",
+    "driverFr": "Gnasty Gnorc",
+    "index": 2,
+    "handle": "GP3_Skin_GGC_Alt2",
+    "nameEn": "Stone Gnasty Gnorc",
+    "nameFr": "Gnasty Gnorc de pierre",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverGGC",
+    "driverEn": "Gnasty Gnorc",
+    "driverFr": "Gnasty Gnorc",
+    "index": 3,
+    "handle": "GP3_Skin_GGC_Alt3",
+    "nameEn": "Magma Gnasty Gnorc",
+    "nameFr": "Gnasty Gnorc de magma",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKME",
+    "driverEn": "Komodo Moe",
+    "driverFr": "Komodo Moe",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_42_skins_0",
+    "nameEn": "Komodo Moe",
+    "nameFr": "Komodo Moe",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKME",
+    "driverEn": "Komodo Moe",
+    "driverFr": "Komodo Moe",
+    "index": 1,
+    "handle": "GP4_Skin_KME_Alt1",
+    "nameEn": "Lullaby Komodo Moe",
+    "nameFr": "Komodo Moe berceuse",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKME",
+    "driverEn": "Komodo Moe",
+    "driverFr": "Komodo Moe",
+    "index": 2,
+    "handle": "GP4_Skin_KME_Alt3",
+    "nameEn": "Sultan Komodo Moe",
+    "nameFr": "Komodo Moe sultan",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKME",
+    "driverEn": "Komodo Moe",
+    "driverFr": "Komodo Moe",
+    "index": 3,
+    "handle": "GP4_Skin_KME_Alt2",
+    "nameEn": "Master Moe",
+    "nameFr": "Maître Moe",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNBO",
+    "driverEn": "Dr. N. Brio",
+    "driverFr": "Dr N. Brio",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_43_skins_0",
+    "nameEn": "Dr. N. Brio",
+    "nameFr": "Dr N. Brio",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNBO",
+    "driverEn": "Dr. N. Brio",
+    "driverFr": "Dr N. Brio",
+    "index": 1,
+    "handle": "GP4_Skin_NBO_Alt2",
+    "nameEn": "Frank N. Brio",
+    "nameFr": "Frank N. Brio",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNBO",
+    "driverEn": "Dr. N. Brio",
+    "driverFr": "Dr N. Brio",
+    "index": 2,
+    "handle": "GP4_Skin_NBO_Alt1",
+    "nameEn": "Fire Wizard N. Brio",
+    "nameFr": "Sorcier de feu N. Brio",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNBO",
+    "driverEn": "Dr. N. Brio",
+    "driverFr": "Dr N. Brio",
+    "index": 3,
+    "handle": "GP4_Skin_NBO_Alt3",
+    "nameEn": "N. Vader Brio",
+    "nameFr": "N. Vador Brio",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNBO",
+    "driverEn": "Dr. N. Brio",
+    "driverFr": "Dr N. Brio",
+    "index": 4,
+    "handle": "GP8_Skin_NBO_P1",
+    "nameEn": "N. Brioctopus",
+    "nameFr": "N. Brioctopus",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      817
+    ]
+  },
+  {
+    "driver": "DriverNCX",
+    "driverEn": "Nina Cortex",
+    "driverFr": "Nina Cortex",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_44_skins_0",
+    "nameEn": "Nina Cortex",
+    "nameFr": "Nina Cortex",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNCX",
+    "driverEn": "Nina Cortex",
+    "driverFr": "Nina Cortex",
+    "index": 1,
+    "handle": "GP4_Skin_NCX_Alt1",
+    "nameEn": "Pink Nina",
+    "nameFr": "Nina rose",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNCX",
+    "driverEn": "Nina Cortex",
+    "driverFr": "Nina Cortex",
+    "index": 2,
+    "handle": "GP4_Skin_NCX_Alt2",
+    "nameEn": "Zombie Nina",
+    "nameFr": "Nina zombie",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNCX",
+    "driverEn": "Nina Cortex",
+    "driverFr": "Nina Cortex",
+    "index": 3,
+    "handle": "GP4_Skin_NCX_Alt3",
+    "nameEn": "Neon Nina",
+    "nameFr": "Nina néon",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverNCX",
+    "driverEn": "Nina Cortex",
+    "driverFr": "Nina Cortex",
+    "index": 4,
+    "handle": "GP4_Skin_NCX_P1",
+    "nameEn": "Ragdoll Nina",
+    "nameFr": "Nina Poupée",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      558
+    ]
+  },
+  {
+    "driver": "DriverNCX",
+    "driverEn": "Nina Cortex",
+    "driverFr": "Nina Cortex",
+    "index": 5,
+    "handle": "GP9_Skin_NCX_P1",
+    "nameEn": "Pink Ragdoll Nina",
+    "nameFr": "Nina Poupée rose",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      917
+    ]
+  },
+  {
+    "driver": "DriverNCX",
+    "driverEn": "Nina Cortex",
+    "driverFr": "Nina Cortex",
+    "index": 6,
+    "handle": "GP9_Skin_NCX_P2",
+    "nameEn": "Blue Ragdoll Nina",
+    "nameFr": "Nina Poupée bleue",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      918
+    ]
+  },
+  {
+    "driver": "DriverNCX",
+    "driverEn": "Nina Cortex",
+    "driverFr": "Nina Cortex",
+    "index": 7,
+    "handle": "GP9_Skin_NCX_P3",
+    "nameEn": "Purple Ragdoll Nina",
+    "nameFr": "Nina Poupée violette",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      919
+    ]
+  },
+  {
+    "driver": "DriverNCX",
+    "driverEn": "Nina Cortex",
+    "driverFr": "Nina Cortex",
+    "index": 8,
+    "handle": "GP7_Skin_NCX_P1",
+    "nameEn": "Rustland Nina",
+    "nameFr": "Nina de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      760
+    ]
+  },
+  {
+    "driver": "DriverKKG",
+    "driverEn": "Koala Kong",
+    "driverFr": "Koala Kong",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_45_skins_0",
+    "nameEn": "Koala Kong",
+    "nameFr": "Koala Kong",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKKG",
+    "driverEn": "Koala Kong",
+    "driverFr": "Koala Kong",
+    "index": 1,
+    "handle": "GP5_Skin_KKG_Alt2",
+    "nameEn": "Fierce Kong",
+    "nameFr": "Kong féroce",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKKG",
+    "driverEn": "Koala Kong",
+    "driverFr": "Koala Kong",
+    "index": 2,
+    "handle": "GP5_Skin_KKG_Alt1",
+    "nameEn": "Grizzly Kong",
+    "nameFr": "Kong Sauvage",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKKG",
+    "driverEn": "Koala Kong",
+    "driverFr": "Koala Kong",
+    "index": 3,
+    "handle": "GP5_Skin_KKG_Alt3",
+    "nameEn": "Mountain Kong",
+    "nameFr": "Kong des montagnes",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKKG",
+    "driverEn": "Koala Kong",
+    "driverFr": "Koala Kong",
+    "index": 4,
+    "handle": "GP5_Skin_KKG_P1",
+    "nameEn": "Circus Kong",
+    "nameFr": "Kong du cirque",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      621
+    ]
+  },
+  {
+    "driver": "DriverKKG",
+    "driverEn": "Koala Kong",
+    "driverFr": "Koala Kong",
+    "index": 5,
+    "handle": "GP8_Skin_KKG_P1",
+    "nameEn": "Astronaut Kong",
+    "nameFr": "Kong Astronaute",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      816
+    ]
+  },
+  {
+    "driver": "DriverKKG",
+    "driverEn": "Koala Kong",
+    "driverFr": "Koala Kong",
+    "index": 6,
+    "handle": "GP9_Skin_KKG_P1",
+    "nameEn": "Space Marine Kong",
+    "nameFr": "Kong Astronaute marin",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      910
+    ]
+  },
+  {
+    "driver": "DriverKKG",
+    "driverEn": "Koala Kong",
+    "driverFr": "Koala Kong",
+    "index": 7,
+    "handle": "GP9_Skin_KKG_P2",
+    "nameEn": "Beenox Astronaut Kong",
+    "nameFr": "Kong Astronaute Beenox",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      911
+    ]
+  },
+  {
+    "driver": "DriverKKG",
+    "driverEn": "Koala Kong",
+    "driverFr": "Koala Kong",
+    "index": 8,
+    "handle": "GP9_Skin_KKG_P3",
+    "nameEn": "Love Astronaut Kong",
+    "nameFr": "Kong Astronaute de l'amour",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      912
+    ]
+  },
+  {
+    "driver": "DriverPOM",
+    "driverEn": "Pasadena O'Possum",
+    "driverFr": "Pasadena O'Possum",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_46_skins_0",
+    "nameEn": "Pasadena O'possum",
+    "nameFr": "Pasadena O'Possum",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPOM",
+    "driverEn": "Pasadena O'Possum",
+    "driverFr": "Pasadena O'Possum",
+    "index": 1,
+    "handle": "GP5_Skin_POM_Alt1",
+    "nameEn": "Licorice Pasadena",
+    "nameFr": "Pasadena réglisse",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPOM",
+    "driverEn": "Pasadena O'Possum",
+    "driverFr": "Pasadena O'Possum",
+    "index": 2,
+    "handle": "GP5_Skin_POM_Alt2",
+    "nameEn": "Glam Pasadena",
+    "nameFr": "Pasadena glamour",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverPOM",
+    "driverEn": "Pasadena O'Possum",
+    "driverFr": "Pasadena O'Possum",
+    "index": 3,
+    "handle": "GP5_Skin_POM_Alt3",
+    "nameEn": "Daredevil Pasadena",
+    "nameFr": "Pasadena casse-cou",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverVCH",
+    "driverEn": "Ebenezer Von Clutch",
+    "driverFr": "Ebenezer Von Clutch",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_47_skins_0",
+    "nameEn": "Ebenezer Von Clutch",
+    "nameFr": "Ebenezer Von Clutch",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverVCH",
+    "driverEn": "Ebenezer Von Clutch",
+    "driverFr": "Ebenezer Von Clutch",
+    "index": 1,
+    "handle": "GP5_Skin_VCH_Alt1",
+    "nameEn": "Hot Head Von Clutch",
+    "nameFr": "Von Clutch le fou",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverVCH",
+    "driverEn": "Ebenezer Von Clutch",
+    "driverFr": "Ebenezer Von Clutch",
+    "index": 2,
+    "handle": "GP5_Skin_VCH_Alt2",
+    "nameEn": "Vintage Von Clutch",
+    "nameFr": "Von Clutch classique",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverVCH",
+    "driverEn": "Ebenezer Von Clutch",
+    "driverFr": "Ebenezer Von Clutch",
+    "index": 3,
+    "handle": "GP5_Skin_VCH_Alt3",
+    "nameEn": "Stuntman Von Clutch",
+    "nameFr": "Von Clutch cascadeur",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKCN",
+    "driverEn": "King Chicken",
+    "driverFr": "Roi Poulet",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_48_skins_0",
+    "nameEn": "King Chicken",
+    "nameFr": "Roi Poulet",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKCN",
+    "driverEn": "King Chicken",
+    "driverFr": "Roi Poulet",
+    "index": 1,
+    "handle": "GP5_Skin_KCN_Alt2",
+    "nameEn": "King Turkey",
+    "nameFr": "Roi Dinde",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKCN",
+    "driverEn": "King Chicken",
+    "driverFr": "Roi Poulet",
+    "index": 2,
+    "handle": "GP5_Skin_KCN_Alt3",
+    "nameEn": "King Phoenix",
+    "nameFr": "Roi Phénix",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKCN",
+    "driverEn": "King Chicken",
+    "driverFr": "Roi Poulet",
+    "index": 3,
+    "handle": "GP5_Skin_KCN_Alt1",
+    "nameEn": "King Stunt Chicken",
+    "nameFr": "Roi Poulet Cascadeur",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverKCN",
+    "driverEn": "King Chicken",
+    "driverFr": "Roi Poulet",
+    "index": 4,
+    "handle": "GP8_Skin_KCN_P1",
+    "nameEn": "King Space Chicken",
+    "nameFr": "Roi poulet Astronaute",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      825
+    ]
+  },
+  {
+    "driver": "DriverRRA",
+    "driverEn": "Rilla Roo",
+    "driverFr": "Rilla Roo",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_49_skins_0",
+    "nameEn": "Rilla Roo",
+    "nameFr": "Rilla Roo",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRRA",
+    "driverEn": "Rilla Roo",
+    "driverFr": "Rilla Roo",
+    "index": 1,
+    "handle": "GP6_Skin_RRA_Alt1",
+    "nameEn": "Gift-Wrapped Rilla Roo",
+    "nameFr": "Rilla Roo emballé",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRRA",
+    "driverEn": "Rilla Roo",
+    "driverFr": "Rilla Roo",
+    "index": 2,
+    "handle": "GP6_Skin_RRA_Alt2",
+    "nameEn": "Funky Rilla Roo",
+    "nameFr": "Rilla Roo disco",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRRA",
+    "driverEn": "Rilla Roo",
+    "driverFr": "Rilla Roo",
+    "index": 3,
+    "handle": "GP6_Skin_RRA_Alt3",
+    "nameEn": "Yeti Rilla Roo",
+    "nameFr": "Rilla Roo Yéti",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverYYA",
+    "driverEn": "Yaya Panda",
+    "driverFr": "Yaya Panda",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_50_skins_0",
+    "nameEn": "Yaya Panda",
+    "nameFr": "Yaya Panda",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverYYA",
+    "driverEn": "Yaya Panda",
+    "driverFr": "Yaya Panda",
+    "index": 1,
+    "handle": "GP6_Skin_YYA_Alt1",
+    "nameEn": "Cupcake Yaya",
+    "nameFr": "Yaya Cupcake",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverYYA",
+    "driverEn": "Yaya Panda",
+    "driverFr": "Yaya Panda",
+    "index": 2,
+    "handle": "GP6_Skin_YYA_Alt2",
+    "nameEn": "Honey Badger Yaya",
+    "nameFr": "Yaya Blaireau",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverYYA",
+    "driverEn": "Yaya Panda",
+    "driverFr": "Yaya Panda",
+    "index": 3,
+    "handle": "GP6_Skin_YYA_Alt3",
+    "nameEn": "Rainbow Yaya",
+    "nameFr": "Yaya arc-en-ciel",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverFAY",
+    "driverEn": "Hasty",
+    "driverFr": "Hasty",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_51_skins_0",
+    "nameEn": "Hasty",
+    "nameFr": "Hasty",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverFAY",
+    "driverEn": "Hasty",
+    "driverFr": "Hasty",
+    "index": 1,
+    "handle": "GP6_Skin_FAY_Alt1",
+    "nameEn": "Stag Hasty",
+    "nameFr": "Hasty Cerf",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverFAY",
+    "driverEn": "Hasty",
+    "driverFr": "Hasty",
+    "index": 2,
+    "handle": "GP6_Skin_FAY_Alt3",
+    "nameEn": "Sweet Tooth Hasty",
+    "nameFr": "Hasty gourmand",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverFAY",
+    "driverEn": "Hasty",
+    "driverFr": "Hasty",
+    "index": 3,
+    "handle": "GP6_Skin_FAY_Alt2",
+    "nameEn": "Albino Hasty",
+    "nameFr": "Hasty albinos",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverFAY",
+    "driverEn": "Hasty",
+    "driverFr": "Hasty",
+    "index": 4,
+    "handle": "GP6_Skin_FAY_P1",
+    "nameEn": "Blizzard Rider Hasty",
+    "nameFr": "Hasty du blizzard",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      696
+    ]
+  },
+  {
+    "driver": "DriverCCK",
+    "driverEn": "Chick",
+    "driverFr": "Chick",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_52_skins_0",
+    "nameEn": "Chick",
+    "nameFr": "Chick",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCCK",
+    "driverEn": "Chick",
+    "driverFr": "Chick",
+    "index": 1,
+    "handle": "GP6_Skin_CCK_Alt2",
+    "nameEn": "Seagull Chick",
+    "nameFr": "Chick Mouette",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCCK",
+    "driverEn": "Chick",
+    "driverFr": "Chick",
+    "index": 2,
+    "handle": "GP6_Skin_CCK_Alt1",
+    "nameEn": "Pigeon Chick",
+    "nameFr": "Chick Pigeon",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCCK",
+    "driverEn": "Chick",
+    "driverFr": "Chick",
+    "index": 3,
+    "handle": "GP6_Skin_CCK_Alt3",
+    "nameEn": "Toucan Chick",
+    "nameFr": "Chick Toucan",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverCCK",
+    "driverEn": "Chick",
+    "driverFr": "Chick",
+    "index": 4,
+    "handle": "GP7_Skin_CCK_Alt4",
+    "nameEn": "Rustland Chick",
+    "nameFr": "Chick de la rouille",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 40,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSTW",
+    "driverEn": "Stew",
+    "driverFr": "Stew",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_53_skins_0",
+    "nameEn": "Stew",
+    "nameFr": "Stew",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSTW",
+    "driverEn": "Stew",
+    "driverFr": "Stew",
+    "index": 1,
+    "handle": "GP6_Skin_STW_Alt2",
+    "nameEn": "Cockatoo Stew",
+    "nameFr": "Stew Cacatoès",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSTW",
+    "driverEn": "Stew",
+    "driverFr": "Stew",
+    "index": 2,
+    "handle": "GP6_Skin_STW_Alt3",
+    "nameEn": "Green Duck Stew",
+    "nameFr": "Stew Col-vert",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSTW",
+    "driverEn": "Stew",
+    "driverFr": "Stew",
+    "index": 3,
+    "handle": "GP6_Skin_STW_Alt1",
+    "nameEn": "Rooster Stew",
+    "nameFr": "Stew Rooster",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverSTW",
+    "driverEn": "Stew",
+    "driverFr": "Stew",
+    "index": 4,
+    "handle": "GP7_Skin_STW_Alt4",
+    "nameEn": "Rustland Stew",
+    "nameFr": "Stew de la rouille",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 40,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverMMX",
+    "driverEn": "Megamix",
+    "driverFr": "Megamix",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_54_skins_0",
+    "nameEn": "Megamix",
+    "nameFr": "Megamix",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverMMX",
+    "driverEn": "Megamix",
+    "driverFr": "Megamix",
+    "index": 1,
+    "handle": "GP7_Skin_MMX_Alt1",
+    "nameEn": "Toxic Megamix",
+    "nameFr": "Megamix toxique",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverMMX",
+    "driverEn": "Megamix",
+    "driverFr": "Megamix",
+    "index": 2,
+    "handle": "GP7_Skin_MMX_Alt2",
+    "nameEn": "Red Templar Megamix",
+    "nameFr": "Megamix templier rouge",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverMMX",
+    "driverEn": "Megamix",
+    "driverFr": "Megamix",
+    "index": 3,
+    "handle": "GP7_Skin_MMX_Alt3",
+    "nameEn": "Nightmare Megamix",
+    "nameFr": "Megamix du cauchemar",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverMMX",
+    "driverEn": "Megamix",
+    "driverFr": "Megamix",
+    "index": 4,
+    "handle": "GP7_Skin_MMX_P1",
+    "nameEn": "Rustland Megamix",
+    "nameFr": "Megamix de la rouille",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      761
+    ]
+  },
+  {
+    "driver": "DriverMMX",
+    "driverEn": "Megamix",
+    "driverFr": "Megamix",
+    "index": 5,
+    "handle": "GP9_Skin_MMX_P1",
+    "nameEn": "Beenox Rustland Megamix",
+    "nameFr": "Megamix du désert Beenox",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      913
+    ]
+  },
+  {
+    "driver": "DriverJOE",
+    "driverEn": "Emperor Velo XXVII",
+    "driverFr": "Empereur Velo XXVII",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_55_skins_0",
+    "nameEn": "Emperor Velo XXVII",
+    "nameFr": "Empereur Velo XXVII",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverJOE",
+    "driverEn": "Emperor Velo XXVII",
+    "driverFr": "Empereur Velo XXVII",
+    "index": 1,
+    "handle": "GP8_Skin_JOE_Alt1",
+    "nameEn": "Orange OverLord Velo",
+    "nameFr": "Seigneur Velo orange",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverJOE",
+    "driverEn": "Emperor Velo XXVII",
+    "driverFr": "Empereur Velo XXVII",
+    "index": 2,
+    "handle": "GP8_Skin_JOE_Alt2",
+    "nameEn": "Blue Baron Velo",
+    "nameFr": "Baron Velo bleu",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverJOE",
+    "driverEn": "Emperor Velo XXVII",
+    "driverFr": "Empereur Velo XXVII",
+    "index": 3,
+    "handle": "GP8_Skin_JOE_Alt3",
+    "nameEn": "Pale Monarch Velo",
+    "nameFr": "Monarque Velo pâle",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverJOE",
+    "driverEn": "Emperor Velo XXVII",
+    "driverFr": "Empereur Velo XXVII",
+    "index": 4,
+    "handle": "GP8_Skin_JOE_P1",
+    "nameEn": "Captain Velo XXVII",
+    "nameFr": "Capitaine Velo XXVII",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      824
+    ]
+  },
+  {
+    "driver": "DriverBAL",
+    "driverEn": "Lab Assistant",
+    "driverFr": "Assistant de laboratoire",
+    "index": 0,
+    "handle": "DriverBAL_skins_0",
+    "nameEn": "Lab Assistant",
+    "nameFr": "Assistant de laboratoire",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBAL",
+    "driverEn": "Lab Assistant",
+    "driverFr": "Assistant de laboratoire",
+    "index": 1,
+    "handle": "GP9_Skin_BAL_P1",
+    "nameEn": "Deleted",
+    "nameFr": "Supprimé",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      927
+    ]
+  },
+  {
+    "driver": "DriverBAL",
+    "driverEn": "Lab Assistant",
+    "driverFr": "Assistant de laboratoire",
+    "index": 2,
+    "handle": "GP9_Skin_BAL_P2",
+    "nameEn": "Knight Lab Assistant",
+    "nameFr": "Assistant de laboratoire Chevalier",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      928
+    ]
+  },
+  {
+    "driver": "DriverBAL",
+    "driverEn": "Lab Assistant",
+    "driverFr": "Assistant de laboratoire",
+    "index": 3,
+    "handle": "GP9_Skin_BAL_P3",
+    "nameEn": "Lumberjack Lab Assistant",
+    "nameFr": "Assistant de laboratoire Bûcheron",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      929
+    ]
+  },
+  {
+    "driver": "DriverBAL",
+    "driverEn": "Lab Assistant",
+    "driverFr": "Assistant de laboratoire",
+    "index": 4,
+    "handle": "GP9_Skin_BAL_P4",
+    "nameEn": "Prince Lab Assistant",
+    "nameFr": "Assistant de laboratoire Prince",
+    "condition": "COctanePitStopUnlockable",
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": [
+      930
+    ]
+  },
+  {
+    "driver": "DriverBAL",
+    "driverEn": "Lab Assistant",
+    "driverFr": "Assistant de laboratoire",
+    "index": 5,
+    "handle": "GP9_Skin_BAL_Alt1",
+    "nameEn": "Hacker Lab Assistant",
+    "nameFr": "Assistant de laboratoire Hacker",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBAL",
+    "driverEn": "Lab Assistant",
+    "driverFr": "Assistant de laboratoire",
+    "index": 6,
+    "handle": "GP9_Skin_BAL_Alt2",
+    "nameEn": "Nice Lab Assistant",
+    "nameFr": "Assistant de laboratoire Sympa",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBAL",
+    "driverEn": "Lab Assistant",
+    "driverFr": "Assistant de laboratoire",
+    "index": 7,
+    "handle": "GP9_Skin_BAL_Alt3",
+    "nameEn": "Traveler Lab Assistant",
+    "nameFr": "Assistant de laboratoire Voyageur",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBCX",
+    "driverEn": "Baby Cortex",
+    "driverFr": "Bébé Cortex",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_56_skins_0",
+    "nameEn": "Baby Cortex",
+    "nameFr": "Bébé Cortex",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBCX",
+    "driverEn": "Baby Cortex",
+    "driverFr": "Bébé Cortex",
+    "index": 1,
+    "handle": "GP9_Skin_BCX_Alt1",
+    "nameEn": "Purple Baby Cortex",
+    "nameFr": "Bébé Cortex violet",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBCX",
+    "driverEn": "Baby Cortex",
+    "driverFr": "Bébé Cortex",
+    "index": 2,
+    "handle": "GP9_Skin_BCX_Alt2",
+    "nameEn": "Blue Baby Cortex",
+    "nameFr": "Bébé Cortex bleu",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBCX",
+    "driverEn": "Baby Cortex",
+    "driverFr": "Bébé Cortex",
+    "index": 3,
+    "handle": "GP9_Skin_BCX_Alt3",
+    "nameEn": "Red Baby Cortex",
+    "nameFr": "Bébé Cortex rouge",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBTY",
+    "driverEn": "Baby N. Tropy",
+    "driverFr": "Bébé N. Tropy",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_57_skins_0",
+    "nameEn": "Baby N. Tropy",
+    "nameFr": "Bébé N. Tropy",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBTY",
+    "driverEn": "Baby N. Tropy",
+    "driverFr": "Bébé N. Tropy",
+    "index": 1,
+    "handle": "GP9_Skin_BTY_Alt1",
+    "nameEn": "Yellow Baby N. Tropy",
+    "nameFr": "Bébé N. Tropy jaune",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBTY",
+    "driverEn": "Baby N. Tropy",
+    "driverFr": "Bébé N. Tropy",
+    "index": 2,
+    "handle": "GP9_Skin_BTY_Alt2",
+    "nameEn": "Purple Baby N. Tropy",
+    "nameFr": "Bébé N. Tropy violet",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverBTY",
+    "driverEn": "Baby N. Tropy",
+    "driverFr": "Bébé N. Tropy",
+    "index": 3,
+    "handle": "GP9_Skin_BTY_Alt3",
+    "nameEn": "Red Baby N. Tropy",
+    "nameFr": "Bébé N. Tropy rouge",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRRR",
+    "driverEn": "Fixed Rilla Roo",
+    "driverFr": "Rilla Roo original",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_59_skins_0",
+    "nameEn": "Fixed Rilla Roo",
+    "nameFr": "Rilla Roo original",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRRR",
+    "driverEn": "Fixed Rilla Roo",
+    "driverFr": "Rilla Roo original",
+    "index": 1,
+    "handle": "GP9_Skin_RRR_Alt1",
+    "nameEn": "Green Fixed Rilla Roo",
+    "nameFr": "Rilla Roo original vert",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRRR",
+    "driverEn": "Fixed Rilla Roo",
+    "driverFr": "Rilla Roo original",
+    "index": 2,
+    "handle": "GP9_Skin_RRR_Alt2",
+    "nameEn": "Pink Fixed Rilla Roo",
+    "nameFr": "Rilla Roo original rose",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverRRR",
+    "driverEn": "Fixed Rilla Roo",
+    "driverFr": "Rilla Roo original",
+    "index": 3,
+    "handle": "GP9_Skin_RRR_Alt3",
+    "nameEn": "Blue Fixed Rilla Roo",
+    "nameFr": "Rilla Roo original bleu",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverHereIAm",
+    "driverEn": "Iron Checkpoint Crate",
+    "driverFr": "Caisse Point de contrôle",
+    "index": 0,
+    "handle": "SystemData_availableDrivers_58_skins_0",
+    "nameEn": "Iron Checkpoint Crate",
+    "nameFr": "Caisse Point de contrôle",
+    "condition": null,
+    "challengeBit": null,
+    "wins": null,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverHereIAm",
+    "driverEn": "Iron Checkpoint Crate",
+    "driverFr": "Caisse Point de contrôle",
+    "index": 1,
+    "handle": "GP9_Skin_HereIAm_Alt1",
+    "nameEn": "? Crate",
+    "nameFr": "Caisse ?",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 1,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverHereIAm",
+    "driverEn": "Iron Checkpoint Crate",
+    "driverFr": "Caisse Point de contrôle",
+    "index": 2,
+    "handle": "GP9_Skin_HereIAm_Alt2",
+    "nameEn": "TNT Crate",
+    "nameFr": "Caisse TNT",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 10,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverHereIAm",
+    "driverEn": "Iron Checkpoint Crate",
+    "driverFr": "Caisse Point de contrôle",
+    "index": 3,
+    "handle": "GP9_Skin_HereIAm_Alt3",
+    "nameEn": "Nitro Crate",
+    "nameFr": "Caisse Nitro",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 25,
+    "marketplaceIds": []
+  },
+  {
+    "driver": "DriverHereIAm",
+    "driverEn": "Iron Checkpoint Crate",
+    "driverFr": "Caisse Point de contrôle",
+    "index": 4,
+    "handle": "GP9_Skin_HereIAm_Alt4",
+    "nameEn": "Purple ! Crate",
+    "nameFr": "Caisse !",
+    "condition": "COctaneDriverWinsUnlockable",
+    "challengeBit": null,
+    "wins": 40,
+    "marketplaceIds": []
+  }
+]

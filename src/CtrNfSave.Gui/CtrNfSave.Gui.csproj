@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>ctrnf-save-gui</AssemblyName>
+    <RootNamespace>CtrNfSave.Gui</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../CtrNfSave.Core/CtrNfSave.Core.csproj" />
+    <EmbeddedResource Include="Assets/menu.ttf" />
+    <None Update="Assets/FONT-LICENSE.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" TargetPath="FONT-LICENSE.txt" />
+  </ItemGroup>
+</Project>

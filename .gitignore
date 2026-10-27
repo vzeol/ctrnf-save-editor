@@ -1,0 +1,33 @@
+# Build output and local tooling
+**/bin/
+**/obj/
+artifacts/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.log
+*.pdb
+# User data and research fixtures must never be committed
+samples/
+target/
+backups/
+data/regression/
+*.sav
+*.sav.*
+*.bak
+*.tmp-*
+*.elf
+*.pak
+*.igz
+*.lng
+*.exe
+*.dll
+*.zip
+.env
+.env.*
+*.pfx
+*.key
+.DS_Store
+Thumbs.db

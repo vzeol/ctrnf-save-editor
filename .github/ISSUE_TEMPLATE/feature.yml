@@ -1,0 +1,16 @@
+name: Feature or translation / Idée ou traduction
+description: Suggest an improvement or a translation correction.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you like to improve?
+      description: English and French suggestions welcome. Explain the user need and an example.
+    validations:
+      required: true
+  - type: textarea
+    id: help
+    attributes:
+      label: Proposed behavior or contribution
+      description: You can help through code, screenshots, translations or testing.

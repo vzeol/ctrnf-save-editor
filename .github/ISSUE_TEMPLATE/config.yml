@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the guides / Lire les guides
+    url: https://github.com/vzeol/ctrnf-save-editor#readme
+    about: Save types, supported features and known limitations.
