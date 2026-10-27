@@ -5,10 +5,12 @@
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>ctrnf-save-gui</AssemblyName>
     <RootNamespace>CtrNfSave.Gui</RootNamespace>
+    <ApplicationIcon>../../assets/branding/app.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="../CtrNfSave.Core/CtrNfSave.Core.csproj" />
     <EmbeddedResource Include="Assets/menu.ttf" />
+    <EmbeddedResource Include="../../assets/branding/app.ico" LogicalName="CtrNfSave.Gui.Assets.app.ico" />
     <None Update="Assets/FONT-LICENSE.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" TargetPath="FONT-LICENSE.txt" />
   </ItemGroup>
 </Project>

@@ -3,7 +3,7 @@ $root = Split-Path $PSScriptRoot -Parent
 Push-Location $root
 try {
     # Inspect source directories, never generated binaries or git internals.
-    $roots = @('src', 'tests', 'docs', 'scripts', '.github')
+    $roots = @('src', 'tests', 'docs', 'scripts', 'assets', '.github')
     $files = @($roots | ForEach-Object { if (Test-Path $_) { Get-ChildItem $_ -File -Recurse } } |
         Where-Object { $_.FullName -notmatch '[\\/](bin|obj)[\\/]' })
     $forbidden = $files | Where-Object { $_.Extension -in '.sav', '.bak', '.elf', '.pak', '.igz', '.exe', '.dll', '.pdb', '.pfx', '.key' }

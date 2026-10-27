@@ -8,6 +8,10 @@ internal static class Program
     private static void Main(string[] args)
     {
         ApplicationConfiguration.Initialize();
-        Application.Run(new EditorForm(args.FirstOrDefault()));
+        using var source = typeof(Program).Assembly.GetManifestResourceStream("CtrNfSave.Gui.Assets.app.ico");
+        using var icon = source is null ? null : new Icon(source);
+        using var editor = new EditorForm(args.FirstOrDefault());
+        if (icon is not null) editor.Icon = icon;
+        Application.Run(editor);
     }
 }

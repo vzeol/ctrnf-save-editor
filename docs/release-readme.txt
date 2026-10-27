@@ -8,7 +8,7 @@ The .NET runtime is included. ctrnf-save.exe is the command-line companion.
 Close the game and keep an independent backup before installing edited saves.
 Choose Adventure for savedata1..4, global profile for savedata0.
 Supports decrypted files only. Local inventory does not edit server accounts.
-Preview: some native mappings still need in-game validation.
+Some native mappings still need in-game validation; see the documented limits.
 
 Extrayez toute l'archive, puis lancez ctrnf-save-gui.exe.
 Fermez le jeu et gardez une copie independante avant de tester une modification.

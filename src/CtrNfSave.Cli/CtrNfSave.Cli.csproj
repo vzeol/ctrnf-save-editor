@@ -4,6 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <AssemblyName>ctrnf-save</AssemblyName>
     <RootNamespace>CtrNfSave</RootNamespace>
+    <ApplicationIcon>../../assets/branding/app.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup><ProjectReference Include="../CtrNfSave.Core/CtrNfSave.Core.csproj" /></ItemGroup>
 </Project>

@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/vzeol/ctrnf-save-editor/actions/workflows/ci.yml"><img src="https://github.com/vzeol/ctrnf-save-editor/actions/workflows/ci.yml/badge.svg" alt="Build and tests"></a>
-  <a href="https://github.com/vzeol/ctrnf-save-editor/releases"><img src="https://img.shields.io/github/v/release/vzeol/ctrnf-save-editor?include_prereleases&label=download" alt="Latest preview"></a>
+  <a href="https://github.com/vzeol/ctrnf-save-editor/releases/latest"><img src="https://img.shields.io/github/v/release/vzeol/ctrnf-save-editor?label=download" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/platform-Windows%20x64-0d6aa5" alt="Windows x64">
   <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-61e8ff" alt="PolyForm Noncommercial"></a>
 </p>
@@ -22,7 +22,7 @@ A community editor for **decrypted CTR Nitro-Fueled PS4 save files**, with a Win
 3. Run `ctrnf-save-gui.exe`. Release ZIPs include the .NET runtime; no SDK is required.
 4. Choose **Open Adventure save** or **Open global profile**, make your changes and use **Save as** for the first test.
 
-Preview releases contain experimental mappings. A successful file edit is not a guarantee that every item has been verified in-game. See the evidence boundaries below and the [usage guide](docs/usage.md).
+Version 1.0 includes experimental mappings. A successful file edit is not a guarantee that every item has been verified in-game. See the evidence boundaries below and the [usage guide](docs/usage.md). Future fixes and improvements will follow through issues, pull requests and versioned releases.
 
 ## Which file do I open?
 
@@ -71,8 +71,10 @@ The public test suite generates synthetic saves. No personal saves, game executa
 
 ## License and credits
 
+**GUI inspiration and credit:** thanks to **Ryu7w7 and the [OCTR Nitro-Fueled PC contributors](https://github.com/Ryu7w7/OCTR-NitroFueled-PC)**. Their launcher provided the visual reference for this editor's blue palette, header and navigation. This is an independently implemented WinForms interface.
+
 First-party code and documentation use [PolyForm Noncommercial 1.0.0](LICENSE.md): read, modify and share under its terms for noncommercial purposes. Commercial exploitation is not granted. This is a **source-available, noncommercial** project, not OSI open source.
 
-The bundled Lilita One font has its separate SIL Open Font License. See [third-party notices](THIRD_PARTY_NOTICES.md). The interface takes visual inspiration from the [OCTR Nitro-Fueled PC launcher](https://github.com/Ryu7w7/OCTR-NitroFueled-PC), with an independently implemented WinForms interface.
+The bundled Lilita One font has its separate SIL Open Font License. See [third-party notices](THIRD_PARTY_NOTICES.md). The original app mascot was created with AI assistance; its [source and generation prompt](assets/branding/README.md) are included.
 
 Unofficial community project; not affiliated with or endorsed by the game's publishers or developers. Game names and trademarks belong to their respective owners. No game assets or console saves are included.

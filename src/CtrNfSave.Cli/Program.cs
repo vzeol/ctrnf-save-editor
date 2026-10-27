@@ -7,7 +7,7 @@ namespace CtrNfSave;
 internal static class Program
 {
     private const string Help = """
-ctrnf-save 0.1.0-preview.1 — decrypted CTR Nitro-Fueled PS4 save inspector/editor
+ctrnf-save 1.0.0 — decrypted CTR Nitro-Fueled PS4 save inspector/editor
 
   ctrnf-save dump <file> [--json]
   ctrnf-save set <file> <key> <value> -o <new-file>
@@ -49,7 +49,7 @@ Progress summaries alone do not complete events or unlock items.
             if (args.Length == 0 || args[0] is "--help" or "-h" or "help") { Console.WriteLine(Help); return 0; }
             switch (args[0])
             {
-                case "--version": Console.WriteLine("ctrnf-save 0.1.0-preview.1"); return 0;
+                case "--version": Console.WriteLine("ctrnf-save 1.0.0"); return 0;
                 case "dump":
                     Require(args.Length is 2 or 3 && (args.Length != 3 || args[2] == "--json"), "dump <file> [--json]");
                     var save = Save.Load(args[1]);
