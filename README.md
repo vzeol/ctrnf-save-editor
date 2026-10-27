@@ -22,7 +22,7 @@ A community editor for **decrypted CTR Nitro-Fueled PS4 save files**, with a Win
 3. Run `ctrnf-save-gui.exe`. Release ZIPs include the .NET runtime; no SDK is required.
 4. Choose **Open Adventure save** or **Open global profile**, make your changes and use **Save as** for the first test.
 
-Version 1.0 includes experimental mappings. A successful file edit is not a guarantee that every item has been verified in-game. See the evidence boundaries below and the [usage guide](docs/usage.md). Future fixes and improvements will follow through issues, pull requests and versioned releases.
+The editor includes experimental mappings. A successful file edit is not a guarantee that every item has been verified in-game. See the evidence boundaries below and the [usage guide](docs/usage.md). Future fixes and improvements will follow through issues, pull requests and versioned releases.
 
 ## About and updates
 

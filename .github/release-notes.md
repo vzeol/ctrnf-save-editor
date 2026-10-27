@@ -1,10 +1,13 @@
-## Version 1.0.1
+## Version 1.1.0
 
-**Gem cup fix.** In 1.0.0, checking a gem only changed the slot's gem counter. The game then offered the Oxide rematch and showed 100 %, but the gems stayed on their pedestals in Gem Stone Valley, as if the cups were not won.
+**Garage.** The game keeps only one kart loadout. Open your **global profile** (savedata0) and select **Garage** to:
+- see your current loadout with the game's own names (driver, skin, chassis, wheels, paint, sticker), in English or French;
+- change it part by part, or pick one of the **ten special karts** (eight Retro colours, Firehawk, Xfinity Flash Kart);
+- save it as a named **preset**, re-apply it in one click, and share presets as JSON files.
 
-Each gem now also writes its gem cup flag on its two tracks (red, blue, purple, green and yellow, all confirmed in game). Removing a gem clears it, and the checker reports a gem without its flag.
+Click **Save** afterwards: a backup is made as usual. Every mapping comes from controlled in-game captures, and editor-applied loadouts were confirmed in game. Driver ownership is checked where known; other parts show a warning instead.
 
-**Already edited a save with 1.0.0?** Open the Adventure slot, click **Normalize**, then save.
+**About and automatic updates.** A new About dialog shows the version, credits and links. From this version on, the editor can check GitHub for new releases at startup (api.github.com only; can be turned off in About), then download, verify (SHA-256), install and restart. The previous version is kept so you can roll back. This release must still be downloaded manually once.
 
 Extract the Windows x64 ZIP and run `ctrnf-save-gui.exe`; the .NET runtime is included. `ctrnf-save.exe` provides the CLI. A SHA-256 checksum accompanies the archive.
 
