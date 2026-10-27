@@ -168,6 +168,16 @@ internal sealed partial class EditorForm : Form
         relabel.Add(() => { welcomeTitle.Text = L.T("welcomeTitle"); welcomeBody.Text = L.T("welcomeBody"); banner.Subtitle = L.T("editorSubtitle"); banner.Invalidate(); });
         globalView.Edit += (key, value) => ApplyEdit(key, value);
         globalView.BulkEdit += ApplyBulkUnlocks;
+        globalView.ApplyPreset += preset =>
+        {
+            if (save is null || bulkWorking || !globalView.CommitEdits()) return;
+            try
+            {
+                save = KartLoadout.Apply(save, preset); dirty = true; UpdateTotals();
+                SetStatus("garageApplied"); BeginInvoke((Action)Populate);
+            }
+            catch (SaveFormatException error) { ShowError(error); }
+        };
         var layout = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 1, RowCount = 5 };
         layout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
         layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 170));

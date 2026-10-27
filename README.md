@@ -30,6 +30,16 @@ Open **About** from the toolbar or welcome screen for the version, credits and p
 
 Extracted, writable release packages can download and verify the ZIP and SHA-256 sidecar from GitHub, then install and restart after you save or discard edits. Downloads can be cancelled. Development builds offer the release page. The previous installation is copied to `%LOCALAPPDATA%\ctrnf-save-editor\previous\<old-version>\`. To roll back, close the editor and copy that folder's contents over the installation folder. Save files are never updated. If copying fails, the previous version is restored and restarted automatically. Installation failures are logged under `%LOCALAPPDATA%\ctrnf-save-editor\updates\<version>\<run>\update.log`; keep the rollback copy if recovery is needed.
 
+## Garage
+
+Open a global profile and select **Garage** to save the current kart as a named
+preset, apply one, rename/delete presets, or import/export JSON. Presets are stored
+in `%LOCALAPPDATA%\ctrnf-save-editor\garage\`. Apply marks the profile as edited;
+click **Save** to write it with the usual backup. Special kart settings travel
+together. Known locked drivers show a warning; chassis and other parts ownership
+is not checked. See [usage](docs/usage.md#garage) and the
+[format and evidence limits](docs/format/kart-loadout.md).
+
 ## Which file do I open?
 
 Paths below are **relative to your own game installation**, using the layout supported by the OCTR PC project:

@@ -7,7 +7,7 @@ namespace CtrNfSave;
 
 internal static class SelfTest
 {
-    public static int Run(string samplesDir)
+    public static int Run(string samplesDir, string? artifacts = null)
     {
         if (!Directory.Exists(samplesDir)) throw new SaveFormatException("Samples directory not found: " + samplesDir);
         string[] files = Directory.GetFiles(samplesDir, "*.sav", SearchOption.AllDirectories)
@@ -15,10 +15,15 @@ internal static class SelfTest
             .Concat(Directory.GetFiles("target/mine", "global*.sav"))
             .Concat(new[] { "target/fresh/step0_new.sav", "target/fresh/step1_crashcove.sav", "target/fresh/step2_before_roo.sav", "target/fresh/step3_after_roo.sav" }).Distinct().Order(StringComparer.Ordinal).ToArray();
         if (files.Length == 0) throw new SaveFormatException("No .sav samples found; refusing a vacuous selftest.");
-        string outputDir = Path.GetFullPath(Path.Combine("artifacts", "selftest", Guid.NewGuid().ToString("N")));
+        string outputDir = Path.GetFullPath(Path.Combine(artifacts ?? "artifacts", "selftest", Guid.NewGuid().ToString("N")));
         FileWriter.ProtectSamples(outputDir, samplesDir);
         Directory.CreateDirectory(outputDir);
         int passed = 0, failed = 0;
+        if (Directory.Exists("target/garage"))
+        {
+            try { TestGarage(outputDir); Console.WriteLine("PASS Garage: captured loadout apply, name growth and byte preservation"); passed++; }
+            catch (Exception e) { Console.WriteLine("FAIL Garage: " + e.Message); failed++; }
+        }
         var identities = files.ToDictionary(p => p, p => SHA256.HashData(File.ReadAllBytes(p)));
         foreach (string file in files)
         {
@@ -136,6 +141,28 @@ internal static class SelfTest
         catch (Exception e) { Console.WriteLine("FAIL validation: " + e.Message); failed++; }
         Console.WriteLine($"{passed} PASS, {failed} FAIL; {files.Length} samples. Outputs: {outputDir}");
         return failed == 0 ? 0 : 1;
+    }
+    private static void TestGarage(string outputDir)
+    {
+        string source = "target/garage/g09_firehawk.sav", donor = "target/garage/g04_wheels.sav";
+        byte[] original = File.ReadAllBytes(source), donorBytes = File.ReadAllBytes(donor);
+        var before = Save.Parse(original); var preset = KartLoadout.Read(Save.Parse(donorBytes), "Regression loadout").Preset;
+        var edited = KartLoadout.Apply(before, KartPreset.FromJson(preset.ToJson()));
+        Check(KartLoadout.Read(edited, preset.Name).Preset == preset, "Garage differs from donor loadout");
+        Check(before.Graph.Names.All(p => edited.Graph.Names.GetValueOrDefault(p.Key) == p.Value), "Garage lost existing graph names");
+        byte[] a = before.Serialize(), b = edited.Serialize();
+        var names = before.Graph.Sections.Single(s => s.Name == "graph_names");
+        var newNames = edited.Graph.Sections.Single(s => s.Name == "graph_names");
+        var memory = before.Graph.Sections.Single(s => s.Name == "graph_memory"); int end = memory.Offset + memory.Size;
+        Check(a.Length == b.Length && a.AsSpan(0, names.Offset).SequenceEqual(b.AsSpan(0, names.Offset)), "Garage changed prefix or physical length");
+        a.AsSpan(KartLoadout.Read(before).Record.WordOffset(0), 40).Clear();
+        b.AsSpan(KartLoadout.Read(edited).Record.WordOffset(0), 40).Clear();
+        Check(a.AsSpan(names.Offset + names.Size, end - names.Offset - names.Size).SequenceEqual(
+            b.AsSpan(newNames.Offset + newNames.Size, end - names.Offset - names.Size)), "Garage changed unrelated graph bytes");
+        Check(b.AsSpan(end + newNames.Size - names.Size).IndexOfAnyExcept((byte)0) < 0, "Garage changed padding");
+        string output = Path.Combine(outputDir, "garage-applied.sav"); FileWriter.NewWithBackup(output, original, edited.Serialize());
+        Check(KartLoadout.Read(Save.Load(output), preset.Name).Preset == preset, "Garage output failed to parse");
+        Check(File.ReadAllBytes(source).AsSpan().SequenceEqual(original) && File.ReadAllBytes(donor).AsSpan().SequenceEqual(donorBytes), "Garage input changed");
     }
     private static void TestGlobal(Save save)
     {

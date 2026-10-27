@@ -25,6 +25,11 @@ dotnet run --project tests/CtrNfSave.Tests -c Release
 dotnet run --project tests/CtrNfSave.Regression -c Release -- <private-fixture-root>
 ```
 
+The optional `target/garage/` captures add a Firehawk-to-wheels-preset preservation
+check when present. To keep all generated outputs in a different writable
+`artifacts/` directory, append `--artifacts <absolute-artifacts-directory>` to the
+regression command; private inputs are still read directly from the fixture root.
+
 Never point a test at the live game's save directory. Public CI uses only generated inputs. A passing test proves the supported edit and preservation assertions, not every in-game unlock condition.
 
 ## Release process

@@ -23,6 +23,17 @@ Les chemins suivants partent du **dossier de votre propre installation** :
 
 Le dossier utilisateur et l'identifiant du jeu peuvent varier. L'éditeur ne déchiffre pas les sauvegardes console. L'inventaire du serveur et celui de la sauvegarde locale sont distincts ; une modification locale ne modifie pas votre compte serveur.
 
+## Garage
+
+Dans un profil global, ouvre **Garage** pour mémoriser la configuration actuelle
+sous un nom, l’appliquer, la renommer, la supprimer ou importer/exporter un JSON.
+Les fichiers sont conservés dans `%LOCALAPPDATA%\ctrnf-save-editor\garage\`.
+Appliquer modifie le profil en mémoire ; **Enregistrer** écrit ensuite le fichier
+avec le backup habituel. Les réglages des karts spéciaux sont conservés ensemble.
+Un pilote verrouillé connu affiche un avertissement ; la possession du châssis et
+des autres pièces n’est pas vérifiée. Voir le [guide](../usage.md#garage) et les
+[limites du format](../format/kart-loadout.md) en anglais.
+
 ## Fonctionnalités et limites
 
 - **Aventure** : récompenses par circuit, gemmes, clés, cohérence et cascades, deux victoires d'Oxide distinctes et difficulté. Les principales règles ont été testées en jeu ; certaines dépendances des boss restent déduites.

@@ -38,6 +38,7 @@ internal static partial class Program
     {
         CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
         UpdateTests();
+        GarageTests();
         Test("synthetic global round-trip", () =>
         {
             byte[] raw = SyntheticSaveFactory.Global(); var save = Decode(raw); GlobalProfile.Require(save);

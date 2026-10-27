@@ -1,5 +1,8 @@
 # Save format overview
 
+The Global-profile [Garage loadout format](kart-loadout.md) documents the active
+ten-word kart configuration, its captured mappings and safe graph-name growth.
+
 Supported inputs are decrypted PS4 CTR Nitro-Fueled binary saves. Adventure slots are 153,600 bytes and global profiles 7,340,032 bytes in the examined layouts. Size alone is not sufficient: graph structure and recognized class layouts are validated before editing.
 
 The container holds a summary header followed by an object graph: directory entries, allocation order, objects, typed memory, strings, metadata and class records. References are graph indices rather than runtime pointers. Serialization preserves uninterpreted bytes and rebuilds supported resized lists while keeping the fixed physical container size.

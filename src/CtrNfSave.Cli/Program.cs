@@ -15,6 +15,9 @@ ctrnf-save 1.0.0 — decrypted CTR Nitro-Fueled PS4 save inspector/editor
   ctrnf-save diff <a> <b> [--json]
   ctrnf-save check <file>
   ctrnf-save normalize <file> -o <out>
+  ctrnf-save garage show <global.sav>
+  ctrnf-save garage export <global.sav> <preset.json> [--name N]
+  ctrnf-save garage apply <global.sav> <preset.json> -o <out.sav>
 
 Use header keys from dump, optionally prefixed with 'header.'.
 Track trophy/token booleans, relic tiers (none/sapphire/gold/platinum),
@@ -67,6 +70,7 @@ Progress summaries alone do not complete events or unlock items.
                     foreach (var issue in AdventureRules.Validate(fixedSave)) Console.WriteLine($"{issue.Severity}: {issue.Message}");
                     Console.WriteLine("Wrote " + Path.GetFullPath(args[3])); return 0;
                 case "set": return SetCommand(args);
+                case "garage": return GarageCommand(args);
                 case "diff":
                     Require(args.Length is 3 or 4 && (args.Length != 4 || args[3] == "--json"), "diff <a> <b> [--json]");
                     var differences = Save.Diff(Save.Load(args[1]), Save.Load(args[2]));
@@ -90,6 +94,32 @@ Progress summaries alone do not complete events or unlock items.
     }
     private static void Require(bool condition, string usage)
     { if (!condition) throw new SaveFormatException("Usage: ctrnf-save " + usage); }
+    private static int GarageCommand(string[] args)
+    {
+        const string usage = "garage (show <global.sav> | export <global.sav> <preset.json> [--name N] | apply <global.sav> <preset.json> -o <out.sav>)";
+        Require(args.Length >= 3, usage);
+        if (args[1] == "show")
+        {
+            Require(args.Length == 3, usage);
+            var current = KartLoadout.Read(Save.Load(args[2])).Preset;
+            Console.WriteLine(KartLoadout.DriverName(current.Driver)); Console.WriteLine(current.ToJson()); return 0;
+        }
+        if (args[1] == "export")
+        {
+            Require(args.Length == 4 || args.Length == 6 && args[4] == "--name", usage);
+            var preset = KartLoadout.Read(Save.Load(args[2]), args.Length == 6 ? args[5] : "Current loadout").Preset;
+            FileWriter.New(args[3], Encoding.UTF8.GetBytes(preset.ToJson()));
+            Console.WriteLine("Wrote " + Path.GetFullPath(args[3])); return 0;
+        }
+        Require(args[1] == "apply" && args.Length == 6 && args[4] is "-o" or "--output", usage);
+        var original = Save.Load(args[2]); var imported = KartPreset.FromJson(File.ReadAllText(args[3]));
+        var edited = KartLoadout.Apply(original, imported); var ownership = KartLoadout.Ownership(original, imported);
+        if (ownership.Driver is false) Console.Error.WriteLine("Warning: the preset driver is locked in this profile.");
+        else if (ownership.Driver is null) Console.Error.WriteLine("Driver ownership is not checked for this loadout index.");
+        Console.Error.WriteLine("Chassis ownership is not checked; skin and other parts ownership is not checked. Server inventory is separate.");
+        FileWriter.NewWithBackup(args[5], original.Serialize(), edited.Serialize());
+        Console.WriteLine("Wrote " + Path.GetFullPath(args[5]) + "; timestamped source backup created beside output."); return 0;
+    }
     private static int SetCommand(string[] args)
     {
         Require(args.Length >= 5, "set <file> <key> <value> (-o <new-file> | --in-place)");

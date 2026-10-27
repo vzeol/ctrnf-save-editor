@@ -18,6 +18,36 @@ Only existing records and ghost entries are editable. Index `0` means N. Tropy i
 
 Times accept seconds, `m:ss.cc` or `m:ss:cc`. A modified displayed time leaves the recorded trajectory unchanged. Do not treat an edited record as proof of a driven time.
 
+## Garage
+
+In the global profile, select **Garage**, then **Save current as preset** and enter
+a name. Select a preset to **Apply**, **Rename**, **Delete**, or **Export JSON**.
+**Import JSON** validates a preset before adding it to the local list. Duplicate
+display names are allowed; internal filenames are generated independently of
+names. Invalid/unreadable preset files are skipped with a visible count. Presets
+live in `%LOCALAPPDATA%\ctrnf-save-editor\garage\` and contain loadout fields only.
+
+Applying changes the open save in memory. Use **Save** or **Save as** to write it
+with the normal backup and external-change protections. Saving/renaming/importing
+a preset changes only the Garage library, not the open save. Special chassis copy
+their entire captured settings together, including the two unknown words.
+
+Known locked drivers show a warning without blocking Apply. Driver labels and
+ownership checks currently cover only the capture-confirmed indices for Komodo
+Joe and Crunch. Other drivers use raw names with ownership unchecked. Chassis,
+skin and other parts ownership is not checked; Garage does not unlock anything.
+Unknown/ambiguous save layouts and unsafe name-table growth are refused. Imported
+JSON is structurally validated, not a guarantee of a usable in-game combination.
+
+```powershell
+./ctrnf-save.exe garage show ./global-copy.sav
+./ctrnf-save.exe garage export ./global-copy.sav ./wizard.json --name "Wizard kart"
+./ctrnf-save.exe garage apply ./global-copy.sav ./wizard.json -o ./garage-edited.sav
+```
+
+CLI exports refuse existing outputs. Apply creates a timestamped original-source
+backup beside the output. Details: [kart loadout format](format/kart-loadout.md).
+
 ## Command line
 
 ```powershell

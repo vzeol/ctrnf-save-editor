@@ -6,6 +6,7 @@ internal sealed class GlobalProfileView : UserControl
 {
     public event Action<string, string>? Edit;
     public event Action<string[], bool>? BulkEdit;
+    public event Action<KartPreset>? ApplyPreset;
     private int selectedTab;
     private int selectedSkinDriver;
     private string characterQuery = "", itemQuery = "";
@@ -206,6 +207,9 @@ internal sealed class GlobalProfileView : UserControl
         timeView.Edit += (key, value) => Edit?.Invoke(key, value);
         timeView.TrackChanged += track => selectedTimeTrack = track;
         tt.Controls.Add(timeView);
+        var garage = new GarageView(save);
+        garage.ApplyPreset += preset => ApplyPreset?.Invoke(preset);
+        Page("garage").Controls.Add(garage);
         tabs.SelectedIndex = Math.Clamp(tabIndex, 0, tabs.Pages.Count - 1);
         if (list.Items.Count > 0 && IsHandleCreated)
             BeginInvoke((Action)(() => { if (!list.IsDisposed) list.TopIndex = Math.Min(topIndex, list.Items.Count - 1); }));

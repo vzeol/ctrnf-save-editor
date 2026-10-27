@@ -11,6 +11,7 @@ internal sealed class SyntheticSaveFactory
     private readonly List<string> strings = [""];
     private readonly List<string> classes = ["igObjectDirEntry", "igMemoryDirEntry"];
     private readonly List<Allocation> allocations = [];
+    private readonly List<(uint Hash, string Name)> graphNames = [];
     private sealed record Allocation(bool Memory, int Type, uint[] Words, byte[] Data, int Count = 0, int Meta = 0, int Stride = 0);
 
     private uint Text(string value)
@@ -57,6 +58,12 @@ internal sealed class SyntheticSaveFactory
         root[3] = root[4] = root[5] = root[6] = root[7] = 0;
         root[10] = 838;
         uint global = b.Obj("COctaneGlobalSaveData", root);
+        b.graphNames.AddRange([(0x6236AC84, "SystemData"), (0xA2F77BC3, "SystemData_availableDrivers_5"), (0xA30D1341, "SystemData_availableKarts_7")]);
+        uint[] emptyKart = [0, 0, uint.MaxValue, 0, 0, uint.MaxValue, 0, uint.MaxValue, uint.MaxValue, uint.MaxValue];
+        uint activeKart = b.Obj("COctaneCustomizationSaveData", 0xA2F77BC3, 0x6236AC84, 5, 0xA30D1341, 0x6236AC84, 15, 6, uint.MaxValue, 57, uint.MaxValue);
+        root[0] = b.Obj("COctaneCustomizationSaveDataList", 4, 4, b.Words(0,
+            b.Obj("COctaneCustomizationSaveData", emptyKart), activeKart,
+            b.Obj("COctaneCustomizationSaveData", emptyKart), b.Obj("COctaneCustomizationSaveData", emptyKart)));
         uint[] mask = new uint[16];
         mask[0] = 1u << 5; // Deliberately unknown/reserved challenge, preserved by bulk edits.
         mask[15] = 1u << 31;
@@ -197,7 +204,9 @@ internal sealed class SyntheticSaveFactory
             foreach (string name in headerFields.Keys) { w.Write(0); w.Write(nameOffset); w.Write(valueOffset); nameOffset += Encoding.UTF8.GetByteCount(name) + 1; valueOffset += 4; }
             w.Write(headerNames.Length); w.Write(headerNames); w.Write(headerValues.Length); w.Write(headerValues);
             w.Write(stringSection); w.Write(meta); w.Write(classSection);
-            w.Write(12); w.Write(0); w.Write(0); // Empty name-hash section.
+            w.Write(12 + graphNames.Sum(n => 4 + Encoding.UTF8.GetByteCount(n.Name) + 1)); w.Write(0); w.Write(graphNames.Count);
+            foreach (var n in graphNames) w.Write(n.Hash);
+            foreach (var n in graphNames) w.Write(Encoding.UTF8.GetBytes(n.Name + "\0"));
             w.Write(4); w.Write(4); // Empty pools and pool-index sections.
             w.Write(directories); w.Write(order); w.Write(objects); w.Write(memory);
         });
