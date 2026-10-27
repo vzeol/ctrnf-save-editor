@@ -36,6 +36,14 @@ Les chemins suivants partent du **dossier de votre propre installation** :
 | Ouvrir une save Aventure | `user\savedata\1\CUSA13795\savedata1…4\SYS-DATA.sav` | Progression d'un emplacement : trophées, jetons, reliques, gemmes, boss et difficulté |
 | Ouvrir le profil global | `user\savedata\1\CUSA13795\savedata0\SYS-DATA.sav` | Personnages, skins, personnalisation, pièces Wumpa, œufs et contre-la-montre communs aux emplacements |
 
+**Avec des mods**, utilise le profil persistant séparé dans
+`mod-state\user\savedata\1\CUSA13795`, avec les mêmes noms d'emplacements :
+`savedata0` pour le profil global et `savedata1…4` pour l'Aventure. Au lancement,
+le launcher crée une copie dans `mod-state\sessions\<session>\user\savedata` ;
+elle est recopiée dans le profil des mods si le jeu se ferme normalement.
+Ferme le jeu avant de modifier le profil persistant. Cette séparation protège
+les saves normales ; les deux profils ne sont pas synchronisés automatiquement.
+
 Le dossier utilisateur et l'identifiant du jeu peuvent varier. L'éditeur ne déchiffre pas les sauvegardes console. L'inventaire du serveur et celui de la sauvegarde locale sont distincts ; une modification locale ne modifie pas votre compte serveur.
 
 ## Garage

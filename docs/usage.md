@@ -12,6 +12,20 @@ Use **Save as** to export a first test, then install it with the game closed. In
 
 Server progression is separate from local-save progression. Use the game's local inventory mode to inspect local edits. This editor cannot grant server purchases or synchronize an online account.
 
+## Saves with mods
+
+The launcher protects normal saves by using a separate persistent mod profile:
+`mod-state\user\savedata\1\CUSA13795`. Use `savedata0\SYS-DATA.sav` for its
+global profile or `savedata1…4\SYS-DATA.sav` for its Adventure slots. The user
+number and title ID may differ in another installation.
+
+Each mod launch creates a session copy under
+`mod-state\sessions\<session>\user\savedata`. On a normal exit, the launcher
+commits that session's saves to the persistent mod profile. Close the game before
+editing the persistent profile so a running session cannot overwrite your edit.
+Normal and mod profiles do not automatically synchronize with each other.
+The editor explains both locations; it does not copy or synchronize saves for you.
+
 ## Time attack
 
 Only existing records and ghost entries are editable. Index `0` means N. Tropy is available; `1` makes Oxide available, `2` Velo, `3` the developer, and `4` means all those challenges beaten for that existing entry. A changed index does not generate a replay or fill missing circuits. Shared reward flags are separate named controls.

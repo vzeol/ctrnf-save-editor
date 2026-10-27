@@ -71,6 +71,14 @@ Paths below are **relative to your own game installation**, using the layout sup
 | Open Adventure save | `user\savedata\1\CUSA13795\savedata1…4\SYS-DATA.sav` | One Adventure slot: trophies, tokens, relics, gems, bosses and difficulty |
 | Open global profile | `user\savedata\1\CUSA13795\savedata0\SYS-DATA.sav` | Shared drivers, skins, customization, Wumpa coins, eggs and time trials |
 
+**With mods enabled**, use the separate persistent profile under
+`mod-state\user\savedata\1\CUSA13795` instead. The same slot filenames apply:
+`savedata0` for global, `savedata1…4` for Adventure. The launcher starts each mod
+run from a session copy under `mod-state\sessions\<session>\user\savedata` and
+copies it back to the persistent mod profile after a normal exit. Close the game
+before editing the persistent profile. Normal saves are protected by this
+separation; the two profiles are not automatically kept in sync with each other.
+
 The title ID or user directory can differ. Locate the matching **decrypted** file in your installation. The editor does not decrypt console saves or manage online accounts. Server-side inventory and local-save inventory are separate: editing a local file does not modify the server.
 
 ## What is available?

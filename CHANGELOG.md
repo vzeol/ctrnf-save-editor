@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.2 — 2026-10-28
+
+- Explain the normal and persistent mod save profiles on the welcome screen, in English and French.
+- Show both relative paths for Adventure slots and the global profile.
+- Document session-copy protection, normal-exit synchronization and closing the game before editing.
+- No save-format or save-writing behavior changes.
+
 ## 1.1.1 — 2026-10-27
 
 Display fixes for high-DPI screens (seen at 150 % Windows scaling), plus screenshots in the README.

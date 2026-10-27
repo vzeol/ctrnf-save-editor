@@ -148,7 +148,9 @@ internal sealed partial class EditorForm : Form
                 button.Text = L.T(global ? "openGlobal" : "openAdventure"); description.Text = L.T(global ? "globalSaveDescription" : "adventureSaveDescription");
                 string? root = SaveLocations.FindProfileRoot(path);
                 string folder = SaveLocations.RelativeProfilePath(root);
-                location.Text = L.T("saveLocation") + "\n" + Path.Combine(folder, global ? @"savedata0\SYS-DATA.sav" : @"savedata1…4\SYS-DATA.sav");
+                string slotFile = global ? @"savedata0\SYS-DATA.sav" : @"savedata1…4\SYS-DATA.sav";
+                location.Text = L.T("saveLocation") + "\n\n" + L.T("normalSaveLocation") + "\n" + Path.Combine(folder, slotFile)
+                    + "\n\n" + L.T("modSaveLocation") + "\n" + Path.Combine("mod-state", folder, slotFile);
             });
             void FitCard()
             {
@@ -165,7 +167,7 @@ internal sealed partial class EditorForm : Form
         var welcomeAbout = new Button { AutoSize = true };
         welcomeAbout.Click += (_, _) => ShowAbout(); welcomeFlow.Controls.Add(welcomeAbout);
         relabel.Add(() => welcomeAbout.Text = L.T("about"));
-        relabel.Add(() => { welcomeTitle.Text = L.T("welcomeTitle"); welcomeBody.Text = L.T("welcomeBody"); banner.Subtitle = L.T("editorSubtitle"); banner.Invalidate(); });
+        relabel.Add(() => { welcomeTitle.Text = L.T("welcomeTitle"); welcomeBody.Text = L.T("welcomeBody") + "\n\n" + L.T("modSaveNotice"); banner.Subtitle = L.T("editorSubtitle"); banner.Invalidate(); });
         globalView.Edit += (key, value) => ApplyEdit(key, value);
         globalView.BulkEdit += ApplyBulkUnlocks;
         globalView.ApplyPreset += preset =>
