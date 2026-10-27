@@ -28,8 +28,8 @@ Le dossier utilisateur et l'identifiant du jeu peuvent varier. L'éditeur ne dé
 Dans **Configuration actuelle**, choisis le pilote, l’apparence, le châssis,
 les roues, la peinture et l’autocollant, puis **Appliquer les modifications**.
 Changer de pilote remet l’apparence à 0 ; **Réinitialiser** annule les choix en
-attente. Kart rétro bleu et Faucon de feu appliquent leur configuration complète
-capturée et désactivent roues/peinture/autocollant jusqu’au choix d’un châssis
+attente. Les dix karts spéciaux (huit karts rétro, Faucon de feu, Kart Xfinity Flash) appliquent
+leur configuration complète et désactivent roues/peinture/autocollant jusqu’au choix d’un châssis
 normal. Les autres karts spéciaux restent indisponibles sans preuve pour chaque
 mot. La CLI propose aussi `garage set` pour modifier les pièces.
 

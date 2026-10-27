@@ -27,11 +27,10 @@ skin to 0 and shows that driver's skin list. Names follow the selected EN/FR
 language; missing translations and existing unknown values use raw fallback.
 Virtual, developer and inactive driver entries are excluded from new choices.
 
-The chassis picker also offers **Blue Retro Kart** and **Firehawk**. Each copies
-its complete captured tuple; wheels, paint and sticker pickers are disabled while
+The chassis picker also offers the ten special karts (eight Retro colours, **Firehawk**
+and the **Xfinity Flash Kart**). Each copies its complete tuple; wheels, paint and sticker pickers are disabled while
 it is selected. Choose a normal chassis to enable them again: words 7 and 9 return
-to -1, and the special kart's wheels, paint and sticker reset to the defaults. Other special presets lack full save-word
-evidence and are unavailable for part editing. No independent word-7/9 controls
+to -1, and the special kart's wheels, paint and sticker reset to the defaults. No independent word-7/9 controls
 are exposed.
 
 In the global profile, select **Garage**, then **Save current as preset** and enter

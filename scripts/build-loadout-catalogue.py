@@ -114,15 +114,22 @@ def main():
             item[category] = next(r['index'] for r in result[category] if r['handle'] == name) if name else default
         item['decalHandle'] = target(0x20)
 
-    # Only controlled captures establish the unknown save words; never infer them from list positions.
-    for index, chassis, wheels, paint, word7, word9, label in [
-            (0, 15, 9, 16, -1, 0, 'Blue Retro Kart'), (8, 32, 0, 99, 0, 8, 'Firehawk')]:
-        item = next(p for p in result['presets'] if p['index'] == index)
-        assert (item['chassis'], item['wheels'], item['paints'], item['stickers']) == (
-            f'SystemData_availableKarts_{chassis}', wheels, paint, 0)
-        item['word7'] = word7
-        item['word9'] = word9
-        item['evidence'] = f'Controlled in-game {label} capture; docs/format/kart-loadout.md'
+    # Controlled captures (Blue Retro 0, Pink Retro 1, Red Retro 2, Firehawk 8) show word 9 = preset position and
+    # word 7 = -1 for a preset without decal. A preset with a decal needs its own capture for word 7.
+    captured = {0: (15, 9, 16, -1, 0, 'Blue Retro Kart'), 1: (15, 9, 41, -1, 1, 'Pink Retro Kart'),
+                2: (15, 9, 42, -1, 2, 'Red Retro Kart'),
+                8: (32, 0, 99, 0, 8, 'Firehawk')}
+    for item in result['presets']:
+        index = item['index']
+        if index in captured:
+            chassis, wheels, paint, word7, word9, label = captured[index]
+            assert (item['chassis'], item['wheels'], item['paints'], item['stickers']) == (
+                f'SystemData_availableKarts_{chassis}', wheels, paint, 0)
+            item['word7'], item['word9'] = word7, word9
+            item['evidence'] = f'Controlled in-game {label} capture; docs/format/kart-loadout.md'
+        elif item['decalHandle'] is None:
+            item['word7'], item['word9'] = -1, index
+            item['evidence'] = 'Rule from captured presets 0, 1, 2 and 8: word 9 = preset position, word 7 = -1 without decal'
 
     # Fail generation on independently supplied controlled observations; never override data to fit.
     def check(category, index, en, fr):

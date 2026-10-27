@@ -71,12 +71,9 @@ public static class LoadoutCatalogue
     }
     internal static string ChassisName(KartPreset preset, bool french)
     {
-        // Only the two controlled complete special tuples justify a preset display name.
-        // Word7/9 retain their unknown signed semantics; this does not enable independent edits.
-        bool captured = (preset.Chassis == "SystemData_availableKarts_15" && preset.Word9 == 0 && preset.Word7 == -1) ||
-            (preset.Chassis == "SystemData_availableKarts_32" && preset.Word9 == 8 && preset.Word7 == 0);
-        var special = captured ? Catalogue.Presets.SingleOrDefault(p => p.Index == preset.Word9 &&
-            p.Chassis == preset.Chassis && p.Wheels == preset.Wheels && p.Paints == preset.Paint && p.Stickers == preset.Sticker) : null;
+        // A special kart name needs its complete tuple, including word 9 = preset position.
+        var special = CompleteSpecials.SingleOrDefault(p => p.Index == preset.Word9 && p.Word7 == preset.Word7 &&
+            p.Chassis == preset.Chassis && p.Wheels == preset.Wheels && p.Paints == preset.Paint && p.Stickers == preset.Sticker);
         return special is null ? ChassisName(preset.Chassis, french) :
             Label(special.NameEn, special.NameFr, french, preset.Chassis);
     }

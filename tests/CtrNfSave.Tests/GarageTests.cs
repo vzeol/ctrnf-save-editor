@@ -26,12 +26,20 @@ internal static partial class Program
             Assert(KartLoadout.Edit(save).Serialize().AsSpan().SequenceEqual(save.Serialize()), "No-op edit changed bytes.");
             Assert(KartLoadout.Read(KartLoadout.Edit(save, driver: before.Driver)).Preset.Skin == 5, "Unchanged driver reset skin.");
         });
+        Test("Garage offers all ten special karts by the preset-position rule", () =>
+        {
+            Assert(LoadoutCatalogue.Specials().Count == 10, "Special kart list incomplete.");
+            var green = KartLoadout.Read(KartLoadout.Edit(Global(), special: "Green Retro Kart")).Preset;
+            Assert(green.Chassis == "SystemData_availableKarts_15" && green.Wheels == 9 && green.Paint == 47 &&
+                green.Word7 == -1 && green.Sticker == 0 && green.Word9 == 6, "Green Retro Kart tuple wrong.");
+        });
         Test("Garage captured specials are atomic and normal chassis clears special words", () =>
         {
             var save = Global(); var before = KartLoadout.Read(save).Preset;
             foreach (var (name, chassis, wheels, paint, word7, word9) in new[]
             {
-                ("Blue Retro Kart", 15, 9, 16, -1, 0), ("Firehawk", 32, 0, 99, 0, 8)
+                ("Blue Retro Kart", 15, 9, 16, -1, 0), ("Pink Retro Kart", 15, 9, 41, -1, 1),
+                ("Red Retro Kart", 15, 9, 42, -1, 2), ("Firehawk", 32, 0, 99, 0, 8)
             })
             {
                 var special = KartLoadout.Edit(save, special: name);
@@ -48,7 +56,7 @@ internal static partial class Program
                 Reject(() => KartLoadout.Edit(special, sticker: 57));
                 Assert(KartLoadout.Read(KartLoadout.Edit(special, skin: 0)).Preset == expected with { Skin = 0 }, "Skin edit disturbed special tuple.");
             }
-            Assert(LoadoutCatalogue.Specials().Count == 2, "Incomplete authored specials were offered.");
+            Assert(LoadoutCatalogue.Specials().Count == 10, "Special kart list incomplete.");
         });
         Test("Garage rejects values outside pickable catalogue before mutation", () =>
         {
@@ -64,7 +72,7 @@ internal static partial class Program
                 Reject(() => KartLoadout.Edit(save, driver: "SystemData_availableDrivers_" + index));
             foreach (int index in new[] { 15, 18, 32, 44, 9999 })
                 Reject(() => KartLoadout.Edit(save, chassis: "SystemData_availableKarts_" + index));
-            foreach (string name in new[] { "Pink Retro Kart", "Xfinity Flash Kart", "unknown" })
+            foreach (string name in new[] { "Gold Retro Kart", "unknown" })
                 Reject(() => KartLoadout.Edit(save, special: name));
             Reject(() => KartLoadout.Edit(save, special: "Firehawk", chassis: "SystemData_availableKarts_7"));
             Reject(() => KartLoadout.Edit(save, special: "Firehawk", wheels: 0));

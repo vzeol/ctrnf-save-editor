@@ -162,9 +162,9 @@ supported by Core and GUI; the CLI's numeric driver/chassis options use handle
 suffixes. Wheels, paints, stickers and skins use their actual catalogue indices.
 
 Only special catalogue entries with explicit `word7`, `word9` and `evidence` are
-pickable. Currently these are controlled Blue Retro Kart and Firehawk; the
-generator checks their authored components before attaching captured word values.
-Other preset list positions and decal handles never imply unknown save words.
+pickable: all ten presets, from four captures and the confirmed rule below; the
+generator checks the captured ones against their authored components. A preset with
+a decal other than Firehawk would still need a capture for word 7.
 Special selection copies all six chassis-related fields exactly and refuses
 simultaneous part overrides. While a special chassis is active, part-only edits
 are refused. Choosing a normal chassis sets words 7/9 to -1. Leaving a special
@@ -204,3 +204,13 @@ private regression applies the wheels capture's preset to the Firehawk capture,
 checks the complete tuple and compares all unrelated serialized graph bytes after
 accounting for section relocation. Private saves remain read-only and excluded
 from source.
+
+## Special kart words 7 and 9 (rule confirmed)
+
+Captures of four special karts give word 9 = the preset position in
+`kartCustomizationGlobalData.customizationPresets` and word 7 = -1 when the preset has
+no decal: Blue Retro (0: paint 16, word 9 = 0), Pink Retro (1: paint 41, 1),
+Red Retro (2: paint 42, 2; predicted before the capture), Firehawk (8: decal
+`KartLimited3_0`, word 7 = 0, word 9 = 8). The Garage therefore offers all ten
+presets; the six other Retro colours and the Xfinity Flash Kart use the rule. A future
+preset with a decal still needs its own capture for word 7.

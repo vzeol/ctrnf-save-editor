@@ -6727,7 +6727,10 @@
       "paints": 41,
       "wheels": 9,
       "stickers": 0,
-      "decalHandle": null
+      "decalHandle": null,
+      "word7": -1,
+      "word9": 1,
+      "evidence": "Controlled in-game Pink Retro Kart capture; docs/format/kart-loadout.md"
     },
     {
       "index": 2,
@@ -6738,7 +6741,10 @@
       "paints": 42,
       "wheels": 9,
       "stickers": 0,
-      "decalHandle": null
+      "decalHandle": null,
+      "word7": -1,
+      "word9": 2,
+      "evidence": "Controlled in-game Red Retro Kart capture; docs/format/kart-loadout.md"
     },
     {
       "index": 3,
@@ -6749,7 +6755,10 @@
       "paints": 48,
       "wheels": 9,
       "stickers": 0,
-      "decalHandle": null
+      "decalHandle": null,
+      "word7": -1,
+      "word9": 3,
+      "evidence": "Rule from captured presets 0, 1, 2 and 8: word 9 = preset position, word 7 = -1 without decal"
     },
     {
       "index": 4,
@@ -6760,7 +6769,10 @@
       "paints": 44,
       "wheels": 9,
       "stickers": 0,
-      "decalHandle": null
+      "decalHandle": null,
+      "word7": -1,
+      "word9": 4,
+      "evidence": "Rule from captured presets 0, 1, 2 and 8: word 9 = preset position, word 7 = -1 without decal"
     },
     {
       "index": 5,
@@ -6771,7 +6783,10 @@
       "paints": 43,
       "wheels": 9,
       "stickers": 0,
-      "decalHandle": null
+      "decalHandle": null,
+      "word7": -1,
+      "word9": 5,
+      "evidence": "Rule from captured presets 0, 1, 2 and 8: word 9 = preset position, word 7 = -1 without decal"
     },
     {
       "index": 6,
@@ -6782,7 +6797,10 @@
       "paints": 47,
       "wheels": 9,
       "stickers": 0,
-      "decalHandle": null
+      "decalHandle": null,
+      "word7": -1,
+      "word9": 6,
+      "evidence": "Rule from captured presets 0, 1, 2 and 8: word 9 = preset position, word 7 = -1 without decal"
     },
     {
       "index": 7,
@@ -6793,7 +6811,10 @@
       "paints": 49,
       "wheels": 9,
       "stickers": 0,
-      "decalHandle": null
+      "decalHandle": null,
+      "word7": -1,
+      "word9": 7,
+      "evidence": "Rule from captured presets 0, 1, 2 and 8: word 9 = preset position, word 7 = -1 without decal"
     },
     {
       "index": 8,
@@ -6818,7 +6839,10 @@
       "paints": 0,
       "wheels": 107,
       "stickers": 0,
-      "decalHandle": null
+      "decalHandle": null,
+      "word7": -1,
+      "word9": 9,
+      "evidence": "Rule from captured presets 0, 1, 2 and 8: word 9 = preset position, word 7 = -1 without decal"
     }
   ]
 }
