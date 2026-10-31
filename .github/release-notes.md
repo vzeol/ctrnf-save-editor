@@ -1,12 +1,13 @@
-## Version 1.1.3
+## Version 1.1.4
 
-**Fresh PC-port profiles now open correctly.** Some newly created global saves were rejected with "Unrecognized format signature" even though they were decrypted. The editor now recognizes their version-only header and the envelope without a name-hash table, verifying the decoded global root before enabling edits.
+**Unlock only Pit Stop items** is a new global-profile action, in English and French. It adds only the **787 catalogue entries explicitly marked as Pit Stop purchases**, with a purchase-by-purchase preview. Confirm to apply in memory, then Save separately.
 
-- **Unlocks on fresh saves:** an empty local Pit Stop inventory without allocated storage is now recognized. Adding purchases or using Unlock all allocates its first block while preserving existing object and memory IDs.
-- **Garage:** accept the game's `systemData` namespace spelling while validating its case-folded hash. Profiles without resolvable active loadout names remain read-only in Garage.
-- **Preservation:** retain the original save envelope, unrelated data and file-write/backup protections.
+- **Preserve progression rewards:** Adventure, challenge and time-trial reward flags, driver-win counters, other purchases, loadouts, coins, eggs and records remain unchanged. Existing ownership is retained; this action adds Pit Stop purchases only.
+- **Local inventory only:** it does not add server purchases or change the coin balance on a private server.
+- **CLI:** `set <global.sav> global.unlock_pit_stop true -o <edited.sav>`. Use `false` to remove only those purchases while preserving other ownership.
+- Includes the fresh-save and Garage compatibility fixes from 1.1.3.
 
-**Validation:** 44 synthetic tests, a warning-free Release build, and a source-data audit. In an in-game check on a fresh PC-port profile, edited unlocks were usable; after changing the driver/kart and saving normally, all 843 granted local purchases and the tracked unlock flags were still present. This confirms the tested case, not every item individually. Server inventory remains separate.
+**Validation:** 45 synthetic tests cover the exact filter, complete preview, preservation of existing objects and memory, fresh unallocated inventory, repeated operations and invalid inputs. Release build and source-data audit pass. The new filtered action has not yet received a separate in-game check; earlier local unlock compatibility was checked in 1.1.3.
 
 **Already using 1.1.x?** Open **About → Check for updates** to install this version in-app, or use the startup update check.
 

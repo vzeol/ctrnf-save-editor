@@ -27,6 +27,8 @@ Captures de l’interface anglaise ; le français s’active en un clic dans **L
 
 ## Démarrer
 
+Dans le profil global, **Débloquer uniquement les objets Pit Stop** ajoute seulement les 787 entrées du catalogue identifiées comme achats Pit Stop. Vérifiez l’aperçu avant d’appliquer, puis cliquez sur **Enregistrer**. Les flags de récompenses d’Aventure, de défis et de contre-la-montre, les compteurs de victoires et les autres achats restent inchangés. Cette action modifie l’inventaire local, sans achat ni crédit de pièces sur le serveur.
+
 1. Téléchargez le ZIP Windows x64 dans les [Releases](https://github.com/vzeol/ctrnf-save-editor/releases) et extrayez-le entièrement. Le runtime .NET est inclus.
 2. Fermez le jeu et conservez une copie indépendante de vos sauvegardes.
 3. Lancez `ctrnf-save-gui.exe`. Choisissez le type de sauvegarde, puis utilisez **Enregistrer sous** pour votre premier essai.

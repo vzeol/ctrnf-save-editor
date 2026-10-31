@@ -12,6 +12,8 @@ Use **Save as** to export a first test, then install it with the game closed. In
 
 Server progression is separate from local-save progression. Use the game's local inventory mode to inspect local edits. This editor cannot grant server purchases or synchronize an online account.
 
+For purchases without progression rewards, use **Unlock only Pit Stop items** in the global profile. It previews only the 787 catalogue entries explicitly tagged `COctanePitStopUnlockable`. Confirm to apply in memory, then Save separately. Other purchases, reward flags, driver wins, coins, eggs and records are preserved. CLI: `set <global.sav> global.unlock_pit_stop true -o <edited.sav>`; `false` removes only those purchases and preserves other ownership.
+
 ## Saves with mods
 
 The launcher protects normal saves by using a separate persistent mod profile:

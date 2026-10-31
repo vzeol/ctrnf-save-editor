@@ -6,6 +6,7 @@ internal sealed class GlobalProfileView : UserControl
 {
     public event Action<string, string>? Edit;
     public event Action<string[], bool>? BulkEdit;
+    public event Action<string[]>? UnlockPitStop;
     public event Action<KartPreset>? ApplyPreset;
     private int selectedTab;
     private int selectedSkinDriver;
@@ -33,6 +34,10 @@ internal sealed class GlobalProfileView : UserControl
         lockAll.Click += (_, _) => BulkEdit?.Invoke(UnlockBatch.Keys(save, UnlockScope.All), false);
         allActions.Controls.Add(unlockAll); allActions.Controls.Add(lockAll); flow.Controls.Add(allActions);
         flow.Controls.Add(new Label { Text = L.T("bulkUnlockScope"), AutoSize = true, MaximumSize = new Size(800, 0), Margin = new Padding(4, 4, 4, 20) });
+        var pitStop = new Button { Text = L.T("unlockPitStop"), AutoSize = true };
+        pitStop.Click += (_, _) => UnlockPitStop?.Invoke(UnlockBatch.Keys(save, UnlockScope.PitStop));
+        flow.Controls.Add(pitStop);
+        flow.Controls.Add(new Label { Text = L.T("pitStopScope"), AutoSize = true, MaximumSize = new Size(800, 0), Margin = new Padding(4, 4, 4, 20) });
         flow.Controls.Add(new Label { Text = L.T("coins"), AutoSize = true });
         var coins = new NumericUpDown
         {

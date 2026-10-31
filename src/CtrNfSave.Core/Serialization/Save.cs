@@ -146,6 +146,7 @@ public sealed class Save
     {
         if (Kind == "global") GlobalProfile.Require(this);
         if (key == "global.unlock_all") return UnlockBatch.Set(this, UnlockBatch.Keys(this, UnlockScope.All), GlobalUnlocks.Boolean(input));
+        if (key == "global.unlock_pit_stop") return UnlockBatch.Set(this, UnlockBatch.Keys(this, UnlockScope.PitStop), GlobalUnlocks.Boolean(input));
         if (key.StartsWith("global.reward.", StringComparison.Ordinal)) return TimeTrialRewards.Set(this, key, GlobalUnlocks.Boolean(input));
         if (key.StartsWith("global.customization.", StringComparison.Ordinal)) return CustomizationUnlocks.SetMany(this, [key], GlobalUnlocks.Boolean(input));
         if (key.StartsWith("global.ghost.", StringComparison.Ordinal) || key.StartsWith("global.time_attack.", StringComparison.Ordinal))

@@ -2,7 +2,7 @@ using System.Globalization;
 
 namespace CtrNfSave;
 
-public enum UnlockScope { All, Characters, Skins, Customization }
+public enum UnlockScope { All, Characters, Skins, Customization, PitStop }
 public sealed record UnlockChange(string Key, string NameEn, string NameFr, object Before, object After);
 
 /// <summary>One in-memory transaction over named unlock conditions; base/unknown content is excluded.</summary>
@@ -15,6 +15,10 @@ public static class UnlockBatch
     public static string[] Keys(Save save, UnlockScope scope, string? driver = null)
     {
         GlobalProfile.Require(save); var values = save.Semantic(); var result = new List<string>();
+        if (scope == UnlockScope.PitStop)
+            return GlobalUnlocks.Items.Where(i => i.UnlockType == "COctanePitStopUnlockable" &&
+                values.GetValueOrDefault(GlobalUnlocks.ItemKey(i.Id)) is bool)
+                .Select(i => GlobalUnlocks.ItemKey(i.Id)).ToArray();
         if (scope is UnlockScope.All or UnlockScope.Characters)
             result.AddRange(GlobalUnlocks.Drivers.Where(d => d.Key is not null && values.GetValueOrDefault(d.Key) is bool).Select(d => d.Key!));
         if (scope is UnlockScope.All or UnlockScope.Skins)
@@ -31,11 +35,17 @@ public static class UnlockBatch
         var drivers = GlobalUnlocks.Drivers.Where(d => d.Key is not null).ToDictionary(d => d.Key!);
         var skins = SkinUnlocks.Skins.ToDictionary(s => s.Key);
         var items = CustomizationUnlocks.Items.ToDictionary(i => i.Key);
+        var purchases = GlobalUnlocks.Items.ToDictionary(i => GlobalUnlocks.ItemKey(i.Id));
         var market = new HashSet<int>(); var bits = new HashSet<int>(); var words = new HashSet<int>(); var rewards = new HashSet<string>();
         var wins = new Dictionary<string, int>();
         foreach (string key in keys.Distinct())
         {
-            if (drivers.TryGetValue(key, out var driver))
+            if (purchases.TryGetValue(key, out var purchase))
+            {
+                if (values.GetValueOrDefault(key) is not bool) throw new SaveFormatException("Local purchase unavailable: " + key);
+                market.Add(purchase.Id);
+            }
+            else if (drivers.TryGetValue(key, out var driver))
             {
                 if (values.GetValueOrDefault(key) is not bool) throw new SaveFormatException("Character condition unavailable: " + key);
                 if (driver.ChallengeBit is int bit) bits.Add(bit);
@@ -84,9 +94,14 @@ public static class UnlockBatch
         }
         var result = Save.Parse(bytes); GlobalProfile.Require(result); return result;
     }
-    public static IReadOnlyList<UnlockChange> Changes(Save before, Save after)
+    public static IReadOnlyList<UnlockChange> Changes(Save before, Save after, UnlockScope scope = UnlockScope.All)
     {
         var a = before.Semantic(); var b = after.Semantic();
+        if (scope == UnlockScope.PitStop)
+            return GlobalUnlocks.Items.Where(i => i.UnlockType == "COctanePitStopUnlockable")
+                .Select(i => (Item: i, Key: GlobalUnlocks.ItemKey(i.Id)))
+                .Where(p => a.ContainsKey(p.Key) && b.ContainsKey(p.Key) && !JsonOutput.Equal(a[p.Key], b[p.Key]))
+                .Select(p => new UnlockChange(p.Key, p.Item.NameEn, p.Item.NameFr, a[p.Key]!, b[p.Key]!)).ToArray();
         var names = GlobalUnlocks.Drivers.Where(d => d.Key is not null).Select(d => (Key: d.Key!, En: d.NameEn, Fr: d.NameFr))
             .Concat(SkinUnlocks.Skins.Select(s => (Key: s.Key, En: s.DriverEn + " / " + s.NameEn, Fr: s.DriverFr + " / " + s.NameFr)))
             .Concat(CustomizationUnlocks.Items.Select(i => (Key: i.Key, En: i.NameEn, Fr: i.NameFr)))

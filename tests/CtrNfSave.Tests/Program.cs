@@ -39,6 +39,40 @@ internal static partial class Program
         CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
         UpdateTests();
         GarageTests();
+        Test("Pit Stop action filters purchases and preserves progression", () =>
+        {
+            foreach (var variant in new[] { (Fresh: false, Empty: false), (Fresh: true, Empty: true) })
+            {
+                var save = Decode(SyntheticSaveFactory.Global(variant.Fresh, variant.Empty))
+                    .Set("global.character.penta_penguin", "true");
+                if (!variant.Empty) save = save.Set(GlobalUnlocks.ItemKey(100), "true");
+                byte[] raw = save.Serialize();
+                var pitStopIds = GlobalUnlocks.Items.Where(i => i.UnlockType == "COctanePitStopUnlockable").Select(i => (ushort)i.Id).ToHashSet();
+                var keys = UnlockBatch.Keys(save, UnlockScope.PitStop);
+                Assert(pitStopIds.Count == 787 && keys.ToHashSet().SetEquals(pitStopIds.Select(i => GlobalUnlocks.ItemKey(i))), "Pit Stop scope includes other purchase conditions.");
+                var beforeOwned = GlobalUnlocks.Owned(save);
+                var edited = save.Set("global.unlock_pit_stop", "true");
+                Assert(GlobalUnlocks.Owned(edited).ToHashSet().SetEquals(beforeOwned.Concat(pitStopIds)), "Pit Stop purchase set is incorrect.");
+                foreach (var obj in save.Graph.Objects.Where(o => o.ClassName != "igUnsignedShortList"))
+                    Assert(edited.Graph.Objects.Single(o => o.Id == obj.Id).Words.SequenceEqual(obj.Words), "Pit Stop action changed progression or loadout objects.");
+                var market = save.Graph.Objects.Single(o => o.ClassName == "igUnsignedShortList");
+                foreach (var block in save.Graph.Memories.Values.Where(m => (uint)m.Id != market.Words[2]))
+                {
+                    var moved = edited.Graph.Memories[block.Id];
+                    Assert(raw.AsSpan(block.Offset, block.Count * block.Stride).SequenceEqual(edited.Serialize().AsSpan(moved.Offset, moved.Count * moved.Stride)), "Pit Stop action changed another memory block.");
+                }
+                var changes = UnlockBatch.Changes(save, edited, UnlockScope.PitStop);
+                Assert(changes.Count == pitStopIds.Except(beforeOwned).Count() && changes.All(c => keys.Contains(c.Key) && c.Before is false && c.After is true), "Pit Stop preview is incomplete or includes progression.");
+                Assert(raw.AsSpan().SequenceEqual(save.Serialize()), "Pit Stop preview mutated its source.");
+                Assert(edited.Set("global.unlock_pit_stop", "true").Serialize().AsSpan().SequenceEqual(edited.Serialize()), "Pit Stop unlock is not idempotent.");
+                var locked = edited.Set("global.unlock_pit_stop", "false");
+                Assert(GlobalUnlocks.Owned(locked).ToHashSet().SetEquals(beforeOwned.Where(id => !pitStopIds.Contains(id))), "Pit Stop removal changed other purchases.");
+                Assert(locked.Semantic()["global.character.penta_penguin"] is true && locked.Semantic()["global.character.n_tropy"] is false, "Pit Stop action changed character reward flags.");
+            }
+            Reject(() => Adventure().Set("global.unlock_pit_stop", "true"));
+            Reject(() => Global().Set("global.unlock_pit_stop", "invalid"));
+            Reject(() => UnlockBatch.Set(Global(), ["global.marketplace.item_9999"], true));
+        });
         Test("Garage accepts case-folded namespace without rewriting it", () =>
         {
             var save = Global(); var section = save.Graph.Sections.Single(s => s.Name == "graph_names");

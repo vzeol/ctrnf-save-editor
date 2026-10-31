@@ -169,7 +169,8 @@ internal sealed partial class EditorForm : Form
         relabel.Add(() => welcomeAbout.Text = L.T("about"));
         relabel.Add(() => { welcomeTitle.Text = L.T("welcomeTitle"); welcomeBody.Text = L.T("welcomeBody") + "\n\n" + L.T("modSaveNotice"); banner.Subtitle = L.T("editorSubtitle"); banner.Invalidate(); });
         globalView.Edit += (key, value) => ApplyEdit(key, value);
-        globalView.BulkEdit += ApplyBulkUnlocks;
+        globalView.BulkEdit += (keys, enable) => ApplyBulkUnlocks(keys, enable);
+        globalView.UnlockPitStop += keys => ApplyBulkUnlocks(keys, true, UnlockScope.PitStop);
         globalView.ApplyPreset += preset =>
         {
             if (save is null || bulkWorking || !globalView.CommitEdits()) return;
@@ -384,7 +385,7 @@ internal sealed partial class EditorForm : Form
 
     private static string Colour(string c) => c switch { "red" => L.T("Rouge"), "green" => L.T("Vert"), "blue" => L.T("Bleu"), "yellow" => L.T("Jaune"), "purple" => L.T("Violet"), _ => c };
 
-    private async void ApplyBulkUnlocks(string[] keys, bool enable)
+    private async void ApplyBulkUnlocks(string[] keys, bool enable, UnlockScope scope = UnlockScope.All)
     {
         if (save is null || bulkWorking || !globalView.CommitEdits()) return;
         var source = save; Save changed;
@@ -394,11 +395,12 @@ internal sealed partial class EditorForm : Form
         { ShowError(error); return; }
         finally { bulkWorking = false; UseWaitCursor = false; Enabled = true; }
         if (!ReferenceEquals(save, source)) return;
-        var changes = UnlockBatch.Changes(source, changed);
+        var changes = UnlockBatch.Changes(source, changed, scope);
         if (changes.Count == 0) { SetStatus("noUnlockChanges"); return; }
         string Value(object value) => value is bool state ? L.T(state ? "true" : "false") : Convert.ToString(value, System.Globalization.CultureInfo.CurrentCulture) ?? "";
         string details = string.Join("\r\n", changes.Select(c => (L.Language == "fr" ? c.NameFr : c.NameEn) + " : " + Value(c.Before) + " → " + Value(c.After)));
-        if (!ConfirmChanges(L.T(enable ? "unlockAll" : "lockAll"), L.F("bulkUnlockPreview", changes.Count), details)) return;
+        if (!ConfirmChanges(L.T(scope == UnlockScope.PitStop ? "unlockPitStop" : enable ? "unlockAll" : "lockAll"),
+            L.F(scope == UnlockScope.PitStop ? "pitStopPreview" : "bulkUnlockPreview", changes.Count), details)) return;
         save = changed; dirty = true; Populate(); UpdateTotals(); SetStatus("globalStatus");
     }
 

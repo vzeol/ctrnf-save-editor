@@ -41,6 +41,7 @@ Times accept seconds, m:ss.cc or m:ss:cc. Recorded replays stay unchanged.
 Kart customization: global.customization.HANDLE. Unknown conditions are read-only.
 Shared time-attack rewards: global.reward.all_oxide_times, velo_times, developer_times.
 All named unlocks: set global.unlock_all true (unlock) or false (lock).
+Pit Stop purchases only: set global.unlock_pit_stop true (unlock) or false (lock).
 Base content, unknown flags, coins, eggs, records and Adventure slots are preserved.
 The samples/ and target/ input directories are protected against writes.
 Progress summaries alone do not complete events or unlock items.

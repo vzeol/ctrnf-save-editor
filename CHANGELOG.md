@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.4 — 2026-10-31
+
+- Add "Unlock only Pit Stop items" to the global profile, in English and French, with a purchase-only preview and a separate Save step.
+- Limit this action to the 787 catalogue entries explicitly marked `COctanePitStopUnlockable`; preserve other purchases, challenge/reward flags, driver-win counters, loadouts, coins, eggs and records.
+- Add CLI key `global.unlock_pit_stop` and synthetic coverage for populated and fresh empty profiles, preview completeness, preservation and repeated actions. No new in-game validation of this filtered action yet.
+
 ## 1.1.3 — 2026-10-31
 
 - Open fresh global profiles that have a version-only header and no serialized name-hash table (`0xB000000C`). Identify them through a fully decoded global root instead of requiring an Adventure slot summary.

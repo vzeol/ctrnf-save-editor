@@ -85,6 +85,8 @@ Fresh global profiles with only a `save_version` header and no name-hash table a
 
 ## What is available?
 
+In the global profile, **Unlock only Pit Stop items** grants only the 787 catalogue entries explicitly marked as Pit Stop purchases. Review the purchase list before applying, then **Save** to write the file. Adventure, challenge and time-trial reward flags, driver-win counters and other purchases stay unchanged. This edits local inventory; it does not grant server purchases or coins. The CLI equivalent is `set <global.sav> global.unlock_pit_stop true -o <edited.sav>`.
+
 | Area | Supported | Evidence / current limits |
 |---|---|---|
 | Adventure | Trophies, CTR tokens, relic tiers, gems, keys, dependency checks and cascades | Core progression tested in-game; some boss prerequisites remain inferred |
