@@ -81,6 +81,8 @@ separation; the two profiles are not automatically kept in sync with each other.
 
 The title ID or user directory can differ. Locate the matching **decrypted** file in your installation. The editor does not decrypt console saves or manage online accounts. Server-side inventory and local-save inventory are separate: editing a local file does not modify the server.
 
+Fresh global profiles with only a `save_version` header and no name-hash table are also supported. The editor verifies their decoded global root and preserves their original format. Garage remains unavailable when the active loadout's names cannot be resolved safely. On a tested fresh PC-port profile, edited unlocks were usable and persisted after changing the driver/kart and saving in-game; this is not an exhaustive catalogue validation.
+
 ## What is available?
 
 | Area | Supported | Evidence / current limits |

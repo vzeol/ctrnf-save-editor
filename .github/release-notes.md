@@ -1,12 +1,12 @@
-## Version 1.1.2
+## Version 1.1.3
 
-The welcome screen now explains **normal saves versus saves used with mods**, in English and French, with both relative paths for Adventure slots and the global profile.
+**Fresh PC-port profiles now open correctly.** Some newly created global saves were rejected with "Unrecognized format signature" even though they were decrypted. The editor now recognizes their version-only header and the envelope without a name-hash table, verifying the decoded global root before enabling edits.
 
-- Normal saves: `user\savedata\1\CUSA13795`.
-- Persistent mod profile: `mod-state\user\savedata\1\CUSA13795`.
-- Each mod launch creates a session copy; after a normal exit, it is committed to the persistent mod profile. Close the game before editing that profile. Normal and mod profiles are not automatically synchronized with each other.
+- **Unlocks on fresh saves:** an empty local Pit Stop inventory without allocated storage is now recognized. Adding purchases or using Unlock all allocates its first block while preserving existing object and memory IDs.
+- **Garage:** accept the game's `systemData` namespace spelling while validating its case-folded hash. Profiles without resolvable active loadout names remain read-only in Garage.
+- **Preservation:** retain the original save envelope, unrelated data and file-write/backup protections.
 
-This update only clarifies the interface and documentation. It does not copy your saves or change save-editing behavior. The Garage, About dialog, in-app updater and high-DPI improvements from 1.1.1 are retained.
+**Validation:** 44 synthetic tests, a warning-free Release build, and a source-data audit. In an in-game check on a fresh PC-port profile, edited unlocks were usable; after changing the driver/kart and saving normally, all 843 granted local purchases and the tracked unlock flags were still present. This confirms the tested case, not every item individually. Server inventory remains separate.
 
 **Already using 1.1.x?** Open **About → Check for updates** to install this version in-app, or use the startup update check.
 

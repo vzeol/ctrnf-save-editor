@@ -51,7 +51,7 @@ internal sealed class SyntheticSaveFactory
         return stream.ToArray();
     }
 
-    public static byte[] Global()
+    public static byte[] Global(bool fresh = false, bool emptyMarketplace = false)
     {
         var b = new SyntheticSaveFactory();
         uint[] root = Enumerable.Repeat(Null, 24).ToArray();
@@ -69,8 +69,8 @@ internal sealed class SyntheticSaveFactory
         mask[15] = 1u << 31;
         root[16] = b.Obj("igBitMask", 16, 16, b.Words(3, mask), 512);
 
-        uint marketData = b.Memory(4, 2, 2, Bytes(w => { w.Write((ushort)618); w.Write((ushort)65000); }));
-        uint market = b.Obj("igUnsignedShortList", 2, 2, marketData);
+        uint marketData = emptyMarketplace ? uint.MaxValue : b.Memory(4, 2, 2, Bytes(w => { w.Write((ushort)618); w.Write((ushort)65000); }));
+        uint market = b.Obj("igUnsignedShortList", emptyMarketplace ? 0u : 2u, emptyMarketplace ? 0u : 2u, marketData);
         byte[] patch = new byte[3352];
         patch[3300] = 0x3E;
         patch[3348] = 0xA5; // Unknown byte sentinel outside the mapped reward fields.
@@ -102,7 +102,7 @@ internal sealed class SyntheticSaveFactory
         uint relicList = b.Obj("COctaneTimeTrialList", 1, 1, b.Words(0, relic));
         uint map = b.Obj("COctaneMapTimeTrialData", raceList, relicList, lap);
         root[2] = b.Obj("COctaneMapTimeTrialHashTable", b.Words(0, map), b.Words(6, track), 1, 1, Float(0.5f));
-        return b.Build(7340032, new() { ["most_recent_save_slot"] = 2 });
+        return b.Build(7340032, fresh ? new() { ["save_version"] = 31 } : new() { ["most_recent_save_slot"] = 2 }, !fresh);
     }
 
     public static byte[] Adventure()
@@ -139,7 +139,7 @@ internal sealed class SyntheticSaveFactory
         return b.Build(153600, header);
     }
 
-    private byte[] Build(int fileSize, Dictionary<string, int> headerFields)
+    private byte[] Build(int fileSize, Dictionary<string, int> headerFields, bool includeNames = true)
     {
         byte[] stringSection = Bytes(w =>
         {
@@ -167,7 +167,8 @@ internal sealed class SyntheticSaveFactory
                 w.Write(allocation.Memory ? 1 : 0);
                 if (allocation.Memory)
                 {
-                    w.Write(28); w.Write(0); w.Write(allocation.Count); w.Write(allocation.Meta); w.Write(0); w.Write(allocation.Stride);
+                    w.Write(includeNames ? 28 : 32); w.Write(0); w.Write(allocation.Count); w.Write(allocation.Meta); w.Write(includeNames ? 0 : 1); w.Write(allocation.Stride);
+                    if (!includeNames) w.Write(0x5A5A1234); // Generated opaque pool sentinel, preserved on allocation.
                 }
                 else { w.Write(16); w.Write(0); w.Write(allocation.Type); }
             }
@@ -198,15 +199,18 @@ internal sealed class SyntheticSaveFactory
         byte[] prefix = Bytes(w =>
         {
             foreach (uint value in new uint[] { (uint)directories.Length, (uint)allocations.Count, (uint)classSection.Length, (uint)classes.Count, (uint)objects.Length,
-                (uint)allocations.Count(a => !a.Memory), (uint)memory.Length, (uint)allocations.Count(a => a.Memory), (uint)meta.Length, (uint)MetaNames.Length, 0xFADA, 0xB400000C, 3 }) w.Write(value);
+                (uint)allocations.Count(a => !a.Memory), (uint)memory.Length, (uint)allocations.Count(a => a.Memory), (uint)meta.Length, (uint)MetaNames.Length, 0xFADA, includeNames ? 0xB400000Cu : 0xB000000Cu, 3 }) w.Write(value);
             w.Write(headerFields.Count * 12);
             int nameOffset = 0, valueOffset = 0;
             foreach (string name in headerFields.Keys) { w.Write(0); w.Write(nameOffset); w.Write(valueOffset); nameOffset += Encoding.UTF8.GetByteCount(name) + 1; valueOffset += 4; }
             w.Write(headerNames.Length); w.Write(headerNames); w.Write(headerValues.Length); w.Write(headerValues);
             w.Write(stringSection); w.Write(meta); w.Write(classSection);
-            w.Write(12 + graphNames.Sum(n => 4 + Encoding.UTF8.GetByteCount(n.Name) + 1)); w.Write(0); w.Write(graphNames.Count);
-            foreach (var n in graphNames) w.Write(n.Hash);
-            foreach (var n in graphNames) w.Write(Encoding.UTF8.GetBytes(n.Name + "\0"));
+            if (includeNames)
+            {
+                w.Write(12 + graphNames.Sum(n => 4 + Encoding.UTF8.GetByteCount(n.Name) + 1)); w.Write(0); w.Write(graphNames.Count);
+                foreach (var n in graphNames) w.Write(n.Hash);
+                foreach (var n in graphNames) w.Write(Encoding.UTF8.GetBytes(n.Name + "\0"));
+            }
             w.Write(4); w.Write(4); // Empty pools and pool-index sections.
             w.Write(directories); w.Write(order); w.Write(objects); w.Write(memory);
         });

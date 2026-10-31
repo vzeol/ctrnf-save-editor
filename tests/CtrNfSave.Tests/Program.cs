@@ -39,6 +39,88 @@ internal static partial class Program
         CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
         UpdateTests();
         GarageTests();
+        Test("Garage accepts case-folded namespace without rewriting it", () =>
+        {
+            var save = Global(); var section = save.Graph.Sections.Single(s => s.Name == "graph_names");
+            byte[] raw = save.Serialize();
+            int namespaceAt = section.Offset + 12 + section.Count * 4;
+            Assert(raw[namespaceAt] == (byte)'S', "Synthetic namespace location changed.");
+            raw[namespaceAt] = (byte)'s'; save = Decode(raw);
+            var current = KartLoadout.Read(save);
+            var edited = KartLoadout.Apply(save, current.Preset with { Paint = 2 });
+            Assert(edited.Graph.Names[KartLoadout.SystemDataNamespace] == "systemData", "Namespace spelling rewritten.");
+            OnlyRange(raw, edited.Serialize(), current.Record.WordOffset(6), 4);
+            Assert(KartLoadout.Read(edited).Preset.Paint == 2, "Case-folded namespace Garage edit failed.");
+        });
+        Test("fresh global without slot summary or name table", () =>
+        {
+            byte[] raw = SyntheticSaveFactory.Global(fresh: true);
+            var save = Decode(raw); GlobalProfile.Require(save);
+            Assert(save.Kind == "global" && save.Get("most_recent_save_slot") is null &&
+                save.Graph.Names.Count == 0 && !save.Graph.Sections.Any(s => s.Name == "graph_names"), "Fresh envelope misidentified.");
+            Assert(save.Serialize().AsSpan().SequenceEqual(raw), "Fresh round-trip changed bytes.");
+            var coins = save.Graph.Fields.Single(f => f.Key == "global.wumpa_coins");
+            var edited = save.Set(coins.Key, "1500");
+            OnlyRange(raw, edited.Serialize(), coins.Offset, 4);
+            GlobalProfile.Require(edited);
+            Assert((int)edited.Semantic()[coins.Key]! == 1500, "Fresh coin edit failed.");
+            Reject(() => KartLoadout.Read(save)); // No names: preserve unresolved handles.
+        });
+        Test("fresh global marketplace growth preserves format and unknown purchases", () =>
+        {
+            var save = Decode(SyntheticSaveFactory.Global(fresh: true));
+            var edited = save.Set(GlobalUnlocks.ItemKey(926), "true");
+            GlobalProfile.Require(edited);
+            Assert(edited.Header[11] == 0xB000000C && edited.Get("most_recent_save_slot") is null &&
+                edited.Graph.Names.Count == 0 && GlobalUnlocks.Owned(edited).SequenceEqual(new ushort[] { 618, 65000, 926 }), "Fresh marketplace rebuild lost state.");
+            Assert(edited.Set(GlobalUnlocks.ItemKey(926), "false").Serialize().AsSpan().SequenceEqual(save.Serialize()), "Fresh marketplace undo changed bytes.");
+            var unlocked = save.Set("global.unlock_all", "true");
+            GlobalProfile.Require(unlocked);
+            Assert(GlobalUnlocks.Owned(unlocked).Contains((ushort)65000), "Bulk edit lost unknown purchase.");
+        });
+        Test("fresh global identification requires valid structure", () =>
+        {
+            byte[] raw = SyntheticSaveFactory.Global(fresh: true);
+            // A size and version key alone do not establish the save kind.
+            var parsed = Decode(raw);
+            byte[] invalid = (byte[])raw.Clone();
+            Array.Clear(invalid, parsed.Graph.Sections.Single(s => s.Name == "graph_strings").Offset, 4);
+            Reject(() => Save.Parse(invalid));
+            invalid = (byte[])raw.Clone(); invalid[0x2F] = 0xB1;
+            Reject(() => Save.Parse(invalid));
+            // Reinterpreting pools as a name table (or vice versa) must not enable editing.
+            invalid = (byte[])raw.Clone(); invalid[0x2F] = 0xB4;
+            Reject(() => Save.Parse(invalid));
+            invalid = SyntheticSaveFactory.Global(); invalid[0x2F] = 0xB0;
+            Reject(() => GlobalProfile.Require(Save.Parse(invalid)));
+        });
+        Test("empty marketplace allocates without changing existing IDs or data", () =>
+        {
+            foreach (bool fresh in new[] { false, true })
+            {
+                var save = Decode(SyntheticSaveFactory.Global(fresh, emptyMarketplace: true));
+                Assert(GlobalUnlocks.Owned(save).Count == 0, "Empty marketplace not recognized.");
+                byte[] raw = save.Serialize();
+                Assert(save.Set(GlobalUnlocks.ItemKey(926), "false").Serialize().AsSpan().SequenceEqual(raw), "Empty removal allocated memory.");
+                var edited = save.Set(GlobalUnlocks.ItemKey(926), "true");
+                Assert(GlobalUnlocks.Owned(edited).SequenceEqual(new ushort[] { 926 }) && edited.Header[11] == save.Header[11], "First purchase allocation failed.");
+                foreach (var obj in save.Graph.Objects.Where(o => o.ClassName != "igUnsignedShortList"))
+                    Assert(edited.Graph.Objects.Single(o => o.Id == obj.Id).Words.SequenceEqual(obj.Words), "Existing object/reference changed.");
+                foreach (var block in save.Graph.Memories.Values)
+                {
+                    var moved = edited.Graph.Memories[block.Id];
+                    Assert(raw.AsSpan(block.Offset, block.Count * block.Stride).SequenceEqual(edited.Serialize().AsSpan(moved.Offset, moved.Count * moved.Stride)), "Existing memory changed.");
+                }
+                var removed = edited.Set(GlobalUnlocks.ItemKey(926), "false");
+                Assert(GlobalUnlocks.Owned(removed).Count == 0, "Allocated marketplace cannot be emptied.");
+                Assert(GlobalUnlocks.Owned(removed.Set(GlobalUnlocks.ItemKey(618), "true")).SequenceEqual(new ushort[] { 618 }), "Empty allocated block cannot grow again.");
+                var all = save.Set("global.unlock_all", "true");
+                var unlockedValues = all.Semantic();
+                Assert(GlobalUnlocks.Owned(all).Count > 0 && UnlockBatch.Keys(save, UnlockScope.All).All(key => unlockedValues[key] is true), "Fresh bulk unlock omitted supported conditions.");
+                raw[^1] = 1;
+                Reject(() => Decode(raw).Set(GlobalUnlocks.ItemKey(926), "true"));
+            }
+        });
         Test("synthetic global round-trip", () =>
         {
             byte[] raw = SyntheticSaveFactory.Global(); var save = Decode(raw); GlobalProfile.Require(save);

@@ -4,6 +4,8 @@
 
 Un éditeur communautaire de **sauvegardes PS4 déchiffrées**, avec une interface Windows en français et en anglais et un outil en ligne de commande.
 
+Les profils globaux neufs dont l’en-tête contient seulement `save_version`, sans table de noms hachés, sont également reconnus après vérification de leur structure globale. Leur format d’origine est conservé. Le Garage reste indisponible si les noms de la configuration active ne peuvent pas être résolus de façon sûre. Sur un profil neuf testé avec le port PC, les déblocages modifiés étaient utilisables et sont restés enregistrés après un changement de pilote/kart et une sauvegarde en jeu ; cela ne valide pas individuellement tout le catalogue.
+
 La version **1.0** reprend les fonctionnalités actuelles. Certaines correspondances restent expérimentales et à confirmer en jeu. Les corrections et améliorations suivront via les issues, les pull requests et les prochaines versions.
 
 **Participez au projet !** Un personnage, une traduction ou une condition manque ? [Ouvrez une issue](https://github.com/vzeol/ctrnf-save-editor/issues/new/choose) ou proposez une [pull request](../../CONTRIBUTING.md). Les observations contrôlées avant/après en jeu nous aident à confirmer les correspondances. N'envoyez pas votre sauvegarde personnelle dans une issue publique.

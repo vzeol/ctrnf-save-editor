@@ -83,7 +83,7 @@ public sealed class Save
         if (b.Length != 153600 && b.Length != 7340032)
             throw new SaveFormatException($"Unsupported length {b.Length}; expected a decrypted 153600-byte slot or 7340032-byte global save.");
         uint[] header = Enumerable.Range(0, 13).Select(i => Binary.U32(b, i * 4)).ToArray();
-        if (header[10] != 0xFADA || header[11] != 0xB400000C || header[12] != 3)
+        if (header[10] != 0xFADA || header[11] is not (0xB400000C or 0xB000000C) || header[12] != 3)
             throw new SaveFormatException("Unrecognized format signature at 0x28..0x34 (encrypted or unsupported file?).");
         int tableSize = Binary.Count(Binary.U32(b, 0x34), 12 * 4096, "header table size");
         if (tableSize == 0 || tableSize % 12 != 0) throw new SaveFormatException("Invalid header table size.");
@@ -118,13 +118,19 @@ public sealed class Save
                 throw new SaveFormatException("Overlapping header values are unsupported.");
             fields.Add(new(name, offset, size, tag, value));
         }
+        Graph graph = Graph.Parse(b, valueEnd, header);
+        // Fresh global profiles can have only save_version, before any Adventure slot exists.
+        // Require a fully decoded, unambiguous global root before accepting that envelope.
         string kind = fields.Any(f => f.Name == "percent_complete") ? "slot" :
             fields.Any(f => f.Name == "most_recent_save_slot") ? "global" :
-            throw new SaveFormatException("Cannot identify slot/global from named header keys.");
+            b.Length == 7340032 && fields.Any(f => f.Name == "save_version" && f.Tag == 0) &&
+            graph.Decoded && graph.Warnings.Count == 0 &&
+            graph.Objects.Count(o => o.ClassName == "COctaneGlobalSaveData") == 1 &&
+            !graph.Objects.Any(o => o.ClassName == "COctaneSaveSlotData") ? "global" :
+            throw new SaveFormatException("Cannot identify slot/global from named header keys and decoded root objects.");
         if ((kind == "slot") != (b.Length == 153600)) throw new SaveFormatException("Save kind and physical length disagree.");
         List<Section> sections = [new("header_keys", 0x38, tableSize, count),
             new("header_names", nameBase, nameLen, count), new("header_values", valueBase, valueLen, count)];
-        Graph graph = Graph.Parse(b, valueEnd, header);
         sections.AddRange(graph.Sections);
         return new Save(b, kind, header, fields, sections, graph);
     }

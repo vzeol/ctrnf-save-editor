@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.3 — 2026-10-31
+
+- Open fresh global profiles that have a version-only header and no serialized name-hash table (`0xB000000C`). Identify them through a fully decoded global root instead of requiring an Adventure slot summary.
+- Preserve the original envelope when editing coins or local unlocks. Garage remains unavailable when its active loadout names cannot be resolved safely.
+- Recognize an empty, unallocated local marketplace list and allocate its first purchase block while preserving existing object and memory IDs. Bulk unlocks can now include Pit Stop purchases on these profiles.
+- Accept the game's `systemData` namespace spelling in Garage, validating its case-folded hash and preserving the original spelling.
+- Add synthetic regression coverage for parsing, isolated edits, marketplace resizing, bulk unlocks and malformed variant rejection (44 tests total).
+- In-game check on a fresh PC-port profile: edited unlocks were usable, a driver/kart configuration was changed in-game, and 843 local purchases plus the tracked unlock flags survived the game's subsequent save. This does not validate every catalogue entry individually.
+
 ## 1.1.2 — 2026-10-28
 
 - Explain the normal and persistent mod save profiles on the welcome screen, in English and French.

@@ -97,18 +97,23 @@ public sealed class Graph
         Expect(cp == c0 + h[2], "class table size"); p = cp;
         Sections.Add(new("graph_classes", c0, (int)h[2], (int)h[3]));
 
-        // Name hashes: u32 size, u32 version, u32 count, hashes, then NUL-terminated strings.
-        int n0 = p, nsize = (int)U(b, p), ncount = (int)U(b, p + 8);
-        var hashes = Enumerable.Range(0, ncount).Select(i => U(b, p + 12 + i * 4)).ToArray();
-        p += 12 + ncount * 4;
-        foreach (uint hash in hashes)
+        // 0xB4 carries a name-hash table; 0xB0 proceeds directly to pools.
+        // Do not fabricate names for a fresh profile without serialized handles.
+        if (h[11] == 0xB400000C)
         {
-            int e = Array.IndexOf(b, (byte)0, p);
-            Expect(e >= 0, "unterminated name");
-            Names[hash] = Encoding.UTF8.GetString(b, p, e - p); p = e + 1;
+            // u32 size, u32 version, u32 count, hashes, NUL-terminated strings.
+            int n0 = p, nsize = (int)U(b, p), ncount = (int)U(b, p + 8);
+            var hashes = Enumerable.Range(0, ncount).Select(i => U(b, p + 12 + i * 4)).ToArray();
+            p += 12 + ncount * 4;
+            foreach (uint hash in hashes)
+            {
+                int e = Array.IndexOf(b, (byte)0, p);
+                Expect(e >= 0, "unterminated name");
+                Names[hash] = Encoding.UTF8.GetString(b, p, e - p); p = e + 1;
+            }
+            Expect(p == n0 + nsize, "name table size");
+            Sections.Add(new("graph_names", n0, nsize, ncount));
         }
-        Expect(p == n0 + nsize, "name table size");
-        Sections.Add(new("graph_names", n0, nsize, ncount));
 
         int pool0 = p; p += (int)U(b, p);
         Sections.Add(new("graph_pools", pool0, p - pool0, 0));

@@ -92,7 +92,8 @@ public static class KartLoadout
         var record = filled[0]; var w = record.Words;
         if (w[1] != SystemDataNamespace || w[4] != SystemDataNamespace ||
             !graph.Names.TryGetValue(w[0], out string? driver) || !graph.Names.TryGetValue(w[3], out string? chassis) ||
-            !graph.Names.TryGetValue(SystemDataNamespace, out string? space) || space != "SystemData" ||
+            !graph.Names.TryGetValue(SystemDataNamespace, out string? space) ||
+            !space.Equals("SystemData", StringComparison.OrdinalIgnoreCase) || NameHash(space) != SystemDataNamespace ||
             NameHash(driver) != w[0] || NameHash(chassis) != w[3])
             throw new SaveFormatException("Garage handles cannot be resolved safely through the graph name table.");
         var preset = new KartPreset(name, driver, unchecked((int)w[2]), chassis, unchecked((int)w[5]), unchecked((int)w[6]),
