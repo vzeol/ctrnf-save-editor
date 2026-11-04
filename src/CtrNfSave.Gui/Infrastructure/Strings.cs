@@ -145,7 +145,7 @@ internal static class L
         ["CKartCustomizationSticker"] = ("Sticker", "Autocollant"),
         ["CKartCustomizationColorScheme"] = ("Paint", "Peinture"),
         ["CKartCustomizationItem"] = ("Customization item / wheels", "Accessoire / roues"),
-        ["CKartCustomizationPresetItem"] = ("Customization preset", "Ensemble de personnalisation"),
+        ["CKartCustomizationPresetItem"] = ("Special kart", "Kart spécial"),
         ["anchoredCharacter"] = (" — confirmed", " — confirmé"),
         ["globalProfile"] = ("Global profile", "Profil global"),
         ["coins"] = ("Saved local Wumpa coins (may differ from server balance)", "Pièces Wumpa locales sauvegardées (peuvent différer du solde serveur)"),

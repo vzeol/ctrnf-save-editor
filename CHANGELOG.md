@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Find the Xfinity Flash Kart more easily in the global profile's Kart customization list: special karts now appear under the Kart category, their category reads "Special kart", and the chassis previously shown as "KartLimited4" is named "Xfinity Flash Kart (chassis)". Display only; no save-format change.
+
 ## 1.1.4 — 2026-10-31
 
 - Add "Unlock only Pit Stop items" to the global profile, in English and French, with a purchase-only preview and a separate Save step.
