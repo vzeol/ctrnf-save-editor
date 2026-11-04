@@ -1,13 +1,12 @@
-## Version 1.1.4
+## Version 1.1.5
 
-**Unlock only Pit Stop items** is a new global-profile action, in English and French. It adds only the **787 catalogue entries explicitly marked as Pit Stop purchases**, with a purchase-by-purchase preview. Confirm to apply in memory, then Save separately.
+**Special karts are easier to find** in the global profile's **Kart customization** list, in English and French.
 
-- **Preserve progression rewards:** Adventure, challenge and time-trial reward flags, driver-win counters, other purchases, loadouts, coins, eggs and records remain unchanged. Existing ownership is retained; this action adds Pit Stop purchases only.
-- **Local inventory only:** it does not add server purchases or change the coin balance on a private server.
-- **CLI:** `set <global.sav> global.unlock_pit_stop true -o <edited.sav>`. Use `false` to remove only those purchases while preserving other ownership.
-- Includes the fresh-save and Garage compatibility fixes from 1.1.3.
+- **Xfinity Flash Kart and Firehawk** now also appear under the **Kart** category, labelled **Special kart**, instead of only under "Customization preset".
+- The chassis previously shown as the raw name **KartLimited4** is now named **Xfinity Flash Kart (chassis)**.
+- Display only: unlock keys, Pit Stop IDs and save writing are unchanged. Includes everything from 1.1.4.
 
-**Validation:** 45 synthetic tests cover the exact filter, complete preview, preservation of existing objects and memory, fresh unallocated inventory, repeated operations and invalid inputs. Release build and source-data audit pass. The new filtered action has not yet received a separate in-game check; earlier local unlock compatibility was checked in 1.1.3.
+**Validation:** Release build without warnings and 45 synthetic tests pass, including new checks on these names. The Xfinity Flash Kart has not yet been checked in game; keep a backup and report what you see.
 
 **Already using 1.1.x?** Open **About → Check for updates** to install this version in-app, or use the startup update check.
 

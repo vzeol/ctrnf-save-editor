@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.1.5 — 2026-11-04
 
 - Find the Xfinity Flash Kart more easily in the global profile's Kart customization list: special karts now appear under the Kart category, their category reads "Special kart", and the chassis previously shown as "KartLimited4" is named "Xfinity Flash Kart (chassis)". Display only; no save-format change.
 
