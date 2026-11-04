@@ -20,8 +20,11 @@ public static class CustomizationUnlocks
         var covered = authored.SelectMany(i => i.MarketplaceIds).ToHashSet();
         var local = GlobalUnlocks.Items.Where(i => i.Type is not ("CRacerDriverData" or "CDriverSkinData") && !covered.Contains(i.Id))
             .Select(i => new CustomizationEntry("LocalItem_" + i.Id, i.Type, i.NameEn, i.NameFr, "LocalMarketplaceOwnership", [i.Id], null));
-        return Array.AsReadOnly(authored.Concat(local).ToArray());
+        return Array.AsReadOnly(authored.Concat(local).Select(SpecialChassisName).ToArray());
     }
+    private static CustomizationEntry SpecialChassisName(CustomizationEntry item) =>
+        item.Type == "CRacerKartData" && LoadoutCatalogue.SoleSpecialName(item.Handle) is var (en, fr)
+            ? item with { NameEn = en + " (chassis)", NameFr = fr + " (châssis)" } : item;
     internal static void Interpret(Graph graph)
     {
         if (!graph.Objects.Any(o => o.ClassName == "COctaneGlobalSaveData")) return;

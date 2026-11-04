@@ -123,7 +123,9 @@ internal sealed class GlobalProfileView : UserControl
         EditorLayout.StyleList(itemList);
         var catalogue = CustomizationUnlocks.Items.ToArray();
         var itemFilters = EditorLayout.FilterBar(); var itemSearch = EditorLayout.SearchBox(); itemSearch.Text = itemQuery;
-        var categories = catalogue.Select(i => i.Type).Distinct().ToArray();
+        // Special karts are sold as presets; list them with the karts so they can be found there.
+        static string Category(CustomizationEntry i) => i.Type == "CKartCustomizationPresetItem" ? "CRacerKartData" : i.Type;
+        var categories = catalogue.Select(Category).Distinct().ToArray();
         var categoryPicker = new ComboBox { DropDownStyle = ComboBoxStyle.DropDownList, Width = 240, Margin = new Padding(4, 6, 4, 6) };
         categoryPicker.Items.Add(L.T("allCategories")); categoryPicker.Items.AddRange(categories.Select(L.T).Cast<object>().ToArray()); categoryPicker.SelectedIndex = Math.Clamp(itemCategory, 0, categories.Length);
         var unlockVisible = new Button { AutoSize = true, Text = L.T("unlockVisibleItems") };
@@ -135,7 +137,7 @@ internal sealed class GlobalProfileView : UserControl
             bindingItems = true;
             try
             {
-                visibleItems = catalogue.Where(i => (itemCategory == 0 || i.Type == categories[itemCategory - 1]) && (i.NameEn + " " + i.NameFr).Contains(itemQuery, StringComparison.OrdinalIgnoreCase)).ToArray(); itemList.Items.Clear();
+                visibleItems = catalogue.Where(i => (itemCategory == 0 || Category(i) == categories[itemCategory - 1]) && (i.NameEn + " " + i.NameFr).Contains(itemQuery, StringComparison.OrdinalIgnoreCase)).ToArray(); itemList.Items.Clear();
                 foreach (var item in visibleItems)
                 {
                     var reward = TimeTrialRewards.All.SingleOrDefault(r => r.Key == item.RewardKey);

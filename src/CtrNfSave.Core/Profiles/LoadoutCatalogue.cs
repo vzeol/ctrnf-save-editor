@@ -40,6 +40,9 @@ public static class LoadoutCatalogue
         p.Chassis == preset.Chassis && p.Wheels == preset.Wheels && p.Paints == preset.Paint &&
         p.Stickers == preset.Sticker && p.Word7 == preset.Word7 && p.Word9 == preset.Word9)?.Handle;
     internal static bool SpecialChassis(string chassis) => Catalogue.Presets.Any(p => p.Chassis == chassis);
+    // A chassis used by exactly one special kart is named after it; KartLimited4 has no localization of its own.
+    internal static (string En, string Fr)? SoleSpecialName(string chassis) =>
+        Catalogue.Presets.Where(p => p.Chassis == chassis).ToArray() is [{ NameEn: { } en, NameFr: { } fr }] ? (en, fr) : null;
     private static Data Read()
     {
         using var stream = typeof(LoadoutCatalogue).Assembly.GetManifestResourceStream("CtrNfSave.Core.Data.loadouts.json")

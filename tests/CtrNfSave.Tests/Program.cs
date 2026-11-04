@@ -291,6 +291,9 @@ internal static partial class Program
             Assert(GlobalUnlocks.Items.Single(i => i.Id == 618).NameEn == "Koala Kong", "Anchored item ID changed.");
             Assert(SkinUnlocks.Skins.Select(s => s.Key).Distinct().Count() == SkinUnlocks.Skins.Count, "Duplicate skin keys.");
             Assert(CustomizationUnlocks.Items.Select(i => i.Key).Distinct().Count() == CustomizationUnlocks.Items.Count, "Duplicate customization keys.");
+            var xfinity = CustomizationUnlocks.Items.Single(i => i.Handle == "SystemData_availableKarts_44");
+            Assert(xfinity.NameEn == "Xfinity Flash Kart (chassis)" && xfinity.NameFr == "Kart Xfinity Flash (châssis)", "Xfinity chassis keeps its raw name.");
+            Assert(CustomizationUnlocks.Items.Single(i => i.Handle == "GP7_KartPreset_Limited4").NameEn == "Xfinity Flash Kart", "Xfinity special kart renamed.");
         });
         Test("file writer backups, refusal and external changes", () =>
         {
