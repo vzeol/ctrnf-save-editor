@@ -57,6 +57,13 @@ padding while keeping physical file length. Ambiguous roots, shared descriptors,
 insufficient/nonzero padding and incomplete graphs are refused. Unknown existing
 IDs survive edits. Tests cannot prove every catalogue grant works in-game.
 
+The Xfinity Flash Kart (Comcast promotion, code expired 2020-05-31) is ID **877**,
+preset `GP7_KartPreset_Limited4`; its chassis `SystemData_availableKarts_44` (ID 876)
+is a dependency and needs no separate entry. In-game check on the PC port with no
+unlock mod: with 877 removed from the local inventory the kart is absent from the
+special karts, not shown locked; with 877 restored it is listed and selectable. The
+save alone is therefore enough; patching `systemData.igz` is not required.
+
 Local inventory and local coin fields can differ from server state and the
 amount displayed by the PC port. No server purchase or balance is modified.
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.6 — 2026-11-05
+
+- Confirmed in game on the PC port, with no unlock mod: the Xfinity Flash Kart (Pit Stop ID 877) unlocks from the save alone. Without that purchase the kart is absent from the special karts; with it, the kart is listed and selectable.
+- The Kart customization page now says so, in English and French, so no `systemData.igz` mod is needed for it.
+
 ## 1.1.5 — 2026-11-04
 
 - Find the Xfinity Flash Kart more easily in the global profile's Kart customization list: special karts now appear under the Kart category, their category reads "Special kart", and the chassis previously shown as "KartLimited4" is named "Xfinity Flash Kart (chassis)". Display only; no save-format change.

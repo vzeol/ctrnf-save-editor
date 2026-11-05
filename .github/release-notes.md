@@ -1,12 +1,11 @@
-## Version 1.1.5
+## Version 1.1.6
 
-**Special karts are easier to find** in the global profile's **Kart customization** list, in English and French.
+**Xfinity Flash Kart confirmed in game.** On the PC port, with no unlock mod, the save alone is enough: tick **Xfinity Flash Kart** in the global profile's **Kart customization** list (under **Kart**), or use **Unlock only Pit Stop items**, then Save. Without that purchase the kart is not shown at all; with it, the kart is listed with the special karts and selectable.
 
-- **Xfinity Flash Kart and Firehawk** now also appear under the **Kart** category, labelled **Special kart**, instead of only under "Customization preset".
-- The chassis previously shown as the raw name **KartLimited4** is now named **Xfinity Flash Kart (chassis)**.
-- Display only: unlock keys, Pit Stop IDs and save writing are unchanged. Includes everything from 1.1.4.
+- The Kart customization page now states this, in English and French. No game-data mod is needed for this kart.
+- Includes the special-kart naming fix from 1.1.5.
 
-**Validation:** Release build without warnings and 45 synthetic tests pass, including new checks on these names. The Xfinity Flash Kart has not yet been checked in game; keep a backup and report what you see.
+**Validation:** in-game removal and restoration of this one purchase on a real profile; only the two Xfinity fields changed out of 2,778 decoded fields. Release build without warnings and 45 synthetic tests pass. Other promotional items were not checked individually.
 
 **Already using 1.1.x?** Open **About → Check for updates** to install this version in-app, or use the startup update check.
 
