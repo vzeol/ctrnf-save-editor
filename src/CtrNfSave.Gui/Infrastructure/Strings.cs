@@ -137,7 +137,7 @@ internal static class L
         ["localPurchase"] = ("local Pit Stop purchase", "achat Pit Stop local"),
         ["baseCharacter"] = ("available by default", "disponible de base"),
         ["conditionCharacter"] = ("profile reward condition", "condition de récompense du profil"),
-        ["marketplaceEvidence"] = ("Find a kart, wheel set, paint or sticker. Pit Stop items and known challenge rewards are editable. Shared rewards may also affect characters; server inventory is separate.", "Trouve un kart, des roues, une peinture ou un autocollant. Les achats Pit Stop et récompenses de défis identifiées sont modifiables. Une récompense partagée peut aussi concerner un personnage ; l’inventaire serveur reste séparé."),
+        ["marketplaceEvidence"] = ("Find a kart, wheel set, paint or sticker. Pit Stop items and known challenge rewards are editable. Shared rewards may also affect characters; server inventory is separate. Promotional karts no longer obtainable, such as the Xfinity Flash Kart, unlock here without a mod (confirmed in game on the PC port).", "Trouve un kart, des roues, une peinture ou un autocollant. Les achats Pit Stop et récompenses de défis identifiées sont modifiables. Une récompense partagée peut aussi concerner un personnage ; l’inventaire serveur reste séparé. Les karts promotionnels devenus introuvables, comme le Kart Xfinity Flash, se débloquent ici sans mod (vérifié en jeu sur le portage PC)."),
         ["CRacerDriverData"] = ("Character", "Personnage"),
         ["CDriverSkinData"] = ("Skin", "Apparence"),
         ["CRacerKartData"] = ("Kart", "Kart"),
